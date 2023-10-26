@@ -18,54 +18,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Populate the party checkboxes
     parties.forEach(party => {
-        const checkbox = document.createElement("input");
-        checkbox.type = "checkbox";
-        checkbox.name = "party";
-        checkbox.id = party;
-        checkbox.value = party;
-
-        if (userChoices.length == 0) {
-            checkbox.checked = current_parties.includes(party);
-        } else {
-            const found = userChoices.find((element) => element.party == party);
-            if (found != undefined) {
-                checkbox.checked = true;
-            }
-        }
-
-        partyCheckboxes.appendChild(checkbox);
-        
-        const label = document.createElement("label");
-        label.htmlFor = party;
-        label.textContent = party;
-        partyCheckboxes.appendChild(label);
-
-        partyCheckboxes.appendChild(document.createElement("br"));
+        partyCheckboxes.innerHTML += `
+        <div style="display: flex; margin: 0px 10px;">
+        <input ${userChoices.length == 0 && current_parties.includes(party) || userChoices.length > 0 && userChoices.find((element) => element.party == party) ? 'checked' : ''} type="checkbox" name="party" id="${party}" value="${party}">
+        <div style="display: flex; align-items:center;"><label for="${party}">${party}</label></div>
+        </div>
+        `;
     });
 
     // Populate the theme checkboxes
     themes.forEach(theme => {
-        const checkbox = document.createElement("input");
-        checkbox.type = "checkbox";
-        checkbox.name = "theme";
-        checkbox.id = theme;
-        checkbox.value = theme;
-
-        const found = userChoices.find((element) => element.theme == theme);
-        if (found != undefined) {
-            checkbox.checked = true;
-        }
-
-        themeCheckboxes.appendChild(checkbox);
-
-        const label = document.createElement("label");
-        label.htmlFor = theme;
-        label.textContent = theme;
-        themeCheckboxes.appendChild(label);
-
-        themeCheckboxes.appendChild(document.createElement("br"));
+        themeCheckboxes.innerHTML += `
+        <div style="display: flex; margin: 0px 10px;">
+        <input ${userChoices.length > 0 && userChoices.find((element) => element.theme == theme) ? 'checked' : ''} type="checkbox" name="theme" id="${theme}" value="${theme}">
+        <div style="display: flex; align-items:center;"><label for="${theme}">${theme}</label></div>
+        </div>
+        `;
     });
-
     
     reloadStatementForm();
 
@@ -125,18 +94,18 @@ document.addEventListener("DOMContentLoaded", function() {
             filteredParties.forEach(result => {
 
                 const statementDiv = document.createElement("div");
-                statementDiv.style.margin = "60px 0";
+                statementDiv.style.margin = "60px 20px";
                 statementDiv.innerHTML = `
                     <p>"${result.statement.replace(result.party, "[ politieke partij ]")}"</p>
                     <div style="display: flex">
                     <div style="display: flex; margin: 0px 10px;"><input type="radio" name="${result.party}_${themeData.theme}" value="agree" id="${result.party}_${themeData.theme}_agree">
-                    <label for="${result.party}_${themeData.theme}_agree">Eens</label></div>
+                    <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_agree">Eens</label></div></div>
 
                     <div style="display: flex; margin: 0px 10px;"><input type="radio" name="${result.party}_${themeData.theme}" value="disagree" id="${result.party}_${themeData.theme}_disagree">
-                    <label for="${result.party}_${themeData.theme}_disagree">Oneens</label></div>
+                    <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_disagree">Oneens</label></div></div>
 
                     <div style="display: flex; margin: 0px 10px;"><input checked type="radio" name="${result.party}_${themeData.theme}" value="none" id="${result.party}_${themeData.theme}_none">
-                    <label for="${result.party}_${themeData.theme}_none">Geen mening</label></div>
+                    <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_none">Geen mening</label></div></div>
                     </div>
                 `;
                 statementCheckboxes.appendChild(statementDiv);
@@ -165,8 +134,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         window.localStorage.setItem("userChoices", JSON.stringify(userChoices));
-
-        let newObject = window.localStorage.getItem("userChoices");
 
         // Initialize results
         const partyAgreeCounts = {};
