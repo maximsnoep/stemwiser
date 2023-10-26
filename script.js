@@ -402,7 +402,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Accijnzen op brandstof mogen omhoog, als de overheid compenseert middels lagere wegenbelasting. De vervuiler betaalt. Belastingen en accijnzen moeten op Europees niveau geharmoniseerd worden. Piratenpartij - De Groenen zijn voor belasting op grondstoffen.  programma.piratenpartij.nl/#belastingen"
+                "statement": "Accijnzen op brandstof mogen omhoog, als de overheid compenseert middels lagere wegenbelasting. De vervuiler betaalt. Belastingen en accijnzen moeten op Europees niveau geharmoniseerd worden. Piratenpartij - De Groenen zijn voor belasting op grondstoffen."
             },
             {
                 "party": "Splinter",
@@ -576,7 +576,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "Wij zijn tegen een districtenstelsel of gedeeltelijk regionaal kiesstelsel. Dit voorstel zien wij als een verkapt gedeeltelijk regionaal kiesstelsel. Wat de Partij voor de Dieren betreft is het aan partijen zelf om te zorgen dat hun lijst een goede regionale afspiegeling vormt van het land."
+                "statement": "Wij zijn tegen een districtenstelsel of gedeeltelijk regionaal kiesstelsel. Dit voorstel zien wij als een verkapt gedeeltelijk regionaal kiesstelsel. Wat de PvdD betreft is het aan partijen zelf om te zorgen dat hun lijst een goede regionale afspiegeling vormt van het land."
             },
             {
                 "party": "ChristenUnie",
@@ -833,7 +833,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "Nederland en Suriname hebben een gedeeld verleden. De Partij voor de Dieren vindt het belangrijk dat Surinamers visumvrij door de Europese Unie kunnen reizen en zal zich daarvoor inzetten."
+                "statement": "Nederland en Suriname hebben een gedeeld verleden. De PvdD vindt het belangrijk dat Surinamers visumvrij door de Europese Unie kunnen reizen en zal zich daarvoor inzetten."
             },
             {
                 "party": "ChristenUnie",
@@ -960,7 +960,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen ondersteunen de gezamenlijke inspanningen om de lidstaten van de Europese Unie te beschermen. De EU moet streven naar een eigen veiligheidsparaplu die onafhankelijk van, en gezamenlijk met de Amerikaanse strijdkrachten (NAVO) kan opereren.  programma.piratenpartij.nl"
+                "statement": "Piratenpartij - De Groenen ondersteunen de gezamenlijke inspanningen om de lidstaten van de Europese Unie te beschermen. De EU moet streven naar een eigen veiligheidsparaplu die onafhankelijk van, en gezamenlijk met de Amerikaanse strijdkrachten (NAVO) kan opereren."
             },
             {
                 "party": "BVNL",
@@ -1051,7 +1051,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staan voor toegankelijke kennis, kunst en cultuur. Dit is is een voorwaarde voor de sociale, technologische en economische ontwikkeling van onze samenleving. Daarom hebben wij het meest ambitieuze onderwijs programma van alle partijen: https://programma.piratenpartij.nl/"
+                "statement": "Piratenpartij - De Groenen staan voor toegankelijke kennis, kunst en cultuur. Dit is is een voorwaarde voor de sociale, technologische en economische ontwikkeling van onze samenleving. Daarom hebben wij het meest ambitieuze onderwijs programma van alle partijen."
             },
             {
                 "party": "Splinter",
@@ -1245,7 +1245,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staat voor 'de vervuiler betaalt'. Daarom willen we o.a. belasting heffen op kerosine en BTW op vliegtickets. Van de opbrengsten willen we internationale treinreizen goedkoper maken, zodat de duurzame optie niet langer de dure optie is.  https://programma.piratenpartij.nl/"
+                "statement": "Piratenpartij - De Groenen staat voor 'de vervuiler betaalt'. Daarom willen we o.a. belasting heffen op kerosine en BTW op vliegtickets. Van de opbrengsten willen we internationale treinreizen goedkoper maken, zodat de duurzame optie niet langer de dure optie is."
             },
             {
                 "party": "NSC",
@@ -1384,7 +1384,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piraten staan voor voldoende betaalbare woningen voor iedereen. Er zijn nu enorme wachtlijsten voor sociale huurwoningen. Wanneer deze worden opgekocht, verdwijnen er nog meer sociale huurwoningen en worden de wachtlijsten nog langer. Lees meer: https://programma.piratenpartij.nl/"
+                "statement": "Piraten staan voor voldoende betaalbare woningen voor iedereen. Er zijn nu enorme wachtlijsten voor sociale huurwoningen. Wanneer deze worden opgekocht, verdwijnen er nog meer sociale huurwoningen en worden de wachtlijsten nog langer."
             },
             {
                 "party": "NSC",
@@ -1566,7 +1566,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "Het beperken van gezinshereniging is strijdig met mensenrechtenverdragen. De Partij voor de Dieren gaat hier niet mee akkoord. Ook niet-traditionele vormen van familie, zoals queer families en banden buiten het ‘kerngezin’, komen in aanmerking voor hereniging."
+                "statement": "Het beperken van gezinshereniging is strijdig met mensenrechtenverdragen. De PvdD gaat hier niet mee akkoord. Ook niet-traditionele vormen van familie, zoals queer families en banden buiten het ‘kerngezin’, komen in aanmerking voor hereniging."
             },
             {
                 "party": "ChristenUnie",
@@ -1613,7 +1613,7 @@ const data = [
             },
             {
                 "party": "GL-PvdA",
-                "statement": "Wie nu veel geld heeft in Nederland wordt slapend nog rijker. Veel mensen die belangrijk werk doen blijven arm. Dat moet eerlijker! Daarom verlaagt GroenLinks-PvdA de belasting op inkomen en verhogen we de belasting op vermogen. Zo verkleinen we de verschillen in de samenleving en op de werkvloer."
+                "statement": "Wie nu veel geld heeft in Nederland wordt slapend nog rijker. Veel mensen die belangrijk werk doen blijven arm. Dat moet eerlijker! Daarom verlaagt GL-PvdA de belasting op inkomen en verhogen we de belasting op vermogen. Zo verkleinen we de verschillen in de samenleving en op de werkvloer."
             },
             {
                 "party": "PVV",
@@ -1784,7 +1784,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen zijn tegen overheidssurveillance. Enkel bij een concrete verdenking past het om een specifieke levensbeschouwelijke groep in de gaten te houden. Lees meer: https://programma.piratenpartij.nl/#burgerrechten"
+                "statement": "Piratenpartij - De Groenen zijn tegen overheidssurveillance. Enkel bij een concrete verdenking past het om een specifieke levensbeschouwelijke groep in de gaten te houden."
             },
             {
                 "party": "NSC",
@@ -1938,7 +1938,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "We willen het uitkerings- en belastingstelsel vereenvoudigen, met een onvoorwaardelijk basisinkomen. Mensen zijn dan vrij om een samenlevingsvorm te kiezen die past, zonder gevolgen voor hun inkomen. Door de samenwoonboete af te schaffen, kunnen we de wooncrisis verzachten. https://piratenpartij.nl"
+                "statement": "We willen het uitkerings- en belastingstelsel vereenvoudigen, met een onvoorwaardelijk basisinkomen. Mensen zijn dan vrij om een samenlevingsvorm te kiezen die past, zonder gevolgen voor hun inkomen. Door de samenwoonboete af te schaffen, kunnen we de wooncrisis verzachten."
             },
             {
                 "party": "BVNL",
@@ -2073,7 +2073,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen zijn een internationale beweging. Wij werken graag samen, waar mogelijk. De EU heeft strikte procedures voor toetreding. Als een land voldoet aan die eisen om mee te doen, gaan wij daar niet voor liggen. https://programma.piratenpartij.nl/#europese_unie"
+                "statement": "Piratenpartij - De Groenen zijn een internationale beweging. Wij werken graag samen, waar mogelijk. De EU heeft strikte procedures voor toetreding. Als een land voldoet aan die eisen om mee te doen, gaan wij daar niet voor liggen."
             },
             {
                 "party": "NSC",
@@ -2108,7 +2108,7 @@ const data = [
             },
             {
                 "party": "GL-PvdA",
-                "statement": "In het toeslagenschandaal hebben we gezien wat er gebeurt als mensen op hun afkomst worden geselecteerd en gediscrimineerd. Duizenden levens zijn erdoor kapotgemaakt. GroenLinks-PvdA wil een betrouwbare overheid, die zich houdt aan de Grondwet en dus niemand discrimineert."
+                "statement": "In het toeslagenschandaal hebben we gezien wat er gebeurt als mensen op hun afkomst worden geselecteerd en gediscrimineerd. Duizenden levens zijn erdoor kapotgemaakt. GL-PvdA wil een betrouwbare overheid, die zich houdt aan de Grondwet en dus niemand discrimineert."
             },
             {
                 "party": "CDA",
@@ -2148,7 +2148,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staan voor gelijke rechten en kansen voor iedereen. Etnische profilering maakt mensen vanwege hun afkomst bij voorbaat sneller verdacht. Dat is onaanvaardbaar. Lees meer:  https://programma.piratenpartij.nl/#algoritmes_en_profilering"
+                "statement": "Piratenpartij - De Groenen staan voor gelijke rechten en kansen voor iedereen. Etnische profilering maakt mensen vanwege hun afkomst bij voorbaat sneller verdacht. Dat is onaanvaardbaar."
             },
             {
                 "party": "NSC",
@@ -2227,7 +2227,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staan voor efficiënt ruimtegebruik en duurzame oplossingen. Auto's nemen veel ruimte in. Wij stimuleren liever het delen van auto's, en het gebruik van het Openbaar Vervoer. Lees meer: https://programma.piratenpartij.nl/#mobiliteit"
+                "statement": "Piratenpartij - De Groenen staan voor efficiënt ruimtegebruik en duurzame oplossingen. Auto's nemen veel ruimte in. Wij stimuleren liever het delen van auto's, en het gebruik van het Openbaar Vervoer."
             },
             {
                 "party": "BVNL",
@@ -2346,7 +2346,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staan voor eerlijke arbeidsvoorwaarden. Werken moet lonen. Daarom willen we een toereikend minimumloon conform de Europese norm van 60% van het mediaanloon. In Nederland is dat nu 16 euro per uur. Daarnaast willen we een basisinkomen. https://programma.piratenpartij.nl/"
+                "statement": "Piratenpartij - De Groenen staan voor eerlijke arbeidsvoorwaarden. Werken moet lonen. Daarom willen we een toereikend minimumloon conform de Europese norm van 60% van het mediaanloon. In Nederland is dat nu 16 euro per uur. Daarnaast willen we een basisinkomen."
             },
             {
                 "party": "Splinter",
@@ -2477,7 +2477,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staan voor betaalbare woningen voor iedereen. Hiervoor willen wij met name inzetten op bebouwing in bestaande kernen (verdichting). Daarnaast willen wij flexibeler omgaan met bestemmingsplannen om alternatieve woonvormen makkelijker mogelijk te maken. Lees piratenpartij.nl"
+                "statement": "Piratenpartij - De Groenen staan voor betaalbare woningen voor iedereen. Hiervoor willen wij met name inzetten op bebouwing in bestaande kernen (verdichting). Daarnaast willen wij flexibeler omgaan met bestemmingsplannen om alternatieve woonvormen makkelijker mogelijk te maken."
             },
             {
                 "party": "BVNL",
@@ -2536,7 +2536,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staan voor een versteviging van de democratie. Het buitenland laat zien dat in landen met een bindend correctief referendum als noodrem, er beter geluisterd wordt naar burgers, om een referendumgang te voorkomen. Lees meer: https://programma.piratenpartij.nl/#democratie"
+                "statement": "Piratenpartij - De Groenen staan voor een versteviging van de democratie. Het buitenland laat zien dat in landen met een bindend correctief referendum als noodrem, er beter geluisterd wordt naar burgers, om een referendumgang te voorkomen."
             },
             {
                 "party": "BVNL",
@@ -2631,7 +2631,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Om tegemoet te komen aan de gevolgen van het vuurwerkverbod, is een verenigingsplan met vergunningen een mooie tussenvorm die recht doet aan de vuurwerktraditie. We willen het afsteken van vuurwerk mogelijk houden in georganiseerd verband via lokale vuurwerkclubs. https://programma.piratenpartij.nl"
+                "statement": "Om tegemoet te komen aan de gevolgen van het vuurwerkverbod, is een verenigingsplan met vergunningen een mooie tussenvorm die recht doet aan de vuurwerktraditie. We willen het afsteken van vuurwerk mogelijk houden in georganiseerd verband via lokale vuurwerkclubs."
             },
             {
                 "party": "Splinter",
@@ -2809,7 +2809,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "De Partij voor de Dieren hecht aan zelfbeschikking en vindt dat mensen zelf mogen bepalen wanneer ze sterven, op een waardige manier. Hier moet wel een zeer zorgvuldig traject aan voorafgaan."
+                "statement": "De PvdD hecht aan zelfbeschikking en vindt dat mensen zelf mogen bepalen wanneer ze sterven, op een waardige manier. Hier moet wel een zeer zorgvuldig traject aan voorafgaan."
             },
             {
                 "party": "Volt",
@@ -3031,7 +3031,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij - De Groenen",
-                "statement": "Piratenpartij - De Groenen staan voor betaalbare woningen. Huurprijzen zijn de afgelopen jaren veel te hard gestegen. Bevriezing van huurprijzen is noodzakelijk om dakloosheid te verminderen en bestaanszekerheid te garanderen. Lees meer: https://programma.piratenpartij.nl/"
+                "statement": "Piratenpartij - De Groenen staan voor betaalbare woningen. Huurprijzen zijn de afgelopen jaren veel te hard gestegen. Bevriezing van huurprijzen is noodzakelijk om dakloosheid te verminderen en bestaanszekerheid te garanderen."
             },
             {
                 "party": "Splinter",
