@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const statementForm = document.getElementById("statement-form");
     const resetButton = document.getElementById("reset-button");
 
+    const settingsForm = document.getElementById("settings-checkboxes");
+    var showPartyNames = document.getElementById("show-parties").checked;
+
     // Extract unique parties and themes
     const parties = [...new Set(data.map(item => item.results.map(result => result.party)).flat())];
     const themes = [...new Set(data.map(item => item.theme))];
@@ -54,6 +57,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     });
 
+    // Handle form submission
+    settingsForm.addEventListener("change", function(event) {
+
+        console.log(showPartyNames);
+        showPartyNames = document.getElementById("show-parties").checked
+
+        reloadStatementForm();
+        reloadResults();
+        
+    });
+
     resetButton.addEventListener("click", function(event) {
 
 
@@ -96,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const statementDiv = document.createElement("div");
                 statementDiv.style.margin = "60px 20px";
                 statementDiv.innerHTML = `
-                    <p>"${result.statement.replaceAll(result.party, "[ politieke partij naam ]")}"</p>
+                    <p>"${showPartyNames ? result.statement : result.statement.replaceAll(result.party, "[ politieke partij naam ]")}"${showPartyNames ? '<br/> - ' + result.party : ''}</p>
                     <div style="display: flex">
                     <div style="display: flex; margin: 0px 10px;"><input type="radio" name="${result.party}_${themeData.theme}" value="agree" id="${result.party}_${themeData.theme}_agree">
                     <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_agree">Eens</label></div></div>
