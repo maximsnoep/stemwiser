@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const statementDiv = document.createElement("div");
                 statementDiv.style.margin = "60px 20px";
                 statementDiv.innerHTML = `
-                    <p>"${result.statement.replace(result.party, "[ politieke partij ]")}"</p>
+                    <p>"${result.statement.replaceAll(result.party, "[ politieke partij naam ]")}"</p>
                     <div style="display: flex">
                     <div style="display: flex; margin: 0px 10px;"><input type="radio" name="${result.party}_${themeData.theme}" value="agree" id="${result.party}_${themeData.theme}_agree">
                     <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_agree">Eens</label></div></div>
