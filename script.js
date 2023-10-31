@@ -157,19 +157,18 @@ document.addEventListener("DOMContentLoaded", () => {
         const partyResults = document.getElementById("party-results");
         let results = '';
 
-        if (finalPartyResults[0].agrees === 0 && finalPartyResults[0].disagrees === 0) {
-            results = `
-                <p>Geen resultaten beschikbaar.</p>
-            `
-        } else {
-            // Display the results
-            finalPartyResults.forEach((res) => {
-                if (res.agrees === 0 && res.disagrees == 0) return;
-                results += `
-                <p><b>${res.party}</b>: ${res.score * 100} (+${res.agrees}, -${res.disagrees})</p>
-            `;
-            });
-        }
+
+        // Display the results
+        finalPartyResults.forEach((res) => {
+            if (res.agrees === 0 && res.disagrees == 0) return;
+            results += `
+            <p><b>${res.party}</b>: ${res.score * 100} (+${res.agrees}, -${res.disagrees})</p>
+        `;
+        });
+
+        if (results == '') {
+            results = `<p>Geen resultaten beschikbaar.</p>` 
+        }        
 
         partyResults.innerHTML = `
             <div class="mx-2 mb-2" style="width: 300px">
