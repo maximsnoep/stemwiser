@@ -215,16 +215,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }        
 
         partyResults.innerHTML = `
-            <div class="mx-2 mb-2" style="width: 300px">
-                <div class="card-header">
-                    <h4>Resultaten</h4>
+                <div id="settings-checkboxes">
+                    ${results}
                 </div>
-                <div class="card-body">
-                    <div id="settings-checkboxes">
-                        ${results}
-                    </div>
-                </div>
-            </div>
             `
     }
 
