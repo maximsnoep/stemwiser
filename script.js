@@ -1,217 +1,249 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const selectionForm = document.getElementById("selection-form");
+document.addEventListener("DOMContentLoaded", () => {
     const partyCheckboxes = document.getElementById("party-checkboxes");
     const themeCheckboxes = document.getElementById("theme-checkboxes");
-    const statementCheckboxes = document.getElementById("statement-checkboxes");
-    const statementForm = document.getElementById("statement-form");
-    const resetButton = document.getElementById("reset-button");
+    const settingsCheckboxes = document.getElementById("settings-checkboxes");
 
-    const settingsForm = document.getElementById("settings-checkboxes");
-    var showPartyNames = document.getElementById("show-parties").checked;
+    const statements = document.getElementById("statements");
+
+    const resetButton = document.getElementById("reset-button");
+    const showPartyNames = document.getElementById("show-parties");
 
     // Extract unique parties and themes
     const parties = [...new Set(data.map(item => item.results.map(result => result.party)).flat())];
     const themes = [...new Set(data.map(item => item.theme))];
 
-    var userChoices = [];
-    let localUserChoices = window.localStorage.getItem("userChoices");
-    if (localUserChoices != undefined) {
-        userChoices = JSON.parse(localUserChoices);
+    // Selected items
+    let selectedParties
+    try {
+        selectedParties = new Map(JSON.parse(localStorage.getItem("selectedParties")))
+        let invariant = true
+        parties.forEach((party) => invariant = invariant && !selectedParties.get(party))
+        if (invariant) for (let party of currentParties) selectedParties.set(party, true)
+    } catch (error) {
+        selectedParties = new Map();
+    }
+
+    let selectedThemes
+    try {
+        selectedThemes = new Map(JSON.parse(localStorage.getItem("selectedThemes")))
+    } catch (error) {
+        selectedThemes = new Map();
+    }
+
+    let selectedStatements
+    try {
+        selectedStatements = new Map(JSON.parse(localStorage.getItem("selectedStatements")))
+    } catch (error) {
+        selectedStatements = new Map();
     }
 
     // Populate the party checkboxes
-    parties.forEach(party => {
+    parties.forEach((party) => {
         partyCheckboxes.innerHTML += `
-        <div style="display: flex; margin: 0px 10px;">
-        <input ${userChoices.length == 0 && current_parties.includes(party) || userChoices.length > 0 && userChoices.find((element) => element.party == party) ? 'checked' : ''} type="checkbox" name="party" id="${party}" value="${party}">
-        <div style="display: flex; align-items:center;"><label for="${party}">${party}</label></div>
-        </div>
+            <div class="d-flex align-items-baseline">
+                <input ${selectedParties.get(party) ? 'checked' : ''} type="checkbox" class="party" id="${party}">
+                <label for="${party}" class="ms-2 my-1">${party}</label>
+            </div>
         `;
     });
 
     // Populate the theme checkboxes
     themes.forEach(theme => {
         themeCheckboxes.innerHTML += `
-        <div style="display: flex; margin: 0px 10px;">
-        <input ${userChoices.length > 0 && userChoices.find((element) => element.theme == theme) ? 'checked' : ''} type="checkbox" name="theme" id="${theme}" value="${theme}">
-        <div style="display: flex; align-items:center;"><label for="${theme}">${theme}</label></div>
-        </div>
+            <div class="d-flex align-items-baseline">
+                <input ${selectedThemes.get(theme) ? 'checked' : ''} type="checkbox" class="theme" id="${theme}">
+                <label for="${theme}" class="ms-2 my-1">${theme}</label>
+            </div>
         `;
     });
-    
-    reloadStatementForm();
 
-    // Handle form submission
-    selectionForm.addEventListener("change", function(event) {
-
-        reloadStatementForm();
-        
-    });
-
-    reloadResults();
-
-    // Handle form submission
-    statementForm.addEventListener("change", function(event) {
-
-        reloadResults();
-
-    });
-
-    // Handle form submission
-    settingsForm.addEventListener("change", function(event) {
-
-        console.log(showPartyNames);
-        showPartyNames = document.getElementById("show-parties").checked
-
-        reloadStatementForm();
-        reloadResults();
-        
-    });
-
-    resetButton.addEventListener("click", function(event) {
-
-
-
-        window.localStorage.setItem("userChoices", JSON.stringify([]));
-        location.reload();
-
-    });
-
-
-
-
-    function reloadStatementForm() {
-        statementCheckboxes.innerHTML = "";
-
-        const selectedParties = Array.from(document.querySelectorAll("input[name=party]:checked")).map(checkbox => checkbox.value);
-        const selectedThemes = Array.from(document.querySelectorAll("input[name=theme]:checked")).map(checkbox => checkbox.value);
+    // Reload the form
+    let reloadStatementForm = () => {
+        statements.innerHTML = "";
+        document.getElementById('topLine').style.display = 'none'
 
         // Filter and display statements based on user selections
-        const filteredData = data.filter(item => 
-            selectedThemes.includes(item.theme)
-        );
+        const filteredData = data.filter(item => selectedThemes.get(item.theme));
 
         filteredData.forEach(themeData => {
+            document.getElementById('topLine').style.display = 'inherit'
 
-            const filteredParties = themeData.results.filter(item => 
-                selectedParties.includes(item.party)
-            );
+            // Only include selected parties
+            const filteredParties = themeData.results.filter(item => selectedParties.get(item.party));
 
-            const themeHeader = document.createElement("h2");
-            themeHeader.textContent = themeData.theme;
-            statementCheckboxes.appendChild(themeHeader);
-
-            const themeTitle = document.createElement("p");
-            themeTitle.innerHTML = `${themeData.title}<br/><i>${themeData.info}</i>`;
-            statementCheckboxes.appendChild(themeTitle);
-
+            let statementItems = ''
             filteredParties.forEach(result => {
+                let agree = selectedStatements.get(result.party + "-" + themeData.theme + "-agree");
+                let disagree = selectedStatements.get(result.party + "-" + themeData.theme + "-disagree");
+                let none = !agree && !disagree;
 
-                const statementDiv = document.createElement("div");
-                statementDiv.style.margin = "60px 20px";
-                statementDiv.innerHTML = `
-                    <p>"${showPartyNames ? result.statement : result.statement.replaceAll(result.party, "[ politieke partij naam ]")}"${showPartyNames ? '<br/> - ' + result.party : ''}</p>
-                    <div style="display: flex">
-                    <div style="display: flex; margin: 0px 10px;"><input type="radio" name="${result.party}_${themeData.theme}" value="agree" id="${result.party}_${themeData.theme}_agree">
-                    <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_agree">Eens</label></div></div>
-
-                    <div style="display: flex; margin: 0px 10px;"><input type="radio" name="${result.party}_${themeData.theme}" value="disagree" id="${result.party}_${themeData.theme}_disagree">
-                    <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_disagree">Oneens</label></div></div>
-
-                    <div style="display: flex; margin: 0px 10px;"><input checked type="radio" name="${result.party}_${themeData.theme}" value="none" id="${result.party}_${themeData.theme}_none">
-                    <div style="display: flex; align-items:center;"><label for="${result.party}_${themeData.theme}_none">Geen mening</label></div></div>
-                    </div>
+                statementItems += `
+                    <li class="list-group-item bg-transparent my-4 border-0">
+                        <p>"${showPartyNames.checked ? result.statement : result.statement.replaceAll(result.party, "[ politieke partij naam ]")}"${showPartyNames.checked ? '<br/> - ' + result.party : ''}</p>
+                        <div class="d-flex justify-content-center btn-group mx-5" role="group" aria-label="Basic radio toggle button group">
+                            <input ${agree ? "checked" : ""} type="radio" class="btn-check ${result.party}-agree" name="${result.statement}-${result.party}" id="${result.party}-${themeData.theme}-agree" autocomplete="off" checked>
+                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-agree"><span class="bi bi-hand-thumbs-up-fill"></span> <span>eens</span></label>
+                        
+                            <input ${none ? "checked" : ""} type="radio" class="btn-check ${result.party}-none" name="${result.statement}-${result.party}" id="${result.party}-${themeData.theme}-none" autocomplete="off">
+                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-none"><span>geen mening</span></label>
+                        
+                            <input ${disagree ? "checked" : ""} type="radio" class="btn-check ${result.party}-disagree" name="${result.statement}-${result.party}" id="${result.party}-${themeData.theme}-disagree" autocomplete="off">
+                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-disagree"><span class="bi bi-hand-thumbs-down-fill"></span> <span>oneens</span></label>
+                        </div>
+                    </li>
                 `;
-                statementCheckboxes.appendChild(statementDiv);
-
-                const found = userChoices.find((element) => element.theme == themeData.theme && element.party == result.party);
-                if (found != undefined) {
-                    document.getElementById(`${result.party}_${themeData.theme}_${found.choice}`).checked = true;
-                }
-
             });
+
+            statements.innerHTML += `
+                <div class="mx-2 mb-2"" style="max-width: 500px">
+                    <div class="card-header">
+                        <h4 class="d-flex justify-content-center"> ${themeData.theme} </h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent border-0">
+                            <b>${themeData.title}</b><i> ${themeData.info} </i>
+                        </li>
+                        ${statementItems}
+                    </ul>
+                </div>
+            `
         });
     }
 
-    function reloadResults() {
-        const partyResults = document.getElementById("party-results");
-
-        partyResults.innerHTML = "";
-        userChoices = [];
-
-        Array.from(statementForm.elements).forEach((input) => {
-            const party = input.name.split('_')[0];
-            const theme = input.name.split('_')[1];
-            if (input.checked && input.value != 'none') {
-                userChoices.push({'theme': theme, 'party': party, 'choice': input.value});
-            }
-        });
-
-        window.localStorage.setItem("userChoices", JSON.stringify(userChoices));
-
-        // Initialize results
+    let reloadResults = () => {
         const partyAgreeCounts = {};
         const partyDisagreeCounts = {};
+        for (let key of parties) {
+            partyAgreeCounts[key] = 0;
+            partyDisagreeCounts[key] = 0;
+        }
 
-        // Loop through user choices and calculate agreement/disagreement
-        userChoices.forEach((userChoice) => {
-
-            const party = userChoice.party;
-            const choice = userChoice.choice;
-
-            if (!partyAgreeCounts[party]) {
-                partyAgreeCounts[party] = 0;
+        for (let party of parties) {
+            for (let statement of document.getElementsByClassName(`${party}-agree`)) {
+                if(statement.checked) {
+                    partyAgreeCounts[party] += 1
+                }
             }
-
-            if (!partyDisagreeCounts[party]) {
-                partyDisagreeCounts[party] = 0;
+            for (let statement of document.getElementsByClassName(`${party}-disagree`)) {
+                if(statement.checked) {
+                    partyDisagreeCounts[party] += 1
+                }
             }
+        }
 
-            if (choice === "agree") {
-                partyAgreeCounts[party]++;
-            } else if (choice === "disagree") {
-                partyDisagreeCounts[party]++;
-            }
-        });
-
-        var finalPartyResults = [];
+        let finalPartyResults = [];
 
         for (const party in partyAgreeCounts) {
-            var total = partyAgreeCounts[party] + partyDisagreeCounts[party];
-            var perc_agrees = total == 0 ? 0 : ((partyAgreeCounts[party] / total) * 100);
-            var perc_disagrees = total == 0 ? 0 : ((partyDisagreeCounts[party] / total) * 100);
+            let total = partyAgreeCounts[party] + partyDisagreeCounts[party];
+            let percAgrees = total === 0 ? 0 : ((partyAgreeCounts[party] / total) * 100);
+            let percDisagrees = total === 0 ? 0 : ((partyDisagreeCounts[party] / total) * 100);
 
             finalPartyResults.push({
                 'party': party,
                 'agrees': partyAgreeCounts[party],
                 'disagrees': partyDisagreeCounts[party],
                 'total': total,
-                'perc_agrees': perc_agrees,
-                'perc_disagrees': perc_disagrees,
+                'perc-agrees': percAgrees,
+                'perc-disagrees': percDisagrees,
                 'score': partyAgreeCounts[party] - partyDisagreeCounts[party],
-                'perc_score': perc_agrees - perc_disagrees,
+                'perc-score': percAgrees - percDisagrees,
             });
         }
 
-        finalPartyResults.sort((a,b) => (b.score + a.agrees*0.0001) - (a.score + a.agrees*0.0001));
+        console.log(finalPartyResults);
 
-        // Display the results
-        finalPartyResults.forEach((res) => {
-            partyResults.innerHTML += `
+        finalPartyResults.sort((a, b) => (b.score + b.agrees * 0.0005) - (a.score + a.agrees * 0.0001));
+
+        const partyResults = document.getElementById("party-results");
+        let results = '';
+
+        if (finalPartyResults[0].agrees === 0 && finalPartyResults[0].disagrees === 0) {
+            results = `
+                <p>Geen resultaten beschikbaar.</p>
+            `
+        } else {
+            // Display the results
+            finalPartyResults.forEach((res) => {
+                if (res.agrees === 0 && res.disagrees == 0) return;
+                results += `
                 <p><b>${res.party}</b>: ${res.score * 100} (+${res.agrees}, -${res.disagrees})</p>
             `;
-        });
-
-        if (finalPartyResults.length == 0) {
-            partyResults.innerHTML += `<p>Geen resultaten beschikbaar.</p>`;
+            });
         }
 
-
+        partyResults.innerHTML = `
+            <div class="mx-2 mb-2" style="width: 300px">
+                <div class="card-header">
+                    <h4>Resultaten</h4>
+                </div>
+                <div class="card-body">
+                    <div id="settings-checkboxes">
+                        ${results}
+                    </div>
+                </div>
+            </div>
+            `
     }
 
+    reloadStatementForm();
+    reloadResults();
+
+    // Handle checkboxes of parties
+    partyCheckboxes.addEventListener("change", (event) => {
+        if (event.target.checked) {
+            selectedParties.set(event.target.id, true)
+        } else {
+            selectedParties.set(event.target.id, false)
+        }
+
+        localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
+
+        reloadStatementForm();
+        reloadResults();
+    });
+
+    // Handle checkboxes of themes
+    themeCheckboxes.addEventListener("change", (event) => {
+        if (event.target.checked) {
+            selectedThemes.set(event.target.id, true)
+        } else {
+            selectedThemes.set(event.target.id, false)
+        }
+
+        localStorage.setItem("selectedThemes", JSON.stringify(Array.from(selectedThemes.entries())))
+
+        reloadStatementForm();
+        reloadResults();
+    });
+
+    // Handle checkboxes of settings
+    settingsCheckboxes.addEventListener("change", () => {
+        reloadStatementForm();
+        reloadResults();
+    });
+
+    // Handle radios of statements
+    statements.addEventListener("change", (event) => {
+        let partyTheme = event.target.id.substring(0, event.target.id.lastIndexOf("-"))
+        selectedStatements.delete(partyTheme + "-none")
+        selectedStatements.delete(partyTheme + "-agree")
+        selectedStatements.delete(partyTheme + "-disagree")
+        selectedStatements.set(event.target.id, true)
+
+        localStorage.setItem("selectedStatements", JSON.stringify(Array.from(selectedStatements.entries())))
+
+        reloadResults();
+    });
+
+    resetButton.addEventListener("click", () => {
+        localStorage.setItem("selectedThemes", [].toString());
+        localStorage.setItem("selectedParties", [].toString());
+        localStorage.setItem("selectedStatements", [].toString());
+        location.reload();
+    });
 });
 
-const current_parties = [
+const currentParties = [
     "D66", "GL-PvdA", "PvdD", "Volt", "VVD", "PVV", "CDA", "SP", "FVD", "ChristenUnie", "JA21", "BBB",
 ]
 
