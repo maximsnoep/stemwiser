@@ -78,31 +78,30 @@ document.addEventListener("DOMContentLoaded", () => {
                 let none = !agree && !disagree;
 
                 statementItems += `
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-transparent my-4 border-0">
                         <p>"${showPartyNames.checked ? result.statement : result.statement.replaceAll(result.party, "[ politieke partij naam ]")}"${showPartyNames.checked ? '<br/> - ' + result.party : ''}</p>
                         <div class="d-flex justify-content-center btn-group mx-5" role="group" aria-label="Basic radio toggle button group">
                             <input ${agree ? "checked" : ""} type="radio" class="btn-check ${result.party}-agree" name="${result.statement}-${result.party}" id="${result.party}-${themeData.theme}-agree" autocomplete="off" checked>
-                            <label class="btn btn-outline-success" for="${result.party}-${themeData.theme}-agree"><i class="bi bi-hand-thumbs-up-fill"></i></label>
+                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-agree"><span class="bi bi-hand-thumbs-up-fill"></span> <span>eens</span></label>
                         
                             <input ${none ? "checked" : ""} type="radio" class="btn-check ${result.party}-none" name="${result.statement}-${result.party}" id="${result.party}-${themeData.theme}-none" autocomplete="off">
-                            <label class="btn btn-outline-secondary" for="${result.party}-${themeData.theme}-none"><i class="bi bi-dot"></i></label>
+                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-none"><span>geen mening</span></label>
                         
                             <input ${disagree ? "checked" : ""} type="radio" class="btn-check ${result.party}-disagree" name="${result.statement}-${result.party}" id="${result.party}-${themeData.theme}-disagree" autocomplete="off">
-                            <label class="btn btn-outline-danger" for="${result.party}-${themeData.theme}-disagree"><i class="bi bi-hand-thumbs-down-fill"></i></label>
+                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-disagree"><span class="bi bi-hand-thumbs-down-fill"></span> <span>oneens</span></label>
                         </div>
                     </li>
                 `;
             });
 
             statements.innerHTML += `
-                <div class="card mx-2 mb-2"" style="max-width: 500px">
+                <div class="mx-2 mb-2"" style="max-width: 500px">
                     <div class="card-header">
                         <h4 class="d-flex justify-content-center"> ${themeData.theme} </h4>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <b class="d-flex justify-content-center"> ${themeData.title} </b><br>
-                            <i> ${themeData.info} </i>
+                        <li class="list-group-item bg-transparent border-0">
+                            <b>${themeData.title}</b><i> ${themeData.info} </i>
                         </li>
                         ${statementItems}
                     </ul>
@@ -151,7 +150,9 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
-        finalPartyResults.sort((a, b) => (b.score + a.agrees * 0.0001) - (a.score + a.agrees * 0.0001));
+        console.log(finalPartyResults);
+
+        finalPartyResults.sort((a, b) => (b.score + b.agrees * 0.0005) - (a.score + a.agrees * 0.0001));
 
         const partyResults = document.getElementById("party-results");
         let results = '';
@@ -163,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             // Display the results
             finalPartyResults.forEach((res) => {
-                if (res.score === 0) return;
+                if (res.agrees === 0 && res.disagrees == 0) return;
                 results += `
                 <p><b>${res.party}</b>: ${res.score * 100} (+${res.agrees}, -${res.disagrees})</p>
             `;
@@ -171,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         partyResults.innerHTML = `
-            <div class="card mx-2 mb-2" style="width: 300px">
+            <div class="mx-2 mb-2" style="width: 300px">
                 <div class="card-header">
                     <h4>Resultaten</h4>
                 </div>
@@ -190,19 +191,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Handle checkboxes of parties
     partyCheckboxes.addEventListener("change", (event) => {
         if (event.target.checked) {
-            if (event.target.id === 'select-all-parties') {
-                parties.forEach((party) => selectedParties.set(party, true))
-                for (let checkbox of document.getElementsByClassName('party')) checkbox.checked = true;
-            } else {
-                selectedParties.set(event.target.id, true)
-            }
+            selectedParties.set(event.target.id, true)
         } else {
-            if (event.target.id === 'select-all-parties') {
-                parties.forEach((party) => selectedParties.set(party, false))
-                for (let checkbox of document.getElementsByClassName('party')) checkbox.checked = false;
-            } else {
-                selectedParties.set(event.target.id, false)
-            }
+            selectedParties.set(event.target.id, false)
         }
 
         localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
@@ -214,19 +205,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Handle checkboxes of themes
     themeCheckboxes.addEventListener("change", (event) => {
         if (event.target.checked) {
-            if (event.target.id === 'select-all-themes') {
-                themes.forEach((theme) => selectedThemes.set(theme, true))
-                for (let checkbox of document.getElementsByClassName('theme')) checkbox.checked = true;
-            } else {
-                selectedThemes.set(event.target.id, true)
-            }
+            selectedThemes.set(event.target.id, true)
         } else {
-            if (event.target.id === 'select-all-themes') {
-                themes.forEach((theme) => selectedThemes.set(theme, false))
-                for (let checkbox of document.getElementsByClassName('theme')) checkbox.checked = false;
-            } else {
-                selectedThemes.set(event.target.id, false)
-            }
+            selectedThemes.set(event.target.id, false)
         }
 
         localStorage.setItem("selectedThemes", JSON.stringify(Array.from(selectedThemes.entries())))
@@ -255,9 +236,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     resetButton.addEventListener("click", () => {
-        localStorage.setItem("selectedThemes", {}.toString());
-        localStorage.setItem("selectedParties", {}.toString());
-        localStorage.setItem("selectedStatements", {}.toString());
+        localStorage.setItem("selectedThemes", [].toString());
+        localStorage.setItem("selectedParties", [].toString());
+        localStorage.setItem("selectedStatements", [].toString());
         location.reload();
     });
 });
