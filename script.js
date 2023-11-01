@@ -118,14 +118,12 @@ document.addEventListener("DOMContentLoaded", () => {
             `
         });
 
-        if (showPartyNames.checked) {
-            for (let elem of document.getElementsByClassName('show-party-names')) {
-                elem.style.display = "inline";
-            }
-    
-            for (let elem of document.getElementsByClassName('hide-party-names')) {
-                elem.style.display = "none";
-            }
+        for (let elem of document.getElementsByClassName('show-party-names')) {
+            elem.style.display = showPartyNames.checked ? "inline" : "none";
+        }
+
+        for (let elem of document.getElementsByClassName('hide-party-names')) {
+            elem.style.display = showPartyNames.checked ? "none" : "inline";
         }
 
     }
