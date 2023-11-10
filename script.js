@@ -179,18 +179,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
         for (const party in partyAgreeCounts) {
             let total = partyAgreeCounts[party] + partyDisagreeCounts[party];
-            let percAgrees = total === 0 ? 0 : ((partyAgreeCounts[party] / total) * 100);
-            let percDisagrees = total === 0 ? 0 : ((partyDisagreeCounts[party] / total) * 100);
+            let perc = total === 0 ? 0 : ((partyAgreeCounts[party] / total) * 100);
 
             finalPartyResults.push({
                 'party': party,
                 'agrees': partyAgreeCounts[party],
                 'disagrees': partyDisagreeCounts[party],
                 'total': total,
-                'perc-agrees': percAgrees,
-                'perc-disagrees': percDisagrees,
+                'perc': perc,
                 'score': partyAgreeCounts[party] - partyDisagreeCounts[party],
-                'perc-score': percAgrees - percDisagrees,
             });
         }
 
@@ -204,7 +201,7 @@ document.addEventListener("DOMContentLoaded", () => {
         finalPartyResults.forEach((res) => {
             if (res.agrees === 0 && res.disagrees == 0) return;
             results += `
-            <p><b>${res.party}</b>: ${res.score * 100} (+${res.agrees}, -${res.disagrees})</p>
+            <p><b>${res.party}</b>: ${res.score}, ${res.perc}%, (+${res.agrees}, -${res.disagrees})</p>
         `;
         });
 
