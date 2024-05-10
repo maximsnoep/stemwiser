@@ -34,6 +34,2503 @@ const rightParties = [
 ];
 
 const data = [
+    [
+    {
+        "theme": "Evenredige verdeling asielzoekers",
+        "title": "Alle EU-landen moeten een evenredig aandeel asielzoekers opnemen.",
+        "info": "Mensen die op de vlucht zijn voor oorlog of vervolging in hun eigen land, kunnen in de EU asiel krijgen. Die mensen komen vooral aan in landen aan de grenzen van de EU. Een deel van deze asielzoekers reist door naar rijkere EU-landen, zoals Nederland en Duitsland. Er zijn ook landen die weinig asielzoekers opnemen, zoals Hongarije en Slowakije. \n \nVolgens het akkoord van Dublin moeten asielzoekers asiel aanvragen in het eerste EU-land waar ze aankomen. Daarnaast zijn er afspraken over de verdeling van de toegelaten asielzoekers over de verschillende landen. Deze regels worden lang niet altijd nageleefd.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Mensen die asiel zoeken verdelen we eerlijk en evenredig over Europese lidstaten, waarbij we rekening houden met de draagkracht van samenlevingen en de situatie van de asielzoeker, zoals al aanwezige familieleden in een opvangland."
+            },
+            {
+                "party": "VVD",
+                "statement": "We moeten in Europa voorkomen dat bepaalde lidstaten, zoals Nederland, veel meer asielzoekers moeten opnemen dan anderen. We moeten ervoor zorgen dat alle lidstaten in de EU hun eerlijke steentje bijdragen en niet slechts enkele populaire landen van bestemming."
+            },
+            {
+                "party": "CDA",
+                "statement": "Op dit moment vangen bepaalde lidstaten substantieel meer asielzoekers op dan andere landen. Het CDA wil een eerlijke verdeling en solidariteit binnen de EU, zodat de lasten en verantwoordelijkheden van immigratie gelijkmatiger worden verdeeld over de lidstaten."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil een sneller en effectiever asielbeleid. Kansarme asielzoekers vangen we op in grenslanden. Zo kunnen we hun procedure snel afhandelen en kunnen zij zo snel mogelijk terugkeren naar het land van herkomst. Om de grenslanden te ontlasten, worden vluchtelingen direct over lidstaten verdeeld."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Een eerlijke verdeling van vluchtelingen naar draagkracht wordt het uitgangspunt van de EU."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Je zult dit aandeel met objectieve maatstaven moeten vaststellen en hierbij spelen elementen als bevolkingsdichtheid en aantal inwoners een rol."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Waarbij eventueel naar evenredigheid rekening gehouden kan worden met de economische kracht van een EU-land."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Kansrijke asielverzoeken worden eerlijk verdeeld over de Europese lidstaten. Bij deze verdeling wordt rekening gehouden met de bevolkingsdichtheid en het welvaartsniveau van de lidstaten. Ieder lidstaat heeft zijn steentje bij te dragen."
+            },
+            {
+                "party": "SP",
+                "statement": "Als vluchtelingen niet veilig in de eigen regio kunnen worden opgevangen nemen we ze op in de EU, tot ze veilig kunnen terugkeren. Alle lidstaten moeten hier een bijdrage aan leveren. Dit doen landen naar draagkracht, ook ons land. Dat betekent dat vluchtelingen beter verdeeld worden."
+            },
+            {
+                "party": "Volt",
+                "statement": "Eerlijke verdeling van asielzoekers over de Europese lidstaten is beter voor ons en beter voor de mensen op de vlucht. Volt wil een Europese spreidingswet: regionale en nationale afspraken voor eerlijke, menswaardige opvang van vluchtelingen en gezamenlijke controle van de Europese buitengrenzen."
+            },
+            {
+                "party": "NSC",
+                "statement": "Kansloze asielaanvragen (meerderheid) mogen niet tot toelating in de EU leiden en worden niet verdeeld. Alleen kansrijke asielzoekers worden na selectie verdeeld over de EU-lidstaten op basis van bevolkingsaantallen. Alleen dan zal de instroom van de afgelopen jaren sterk verminderen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor internationale mensenrechten. Solidariteit is een essentieel onderdeel van een rechtvaardig asielbeleid. Daarbij zijn goede samenwerking en flexibiliteit om van voorwaarden af te wijken ook belangrijk. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil dat Nederland volledig stopt met het opnemen van asielzoekers. Deze moeten opgevangen worden op een locatie zo dicht mogelijk bij hun thuisland. Er is in verreweg de meeste gevallen geen enkele reden om ze op te nemen in welk Europees land dan ook."
+            },
+            {
+                "party": "PVV",
+                "statement": "Als alle EU landen evenredig moeten opvangen dan wordt de ongekozen Europese Commissie dus de verdeler. Dan komt er dus een een Europese dwangwet. Nederland heeft de afgelopen decennia meer dan evenredig opgevangen met als gevolg dat ons land prop en prop vol is. Genoeg is genoeg!"
+            },
+            {
+                "party": "JA21",
+                "statement": "Asielzoekers dienen opgevangen te worden in de eigen regio of in partnerlanden buiten de EU. JA21 is tegen asielopvang in Nederland en wil bevoegdheden op het gebied van migratie terug om een eigen restrictief asielbeleid te voeren. Van verdeling van asielzoekers over lidstaten kan geen sprake zijn."
+            },
+            {
+                "party": "SGP",
+                "statement": "Het mechanisme om asielzoekers die vermoedelijk een verblijfstatus zullen krijgen te verdelen over de EU, wordt alleen ingezet bij crisissituaties. Lidstaten die geen vluchtelingen willen of kunnen opvangen, bijvoorbeeld omdat ze dichtbevolkt zijn, dragen financieel bij of zorgen voor de procedure."
+            },
+            {
+                "party": "BBB",
+                "statement": "Het aantal asielzoekers in Nederland en de gehele Europese Unie moet uiteindelijk drastisch omlaag worden gebracht in plaats van een dwingende Europese spreidingswet. BBB wil asielprocedures en -opvang verplaatsen naar veilige landen buiten de Europese Unie."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Nederland zit aan zijn taks met betrekking tot het opnemen van asielzoekers."
+            },
+            {
+                "party": "BVNL",
+                "statement": "BVNL is voor een volledige asielstop. BVNL wil controle aan de Europese buiten- en binnengrenzen van EU-lidstaten. We willen alle migratieverdragen en het vluchtelingenverdrag uit 1951 opzeggen."
+            }
+        ]
+    },
+    {
+        "theme": "Nepnieuws",
+        "title": "Sociale-mediabedrijven moeten zelf kunnen beslissen wat ze doen met nepnieuws.",
+        "info": "Steeds meer mensen halen hun nieuws vooral van sociale media. Sociale media is een verzamelnaam voor alle websites en apps waarop mensen met elkaar in contact kunnen komen, zoals Facebook, Instagram en X (Twitter).\n\nOp sociale media gaat nepnieuws rond. Dat kan gaan om misinformatie, berichtgeving die niet klopt, maar zonder kwade bedoelingen. Maar het kan ook gaan om desinformatie, waarbij iemand bewust onwaarheden verspreidt om er zelf beter van te worden of uit naam van een regering.\n\nDe EU heeft richtlijnen gemaakt voor hoe grote sociale-mediabedrijven om moeten gaan met nepnieuws. Als de bedrijven iets anders doen, moeten ze daar uitleg over geven. Voor kleinere sociale-mediabedrijven gelden minder strenge regels.",
+        "results": [
+            {
+                "party": "FvD",
+                "statement": "FVD vindt dat sociale-mediabedrijven zelf mogen bepalen wat zij doen met de content op hun platform. FVD vindt het ook onwenselijk en bijzonder gevaarlijk als (supra)nationale overheden zouden bepalen wat 'nepnieuws' is. Burgers moeten in alle vrijheid aan waarheidsvinding kunnen doen."
+            },
+            {
+                "party": "PVV",
+                "statement": "Vrijheid van meningsuiting is een groot goed en de basis van een vrije samenleving. Het is niet aan de Europese Unie om te bepalen wat nepnieuws is en hoe sociale-mediabedrijven daarmee om moeten gaan, want dat zou dan misbruikt kunnen worden om niet gewenste feiten en meningen te boycotten."
+            },
+            {
+                "party": "JA21",
+                "statement": "Wat JA21 betreft ligt de primaire verantwoordelijkheid voor het modereren van sociale media bij de bedrijven zelf."
+            },
+            {
+                "party": "BBB",
+                "statement": "De bescherming van het recht op vrije meningsuiting en vrije nieuwsgaring weegt voor BBB zwaarder dan de risico's van desinformatie. We zullen dus andere manieren moeten vinden om ons tegen desinformatie te weren en in ieder geval moeten leren kritisch met informatie om te gaan."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Het is moeilijk vast te stellen wat nepnieuws is. Vrijheid van meningsuiting is een grondrecht. Het is uiteindelijk aan de rechter om vast te stellen of uitingen onrechtmatig/verboden zijn."
+            },
+            {
+                "party": "BVNL",
+                "statement": "We geloven dat iedereen het recht heeft om vrijelijk zijn of haar mening te uiten, zowel offline als online. We streven naar een open en inclusieve digitale ruimte waarin diverse perspectieven worden gehoord en gerespecteerd. De overheid en de EU mogen geen censuur plegen."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Wereldwijd zien we de gevaarlijke gevolgen van nepnieuws op sociale media. Wij willen nepnieuws en online haat tegengaan door algoritmes aan te pakken die uit zijn op polarisatie en ophef. Dat is in het belang van onze vrije, democratische samenleving."
+            },
+            {
+                "party": "VVD",
+                "statement": "De EU gaat de strijd aan met het verspreiden van desinformatie en het tegengaan van ongewenste inmenging vanuit buitenlandse mogendheden. De sociale-mediabedrijven hebben hier eveneens een verantwoordelijkheid in en moeten dus voldoen aan de Europese wetgeving."
+            },
+            {
+                "party": "CDA",
+                "statement": "Socialmedia-bedrijven moeten veel harder optreden tegen desinformatie. De afgelopen jaren is juist het gebrek aan optreden een gebrek geweest."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 staat voor online veiligheid. Het is belangrijk dat wat offline niet mag, ook niet online zomaar mag. Sociale-mediabedrijven moeten hun verantwoordelijkheid daarvoor dragen. D66 is daarom voorstander van Europese regelgeving voor grote techgiganten."
+            },
+            {
+                "party": "PvdD",
+                "statement": "We willen dat internetgiganten meer verantwoordelijkheid nemen om nepnieuws te bestrijden, zonder dat zij te veel macht krijgen over de inhoud die op de platformen gedeeld wordt. Ook willen we dat internetbedrijven als Google en Meta transparant zijn over wat zij gebruikers laten zien en waarom."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "De overheid behoort de inwoners te beschermen. Nepnieuws kan in een serieuze context ook leiden tot verkiezingsbeïnvloeding, opstanden of inwoners beschadigen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Waarheidsbepaling is cruciaal bij de uitwisseling van belangrijke informatie."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Onze democratische rechtsstaat kan worden bedreigd door desinformatie of bedreigingen via digitale platforms. Een stevige Europese zorgplicht voor digtale platforms en hostingbedrijven is nodig. Uitgangspunt is hierbij dat wat in de fysieke wereld niet is toegestaan, ook digitaal niet is toegestaan."
+            },
+            {
+                "party": "SGP",
+                "statement": "De EU-lidstaten moeten zich krachtig wapenen tegen online manipulatie en desinformatie in het nieuws en op sociale mediakanalen. De Digital Services Act kan een effectief middel zijn om bedrijven te dwingen illegale content te verwijderen. Dit mag echter niet de vrijheid van meningsuiting aantasten."
+            },
+            {
+                "party": "SP",
+                "statement": "Geen enkel overheidsorgaan mag zich ooit bemoeien met de vrije pers. Dat geldt voor onze Nederlandse overheid, maar zeker ook voor Europa. Maar optreden tegen nepnieuws op sociale media is wel een gedeelde taak. Zowel van de Europese Commissie als voor sociale platforms zelf."
+            },
+            {
+                "party": "Volt",
+                "statement": "Nepnieuws verspreidt zich razendsnel via sociale media. Dit kan grote gevolgen hebben. Sociale mediabedrijven moeten zich houden aan de regels die in de EU gelden en verantwoordelijk worden gehouden voor het verspreiden van desinformatie. Het nieuws dat jij leest hoort goed en betrouwbaar te zijn."
+            },
+            {
+                "party": "NSC",
+                "statement": "Het oordeel of iets nepnieuws is, ligt bij de onafhankelijke rechter en niet bij de overheden. Maak Social Mediabedrijven verantwoordelijk en aansprakelijk voor de inhoud van onware en feitelijk onjuiste informatie die zij faciliteren en verspreiden."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor mensenrechten en democratie. informatievoorziening is essentieel voor het functioneren van de democratie. Beslissing over nepnieuws kun je niet overlaten aan commerciële partijen, en ook niet aan een 'Ministerie van Waarheid'. Informeer jezelf: https://ppdg.eu/"
+            }
+        ]
+    },
+    {
+        "theme": "Minimumbelasting bedrijven",
+        "title": "Grote bedrijven moeten een minimumbelasting betalen in elk EU-land waar ze actief zijn.",
+        "info": "Bedrijven betalen nu alleen winstbelasting in het land waar hun hoofdkantoor zit. Veel bedrijven kiezen voor een land met een lage belasting. Landen verlagen bovendien hun belastingen voor bedrijven om ze te verleiden om hun hoofdkantoor daar te plaatsen.\n\nGrote bedrijven zijn bedrijven die in meerdere landen actief zijn en meer dan 750 miljoen euro omzet per jaar hebben. Wereldwijd is afgesproken dat bedrijven een minimum percentage belasting moeten betalen in elk land waar zij actief zijn. Nog niet alle EU-landen hebben dit ingevoerd.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Grote bedrijven moeten eerlijk belasting betalen. Nu kunnen ze dreigen te vertrekken naar een EU-land met lagere belastingen, waardoor landen tegen elkaar worden uitgespeeld. Dat werkt een race naar de bodem in de hand. Daarom moet er in heel de EU eenzelfde minimumbelasting voor bedrijven gelden."
+            },
+            {
+                "party": "VVD",
+                "statement": "Wereldwijd hebben landen afgesproken dat grote bedrijven minimaal 15% winstbelasting betalen. De VVD steunt deze afspraak, omdat belastingontwijking hiermee wordt tegengegaan. De VVD is niet voor een extra EU-belasting."
+            },
+            {
+                "party": "CDA",
+                "statement": "In lijn met de eerdere EU-richtlijn minimumbelasting zijn wij voor. Besluitvorming die plaatsvindt in de Europese gedragscodegroep die zich bezighoudt met het aanpakken van schadelijke belastingconcurrentie in Europa moet transparanter"
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil dat bedrijven een eerlijke belasting betalen. Belastingontwijking betekent een ongelijk speelveld voor Nederlandse bedrijven. Daarom wil D66 een Europees minimumtarief voor de winstbelasting."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De winstbelasting voor grote bedrijven verhogen we naar ten minste 35% in heel Europa."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "De bestaande minimumbelasting voor bedrijven is een stap in het deels voorkomen van belastingontwijking. Bedrijven dragen zo bij aan de lasten van het land van vestiging."
+            },
+            {
+                "party": "PVV",
+                "statement": "Grote bedrijven zijn vaak actief in meerdere landen. Zij kunnen dan een gedeelte van hun bedrijf verplaatsen om minder belasting te betalen. In Nederland is per 2024 Pijler 2 in werking waardoor de staat belasting kan bij-heffen tot 15% als bedrijven in andere landen veel minder belasting betalen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Bedrijven moeten in de lidstaat waar ze gevestigd zijn belasting betalen over hun winsten. Belastingontwijking via postbusfirma's en geschuif met bv's moet voorkomen worden."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Internationale afspraken over de minimale belasting die bedrijven moeten betalen zijn nodig om belastingontwijking en een race naar de bodem te voorkomen. De EU heeft een rol in de handhaving van dergelijke afspraken."
+            },
+            {
+                "party": "SGP",
+                "statement": "Voor de SGP is het belangrijk dat ook mondiale ondernemingen een eerlijke bijdrage aan de totale belastingopbrengst leveren. De SGP wil daarom werk maken van uitvoering van het OESO-akkoord over het minimumtarief van 15% winstbelasting voor multinationals. De lidstaten voeren dit uit."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Het belastingstelsel moet in alle lidstaten veel eenvoudiger zijn."
+            },
+            {
+                "party": "SP",
+                "statement": "Landen moeten gezamenlijk de strijd aangaan tegen belastingontwijkende multinationals. Wij kunnen belastingconcurrentie verminderen door als EU lid te worden van de OESO en ervoor te zorgen dat alle EU-lidstaten zich houden aan de afspraken van de OESO met betrekking tot een minimum belastingtarief."
+            },
+            {
+                "party": "Volt",
+                "statement": "Het is oneerlijk dat grote bedrijven veel winst maken, maar geen of weinig belasting betalen. De economie en jouw portemonnee zijn daar de dupe van. Om belastingontwijking te voorkomen en voor een eerlijke Europese economie, moeten deze bedrijven overal minimaal 22% belasting betalen."
+            },
+            {
+                "party": "NSC",
+                "statement": "NSC is tegen Europese belastingen. Wel moet grensoverschrijdende fraude en belastingmijding van zeer vermogenden en grote bedrijven op Europees niveau worden aangepakt. Multinationals moeten in ieder land een minimumbelasting betalen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen willen belastingontwijking door grote multinationals keihard aanpakken. Naast minimumbelasting ook door fiscale sluiproutes te ontmantelen. Wanneer grote bedrijven meer belasting betalen, kan de belasting voor burgers omlaag. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD vindt dat het wel of niet heffen van belastingen een keuze is voor individuele lidstaten, en niet van de Europese Unie."
+            },
+            {
+                "party": "JA21",
+                "statement": "Het heffen, verhogen, verlagen, afschaffen en invoeren van belastingen is aan lidstaten zelf. De EU moet zich daar niet in mengen."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB wil een eerlijke belasting op het bedrijfsleven, ook in Nederland. Per 1 januari 2024 is dit al het geval in 140 landen ter wereld en de EU. Belastingheffing is een Nederlandse aangelegenheid, geen EU-bevoegdheid."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Geen door de EU opgelegde belastingen, Nederland gaat over haar eigen belastingstelsel en vestigingsklimaat."
+            }
+        ]
+    },
+    {
+        "theme": "Stemgerechtigde leeftijd",
+        "title": "De leeftijd waarop je mag stemmen voor het Europees Parlement moet omlaag van 18 jaar naar 16 jaar.",
+        "info": "Het Europees Parlement of kortweg EP is de rechtstreeks verkozen volksvertegenwoordiging van de Europese Unie. Het is de enige EU-instelling die direct door de burgers wordt gekozen.\n\nIn Nederland moet je 18 jaar of ouder zijn om te mogen stemmen. Dit is niet in alle landen zo. België en Duitsland bijvoorbeeld hebben de stemgerechtigde leeftijd bij de Europees Parlementsverkiezingen verlaagd naar 16 jaar.",
+        "results": [
+            {
+                "party": "D66",
+                "statement": "D66 vindt dat iedereen vanaf 16 jaar stemrecht moet krijgen bij Europese verkiezingen. Zo kunnen jongeren al op vroege leeftijd hun stem laten gelden in de Europese Unie. De minimale leeftijd voor kandidaten verlagen we in heel Europa naar 18 jaar."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De politiek maakt keuzes die een grote impact hebben op de toekomst van jongeren. De kiesgerechtigde leeftijd wordt daarom verlaagd naar 16 jaar."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Mits er op scholen voldoende lessen geschiedenis en maatschappijleer gegeven worden en de jeugd een uitgebreide maatschappelijke kennis heeft opgedaan over de Europese geschiedenis en huidige politiek."
+            },
+            {
+                "party": "Volt",
+                "statement": "Er wordt nog niet genoeg nagedacht over de gevolgen van het huidige beleid op toekomstige generaties. Voor jongeren staat veel op het spel: genoeg banen, genoeg huizen en een gezond milieu. Daarom wil Volt dat jongeren vanaf 16 jaar al kunnen stemmen. Zo hebben ze invloed op hun eigen toekomst."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor een democratie waarin iedereen mee kan doen. Wij vinden het daarnaast belangrijk om jongeren meer bij besluitvorming te betrekken, bijvoorbeeld via burgerberaden, enquêtes en online e-democracy platforms. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Uit onderzoek blijkt dat jonge kiezers net zo goed in staat zijn hun eigen mening te vormen als oudere kiezers, maar wat ons betreft mag iedere lidstaat voor de (Europese) verkiezingen zelf de stemleeftijd bepalen."
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD vindt jongeren betrekken bij de politiek en ze meer te laten deelnemen belangrijk, bijvoorbeeld via het Model European Parliament. Maar de VVD is niet voor verlaging van de stemgerechtigde leeftijd. Jongeren van 18 jaar zijn voor de wet volwassen en vanaf dan mogen jongeren dan ook stemmen."
+            },
+            {
+                "party": "CDA",
+                "statement": "Wat het CDA betreft blijft de kiesgerechtigde leeftijd, de leeftijd waarop mensen de volwassenen leeftijd van 18 jaar bereiken."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil de huidige stemgerechtigde leeftijd handhaven. Wij zien geen redenen om deze nog verder te verlagen."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "In het voortgezet onderwijs is kiezen voor de richting van hun pad naar de toekomst al voor veel jongeren te vroeg, daarom de huidige leeftijd handhaven."
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV is voorstander van een stemgerechtigde leeftijd van 18 jaar."
+            },
+            {
+                "party": "JA21",
+                "statement": "De stemgerechtigde leeftijd voor de verkiezingen voor het Europees Parlement moet 18 jaar blijven, net als bij alle andere verkiezingen in Nederland."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De lidstaten gaan over hun eigen kiesrecht."
+            },
+            {
+                "party": "SGP",
+                "statement": "De SGP vindt het voor de hand liggend om de leeftijd voor het stemrecht te koppelen aan de leeftijd voor meerderjarigheid."
+            },
+            {
+                "party": "BBB",
+                "statement": "18 is de leeftijd dat jongeren volledig competent zijn. Vanaf dan betalen zij belastingen, kunnen ze dienen in het leger en mogen ze dus ook stemmen."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Stemmen is een verantwoordelijk voor volwassenen.Wij vinden dat kinderen ook kind mogen zijn. Stemmen op je 16e betekent dat je al een mening moet hebben over de geo-politiek en andere complexe vraagstukken. Jongeren zijn op de leeftijd nog druk met zichzelf te ontdekken en moeten die ruimte krijgen."
+            },
+            {
+                "party": "SP",
+                "statement": "Vanaf 18 jaar ben je volwassen en mag je stemmen. De leeftijd voor het stemrecht verlagen, moet wat de SP betreft gebonden zijn aan volwassenheid."
+            },
+            {
+                "party": "BVNL",
+                "statement": "18 jaar is een prima leeftijd om te beginnen met stemmen. Enige levenservaring is gewenst."
+            },
+            {
+                "party": "NSC",
+                "statement": "De stemleeftijd moet een nationale competentie blijven. NSC is voorstander van de stemleeftijd op 18 te houden."
+            }
+        ]
+    },
+    {
+        "theme": "Prijs CO2-uitstoot",
+        "title": "Bedrijven moeten meer gaan betalen voor hun CO2-uitstoot.",
+        "info": "CO2 is een broeikasgas. Hoe meer ervan in de lucht zit, hoe minder warmte van de zon de aarde kan verlaten. De aarde wordt dan steeds warmer. CO2 komt vrij bij de verbranding van brandstoffen zoals olie, aardgas, kolen en hout. Veel bedrijven gebruiken deze brandstoffen om hun producten te kunnen maken. \n\nDe EU wil in 2050 klimaatneutraal zijn. Dat betekent dat er niet meer CO2 in de lucht mag komen dan de natuur kan opnemen. Om de CO2-uitstoot omlaag te krijgen, moeten bedrijven in de EU voor hun CO2-uitstoot betalen.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Vervuiling heeft enorme gevolgen voor onze gezondheid en het klimaat. Een CO2-heffing voor grote bedrijven is eerlijk omdat de vervuiler dan betaalt, wat nu nauwelijks het geval is. Ook worden bedrijven zo gestimuleerd om te verduurzamen. De opbrengst investeren we in een groen en sociaal Europa."
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD is voor het Europese emissiehandelssysteem, waarbij bedrijven betalen voor hun CO2-uitstoot. Dit moedigt aan om uitstoot terug te dringen. De VVD vindt een stapsgewijze hogere, maar verantwoorde prijs voor CO2-uitstoot ook belangrijk om de prikkel voor verduurzaming te behouden."
+            },
+            {
+                "party": "CDA",
+                "statement": "Dat geldt wat het CDA betreft voor bedrijven van binnen en buiten de EU. De in- en uitvoering van de CO2-grenscorrectie (CBAM) wordt geëvalueerd en waar mogelijk uitgebreid naar andere emissie-intensieve sectoren. Op deze manier kunnen Europese bedrijven eerlijk concurreren met bedrijven buiten de EU"
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil dat de vervuiler moet betalen. Met de opbrengst kunnen we groene bedrijven helpen om verder te groeien. Het huidige Europese emissiehandelssysteem is een mooie stap, maar de prijs voor vervuiling is te laag. D66 wil een Europese CO2-heffing waarmee er een minimumprijs voor vervuiling komt."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Vervuilers hebben te lang het beleid in Europa bepaald en geprofiteerd van subsidies en fiscale voordelen, ten koste van gewone burgers. Dat gaan we veranderen: vervuilers gaan betalen in plaats van bepalen."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Beprijzing van CO₂ is een goed middel om uitstoot tegen te gaan. Beprijzing ook op producten van buiten de EU."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Pas als het elektriciteitsnetwerk haar capaciteit op orde heeft, kan hier een regel voor worden gemaakt."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Uitgangspunt: de vervuiler betaalt. Geen winst maken ten koste van natuur. Vervuilend gedrag wordt ontmoedigd, voor bedrijven binnen de Unie én voor bedrijven die toegang tot de Europese markt willen krijgen, zodat een eerlijk speelveld wordt gecreëerd. Emissiehandelssysteem wordt verder aangescherpt."
+            },
+            {
+                "party": "SGP",
+                "statement": "Bedrijven die onder het emissiehandelssysteem vallen, moeten betalen voor hun CO2-uitstoot. De prijs van emissierechten loopt ieder jaar op en vormt een prikkel om te verduurzamen. Door CO2 te beprijzen stellen we bedrijven in staat om kostenefficiënt de uitstoot terug te brengen."
+            },
+            {
+                "party": "SP",
+                "statement": "Tweedeling door klimaatbeleid staan wij niet toe. We stoppen met het subsidiëren van fossiele bedrijven. Er komt een CO2-heffing waarmee we gericht de grote industriële vervuilers belasten. De energierekening maken we rechtvaardig voor huishoudens."
+            },
+            {
+                "party": "Volt",
+                "statement": "Met een Europese CO2-belasting betalen vervuilende bedrijven eerlijk mee aan een groene en vernieuwende toekomst. Een deel van dat geld wordt teruggegeven aan mensen als 'klimaatinkomen'. Zo wordt verduurzaming voor iedereen mogelijk."
+            },
+            {
+                "party": "NSC",
+                "statement": "NSC is voorstander van het zogenaamde emissiehandelssysteem, waarbij bedrijven CO2-rechten moeten kopen om CO2 uit te stoten. Hierdoor worden bedrijven gestimuleerd te verduurzamen middels een marktmechanisme."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor 'de vervuiler betaalt'. Elk bedrijf dat broeikasgassen uitstoot dient daar eerlijk voor te betalen. Wanneer vervuilende bedrijven meer betalen, kan de belasting voor burgers omlaag. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD gaat niet mee in het narratief dat menselijke CO2-uitstoot een merkbare invloed heeft op het mondiale klimaatsysteem. Wij zien daarom ook geen reden om bedrijven te laten betalen voor hun uitstoot. Dit beleid zou de Nederlandse en de Europese industrie kortwieken."
+            },
+            {
+                "party": "PVV",
+                "statement": "Bedrijven betalen al genoeg over hun CO2-uitstoot via het Europese emissiehandelssysteem; de tarieven lopen steeds verder op. Een hogere kostprijs leidt bovendien tot een hogere consumentenprijs. De EU moet stoppen met het steeds verder op kosten jagen van bedrijven en consumenten."
+            },
+            {
+                "party": "JA21",
+                "statement": "JA21 wil de soevereiniteit van de lidstaten over hun eigen energiebeleid behouden en zich verzetten tegen de bemoeienis van de EU. De EU moet stoppen met arbitraire Europese klimaatdoelen of CO2-heffingen, die de economische groei ondermijnen."
+            },
+            {
+                "party": "BBB",
+                "statement": "Gezien de geopolitieke spanningen kunnen we het ons niet veroorloven dat essentiële industrie verloren gaat vanwege te strenge klimaatbelastingen."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Wij staan voor doordachte besluitvorming. Voordat wordt gesproken over een toename moet eerst de huidige situatie in beeld worden gebracht. Experts dienen de impact van een verhoging vast te stellen. Als bedrijven meer betalen gaan de prijzen omhoog en het staat niet vast dat de CO2 uitstoot daalt."
+            },
+            {
+                "party": "BVNL",
+                "statement": "De hele CO2 discussie is onderdeel van de grote klimaatscam. Klimaatverandering is van alle tijden en wat BVNL betreft passen we ons daaraan aan. CO2-uitstoot heeft daar niets mee te maken en belasting op uitstoot is daarom onzinnig."
+            }
+        ]
+    },
+    {
+        "theme": "Asielzoekers en ontwikkelingshulp",
+        "title": "Landen die afgewezen asielzoekers niet terugnemen, moeten minder ontwikkelingshulp krijgen van de EU.",
+        "info": "Afgewezen asielzoekers zijn mensen die bescherming in een EU-land hebben gezocht, maar zijn afgewezen (uitgeprocedeerd). Zij moeten het EU-land dan verlaten.\n\nOntwikkelingshulp is hulp van rijkere landen (zoals Nederland) aan armere landen om hen te helpen met bestuur en klimaat of om de economie sterker te maken.\n\nAls asielzoekers worden afgewezen, moeten ze terug naar hun thuisland. Nederland kan ontwikkelingshulp stoppen als het thuisland hen niet terugneemt. Sommige EU-landen doen dit ook, maar er is geen regel voor EU-ontwikkelingsgeld.",
+        "results": [
+            {
+                "party": "VVD",
+                "statement": "Landen van herkomst die niet meewerken aan de terugkeer van eigen onderdanen die illegaal naar Europa zijn gereisd, worden daarvoor bestraft met sancties, waaronder het korten van ontwikkelingshulp."
+            },
+            {
+                "party": "CDA",
+                "statement": "Wat het CDA betreft zijn fondsen afhankelijk van het respecteren van (basis)regels."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil in principe volledig stoppen met ontwikkelingshulp en alleen (eventueel) noodhulp verlenen aan getroffen regio's. Maar als het stopzetten of beperken van deze geldstromen gebruikt kunnen worden als troefkaart in onderhandelingen, dan moeten wij daar gebruik van maken."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 is voor hulp aan kwetsbare mensen na rampen en oorlog. Het zorgt er ook voor dat oorzaken van vluchten worden weggenomen en migratie afneemt. We geven geen geld aan landen met autocratische regimes, maar direct aan organisaties en mensen."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Dat kunnen de individuele landen al doen. Afgewezen asielzoekers kunnen niet in Europa blijven, dus indien beperking helpt om de terugkeerders gemakkelijker te laten terugkeren, dan is dit een goed middel."
+            },
+            {
+                "party": "PVV",
+                "statement": "Asielzoekers uit veilige landen moeten direct terug naar land van herkomst. Nederland moet alles op alles zetten om landen te dwingen hun eigen inwoners weer terug te nemen. Minder ontwikkelingshulp is sowieso een goed idee, al helemaal als dit leidt tot het terug kunnen sturen van nep-vluchtelingen."
+            },
+            {
+                "party": "JA21",
+                "statement": "Tegenwerkende herkomstlanden van afgewezen asielzoekers moeten veel steviger worden aangepakt. Ontwikkelingshulp naar zulke landen moet worden stopgezet. Ook het intrekken van visa en landingsrechten zijn opties om de druk op te voeren om onderdanen terug te nemen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Naar een menswaardige oplossing voor de vluchteling moet altijd worden gezocht. Als een land geen solidaire verdeling van opvang toepast, kan een sanctie worden ingezet."
+            },
+            {
+                "party": "SGP",
+                "statement": "Afgewezen migranten gaan zo snel mogelijk terug. Visumbeleid, handelsovereenkomsten en hulpgelden aan de betreffende landen mogen hiervoor als instrument worden ingezet. Het geheel stoppen van ontwikkelingshulp kan echter disproportioneel en contraproductief zijn."
+            },
+            {
+                "party": "BBB",
+                "statement": "Noaberschap werkt twee kanten op. Als wij andere landen steunen, dan mogen wij ook verwachten dat ze ons helpen bij het oplossen van de migratiecrisis. Zo niet, dan is het geen goede buur en moeten we als EU-land(en) financiële steun stopzetten."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "De onafhankelijke kandidaten van MDD vinden dat afspraken die tussen de EU en de betreffende landen worden gemaakt ook nagekomen moeten worden."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Iedere stap om de asieltsunami te stoppen is er een. BVNL wil geheel stoppen met ontwikkelingshulp. Geen geld, geen visa, geen betalingen, geen handel met landen die niet meewerken."
+            },
+            {
+                "party": "NSC",
+                "statement": "NSC staat voor een krachtige reductie van het migratiesaldo. Dat betekent onder meer dat we als Europa landen van herkomst die hun afgewezen kansarme asielzoekers niet willen terugnemen, moeten stimuleren dit wel te doen."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Ontwikkelingssamenwerking en internationale handel zijn onderdeel van een geheel aan bilaterale betrekkingen waarbinnen migratieafspraken kunnen worden gemaakt. Ontwikkelingssamenwerking is voor de ChristenUnie geen drukmiddel, maar de invulling kan wijzigen als ontwikkelingslanden zich niet aan gemaakte afspraken houden."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Ontwikkelingssamenwerking is bedoeld om de meest kwetsbare mensen te steunen. Die solidariteit laten we niet afhangen van de acties van een regime dat mensenlevens als handelswaar inzet. De overheid en hulporganisaties zorgen er zo goed mogelijk voor dat deze hulp bij de juiste mensen terechtkomt."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De ontwikkelingssamenwerking richt zich op het versterken van de positie van kwetsbare groepen in ontwikkelingslanden. We zijn niet voor sancties die ten koste gaan van kwetsbare groepen of hele bevolkingsgroepen."
+            },
+            {
+                "party": "SP",
+                "statement": "Ontwikkelingshulp beperken pakt de gewone mensen in ontwikkelingslanden. We kunnen ons beter richten op de elite via sancties om het terugnemen van afgewezen asielzoekers af te dwingen."
+            },
+            {
+                "party": "Volt",
+                "statement": "Ontwikkelingshulp is cruciaal om structurele armoede en ongelijkheid tegen te gaan. Door dit in te houden raken we vooral de mensen. We moeten samenwerken aan een betere toekomst voor iedereen, daarom ziet Volt liever andere consequenties wanneer een land zich niet aan de afspraken houdt."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen zijn een internationale mensenrechtenbeweging. Het is ethisch onjuist om ontwikkelingshulp af te laten hangen van ruilhandel met mensen. Dit stellen naast ons ook andere mensenrechtenorganisaties, zoals Amnesty. Informeer jezelf: https://ppdg.eu/"
+            }
+        ]
+    },
+    {
+        "theme": "Gezichtsherkenning politie",
+        "title": "De EU moet de politie verbieden automatische gezichtsherkenning te gebruiken.",
+        "info": "Gezichtsherkenning wordt al vaak gebruikt, bijvoorbeeld om smartphones te ontgrendelen. De politie gebruikt soms ook gezichtsherkenning om criminelen op te sporen. Ze kunnen bijvoorbeeld de beelden van beveiligingscamera’s op straat scannen om te kijken of er een verdachte op staat.\n\nVoor opsporingsdiensten zoals de politie zijn er nog geen wetten. In Nederland worden nu experimenten gedaan met automatische gezichtsherkenning, zodat ook juridisch kan worden uitgezocht of dat mag. Ook sommige andere landen experimenteren hiermee.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "We zijn tegen gezichtsherkenning, gedragsherkenning en andere biometrische surveillance in de publieke ruimte. Als de overheid iedereen overal kan volgen is dat een grote inbreuk op mensenrechten en kan het makkelijk misbruikt worden. Bovendien maken gezichtsherkenningscamera's nog te veel fouten."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Camera’s met gezichtsherkenning staan we niet toe in de openbare ruimte, winkels en horeca. Al het Europese beleid op het gebied van aftappen, verzamelen en opslaan van gegevens van burgers wordt scherp herzien in het belang van de privacy."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "De systemen falen nu nog steeds."
+            },
+            {
+                "party": "SP",
+                "statement": "Het is niet mogelijk om te stellen dat 'veiligheid belangrijker is dan privacy', zoals sommige politici doen, dat is een schijntegenstelling. Bij ieder voorstel dat inbreuk maakt op de privacy bekijken we of die inbreuk noodzakelijk is voor het te bereiken doel, of het niet op een andere manier kan."
+            },
+            {
+                "party": "Volt",
+                "statement": "De rechten van inwoners mogen niet ondergeschikt zijn aan veiligheid. Automatische gezichtsherkenning is een enorme inbreuk op privacy en gevaarlijk als het in de verkeerde handen valt."
+            },
+            {
+                "party": "NSC",
+                "statement": "De overheid moet in de eerste plaats de privacy van burgers beschermen. Inperking mag enkel plaatsvinden onder de volgende voorwaarden met het oog op het algemeen belang; als de noodzaak wordt aangetoond, als de privacy inbreuk in verhouding staat tot het doel, en alleen op de minst ingrijpende manier, met een sterk onafhankelijk toezicht."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor internationale mensenrechten. Automatische gezichtsherkenning geeft de politie de macht om constant bij te houden wie wanneer waar is. Deze totale massasurveillance is ontoelaatbaar in het vrije Europa waar wij voor staan! Informeer jezelf: https://ppdg.eu"
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD is voorstander van het gebruik van automatische gezichtsherkenning. Hiermee geven we onze veiligheidsdiensten een goed middel om Nederland veilig te houden."
+            },
+            {
+                "party": "CDA",
+                "statement": "We staan onder strikte voorwaarden het gebruik van gezichtsherkenningstechnologie in openbare ruimtes toe voor specifieke doeleinden: zoals het opsporen van vermiste kinderen, het voorkomen van een terroristische aanslag en het bestrijden van zware criminaliteit"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD denkt dat automatische gezichtsherkenning een zware inbreuk maakt op de privacy en rechten van burgers. De keuze om dit middel in te zetten hoort bij individuele lidstaten te liggen, en niet bij de EU."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 is voor een verbod op massasurveillance. Het gebruik van gezichtsherkenning wil D66 alleen voor het opsporen van zware criminaliteit, onder strenge wettelijke waarborgen en onder toezicht van het OM. Lidstaten kunnen zelf het gebruik van gezichtsherkenning verder inperken."
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV is tegenstander van een verbod op het gebruik van gezichtsherkenning als opsporingsmiddel voor onze politie. We staan echter sceptisch tegenover het gebruik van middelen die de privacy van mensen kunnen schenden. Voor criminelen geldt dit uiteraard niet, maar voor de gewone burgers wel."
+            },
+            {
+                "party": "JA21",
+                "statement": "Automatische gezichtsherkenning kan bijvoorbeeld bij grenscontroles een noodzakelijk instrument zijn om de veiligheid van onze inwoners te beschermen. De EU moet dit niet verbieden. Uiteraard moet dit instrument terughoudend worden ingezet en met respect voor privacywetgeving."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Toestaan mits de veiligheid en privacy van de EU-burger gewaarborgd zijn."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Ter bestrijding van terrorisme en zware criminaliteit moet het voor de politie mogelijk zijn automatische gezichtsherkenning te gebruiken."
+            },
+            {
+                "party": "SGP",
+                "statement": "Gezichtsherkenning kan helpen om terroristen op te sporen. Dat heeft voor de SGP prioriteit. Echter worden ook onschuldige burgers gescreend. Het is nog onduidelijk wat er met de opgeslagen beelden gebeurt en wie daar toegang tot heeft."
+            },
+            {
+                "party": "BBB",
+                "statement": "Om zware criminaliteit en terrorisme tegen te gaan is gezichtsherkenning een belangrijk instrument. Op luchthavens of grote massale bijeenkomsten kan het een oplossing zijn. Echter mag het niet ongeremd uitgebreid worden, met het gevolg dat iedereen overal gescand wordt."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Ontwikkelingen op het gebied van ICT en AI dienen veilig te zijn en de grondrechten van burgers niet te schenden. Dat is nu (nog) niet gewaarborgd. Het is echter niet aan de EU om een verbod op te leggen aan de nationale politie."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Wij willen strengere criteria voor het verzamelen en gebruiken van persoonsgegevens en ervoor zorgen dat digitale systemen veilig en betrouwbaar zijn. BVNL wil dat de veiligheid zo goed als mogelijk wordt gewaarborgd, automatische gezichtsherkenning kan helpen bij het opsporen van zware criminelen."
+            }
+        ]
+    },
+    {
+        "theme": "Recht van initiatief",
+        "title": "Het Europees Parlement moet het recht krijgen om zelf wetsvoorstellen te doen.",
+        "info": "Het Europees Parlement wordt om de vijf jaar gekozen door de inwoners van de EU. Het is een van de instituties die een Europese wet moeten goedkeuren. Het Europees Parlement mag zelf geen wetsvoorstellen doen. De wetten worden gemaakt door de Europese Commissie. De Europese Commissie bestaat uit 27 commissarissen, een uit elk EU-land.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Wij willen dat het Europees Parlement als gekozen volksvertegenwoordiging ook initiatiefrecht krijgt om zelf wetgeving en beleid te maken. Zo kunnen we als EU meer voor elkaar krijgen, want op dit moment kan het Parlement alleen reageren op voorstellen van de Europese Commissie."
+            },
+            {
+                "party": "CDA",
+                "statement": "Wat het CDA betreft wordt Europees Parlement het initiatiefrecht toegekend om, gesteund door een meerderheid van de nationale parlementen, zelf wetsvoorstellen te doen"
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil een democratisch Europa. Daarbij past dat gekozen volksvertegenwoordigers zelf wetgeving kunnen starten, net als de Tweede Kamer. Zo is het Europees Parlement minder afhankelijk van de ongekozen Europese Commissie en wordt de Europese democratie versterkt."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De invloed van burgers wordt vergroot door ook het Europees Parlement het recht te geven om initiatiefvoorstellen voor nieuwe wetgeving te doen."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Verstevigt de positie van het parlement."
+            },
+            {
+                "party": "PVV",
+                "statement": "Dit zou de democratische besluitvorming ten goede komen. Ook geeft het ons de kans om beklemmende regelgeving middels voorstellen vanuit het EP te torpederen. Dit zou een stap vooruit zijn in het van binnenuit veranderen van de EU."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Met het initiatiefverslag heeft het Parlement al een verkapt recht, omdat de Europese Commissie het opvolgen van een verzoek in de praktijk moeilijk naast zich neer kan leggen. Ook kan het Parlement gedurende het hele jaar middels resoluties de Commissie aansporen met wetgeving te komen."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Meer Directe Democratie. Wij zijn uw stem in Europa."
+            },
+            {
+                "party": "SP",
+                "statement": "Wat de SP betreft wordt de Commissie een uitvoerend orgaan en gaan de lidstaten in de Europese Raad bepalen welke wetten er op Europees niveau nodig zijn. Ook het initiatiefrecht voor het Europees Parlement kan bijdragen aan het democratisch proces op EU niveau."
+            },
+            {
+                "party": "Volt",
+                "statement": "In de EU van vandaag zetten lidstaten zich nog te veel in voor hun eigen nationale belangen, in plaats van de belangen van alle inwoners van de EU. Door het parlement het recht te geven zelf wetsvoorstellen in te dienen, kunnen verkozen vertegenwoordigers hun kiezers beter vertegenwoordigen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor een democratisch Europa. Het direct verkozen Europees Parlement heeft nu geen wetgevende macht. Wij willen dat het Europees Parlement initiatiefrecht krijgt en eindverantwoordelijk wordt voor EU-beleid. Lees meer: https://ppdg.eu/"
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD vindt dat de Europese Commissie zich moet blijven focussen op de kerntaken, waaronder wetsvoorstellen opstellen. Daarbij zijn de Raad van de Europese Unie opdrachtgever en medewetgever, en het Parlement medewetgever en controleur. Dat moet zo blijven."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil uit de Europese Unie. Wij willen de controle terugpakken over onze regels en wetgeving. Daarom willen wij absoluut geen wetgevend mandaat neerleggen bij het Europees Parlement. Dit zou een overdracht van soevereiniteit betekenen."
+            },
+            {
+                "party": "JA21",
+                "statement": "JA21 wil de macht van de nationale Parlementen versterken en bevoegdheden terughalen naar de lidstaten. Het uitbreiden van de bevoegdheden van het Europees Parlement is daarmee in strijd."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "We willen een wildgroei aan voorstellen voorkomen. Daarnaast vrezen wij dat zodoende de parlementsleden de competenties van de EU niet goed zullen borgen."
+            },
+            {
+                "party": "SGP",
+                "statement": "Uitgangspunt voor de SGP is dat de democratische controle primair via de nationale parlementen verloopt en initiatieven voor nieuwe wetgeving vanuit de deelnemende landen zelf worden aangedragen. De rol van het Europees Parlement is ondersteunend en controlerend en heeft geen recht van initiatief."
+            },
+            {
+                "party": "BBB",
+                "statement": "Nederland moet zo veel mogelijk haar eigen soevereiniteit behouden en niet nóg meer bevoegdheden overhevelen aan Brussel. Wel is het logisch als het Europees Parlement een recht van amendement, in samenspel met nationale parlementen, krijgt."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Hoe minder wetten er uit Brussel komen hoe beter. BVNL wil dat Nederland weer soeverein wordt. Op het gebied van energie, voedsel, milieu, gezondheid en onderwijs moeten we zelf weer gaan bepalen wat goed is voor ons land."
+            },
+            {
+                "party": "NSC",
+                "statement": "We kiezen voor uitbreiding van de bevoegdheden van de Tweede Kamer bij de totstandkoming van Europese wetgeving, niet voor uitbreiding van het initiatiefrecht voor het Europees Parlement."
+            }
+        ]
+    },
+    {
+        "theme": "Meer kernenergie",
+        "title": "De EU moet meer kernenergie gaan opwekken.",
+        "info": "Kernenergie ontstaat als je de atoomkernen van de grondstof uranium splitst. Er is niet veel uranium nodig om veel energie op te wekken. Uranium komt uit mijnen en raakt uiteindelijk op. Na gebruik moet kernafval voor heel lange tijd veilig worden opgeslagen.  \n \nDe elektriciteit die op dit moment binnen de EU wordt opgewekt, bestaat voor ruim 20% uit kernenergie. Andere bronnen van elektriciteit zijn bijvoorbeeld zonne-energie en energie uit kolencentrales.",
+        "results": [
+            {
+                "party": "VVD",
+                "statement": "De VVD streeft ernaar dat de EU zoveel mogelijk zelfvoorzienend wordt op het gebied van energie en minder afhankelijk wordt van energie-importen. De VVD  beschouwt kernenergie als een essentieel onderdeel van de Europese energieonafhankelijkheid."
+            },
+            {
+                "party": "CDA",
+                "statement": "De hernieuwbare energiemix bestaat uit kernenergie, windenergie (vooral op zee), zonne-energie, duurzame biomassa, aardwarmte, waterstof, aquathermie, getijdencentrale, en andere schone brandstoffen"
+            },
+            {
+                "party": "D66",
+                "statement": "Wat D66 betreft is meer kernenergie goed voor het klimaat. Kernenergie zorgt namelijk voor minder CO2-uitstoot dan fossiele brandstoffen en is daardoor onderdeel van de oplossing voor schone energie. D66 vindt wel dat lidstaten zelf hun energiemix bepalen en of ze meer kernenergie willen."
+            },
+            {
+                "party": "PVV",
+                "statement": "Kernenergie is een efficiënte, betrouwbare en betaalbare vorm van energie. Méér kernenergie draagt bovendien bij aan méér energieonafhankelijkheid. We moeten daarom meer inzetten op kernenergie in plaats van onbetrouwbare weersafhankelijke energie, zoals wind- en zonne-energie."
+            },
+            {
+                "party": "JA21",
+                "statement": "Kernenergie is dé elektriciteitsbron van de toekomst. Kernenergie is schoon, veilig, stabiel en betaalbaar. Dit in tegenstelling tot instabiele en landschapsvervuilende windturbines en zonnevlaktes. Er moet daarom worden ingezet op een grootscheepse uitrol van kernenergie."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Mits de nieuwe technologie van gesmoltenzoutreactors wordt toegepast, waarmee veiligheid van bewoners wordt gegarandeerd en geen kernwapenproductie mogelijk is."
+            },
+            {
+                "party": "SGP",
+                "statement": "Kernenergie is veilig, duurzaam, CO2-neutraal en helpt bij het verminderen van de piekbelasting op het elektriciteitsnet. Kernenergie zorgt namelijk voor een stabiele energieaanvoer en helpt de pieken en dalen te ondervangen die onlosmakelijk verbonden zijn aan zonne- en windenergie."
+            },
+            {
+                "party": "BBB",
+                "statement": "Kernenergie is schoon, veilig en betrouwbaar. BBB zet zich dan ook maximaal in voor de bouw van nieuwe kerncentrales. Dit is overigens wel een Nederlandse aangelegenheid, geen Europese."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "We zijn afhankelijk van energie. Wind en zonne- energie zijn niet altijd voorhanden. Kernenergie is de meest effectieve bron van energie."
+            },
+            {
+                "party": "Volt",
+                "statement": "We willen dat iedereen in de EU toegang heeft tot voldoende energie, nu en in de toekomst. Om klimaatverandering tegen te gaan, moeten we overstappen op duurzame energiebronnen. Kernenergie is daarbij een belangrijke aanvulling op andere duurzame energiebronnen."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Prima om daarin samen te werken, maar BVNL wil zo snel mogelijk energiesoeverein worden en betaalbare energie produceren voor de inwoners van Nederland. Nederland moet zelf gaan investeren in eigen kernenergie. De EU heeft hierin verder geen rol."
+            },
+            {
+                "party": "NSC",
+                "statement": "Het opwekken van kernenergie is aan de lidstaten. Dit moet de EU niet in de weg zitten. Kernenergie is veilig, duurzaam, schoon en een stabiele energiebron bij iedere weersomstandigheid."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Gelet op de nadelen die aan de huidige generatie kerncentrales kleven – met name de afvalproblematiek – hebben duurzame vormen van energie onze voorkeur. Kernenergie kan onder bepaalde voorwaarden een nuttige toevoeging zijn in de Europese energiemix."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Kernenergie is duur én het is geen duurzame energie. Het maakt ons kwetsbaar bij een aanval en het afval blijft nog lang stralingsgevaarlijk. Gelukkig is het ook niet nodig: we hebben genoeg aan zonne- en windenergie als we voor een goed netwerk en meer mogelijkheden zorgen om energie op te slaan."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil doorgaan met gebruik conventionele brandstoffen, zoals olie en gas. Hiernaast willen wij innovatie op het gebied van kernenergie zeker stimuleren, maar zijn wij van mening dat lidstaten zelf hier over moeten beslissen en niet de Europese Unie"
+            },
+            {
+                "party": "PvdD",
+                "statement": "De Partij voor de Dieren is tegen kernenergie. Kerncentrales brengen grote onnodige risico’s met zich mee. En zorgen voor afval dat honderdduizenden jaren gevaarlijk blijft. We passen EU-regels aan zodat kernenergie niet langer wordt gezien als 'duurzame' investering."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "50PLUS is voor kernenergie. Toepassing hoort een afweging van de landen te zijn. De verbruiker en de belastingbetaler moeten niet opdraaien voor de eventueel hoge kosten die nieuwe centrales met zich mee zouden kunnen brengen. Voor het probleem van afval dient wel een langetermijnoplossing te zijn."
+            },
+            {
+                "party": "SP",
+                "statement": "Kernenergie is pas duurzaam als er een oplossing is voor de milieuveilige opslag van kernafval en er internationaal sprake is van duurzame winning van grondstoffen. Kernenergie kan daarom nu niet als alternatieve energiebron worden ingezet. Daarnaast is het heel duur."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen zijn niet dogmatisch tegen kernenergie, maar we willen enkel kernenergie wanneer dit huidige fossiele energiecentrales vervangt. Investeringen in kernenergie mogen niet ten koste gaan van investeringen in hernieuwbare energie. Informeer jezelf: https://ppdg.eu/"
+            }
+        ]
+    },
+    {
+        "theme": "LHBTIQ+-rechten",
+        "title": "De EU moet lidstaten verplichten lhbtiq+-stellen als wettelijke ouders van hun kinderen te erkennen.",
+        "info": "De letters lhbtiq+ staan voor: lesbisch, homoseksueel, biseksueel, transgender, intersekse en queer. Er is geen Europees beleid dat het ouderschap regelt van stellen die niet uit een man en een vrouw bestaan. In Nederland zijn daar wel wetten voor. Lesbische stellen die getrouwd zijn of een samenlevingscontract hebben en een kind krijgen, worden allebei wettelijke ouder. Ook homostellen of anders samengestelde stellen kunnen een kind adopteren en hebben dan dezelfde rechten als hetero-ouders. In sommige EU-landen, zoals Italië, kunnen niet-biologische ouders in lhbtiq+-stellen geen wettelijke ouders zijn.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "In Italië zien we de gevolgen van een extreemrechtse regering: daar zijn LHBTQIA+-ouders uit de geboorteaktes van hun kinderen gehaald. De EU moet in alle lidstaten pal voor de rechten van LHBTQIA+'ers en de erkenning van (meer-)ouderschap staan."
+            },
+            {
+                "party": "VVD",
+                "statement": "Voor de VVD telt ieder gezin mee en het kan niet zo zijn dat je stopt ouder te zijn wanneer je de grens oversteekt. Voor het uitoefenen van de vrijheid van verkeer moeten EU-lidstaten de wettelijke ouders erkennen, ongeacht welke gezinsvorm. Dit is bevestigd door het Hof van Justitie van de EU."
+            },
+            {
+                "party": "CDA",
+                "statement": "De EU-brede erkenning van huwelijken en geregistreerde partnerschappen van partners van hetzelfde geslacht moet beter worden gehandhaafd. In het belang van het kind moet het ouderlijk gezag in alle lidstaten op dezelfde wijze worden erkend als in de lidstaat van herkomst."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 vindt dat kinderen het recht hebben op wettelijke bescherming van hun ouders, overal in Europa. Daarom moeten lidstaten het ouderschap van kinderen van alle ouders erkennen en niet discrimineren op basis van seksuele gerichtheid of geslacht."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De Europese Unie initieert een handvest voor fundamentele rechten van LHBTQIA+-mensen waarin hun rechten expliciet worden gegarandeerd. Alle paren krijgen dezelfde rechten als heteroseksuele paren, ook wat betreft de adoptie van kinderen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Als dit in harmonie wordt overeengekomen, is wettelijke erkenning geen probleem."
+            },
+            {
+                "party": "SP",
+                "statement": "Elke ouder moet in de hele EU erkend worden als de ouder van hun kind(eren)."
+            },
+            {
+                "party": "Volt",
+                "statement": "Volt wil dat lhbtq+-stellen met kinderen in alle EU-lidstaten erkend worden als wettelijke ouders. Dit draagt bij aan gelijkheid en het recht op een gezinsleven voor alle mensen, ongeacht hun seksuele oriëntatie of genderidentiteit."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor internationale mensenrechten. Alle mensen zouden dezelfde rechten moeten hebben om als wettelijke ouders erkend te worden, ongeacht seksualiteit of genderidentiteit. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "We weten dat dit een heel gevoelig onderwerp is. Maar hier gaat Europa niet over. Dit is aan de lidstaten. De meerderheid van Nederland wil geen uitbreiding van bevoegdheden."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD vindt dergelijke sociaal-culturele kwesties een aangelegenheid voor individuele lidstaten. Het is geen taak van de Europese Unie om op dit gebied normen op te leggen."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Dit hoort niet in de EU, maar is een zaak van de landen zelf."
+            },
+            {
+                "party": "PVV",
+                "statement": "Door de jaren heen is Nederland steeds meer bevoegdheden kwijtgeraakt aan Brussel. De Europese Unie wil op steeds meer vlakken zeggenschap. De PVV is voor Europese economische samenwerking, maar tegen EU-dictaten op andere vlakken."
+            },
+            {
+                "party": "JA21",
+                "statement": "Dit is een kwestie die aan lidstaten zelf is. Zoals wij niet zouden willen dat Brussel zich bemoeit met ons beleid inzake ethische kwesties, zo moet Brussel dat ook niet doen met het beleid van landen waar andere opvattingen heersen."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Het is onwenselijk dat de Europese Unie voorschrijft hoe er over gezinssamenstellingen gedacht moet worden. Europese lidstaten denken hier heel verschillend over en het is daarom terecht dat we het familierecht op nationaal niveau regelen."
+            },
+            {
+                "party": "SGP",
+                "statement": "Het traditionele gezin staat ook vanuit de EU steeds vaker onder druk, terwijl het gezinsbeleid een exclusieve bevoegdheid is van de lidstaten. Er mag geen Europees ouderschapscertificaat komen, waarmee regenbooggezinnen bij verhuizing in de hele EU dezelfde rechten zouden moeten hebben."
+            },
+            {
+                "party": "BBB",
+                "statement": "Over deze vraagstukken wordt binnen de Europese Unie verschillend gedacht. Voor de samenwerking binnen Europa is het van belang dat deze verschillen gerespecteerd worden - ook als er in Nederland breedgedragen andere opvattingen bestaan."
+            },
+            {
+                "party": "BVNL",
+                "statement": "De EU moet zich hier niet mee bemoeien. Dit kunnen soevereine landen prima zelf beslissen."
+            },
+            {
+                "party": "NSC",
+                "statement": "De waarden en normen van gemeenschappen worden door NSC gerespecteerd en niet opgelegd door de EU. Dit blijft een nationale competentie."
+            }
+        ]
+    },
+    {
+        "theme": "Europa van meerdere snelheden",
+        "title": "EU-landen moeten meer mogelijkheden krijgen om op sommige onderwerpen niet mee te doen en zelf regels te maken.",
+        "info": "De EU heeft regels en wetten over allerlei onderwerpen, bijvoorbeeld over handel en milieu. Deze regels en wetten gelden voor alle deelnemende landen. Op dit moment moeten EU-landen de regels en wetten van de EU op alle onderwerpen invoeren en overnemen. Dit is een van de voorwaarden om lid te kunnen worden van de EU. Wel hebben enkele landen via onderhandelingen ervoor gezorgd dat ze een uitzondering mochten vormen toen een bepaalde wet werd ingevoerd of toen ze toetraden tot de Europese Unie.",
+        "results": [
+            {
+                "party": "VVD",
+                "statement": "De VVD wil een opt-out op het gebied van asiel en migratie bedingen, als er niet snel voldoende resultaat wordt gemaakt op dit gebied. Daarnaast wil de VVD dat er beter gekeken wordt naar welke bestuurslaag het meest geschikt is voor voorstellen."
+            },
+            {
+                "party": "CDA",
+                "statement": "De Unie is nu met 27 lidstaten en mogelijke verdere groei wat het CDA betreft toe aan de volgende fase; een Europa van meerdere snelheden. Waarbij niet alles door alle lidstaten gedaan hoeft te worden, wel moet iedereen voldoen aan alle basisvoorwaarden en -regels"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil op alle onderwerpen onze eigen regels maken. Denk aan migratie, klimaat, defensie en energie. Om dat te bereiken willen wij uit de Europese Unie. Naar voorbeeld van BREXIT streven wij naar volledige uittreding en het herpakken van onze complete soevereiniteit."
+            },
+            {
+                "party": "PVV",
+                "statement": "De opt-out is ons paradepaardje. Al sinds de oprichting wil de PVV onze nationale soevereiniteit terugpakken en weer de baas worden over onze eigen grenzen, geld en wetten. Wij willen graag intensief samenwerken met andere landen, maar niet in een politieke unie. De opt-out is hiervoor het ideale middel."
+            },
+            {
+                "party": "JA21",
+                "statement": "JA21 wil de EU terug naar de kern: economische samenwerking. De afgelopen decennia heeft de EU veel te veel bevoegdheden naar zich toegetrokken. JA21 wil deze terug naar de lidstaten. Tot die tijd zijn opt-outs een goede optie. Voor Nederland zou dit o.a. moeten gelden op het gebied van migratie."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Dat zou op beperkte schaal mogelijk moeten zijn, maar de voorwaarden moeten wel in lijn blijven met de grondbeginselen van een gezamenlijk Europa."
+            },
+            {
+                "party": "SGP",
+                "statement": "In het geval er besloten zou worden nieuwe bevoegdheden bij de Europese Unie te beleggen, moeten individuele lidstaten gebruik kunnen maken van een opt-out. Een opt-out is een uitzonderingsregel waarmee een lidstaat kan besluiten geen deel te nemen aan het betreffende EU-beleid."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB wil voor Nederland een zogenaamde “opt-out” op het gebied van migratie en natuurbeleid."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "De kandidaten van MDD vinden de soevereiniteit van de verschillende lidstaten belangrijk. De EU dient alleen die onderwerpen te regelen die ten aanzien van vrij verkeer zijn overeengekomen en die door democratische besluitvorming worden gedragen."
+            },
+            {
+                "party": "SP",
+                "statement": "Wat in Nederland georganiseerd kan worden, moet door Nederland zelf bepaald worden en niet door de Europese Unie. Onze pensioenen, ons openbaar vervoer en onze zorg bijvoorbeeld kunnen we prima zelf organiseren, zonder bemoeienis van bovenaf uit Brussel."
+            },
+            {
+                "party": "BVNL",
+                "statement": "BVNL wil dat Nederland weer soeverein wordt. Op het gebied van energie, voedsel, milieu, gezondheid en onderwijs moeten we zelf weer gaan bepalen wat goed is voor ons land. BVNL is voor Opt-Outs."
+            },
+            {
+                "party": "NSC",
+                "statement": "Nederland doet het liefst mee in de voorhoede van de EU-beleidsvorming waar invloed op de koers kan worden uitgeoefend. Als er sprake is van onvoldoende draagvlak, werkbaarheid of te hoog oplopende kosten, zoekt de Nederlandse regering naar een blokkerende minderheid van gelijkgezinde lidstaten."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Wij staan voor een democratie, waarin beslissingen zo lokaal mogelijk worden genomen. Wanneer het niet noodzakelijk is dat op EU-niveau wordt besloten, kunnen landen zelf, of in een groep, beslissen. Bij besluiten die om goede redenen bij de EU liggen willen we wel het vetorecht beperken. PPDG.EU"
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Het is belangrijker dan ooit dat we als Europese Unie goed samenwerken. De grote uitdagingen van deze tijd, zoals klimaatverandering, oorlogen en internationale veiligheid, zijn alleen samen op te lossen. Versplintering zorgt voor minder daadkracht, en daadkracht is juist wat we nu nodig hebben."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil beslissingen nemen op het juiste niveau. We moeten ons niet laten leiden door angst voor Brussel, maar een rationele afweging wat effectief is. Zaken zoals onderwijs en zorg in Nederland. Maar op veiligheid, economie en energie hebben we een sterk Europa nodig tegenover Rusland en China."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Opt-outs mogen niet ten koste gaan van natuur, milieu en mensen- en dierenrechten."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Indien er gezamenlijke afspraken worden gemaakt dan kan men zich er als land niet aan onttrekken. Anders is er geen Europese samenwerking meer."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "We willen wel dat er ruimte is voor eigenheid van en verschillen tussen lidstaten, regio's en gemeenschappen. Europese samenwerking vraagt echter ook om commitment aan gemaakte afspraken."
+            },
+            {
+                "party": "Volt",
+                "statement": "We moeten vooruit met de EU, in het belang van al haar inwoners. Het recht van lidstaten om, uit eigenbelang, belangrijke voorstellen te blokkeren staat vooruitgang in de weg en moet wat Volt betreft tot het verleden behoren."
+            }
+        ]
+    },
+    {
+        "theme": "Genetische modificatie",
+        "title": "De EU moet boeren toestaan meer genetisch gemodificeerde gewassen te verbouwen",
+        "info": "Mensen zorgen er al eeuwenlang voor dat de kwaliteit van planten beter wordt. Dat doen ze door planten met goede eigenschappen met elkaar te kruisen, zodat hun nakomelingen die eigenschappen hebben.\n\nDat duurt lang. Het kan nu ook sneller, door het DNA van planten te veranderen. DNA is de basiscode van planten, mensen en dieren. Alle eigenschappen van levende organismen staan erin. Genetisch modificeren is het doen van kleine aanpassingen in het DNA van plantensoorten. Groente en fruit zijn hierdoor bijvoorbeeld beter bestand tegen bacteriën, schimmels en bestrijdingsmiddelen.\n\nEr zijn nog weinig genetisch gemodificeerde gewassen toegestaan in Europa.",
+        "results": [
+            {
+                "party": "VVD",
+                "statement": "We willen in Europa voorop blijven lopen om nieuwe, duurzame vormen van voedselproductie te stimuleren. Europese regelgeving moet dat faciliteren."
+            },
+            {
+                "party": "CDA",
+                "statement": "Als CDA zijn we kritisch op de zogenaamde GMO's, zeker als modificatie plaatsvindt met vreemd genetisch materiaal. Het CDA is voorstander van minder impactvolle vormen zoals Crisp Cas omdat daar geen vreemd genetisch materiaal aan te pas komt. Crisp Cas is goed voor de toekomstige voedselzekerheid."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD vindt beperkingen voor boeren absoluut geen taak voor de Europese Unie. Nederland kan zélf prima bepalen welke gemodificeerde gewassen voldoen aan voorwaarden voor voedselveiligheid."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 is voor een veilige en duurzame manier van gewassen telen. Boeren moeten onder voorwaarden kunnen kiezen voor genetische gemodificeerde gewassen als deze hieraan bijdragen. We behouden betaalbaarheid en keuzevrijheid door te letten op patentrechten en het vormen van monopolies."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Echter wel onder strikte voorwaarden met betrekking tot veiligheid voor de mensen en de natuur. Gezondheidsbescherming staat voorop!"
+            },
+            {
+                "party": "PVV",
+                "statement": "Door planten weerbaarder te maken tegen ziektes is er minder inzet van bestrijdingsmiddelen nodig. Dit is beter voor de volksgezondheid en daarnaast komen er minder schadelijke stoffen in de bodem."
+            },
+            {
+                "party": "JA21",
+                "statement": "De techniek rond genetisch gemodificeerd organisme (GMO) kan de mondiale voedselvoorziening structureel op een hoger peil brengen, maar wordt om onbegrijpelijke redenen door clubs als Greenpeace afgedaan als ‘Frankenstein-food’. De VS negeert dit soort irrationele bezwaren, de EU moet dat ook doen."
+            },
+            {
+                "party": "BBB",
+                "statement": "Als we veilige ggo-gewassen kunnen ontwikkelen waardoor meer mensen gezond, betaalbaar en veilig voedsel kunnen eten dan steunt BBB het benutten van deze optie."
+            },
+            {
+                "party": "Volt",
+                "statement": "De toekomst van de landbouw moet eerlijker, voor natuur én mens. Daarom steunt Volt onderzoek naar innovatieve technieken die de landbouw en voedselproductie duurzamer maken."
+            },
+            {
+                "party": "NSC",
+                "statement": "Met innovatieve genomische technieken kan de EU de boeren ondersteunen in het behalen van milieu- en biodiversiteitsdoelen. Deze technieken maken het mogelijk gewassen duurzamer te produceren. NSC is hier groot voorstander van."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "GroenLinks-PvdA houdt juist vast aan strenge Europese regels op het gebied van genetisch gemodificeerde gewassen. Genetisch gemodificeerde zaden worden alleen toegestaan als zij voldoen aan maatschappelijke waardes en echt bijdragen aan een duurzame, klimaatadaptieve voedselvoorziening."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Genetische manipulatie, hoe gericht ook, kan leiden tot onbedoelde veranderingen die risico’s met zich kunnen meebrengen voor mens, dier en milieu. De Partij voor de Dieren blijft zich daarom sterk maken voor een gentechvrij Europa."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "De antibioticumresistente genen in deze gewassen kunnen ervoor zorgen dat bepaalde infectieziekten niet meer te behandelen zijn. Schade aan het ecosysteem is niet uit te sluiten. Het is niet bekend wat de gevolgen op de lange termijn zijn van het op grote schaal toepassen van genetische manipulatie."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "ChristenUnie staat niet negatief tegenover genetische modificatie, wel terughoudend. Ons uitgangspunt is dat technieken niet soorten-overschrijdend zijn. Regels rondom Genetisch Gemodificeerde Organismen (GMO) worden niet verder verruimd en er blijft een GMO-vrije keten."
+            },
+            {
+                "party": "SGP",
+                "statement": "De SGP is tegen genetische modificatie van gewassen als genen van niet aanverwante soorten ingezet worden. God heeft het leven geschapen. De natuurlijke grenzen die in Zijn schepping liggen, zijn er niet voor niets."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Bijna niemand weet wat de gevolgen zijn. Wij van MDD willen dat er veel meer onderzoek naar wordt gedaan. Er moet duidelijkheid komen over de gevolgen voor de biodiversiteit en de impact op de ecosystemen."
+            },
+            {
+                "party": "SP",
+                "statement": "We moeten extreem voorzichtig zijn met welke gewassen we toelaten in de supermarkt. Zolang we niet zeker weten dat dit veilig is, hanteren we het voorzorgsbeginsel en laten we het niet toe."
+            },
+            {
+                "party": "BVNL",
+                "statement": "De EU moet zich hier niet mee bemoeien. Landen kunnen dit prima zelf bepalen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor voedselveiligheid en hebben mede daarom principiële bezwaren tegen het patenteren van leven. Door een monocultuur van gepatenteerde gemodificeerde gewassen ontstaan risico's die niet te overzien zijn. Informeer jezelf: https://ppdg.eu/"
+            }
+        ]
+    },
+    {
+        "theme": "Verplichte vliegbelasting",
+        "title": "De EU moet landen verplichten vliegbelasting te heffen.",
+        "info": "Vliegbelasting is een belasting op vliegreizen. Passagiers die vanuit Nederland vertrekken, betalen op dit moment een belasting van € 26,43 bovenop het vliegticket. Het is nu niet verplicht voor EU-landen om belasting te heffen op vliegreizen. Naast Nederland heffen bijvoorbeeld ook Duitsland, Frankrijk en België vliegbelasting. De hoogte van de vliegbelasting verschilt per land.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Vliegen is vervuilend en wordt nauwelijks belast, terwijl op een treinkaartje wel belasting zit. Dat moet anders: als alle Europese landen vliegen eerlijk belasten, worden duurzame manieren van reizen sneller een goed alternatief. Binnen Europa zou de trein het makkelijkst en goedkoopst moeten zijn."
+            },
+            {
+                "party": "VVD",
+                "statement": "De luchtvaartsector moet verduurzamen en een maatregel die daarbij helpt is een Europese vliegbelasting."
+            },
+            {
+                "party": "CDA",
+                "statement": "Een Europese heffing op kerosine stimuleert een duurzamere luchtvaart en voorkomt oneerlijke concurrentie tussen EU-lidstaten in de luchtvaart"
+            },
+            {
+                "party": "D66",
+                "statement": "D66 vindt dat alle Europese landen een eerlijke prijs moeten rekenen voor vliegreizen. Zo zorgt de Nederlandse vliegbelasting niet voor oneerlijke concurrentie. We willen dat de rekening vooral bij veelvliegers terechtkomt en minder bij mensen die één keer per jaar op vakantie gaan."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Vliegtuigen zijn het meest vervuilende vervoersmiddel. Belastingvoordelen voor het vliegverkeer, zoals vrijstellingen van btw en accijnzen, worden afgeschaft."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "De EU moet zich als economische macht sterk maken voor een wereldwijde invoering van vliegtax. Prijselement moet vliegen duurder maken t.o.v. andere vervoersmiddelen zolang elektrische vliegen nog niet realiseerbaar is. Dient wel overal gelijk te zijn, zodat er geen onderlinge concurrentie ontstaat."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "ChristenUnie wil dat de lidstaten Europese afspraken maken over BTW op vliegtickets (en mogelijk aanvullende heffingen) en accijns op kerosine."
+            },
+            {
+                "party": "SGP",
+                "statement": "De luchtvaart moet verduurzamen. Het aantal (vakantie)vluchten binnen Europa moet afnemen. Een middel om dat te stimuleren is het verhogen van de vliegbelasting op Europese bestemmingen. Voor een gelijk speelveld moet de hoogte van de belasting in de EU, door de lidstaten geïnd, gelijk zijn."
+            },
+            {
+                "party": "Volt",
+                "statement": "Vliegtickets zijn nog steeds veel goedkoper dan treinkaartjes, terwijl vliegen enorm schadelijk is. Met de opbrengsten van vliegbelasting wil Volt het treinnetwerk verbeteren en goedkoper maken. Zo kun jij nog steeds makkelijk, betaalbaar én schoon op reis."
+            },
+            {
+                "party": "NSC",
+                "statement": "We pleiten voor de invoering van btw op vliegtickets, accijns op kerosine en een afstandsafhankelijke vliegbelasting voor intercontinentale vluchten door lidstaten, maar afgestemd in Europees verband."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor 'de vervuiler betaalt'. Daarom willen we o.a. belasting heffen op kerosine en BTW op vliegtickets. Van de opbrengsten willen we internationale treinreizen goedkoper maken, zodat de duurzame optie niet langer de dure optie is. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil vliegen betaalbaar houden voor iedereen. Daarnaast is FVD van mening dat lidstaten zelf hier over moeten beslissen en niet de Europese Unie"
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV vindt dat iedereen zelf moet bepalen op welke manier iemand naar zijn of haar bestemming reist. De overheid moet zich daar niet mee bemoeien. Nederlanders moeten ook betaalbaar kunnen blijven vliegen vanaf onze eigen Nederlandse luchthavens. Wat ons betreft verdwijnt de vliegbelasting dan ook."
+            },
+            {
+                "party": "JA21",
+                "statement": "De EU moet lidstaten niet lastigvallen en opzadelen met nieuwe belastingen. In plaats van nóg duurder moet vliegen juist betaalbaarder worden gemaakt. JA21 wil daarom de nationale vliegtaks afschaffen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Pas na twee retour-vliegreizen per jaar kan vliegbelasting worden geheven."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB is voorstander van wereldwijde regels die de luchtvaart en scheepvaart geleidelijk richting het gebruik van duurzame brandstoffen bewegen. Eenzijdige Europese normen verzwakken de concurrentiepositie van Nederlandse en Europese luchtvaartbedrijven."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "De onafhankelijke kandidaten van MDD vinden dat belastingen een nationale aangelegenheid zijn."
+            },
+            {
+                "party": "SP",
+                "statement": "We verzetten ons tegen maatregelen waarvan de kosten alleen bij mensen komen te liggen. Hoge prijzen maken het leven onbetaalbaar voor mensen met een laag en gemiddeld inkomen. Tweedeling door klimaatbeleid staan wij niet toe."
+            },
+            {
+                "party": "BVNL",
+                "statement": "BVNL is tegen EU-belastingen."
+            }
+        ]
+    },
+    {
+        "theme": "Digitale Euro",
+        "title": "De Europese Centrale Bank (ECB) moet naast munten en bankbiljetten ook een digitale euro gaan uitgeven.",
+        "info": "In Nederland en veel andere Europese landen betalen we met de euro. De Europese Centrale Bank (ECB) geeft papiergeld en munten uit. De ECB is geen gewone bank, maar een EU-instelling. Een gewone bank is een bedrijf.\n\nIn Nederland zetten veel mensen hun geld op een rekening bij een gewone bank. De bank is verantwoordelijk voor dat geld en voor het goed verlopen van de betalingen vanaf de rekening.\n\nEen digitale euro komt in een persoonlijke digitale portemonnee en dus niet op een bankrekening bij één bank.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Op den duur kan een digitale Euro een snelle en toegankelijke toevoeging zijn aan huidige systemen en cash geld. Maar er wordt nog onderzoek gedaan naar risico’s rondom veiligheid en privacy. Pas als die vragen beantwoord zijn, kan er definitief een beslissing over invoering worden genomen."
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD heeft in de discussie over de digitale euro steeds gehamerd op belangrijke randvoorwaarden. Zo moet privacy van gebruikers gewaarborgd zijn en mag een digitale munt niet programmeerbaar zijn. Ook blijft contant geld beschikbaar. Pas met die voorwaarden kan er een digitale euro komen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Mits dit geen gevolgen heeft voor de niet-digitale euro, privacy, cybersecurity en stabiliteit van het financiële stelsel. De digitale euro mag niet programmeerbaar worden."
+            },
+            {
+                "party": "Volt",
+                "statement": "Als de digitale munt aan een aantal belangrijke voorwaarden voldoet, zoals veiligheid en privacy, is het een goede aanvulling op het geld dat we nu gebruiken. Met een digitale euro kunnen mensen makkelijker betalen en versterken we de financiele zekerheid van de landen in de Europese Unie."
+            },
+            {
+                "party": "D66",
+                "statement": "De digitale euro kan een goed publiek alternatief zijn voor privaat digitaal geld. Bij het huidige voorstel zijn echter nog te veel vraagtekens om de digitale euro veilig te gebruiken. D66 wil daarom eerst meer waarborgen zien, bv. op privacy en dat de digitale euro niet geprogrammeerd kan worden."
+            },
+            {
+                "party": "CDA",
+                "statement": "We handhaven ons zeer efficiënte Nederlandse digitale betalingsverkeer. Op dit moment is het CDA geen voorstander van de plannen voor een digitale euro"
+            },
+            {
+                "party": "FvD",
+                "statement": "Met een digitale euro krijgt de overheid inzicht in alles wat we kopen en verkopen, oftewel: in bijna alles wat we doen en laten. Het is een stap verder richting een samenleving waarin controle de norm is en privacy verleden tijd zal zijn. FVD zal hier onder geen enkele voorwaarde mee akkoord gaan."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Zolang de invloed van de commerciële banken bij de uitrol van de digitale euro niet wordt teruggedrongen én zolang er geen gezonde, democratische, Europa-brede discussie komt over de relevante onderwerpen, zoals privacy en programmeerbaarheid van de valuta, wordt de digitale euro niet ingevoerd."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Er is nog veel onduidelijk wat de gevolgen van een digitale euro zullen zijn. Cash (chartaal) geld moet in ieder geval blijven bestaan, anders zou dit ten koste gaan van onze individuele vrijheid."
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV maakt zich zorgen over de mogelijke komst van de digitale euro, onder andere vanwege privacy-gerelateerde risico’s, een verdere soevereiniteitsoverdracht en het gebrek aan nut en noodzaak ervan."
+            },
+            {
+                "party": "JA21",
+                "statement": "JA21 is tegen de CBDC, ook wel de digitale euro genoemd. Nederland beschikt immers al over het meest efficiënte betaalsysteem binnen Europa. Er is dan ook geen probleem dat opgelost zou worden met een digitale euro als betaalmiddel. JA21 wil een verbod op de introductie van de digitale euro."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De ChristenUnie is geen voorstander van de digitale euro omdat het nut en de noodzaak voor de burger vooralsnog niet duidelijk zijn. Mocht de digitale euro er toch komen dan moet deze de internationale rol van de euro versterken en moeten de hoogst mogelijke eisen aan privacy worden gesteld."
+            },
+            {
+                "party": "SGP",
+                "statement": "De SGP is tegen de komst van een digitale euro. Er is te veel onduidelijkheid rondom nut, noodzaak en privacy. Het geeft de ECB te veel macht en controle. Zo zou de digitale euro op termijn programmeerbaar kunnen worden."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB is kritisch op een verplichting voor uitgifte van een digitale euro vanwege het risico voor de privacy. BBB wil in alle gevallen contant geld als gelijkwaardig behouden en borgen."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "MDD denkt dat dit tot problemen leidt in de praktijk en met de uitvoering. Daarnaast vraagt MDD zich af welk probleem hiermee wordt opgelost."
+            },
+            {
+                "party": "SP",
+                "statement": "We zien niets in een digitale euro die de macht van bankiers onaangetast laat en de privacy van mensen kan schaden."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Hoe minder controle op ons geld hoe beter. BVNL wil daarom dat contant geld beschikbaar blijft en is tegen de digitale euro en tegen de CBDC."
+            },
+            {
+                "party": "NSC",
+                "statement": "Een digitale euro (als CBDC) is in potentie mogelijk een tegenwicht tegen de dominantie van commerciële banken in het digitale geldverkeer. Maar de huidige visie van de ECB biedt veel te weinig houvast. Daarnaast zou digitaal geld, net als contant geld, de optie tot anonieme besteding moeten hebben."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor het behoud van contant geld. De 'digitale euro' (CBDC) is nu zo ingericht dat er eigenlijk geen behoefte aan bestaat. Het zou pas nuttig worden als cash verdwijnt, en dat willen we nu juist voorkomen! Informeer jezelf: https://ppdg.eu/"
+            }
+        ]
+    },
+    {
+        "theme": "Samenwerking Israël",
+        "title": "De EU moet samenwerking met Israël stoppen totdat de Palestijnen een eigen staat hebben.",
+        "info": "De EU heeft een associatieverdrag met Israël. Door dat verdrag kan Israël onder meer makkelijker producten verkopen in de EU. De EU is de grootste exportmarkt voor Israëlische producten.\nIn de jaren negentig van de vorige eeuw zijn er internationale afspraken gemaakt over een aparte Palestijnse en Israëlische staat. De EU heeft haar steun hiervoor uitgesproken. De Palestijnen hebben nog geen eigen staat. Ze hebben wel eigen besturen in Gaza en de Westelijke Jordaanoever.\n\nIn Gaza leidt Hamas het bestuur. Bij een terroristische aanslag door Hamas in 2023 vielen 1.200 Israëlische slachtoffers. Als reactie viel Israël Gaza binnen. Dit heeft tot meer dan 30.000 Palestijnse slachtoffers geleid.",
+        "results": [
+            {
+                "party": "PvdD",
+                "statement": "Na decennia van geweld en onderdrukking is het van het grootste belang dat mensen in Palestijns gebied perspectief wordt geboden. De EU oefent druk uit op de Israëlische regering om te stoppen met de bezetting en annexatie van Palestijnse gebieden, indien nodig met sancties."
+            },
+            {
+                "party": "SP",
+                "statement": "Zolang Israël grootschalig mensenrechten schendt en de bezetting voortduurt, zijn we voor het opschorten van het associatieverdrag met Israël. Ook kunnen we handelssancties overwegen om Israël aan te sporen een andere koers te kiezen en het recht op zelfbeschikking van Palestijnen te erkennen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor vrede, veiligheid en verzoening. De oorlogsmisdaden van Israël zijn onacceptabel, met welke aanleiding dan ook. Daarom willen wij sancties instellen, waaronder het stopzetten van samenwerkingen, totdat de Palestijnen een eigen staat hebben."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "De EU moet werken aan duurzame vrede en het beëindigen van de illegale bezetting van Palestijns gebied. Die vrede vereist een democratische Palestijnse staat en een veilig Israël, met gelijke rechten voor allen. We leveren geen militair materieel als Israël er het internationaal recht mee schendt."
+            },
+            {
+                "party": "D66",
+                "statement": "Voor D66 is de tweestatenoplossing de enige weg vooruit om de mensen in de regio perspectief te bieden. Veilig Israël naast een veilig Palestina. We leveren geen militaire steun aan Israël die bij dragen aan schendingen van het internationaal recht. Om vrede te bereiken is goede regionale samenwerking nodig vanuit de EU, dus ook met Israël."
+            },
+            {
+                "party": "Volt",
+                "statement": "Stellingen van stemhulpen zijn per definitie ongenuanceerd maar bij zo een complex conflict is een simpele (on)eens geen optie. Militaire samenwerking met Israël moet direct stoppen, maar niet alle samenwerking."
+            },
+            {
+                "party": "VVD",
+                "statement": "Israël heeft het recht op zelfverdediging tegen de terroristische groepering Hamas. Het is in ieders belang dat er uitzicht komt op duurzame vrede tussen Israëliërs en Palestijnen. De EU zal het perspectief op een levensvatbare Palestijnse staat – naast een veilig Israël – moeten blijven nastreven."
+            },
+            {
+                "party": "CDA",
+                "statement": "Het CDA pleit voor een tweestatenoplossing en daar hopen we zo snel mogelijk werk van te kunnen maken. Een samenwerking stoppen gaat nu niet bijdragen aan een snellere oplossing."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD is van mening dat Nederland zélf gaat over samenwerking met andere landen. Wij moeten bekijken welke samenwerking in ons belang is, en niet wat het belang is van Frankrijk of Duitsland."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "De EU zal zich inspannen om te zorgen voor een vredige 2 statenoplossing waarbij de regeringen niet de vernietiging van een andere staat promoten. Niet samenwerken brengt vrede niet dichterbij."
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV is een grote vriend van Israël; de enige echte democratie in het Midden-Oosten. Ook cultureel is Nederland zeer verbonden aan Israël. Nederland heeft overigens al een ambassade in Amman, de hoofdstad van de enige echte Palestijnse staat: Jordanië."
+            },
+            {
+                "party": "JA21",
+                "statement": "Het Israëlisch-Palestijnse conflict is een schoolvoorbeeld van een buitenlandse kwestie waar de EU zich níét mee moet bemoeien. Het aandringen op een Palestijnse staat is totaal niet aan de EU. De EU moet samenwerken in het Europese economische belang en buitenlands beleid aan lidstaten overlaten."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "De EU kan niet bepalen wie of wat een eigen staat gaat krijgen of daar op gaan staan wachten. Geen samenwerking is altijd ingegeven door conflict."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "We maken ons grote zorgen over de spiraal van geweld tussen Israëliërs en Palestijnen maar houden hoop op verzoening tussen Israël en de Palestijnen. Een vredesregeling kan pas standhouden met veilige en erkende grenzen voor Israël en de erkenning van het recht op zelfbeschikking voor de Palestijnen."
+            },
+            {
+                "party": "SGP",
+                "statement": "Vrede komt in zicht wanneer het bestaansrecht van Israël wordt erkend en de Palestijnen het geweld tegen Israël afzweren. Erkenning van een Palestijnse staat mag geen resultaat zijn van een eenzijdige internationale verklaring van bovenaf. De EU steunt constructieve initiatieven van onderop."
+            },
+            {
+                "party": "BBB",
+                "statement": "Israël is een belangrijke democratische bondgenoot in het Midden-Oosten waarvan de geschiedenis diep vervlochten is met de Nederlandse. BBB hoopt op een snelle vrede in de Gazastrook, zodra Hamas de Israelische gijzelaars heeft vrijgelaten. BBB steunt een tweestatenoplossing."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Wij vinden dat dit de vrede niet bevordert. Als MDD vinden wij het belangrijk dat de dialoog moet worden gevoerd. Oorlog is voor alle burgers vreselijk."
+            },
+            {
+                "party": "BVNL",
+                "statement": "De EU moet zich inzetten voor vrede en dat wordt niet bereikt door het stopzetten van samenwerking."
+            },
+            {
+                "party": "NSC",
+                "statement": "Nederland erkent de democratische staat Israël en helpt het land bij de bescherming van zijn burgers. Wij zijn voor een twee-staten-oplossing waar geen plaats is voor terroristische groeperingen en mensenrechtenschendingen."
+            }
+        ]
+    },
+    {
+        "theme": "Geschoolde migranten",
+        "title": "Het moet gemakkelijker worden voor geschoolde werknemers om in de EU te komen wonen en werken.",
+        "info": "In veel EU-landen is een groot tekort aan mensen die kunnen werken, bijvoorbeeld goed opgeleide verpleegkundigen of IT-mensen. Het is nu niet altijd even makkelijk om voor die banen mensen van buiten de EU aan te nemen. Er bestaat een regeling om tijdelijk in de EU te komen werken, de Blue Card. Hier wordt weinig gebruik van gemaakt.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "In sommige belangrijke werkvelden, zoals de zorg, kan arbeidsmigratie helpen met het oplossen van arbeidstekorten. Maar dat kan alleen wanneer we arbeidsmigratie goed reguleren en er sprake is van eerlijk, veilig en goed(betaald) werk, onder leiding van de overheid."
+            },
+            {
+                "party": "CDA",
+                "statement": "Het CDA wil meer keuzevrijheid hebben over wie we toelaten en in welke sectoren. Wel moeten werknemers nog steeds aan dezelfde voorwaarden voldoen"
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil keuzes maken om grip te krijgen op migratie. Wij kiezen voor een sterke economie. Dat betekent dat we bv. in slachthuizen en distributiecentra kiezen voor minder arbeidsmigratie. Maar wél voor geschoold personeel dat we keihard nodig hebben voor onze zorg, onderwijs en innovatieve bedrijven."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Het vergemakkelijken van toegang voor geschoolde werknemers in de EU vereist zorgvuldige vacatureselectie en controle, met aandacht voor woningmarktuitdagingen door arbeidsmigratie."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Dit geldt zeker voor de specifieke sectoren die cultuurgebonden zijn. Vakbekwaam personeel is essentieel voor tal van bedrijven. Ook arbeidsmogelijkheden voor stagiairs/studenten moeten worden uitgebreid."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB wil circulaire arbeidsmigratie waarbij mensen die onze economie kunnen versterken in cruciale sectoren tijdelijk in Nederland kunnen werken."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Wij ondersteunen de huidige EU Blue Card-procedure voor hoogopgeleide arbeidsmigratie. Dit zou niet alleen op basis van opleidingsniveau moeten zijn, maar er moet worden gekeken aan welke beroepen behoefte is en aan welke vaardigheden er een tekort is."
+            },
+            {
+                "party": "Volt",
+                "statement": "De EU staat voor grote uitdagingen. We hebben tekorten in o.a. de zorg, het onderwijs, de ICT en op het gebied van verduurzaming en innovatie. Om ervoor te zorgen dat we deze uitdagingen aan kunnen hebben we internationale talenten nodig."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor een vrij Europa en een goede economie. Geschoolde werknemers kan de economie van de EU goed gebruiken. Daar willen we geen onnodige beperkingen aan opleggen. Informeer jezelf: https://ppdg.eu"
+            },
+            {
+                "party": "VVD",
+                "statement": "Als het aan de VVD ligt voeren Nederland en de Europese Unie een kritischer beleid op arbeidsmigratie. Vooral hoogwaardige kennismigratie levert een positieve bijdrage aan de Europese economie. Andere vormen van arbeidsmigratie van buiten de EU gaan we kritischer beoordelen."
+            },
+            {
+                "party": "FvD",
+                "statement": "De steeds voortgaande migratie naar Nederland zorgt voor enorme sociale, culturele en economische problemen. FVD wil migratie naar de EU en naar Nederland radicaal beperken."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Het aantrekken van werknemers van buiten de EU is vooral gunstig voor werkgevers. We zijn voor goede regulering van arbeidmigratie."
+            },
+            {
+                "party": "PVV",
+                "statement": "Nederland is prop en prop vol. We hebben letterlijk geen bedden over in ons land voor ongecontroleerde arbeidsmigratie. Bovendien houden de goedkope arbeiders uit verre landen de lonen van onze eigen Nederlandse werknemers laag."
+            },
+            {
+                "party": "JA21",
+                "statement": "Voor geschoolde werknemers met aantoonbare meerwaarde moet ruimte blijven. Tegelijkertijd is Nederland de grip op arbeidsmigratie compleet verloren. In plaats van versoepeld moet arbeidsmigratie strakker worden gereguleerd, maar dan met name voor laaggeschoolde arbeid."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Vanwege het tekort aan woonruimte, is het begrijpelijk dat Nederland terughoudend is om arbeidskrachten van buiten de EU/EER toe te laten. Niet vraag en aanbod moeten leidend zijn, maar een duurzame, toekomstbestendige economie."
+            },
+            {
+                "party": "SGP",
+                "statement": "Arbeidsmigranten van buiten de EU moeten we niet hierheen willen halen om onze rijkdom in stand te houden. Ze kunnen beter meewerken aan de ontwikkeling van hun eigen land. De enige beperkte uitzondering geldt voor bepaalde vakspecialisten die we in de EU niet hebben, maar wel nodig hebben."
+            },
+            {
+                "party": "SP",
+                "statement": "Op dit moment vormen arbeidsmigranten veruit het grootste deel van de migranten die het land binnenkomen. De SP wil een vergunningstelsel voor arbeidsmigratie. Werkgevers moeten dan aantonen dat er echt geen andere mogelijkheid is dan de inzet van een arbeidsmigrant voor het werk dat gedaan moet worden."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Voor hoog opgeleide specialistische werknemers moet het mogelijk zijn om een tijdelijke werkvergunning te krijgen. Voor anderen juist niet. Eerst moet het arbeidspotentieel in eigen land worden benut."
+            },
+            {
+                "party": "NSC",
+                "statement": "Arbeidsmigranten van buiten de EU willen we selectief toelaten op basis van wat de Nederlandse arbeidsmarkt nodig heeft. Hiervoor kan een puntensysteem naar het Canadees model worden ingesteld, al dan niet samen met andere landen."
+            }
+        ]
+    },
+    {
+        "theme": "Geen uitbreiding EU",
+        "title": "Er mogen de komende jaren geen nieuwe landen bij de EU.",
+        "info": "Er zitten nu 27 landen bij de EU. Zij maken samen wetten en regels in Europa. Er willen nog meer landen lid worden van de EU. Bijvoorbeeld Bosnië en Herzegovina, Montenegro en Oekraïne. Voordat een land lid mag worden moet het onderhandelen met de EU en EU-wetten invoeren. Dat is een proces dat jaren duurt. De voorwaarden om lid te worden van de EU zijn vastgelegd in de zogenoemde Kopenhagen-criteria.",
+        "results": [
+            {
+                "party": "FvD",
+                "statement": "FVD wil absoluut geen verdere uitbreiding van de EU. De landen die nu kandidaat zijn voor lidmaatschap zijn in de meeste gevallen intens corrupt, worden slecht bestuurd en zullen financieel weinig tot niks bijdragen."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De Partij voor de Dieren onderschrijft de steun aan buurlanden van de EU. Uitbreiding van de EU is echter niet de oplossing zolang de EU gericht blijft op onbeperkte vrijhandel en zelf niet hervormt en democratischer wordt."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Landen moeten voldoen aan alle criteria (Kopenhagen). Als dat zo is zijn er geen redenen om hen niet te laten toetreden."
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV wil geen verdere uitbreiding van de EU of stappen in die richting."
+            },
+            {
+                "party": "JA21",
+                "statement": "De Europese Unie heeft zijn grenzen al lange tijd geleden bereikt. JA21 wil geen verdere uitbreiding van de EU. Toetreding van nieuwe lidstaten zoals Oekraïne, Moldavië en Georgië is op geen enkele manier in het Nederlands belang en moet worden tegengegaan."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Geen uitbreiding met landen die territoriale disputen hebben of hervormingen moeten doorvoeren, omdat deze niet voldoen aan de voorwaarden van een stabiele democratie, eerbiediging van mensenrechten, bescherming van minderheden, en meegaan met het functioneren en de ontwikkeling van de EU."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "We bestrijden corruptie en zijn kritisch op toetreding van nieuwe lidstaten."
+            },
+            {
+                "party": "SGP",
+                "statement": "Eventuele uitbreiding van de EU moet gebaseerd zijn op strikte toepassing van de Kopenhagen-criteria, met oog voor de interne stabiliteit van de EU. Op dit moment zijn de huidige kandidaat-landen niet klaar voor toetreding. Wél kan de EU op andere manieren met deze landen samenwerken."
+            },
+            {
+                "party": "BBB",
+                "statement": "Snelle en overhaaste uitbreiding is een ernstige bedreiging voor de stabiliteit, samenhang en voortbestaan van de huidige Europese samenwerking. BBB is daarom tegen elke uitbreiding met landen die niet (volledig) aan de Kopenhagen-criteria voldoen, zoals de eisen omtrent democratie en rechtsstaat."
+            },
+            {
+                "party": "SP",
+                "statement": "Het toetreden tot de EU is een langdurig en complex proces, zowel voor het land als voor de rest van de EU. Daarom moet uitbreiding in een verantwoord tempo plaatsvinden. De EU is in het verleden te snel gegroeid. Uitbreiding met nog meer landen is nu dan ook niet verstandig."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Zo is dat! Geen nieuwe EU-lidstaten. Eerst het eigen huis op orde!"
+            },
+            {
+                "party": "NSC",
+                "statement": "We moeten eerlijk zijn over het perspectief om lid te worden van de EU: dit proces zal – gelet op de strenge criteria die gelden voor toetreding – op zijn minst vele jaren vergen. Datzelfde geldt ook voor Moldavië, Georgië en landen van de westelijke Balkan."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor behoorlijk bestuur. Er gelden duidelijke voorwaarden voor toetreding tot de EU. De komende jaren zullen er geen landen zijn die aan deze voorwaarden kunnen voldoen. Op dit moment kan er dus nog geen sprake zijn van toetreding. Informeer jezelf: https://ppdg.eu"
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "We ondersteunen de kandidaat-lidstaten actief in hun weg naar het EU-lidmaatschap. Daarbij houden we strikt vast aan de voorwaarden om democratische hervormingen door te voeren. We pleiten voor stapsgewijze toetreding: landen worden bijvoorbeeld eerst alleen lid van de douane-unie."
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD is strikt en fair op uitbreiding. Voldoen aan de toetredingseisen en een gezonde rechtsstaat zijn leidend bij de beslissing of een land lid mag worden."
+            },
+            {
+                "party": "CDA",
+                "statement": "We bieden perspectief op toetreding, maar potentiele lidstaten moeten aan alle voorwaarden, de zogenaamde Kopenhagen-criteria, voldoen"
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil een sterk Europa dat een vuist kan maken richting Rusland en China. Voor landen lid mogen worden van de Europese Unie, moeten ze aan een aantal harde eisen voldoen. Die zijn wat D66 betreft niet onderhandelbaar."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "MDD is voor toetreding van de west-Balkanlanden, als aan alle voorwaarden wordt voldaan. We zijn gereserveerd tegenover uitbreiding met alle landen. Dit moet van geval tot geval worden bekeken. Is er oorlog, corruptie of zijn er mensrechtenschendingen dan vinden we toetreding onverstandig."
+            },
+            {
+                "party": "Volt",
+                "statement": "De EU staat op voor gedeelde vrede en welvaart. Daarom vinden we het belangrijk dat de EU nieuwe leden verwelkomt die onze democratische waarden en mensenrechten delen. Zo zorgen we voor een EU die niet alleen zichzelf verantwoordelijk houdt, maar actief opkomt voor rechtvaardigheid en gelijkheid."
+            }
+        ]
+    },
+    {
+        "theme": "Inkoop wapens",
+        "title": "EU-landen moeten vaker samen wapens en ander defensiemateriaal gaan inkopen.",
+        "info": "Alle Europese landen hebben een eigen leger. Ze werken wel samen, maar dat doen ze niet in EU-verband. De samenwerking gaat vooral via de NAVO, waar bijna alle EU-landen lid van zijn.\n\nLegers hebben wapens en andere spullen nodig, zoals auto’s, communicatiesystemen en tenten. EU-landen kopen nu meestal zelf hun materiaal in.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Het is echte noodzaak dat Europa zichzelf goed kan verdedigen. Dat vraagt om sterke samenwerking en gezamenlijke organisatie van onze krijgsmachten. Daar hoort bij dat we wapensystemen samen ontwikkelen, aankopen en onderhouden."
+            },
+            {
+                "party": "VVD",
+                "statement": "Gezamenlijke inkoop van wapens en defensiemateriaal vergroot de afzetmarkt voor onze defensie-industrie, de productiecapaciteit gaat omhoog, de kosten omlaag, en we kunnen beter in onze eigen behoeften voorzien. Daarnaast zorgt gezamenlijke aankoop voor makkelijkere samenwerking tussen landen."
+            },
+            {
+                "party": "CDA",
+                "statement": "We gaan in Europa intensiever samenwerken op het gebied van defensie in de vorm van o.a. gemeenschappelijke munitieproductie en gezamenlijke inkoop. Daarbij moeten we ook werken aan de versterking van de Europese defensie-industrie door middel een Europees defensie-investeringsprogramma."
+            },
+            {
+                "party": "D66",
+                "statement": "Europa moet zichzelf kunnen beschermen. Gezamenlijke inkoop van materieel is effectiever, goedkoper en innovatiever. Daarom is D66 daar een groot voorstander van."
+            },
+            {
+                "party": "PvdD",
+                "statement": "We zijn voor Europese samenwerking op defensiegebied, maar EU-landen blijven wat ons betreft zelf beslissen over het inzetten van hun leger en levering van wapens."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Goed om onderlinge afstemming en inkoop te hebben binnen de EU. Kan prima door samen te werken tussen landen. NAVO dient hierin een vooraanstaande rol te spelen."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Het is belangrijk dat de EU bijdraagt aan de efficiëntere besteding van nationale defensiebudgetten, gericht op het versterken van de interoperabiliteit, standaardisatie van materieel en gemeenschappelijke ontwikkel- en inkoopprogramma’s."
+            },
+            {
+                "party": "SGP",
+                "statement": "Europese defensiesamenwerking kan, in aanvulling op de NAVO, meerwaarde hebben rondom interoperabiliteit en de ontwikkeling en aanschaf van capaciteiten en materieel, maar wordt getoetst aan de criteria van subsidiariteit, proportionaliteit, noodzaak en meerwaarde."
+            },
+            {
+                "party": "BBB",
+                "statement": "Slim samen inkopen zorgt voor betere afstemming en snellere productie. Belangrijke voorwaarde die BBB stelt is dat bij gezamenlijke inkoop er ook een welvarende defensie-industrie in Nederland wordt opgebouwd, en niet alle projecten in Frankrijk of Duitsland worden gebouwd. BBB wijst gemeenschappelijke EU-defensieschulden af."
+            },
+            {
+                "party": "Volt",
+                "statement": "Een veilige EU moet snel en goed omgaan met bedreigingen om de landen en hun inwoners te beschermen. De EU moet niet langer afhankelijk zijn van anderen voor haar militair materiaal. Het samen inkopen van materiaal is goedkoper en maakt samenwerken makkelijker."
+            },
+            {
+                "party": "NSC",
+                "statement": "De EU moet meer investeren in Europese productiecapaciteit voor wapens en munitie. Daarnaast moeten EU-landen defensiemateriaal gezamenlijk inkopen, aangezien dit voordeliger is en de EU-landen hierbij een gezamenlijk doel hebben: dat van Europese veiligheid."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Wij staan voor efficiënt beleid. Daarbij past onderlinge afstemming van de aanschaf van militair materieel. De huidige situatie, waarin granaten moeten worden bijgeslepen omdat ze niet passen, is een gotspe. Samen inkopen is efficiënter en goedkoper. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "JA21",
+                "statement": "De NAVO dient onze militaire veiligheid en dient strikt gescheiden te blijven van de EU. JA21 wil geen Europese krijgsmacht of diplomatieke bevoegdheden voor de EU. Wel kan de EU belemmeringen op de interne markt wegnemen voor defensie-investeringen en bijvoorbeeld aanbestedingen coördineren."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil absoluut geen Europees leger of een gezamenlijk Europees defensiebeleid. Soevereine natiestaten horen hun eigen leger en hun eigen defensiepolitiek te hebben."
+            },
+            {
+                "party": "PVV",
+                "statement": "PVV is niet tegen het inkopen van wapens en defensiemateriaal met andere landen. Echter, het uitrollen van een EU-strategie om in EU verband wapens en defensiematerieel in te kopen gaat ten koste van de Nederlandse industrie, want investeringen komen veelal niet in Nederland zelf terecht."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "EU-burgers verwachten dat de EU veiligheid en vrede garandeert, maar de EU kan zich beter richten op haar interne markt. De NAVO gaat over beslissingen met militaire implicaties."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "We zijn tegen het aangaan van gemeenschappelijke schulden hiervoor. En er dienen eerst belangrijke vragen of eigenaarschap beantwoord te worden, voordat dit goed kan worden beoordeeld."
+            },
+            {
+                "party": "SP",
+                "statement": "We waken voor een wapenwedloop waarbij miljarden euro’s naar wapens gaan. Een wapenwedloop brengt vrede niet dichterbij. Het maakt de wereld nóg onveiliger. We zijn kritisch over de militaire rol die de EU naar zich toe trekt."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Geen EU-leger. Nederland bepaalt zelf in welke conflicten wij ons mengen en wij leveren geen militairen voor door de EU bepaalde missies."
+            }
+        ]
+    },
+    {
+        "theme": "Begrotingstekort",
+        "title": "De EU moet lidstaten een groter begrotingstekort toestaan dan nu het geval is.",
+        "info": "De economieën van de Europese landen zijn sterk met elkaar verbonden. Veel EU-landen gebruiken bijvoorbeeld de gemeenschappelijke munt, de euro. Als een land een begrotingstekort heeft, geeft het meer geld uit dan er belastingen binnenkomen. De EU heeft regels voor hoe groot een begrotingstekort mag zijn. De reden daarvoor is dat grote begrotingstekorten gevolgen kunnen hebben voor andere landen of voor de euro. De euro kan dan minder waard worden, waardoor in de EU gemaakte producten duurder worden (inflatie).",
+        "results": [
+            {
+                "party": "PvdD",
+                "statement": "De EU richt zich niet langer primair op het terugdringen van begrotingstekorten van de lidstaten, maar op het terugdringen van het Europese ecologisch tekort."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Een toekomstige crisis met ernstige financieel-economische gevolgen altijd incalculeren. De general escape clause, waarbij EU-lidstaten op nationaal niveau maatregelen nemen om de economie te stimuleren zonder dat er sprake is van regelovertreding, moet de Europese Commissie verlengen."
+            },
+            {
+                "party": "SP",
+                "statement": "Lidstaten moeten zelf kunnen beslissen over hun begroting. Het beperken van het overheidstekort tot 3% van het bruto binnenlands product (bbp) en het beperken van de overheidsschuld tot 60% van het bbp, hebben na de economische crisis het herstel van Nederland eerder belemmerd dan bevorderd."
+            },
+            {
+                "party": "Volt",
+                "statement": "De huidige norm is voor veel EU-landen onhaalbaar en daarmee zelfs schadelijk, daarom wil Volt deze uitbreiden. Zo voorkomen we dat landen in de EU enorm veel moeten bezuinigen (waardoor jij meer moet betalen) en blijft investeren mogelijk."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Begrotingsregels zijn nodig om gezonde overheidsfinanciën te garanderen. Wel vinden we dat landen de ruimte moeten krijgen om te investeren in publieke en sociale voorzieningen, in de energietransitie, en om de economie van een land sterker en toekomstbestendig te maken."
+            },
+            {
+                "party": "VVD",
+                "statement": "Wij willen geen schulden doorschuiven naar toekomstige generaties en we willen dat landen hun eigen broek ophouden."
+            },
+            {
+                "party": "CDA",
+                "statement": "Het CDA blijft bij de lijn dat het de staatsschuld van het Rijk moet beperkt blijven, onder de Maastricht-criteria van 60%. De overheidsuitgaven moeten worden aangepast en gerichte lastenverlichting en investeringen moeten worden doorgevoerd om weer toe te werken naar de 3% begrotingstekortnorm"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil uit de Europese Unie treden, zodat wij niet hoeven op te draaien voor de begrotingstekorten van andere lidstaten. Zolang Nederland echter nog in de EU zit, is het van belang dat we het toegestane begrotingstekort absoluut niet verhogen."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil een sterke Europese economie. Daarom moeten landen niet te grote begrotingstekorten opbouwen en hun economie hervormen. D66 wil de begrotingsregels ook hervormen om meer ruimte bieden voor investeringen in klimaat, defensie of onze economie. Daarbij geldt wel: afspraak is afspraak."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "EU-landen moeten zich houden aan de nieuwe versie van Groei en Stabiliteitspact. De lessen uit het verleden laten zien dat te forse bezuinigingen in tijden van economische nood de crisis onnodig verdiepen en het duurt dan langer tot een herstel optreedt."
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV vindt dat de EU, lidstaten geen groter begrotingstekort moet toestaan dan nu het geval is. Indien een groter begrotingstekort wordt toegestaan, heeft het verleden aangetoond dat andere lidstaten een zooitje maken van hun overheidsfinanciën waarvoor Nederland uiteindelijk de rekening betaalt."
+            },
+            {
+                "party": "JA21",
+                "statement": "De eurozone moet een economische eliteclub zijn. Daarom is strikte handhaving op Europese begrotingsafspraken (Stabiliteits- en groeipact) noodzakelijk. Als een land niet aan de afspraken voldoet moet het (al dan niet tijdelijk) uit de eurozone vertrekken."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De euro kent een aantal fundamentele gebreken die aan het licht komen in de verschillen in verdienvermogen en concurrentiepositie van de eurolanden. Het niet handhaven van begrotingsregels moet worden gesanctioneerd."
+            },
+            {
+                "party": "SGP",
+                "statement": "De SGP hecht aan een goed functionerend begrotingspact. Afspraak is afspraak! Landen moeten hun verdragsverplichtingen nakomen, zorgen voor voldoende buffers in hun begrotingen en te hoge staatsschulden verlagen. De eis van een begrotingstekort van maximaal 3% van het bbp blijft onverkort staan."
+            },
+            {
+                "party": "BBB",
+                "statement": "De fiscale afspraken binnen de EU staan naar de mening van BBB fier overeind. Lidstaten dienen hun begrotingstekorten onder controle te houden en te brengen."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Meer overheidsbestedingen wakkeren inflatie aan. Inflatie betekent hogere prijzen voor consumenten. Een hoger begrotingstekort, betekent ook een hogere staatschuld. Als de overheid meer schulden maakt leidt dit onherroepelijk tot hogere belastingen."
+            },
+            {
+                "party": "BVNL",
+                "statement": "BVNL is tegen collectieve schulden van de eurozone. Nederland moet niet meebetalen aan de Zuid-Europese schuldenlast en BVNL is tegen EU-fondsen en EU-belastingen."
+            },
+            {
+                "party": "NSC",
+                "statement": "Lidstaten zijn zelf verantwoordelijk voor een sluitende begroting en een houdbare staatsschuld. Dus een land mag geen groter begrotingstekort hebben dan 3% per jaar. De totale staatsschuld mag niet boven de 60% van het Bruto Binnenlands Product stijgen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor gezonde financiën. Een groter begrotingstekort dan 3% toestaan, bedreigt de financiële stabiliteit. Informeer jezelf: https://ppdg.eu"
+            }
+        ]
+    },
+    {
+        "theme": "Landen uit de EU zetten",
+        "title": "Het moet mogelijk worden om een land uit de EU te zetten als het zich niet aan de basisregels voor democratie en rechtsstaat houdt.",
+        "info": "Om lid te kunnen worden van de EU moet een land een goed werkende democratie en rechtsstaat hebben. Dat betekent dat wetten en regels op een eerlijke manier worden gemaakt door mensen die daarvoor door de bevolking zijn gekozen. Bovendien moet iedereen, ook de regering en de politie, zich aan die wetten houden.\n\nAls een land eenmaal lid is van de EU, kan een regering minder eerlijke wetten invoeren. Het is nu niet mogelijk om een land uit de EU te zetten, het kan alleen vrijwillig vertrekken.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Wij beschermen de democratie. GroenLinks-PvdA loopt voorop met het nemen van maatregelen, zoals een boete, tegen landen die de rechtsstaat op het spel zetten. We sluiten geen instrument uit als de situatie dusdanig uit de hand loopt en een lidstaat een gevaar vormt voor andere landen in de Unie."
+            },
+            {
+                "party": "VVD",
+                "statement": "Stemrecht van een lidstaat opschorten moet makkelijker worden indien de rechtsstaat grof wordt geschonden. Ook moet de geldkraan van EU-geld dan worden dichtgedraaid. Indien deze maatregelen onvoldoende blijken, moet worden onderzocht of het uit de EU zetten de rechtsstaat en de EU ten goede komt."
+            },
+            {
+                "party": "CDA",
+                "statement": "Landen die lid willen worden van de EU zullen aan onze voorwaarden moeten voldoen. Landen die al lid zijn van de EU die lak hebben aan de rechtsstaat worden stevig aangepakt. Zij worden gekort op EU-fondsen of verliezen hun stemrecht in de EU-raden. Uittreding uit de EU is de ultieme sanctie"
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil vooroplopen om de rechtsstaat te beschermen. Autocratische leiders van EU-lidstaten mogen niet langer ongestraft wegkomen met schendingen. Daarom is D66 voor het eventueel ontnemen van stemrecht, stilleggen van EU-geldstromen en als laatste redmiddel om landen uit de EU te kunnen zetten."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Europa spreekt zich uit tegen ecocide en het schenden van mensen- en dierenrechten. Lidstaten die grondrechten schenden, krijgen sancties opgelegd door de EU."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Er zijn regels voor toetreding tot de EU. Indien landen hier niet aan voldoen dan worden ze niet toegelaten. Maar eenmaal toegelaten leden moeten hieraan wel blijven voldoen. Indien je structureel hier niet aan wilt of kunt voldoen en strafmaatregelen niet helpen, dan moet je er vanaf kunnen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Een EU-lidstaat onderschrijft in principe de grondbeginselen van de EU. Een specifieke sanctiewet is wellicht een goed drukmiddel om een stabiele democratie te waarborgen."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De Europese Unie bestaat bij de gratie van menselijke waardigheid, solidariteit en de democratische rechtsstaat. Wanneer hieraan getornd wordt dan ondermijnt dat de samenwerking binnen de Unie."
+            },
+            {
+                "party": "SP",
+                "statement": "Waarden zoals democratie, de rechtsstaat en de rechten van de mens zijn nooit vrijblijvend. Wanneer landen niet langer voldoen aan de toetredingscriteria, zullen wij voorstellen om sancties op te leggen. In het uiterste geval zullen wij voorstellen om het betreffende land uit de unie te verwijderen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Wij staan voor een vrij Europa, met stevige democratie en rechtsstaat. Wanneer lidstaten, na waarschuwingen sancties, waaronder het intrekken van stemrecht, een dictatoriaal bewind blijven voeren en mensenrechten blijven schenden. Dan wordt uitzetting als alleruiterste optie bespreekbaar. PPDG.EU"
+            },
+            {
+                "party": "PVV",
+                "statement": "De basisregels van de democratie en de rechtsstaat moeten worden gerespecteerd. Met dit voorstel bestaat echter het risico dat landen omwille van afwijkende politieke redenen door de EU worden bestraft. Met name kleinere lidstaten zijn in het Europees Parlement ondervertegenwoordigd en lopen hiermee het risico op (politieke) chantage door grotere lidstaten. De PVV staat dus neutraal tegenover deze stelling."
+            },
+            {
+                "party": "JA21",
+                "statement": "Wanneer landen basisregels met voeten treden is ingrijpen een logische stap. We zien in de praktijk echter dat de EU met twee maten meet en haar macht misbruikt door voornamelijk EU-kritische regeringen in het verdachtenbankje te plaatsen. Dat is kwalijk. Gelijke monniken, gelijke kappen."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB steunt de bescherming van de democratische rechtsstaat binnen de EU. Effectief optreden tegen lidstaten die deze principes schenden is belangrijk. De EU heeft krachtige instrumenten, maar deze moeten wel politiek neutraal blijven en niet als drukmiddel worden gebruikt."
+            },
+            {
+                "party": "FvD",
+                "statement": "De EU zet termen als democratie en rechtsstaat in als politiek wapen om landen te straffen wanneer zij simpelweg niet de gewenste politieke lijn volgen. Nederland moet niet meegaan in deze goedkope, politieke stemmingmakerij."
+            },
+            {
+                "party": "SGP",
+                "statement": "De lidstaten spreken elkaar aan op schendingen van de rechtstaat. Bij grove schendingen van de rechtstaat kan de Raad actie ondernemen om lidstaten te korten op EU-fondsen. Hieraan gaat een dialoog vooraf."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Dit is niet bevoordelijk voor de vrede. Sancties zijn een effectievere maatregel."
+            },
+            {
+                "party": "Volt",
+                "statement": "EU-landen moeten zich aan onze gezamenlijke democratische waarden houden. Als we landen uit de EU zetten, kunnen we er niet voor zorgen dat ze zich wél aan de regels houden en zijn inwoners er de dupe van. Volt wil andere consequenties, zoals het inhouden van subsidies en ontnemen van stemrecht."
+            },
+            {
+                "party": "BVNL",
+                "statement": "BVNL staat voor vruchtbare, economische samenwerking in Europa. Wat de regels voor het goed functioneren van een democratie en rechtsstaat zijn, is aan de individuele lidstaten zelf.  EU-lidstaten dienen zich aan de financiële regels te houden. Over al het andere beslissen de lidstaten zelf."
+            },
+            {
+                "party": "NSC",
+                "statement": "Er mag geen cent naar EU-landen die zich niet aan de basisregels van de democratie en rechtsstaat houden. Maar ze kunnen niet uit de EU gezet worden. Landen kunnen wel financieel gestraft worden en zij kunnen hun stemrecht verliezen in de Europese Raad. Hier is NSC voorstander van."
+            }
+        ]
+    },
+    {
+        "theme": "Intensieve veeteelt",
+        "title": "De EU moet stoppen met het subsidiëren van de intensieve veeteelt.",
+        "info": "Bij intensieve veeteelt worden bijvoorbeeld varkens, koeien en kippen in een kleine ruimte gehouden voor zoveel mogelijk vlees, melkproducten en eieren. Subsidiëren betekent dat de overheid geld (subsidie) geeft aan een persoon, organisatie of activiteit om ze te helpen met wat ze doen.\n\nBoeren krijgen geld van de EU. Hoeveel geld ze krijgen, is afhankelijk van de hoeveelheid grond die ze bezitten. Hierbij wordt er geen rekening gehouden met de ruimte per dier.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Er gaan gigantische subsidies naar de vee-industrie in Europa. Met alle gevolgen van dien voor onze gezondheid, het dierenwelzijn en het klimaat. De Europese veestapel moet echt kleiner, mede door een verbod op megastallen en strengere dierenwelzijnseisen. We steunen veehouders die willen stoppen."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 vindt dat de Europese subsidies moeten worden ingezet voor boeren die stappen zetten richting duurzame landbouw. De subsidies kunnen daarnaast gebruikt worden als inkomenssteun voor boeren die doen aan natuurbeheer."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Geen miljardensubsidies meer voor megastallen! De huidige vervuilende en verwoestende Europese landbouw- en visserijsubsidies worden afgeschaft. Het bespaarde geld zetten we in om boeren en vissers te helpen omschakelen naar duurzame banen, plantaardige, biologische landbouw en natuurherstel."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Niet subsidiëren, maar zorgen dat de boer een goede prijs krijgt voor zijn (biologische) producten en dat zij niet worden uitgebuit door de grote winstmakende supermarktconcerns en veevoederbedrijven."
+            },
+            {
+                "party": "PVV",
+                "statement": "PVV is tegen subsidies, grote intensieve veehouderijen moeten hun eigen broek ophouden."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Een veeteeltbedrijf moet staan voor een diervriendelijke samenleving."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Nederlandse boeren leveren uitstekende producten die we dagelijks op ons bord vinden. Door het landbouwbeleid van de afgelopen decennia is het evenwicht tussen intensieve agrarische productie en de draagkracht van de bodem en de natuur echter verstoord. De ChristenUnie vindt dat dit anders moet."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "MDD is tegen intensieve veeteelt, omdat het dieronvriendelijk is. Subsidiëring door EU dient volgens de kandidaten MDD tot een minimum beperkt (of zelfs uitgebannen) te worden."
+            },
+            {
+                "party": "SP",
+                "statement": "Zo’n 80 procent van de Europese subsidies voor inkomensondersteuning van de boeren gaat naar 20 procent van de bedrijven. Dat zijn de grootste en meest intensieve bedrijven. Wij zijn niet tegen boeren. Sterker nog: de SP wil méér boeren. Die kleinschalig en schoner kunnen produceren."
+            },
+            {
+                "party": "Volt",
+                "statement": "We willen dat onze landbouw een toekomst heeft en gezond is voor mens, dier en natuur. Daarvoor moeten we investeren in natuurinclusieve landbouw en stoppen met het subsidieren van intensieve veeteelt. Die subsidies moeten worden ingezet om boeren te helpen die overgang te maken."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen willen vervuilende bedrijven zwaarder belasten, zodat de inkomstenbelasting verder omlaag kan. In plaats van subsidies uit te delen voor intensieve veeteelt, zouden deze vervuilende bedrijven juist meer belasting moeten betalen! Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "VVD",
+                "statement": "De Nederlande intensieve veehouderij is enorm innovatief vergeleken met andere EU-landen. Desondanks is het voor de intensieve veehouderij belangrijk dat zij toegang hebben tot sommige subsidies voor innovatie, het verbeteren van dierenwelzijn en verduurzaming."
+            },
+            {
+                "party": "CDA",
+                "statement": "Het toekomstig Gemeenschappelijk Landbouwbeleid wordt stap voor stap vernieuwd naar beloning voor maatschappelijke, innovatieve en groene diensten die veehouders en telers vervullen, maar dat moeten we nadrukkelijk wel stap voor stap doen"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil uit de EU, en controle terugpakken over onze eigen regels. Maar zolang we nog deel uitmaken van de EU zien wij geen enkele reden om subsidies weg te nemen van de intensieve veeteelt."
+            },
+            {
+                "party": "JA21",
+                "statement": "Er moet flink bezuinigd worden op de enorme hoeveelheden landbouwsubsidies, die vooral vloeien naar achterhaalde bedrijfsmodellen van Zuid- en Oost-Europese boeren. Op kosten van onze boeren. In een vrije markt, met minder (strenge) wet- en regelgeving, zullen de Nederlandse boeren juist profiteren."
+            },
+            {
+                "party": "SGP",
+                "statement": "Het Gemeenschappelijk Landbouwbeleid wordt eenvoudiger en de basissteun wordt niet belast met voorwaarden die onvoldoende aansluiten bij de praktijk. Extra inspanningen op het vlak van natuur worden beloond."
+            },
+            {
+                "party": "BBB",
+                "statement": "De Europese veehouderij draagt bij aan voedselzekerheid en produceert tegen de hoogste mondiale normen. Daarom blijven landbouwsubsidies van groot belang voor het betaalbaar voeden van heel Europa met gezonde dierlijke en plantaardige eiwitten."
+            },
+            {
+                "party": "BVNL",
+                "statement": "BVNL is tegen subsidies en voor het langzaam afbouwen van bestaande landbouwsubsidies. Maar onmiddellijk stoppen is de doodsklap voor de boeren. Er moet dus een afbouwtraject komen met een herstelplan waarbij boeren een goede boterham kunnen verdienen en onze voedselzekerheid wordt gewaarborgd."
+            },
+            {
+                "party": "NSC",
+                "statement": "De intensieve veehouderij zal geleidelijk meer grondgebonden en circulair moeten worden, meer moeten bijdragen aan biodiversiteit, landschap en dierenwelzijn en aan verminderde risico’s voor de volksgezondheid. NSC vindt dat de Europese subsidies ingezet moeten worden om hieraan bij te dragen. Stoppen met subsidiëren is iets anders dan op een andere manier dezelfde sector subsidiëren."
+            }
+        ]
+    },
+    {
+        "theme": "Arbeidsmigratie binnen EU",
+        "title": "EU-landen moeten zelf kunnen beslissen of ze werknemers uit andere lidstaten toelaten.",
+        "info": "Burgers in de Europese Unie mogen nu werken in elk land dat lid is van de EU. Dat maakt het makkelijker voor mensen uit armere landen, waar weinig werk is en de lonen laag zijn, om te verhuizen naar rijkere landen, waar meer werk is en waar ze meer kunnen verdienen. Landen mogen de komst van werknemers uit andere EU-landen niet beperken of verhinderen.",
+        "results": [
+            {
+                "party": "CDA",
+                "statement": "Het CDA wil dat de lidstaten meer sturingsmogelijkheden krijgen inzake arbeidsmigratie. Daarbij moeten lidstaten de mogelijkheid hebben om te bepalen welk type arbeidsmigranten (en in welke sector) zij verwelkomen. Hiertoe gaan we in EU het debat aan over de reikwijdte van vrij verkeer van personen"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil de controle over onze grenzen en ons migratiebeleid terugpakken. Ook arbeidsmigratie moet beperkt kunnen worden."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De Partij voor de Dieren wil de positie van arbeidsmigranten verbeteren en Nederland minder afhankelijk maken van buitenlandse werknemers. Er moet een onderzoek komen tot herinvoering van tewerkstellingsvergunningen voor werknemers van binnen de Europese Economische Ruimte (EER)."
+            },
+            {
+                "party": "PVV",
+                "statement": "Binnen de EU geldt vrij verkeer van personen. Eenmaal een status in EU land dan krijgt zo’n buitenlandse werknemer het recht om door te reizen naar ons land. Gezien de gigantische tekorten op de huizenmarkt zou het goed zijn als EU landen zelf besluiten wat het beste is voor hun land en bevolking."
+            },
+            {
+                "party": "JA21",
+                "statement": "Nederland is de grip op arbeidsmigratie volkomen verloren. Ongereguleerde arbeidsmigratie heeft een grote negatieve impact op de leefbaarheid in onze steden. JA21 is voor een werkvergunningsstelsel waarbij lidstaten weer zelf kunnen bepalen hoeveel arbeidsmigranten per sector worden toegelaten."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De ChristenUnie wil dat het mogelijk wordt voor lidstaten om onderling afspraken te maken over arbeidsmigratie. Deze afspraken gaan bijvoorbeeld over maatregelen die invloed kunnen hebben op het aantal arbeidsmigranten of de duur van de arbeidsperiode."
+            },
+            {
+                "party": "SGP",
+                "statement": "Lidstaten moeten de bevoegdheid krijgen om werkvergunningen in te voeren voor arbeiders uit andere EU-lidstaten. Momenteel zijn er immers teveel problemen met huisvesting en de impact van forse groepen arbeidsmigranten op de samenleving is te groot. Voor seizoensarbeid kunnen uitzonderingen gelden."
+            },
+            {
+                "party": "BBB",
+                "statement": "Momenteel kan Nederland zelf geen keuzes maken over de instroom van Europese arbeidsmigranten. Dit zijn oude Europese regels, BBB zou deze graag vernieuwen om het mogelijk te maken voor Nederland om te kiezen welke arbeidsmigranten we willen hebben."
+            },
+            {
+                "party": "SP",
+                "statement": "Ongecontroleerde arbeidsmigratie leidt tot sociale dumping: uitbuiting, leegloop van landen en ontworteling van gemeenschappen. Vooral de werkgevers profiteren van arbeidsmigratie, terwijl publieke voorzieningen en de volkshuisvesting onder druk staan."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Dit is inderdaad het recht van iedere soevereine lidstaat."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Dit gaat in tegen het verdrag én een van de basisprincipes van de Europese Unie: vrij verkeer van personen en het recht om overal in de EU te wonen en werken, waar ook veel Nederlanders gebruik van maken. Wanneer we dat loslaten, kan onze interne markt niet goed meer werken."
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD vindt het vrije verkeer van personen in de EU een groot en belangrijk goed. Desondanks blijft de VVD wel oog houden voor de draagkracht van arbeidsmigratie en diens negatieve aspecten in de samenleving. Waar nodig zal de overheid extra maatregelen moeten nemen om overlast aan te pakken."
+            },
+            {
+                "party": "D66",
+                "statement": "Een groot deel van onze welvaart danken we aan vrijhandel in Europa. We zetten het fundament van de Europese samenwerking op losse schroeven als we vrij reizen voor geschoolde werknemers onmogelijk maken. D66 wil wel arbeidsmigratie terugdringen in sectoren zoals slachthuizen en distributiecentra."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Binnen Europa is er vrij verkeer van arbeidersmigranten. Dit recht treft de basis van wat de EU is. Arbeidsmigranten zijn wel ons grootste probleem op de woningmarkt en bij de sociale voorzieningen en zorgen bovendien voor een groeiende groep daklozen."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Het vrije verkeer van werknemers is een van de grondbeginselen van de EU. Een lidstaat stelt zelf de voorwaarden voor verblijf en het uitoefenen van een beroep op haar grondgebied."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Vrij verkeer van personen en de mogelijkheid om in een andere lidstaat te werken is van de belangrijke pijlers van de Europese unie. MDD steunt de waarden en principes van de Europese Unie."
+            },
+            {
+                "party": "Volt",
+                "statement": "De vrijheid om in heel de EU te kunnen werken is cruciaal voor onze economie en werkgelegenheid. Volt is dan ook tegen het beperken van die vrijheid."
+            },
+            {
+                "party": "NSC",
+                "statement": "We houden ons aan de afspraken van Schengen (vrij verkeer van personen), maar tegelijkertijd zijn er ook oneigenlijke bewegingen ontstaan. We maken afspraken met andere lidstaten hoe we de onderlinge arbeidsmigratie regelen."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor een vrij Europa. Het recht om je vrij te bewegen binnen de EU is een essentieel mensenrecht. Landen kunnen natuurlijk wel hun economie aanpassen om de noodzaak tot arbeidsmigratie te beperken. Informeer jezelf: https://ppdg.eu/"
+            }
+        ]
+    },
+    {
+        "theme": "Europese treinen",
+        "title": "De EU moet geld steken in uitbreiding van het netwerk van Europese treinen.",
+        "info": "In Europa kunnen mensen en spullen vrij de grens over. Toch zijn de treinen vaak heel nationaal en sluiten bijvoorbeeld de sporen van EU-landen niet altijd op elkaar aan. In 2023 is de EU op kleine schaal begonnen om dit te verbeteren.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Reizen met de trein zou de meest makkelijke én betaalbare optie moeten zijn in Europa. Daarom willen wij echt werk maken van een Europees netwerk van snelle (nacht)treinen, een Europese dienstregeling en een handig boekingssysteem om treinkaartjes te kopen."
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD wil investeringen in internationaal vervoer per trein zodat dit makkelijker en goedkoper wordt. Het beter op elkaar laten aansluiten van de verschillende nationale spoornetbeheerders is bijvoorbeeld een belangrijke stap."
+            },
+            {
+                "party": "CDA",
+                "statement": "Het CDA wil investeren in een Europees hogesnelheidsnetwerk en goede nachtverbindingen tussen Europese grote steden. Daarnaast willen we treinverkeer aantrekkelijker te maken met kaartjes voor de hele reis van start tot finish (‘through tickets’)."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil dat de hogesnelheidstrein een duurzaam, bereikbaar en betaalbaar alternatief wordt voor vliegen. Daarom willen we investeren in nieuwe verbindingen, betere dienstverleningen en willen we het eenvoudiger maken om tickets te boeken."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Er komt een Europees masterplan om het openbaar vervoer per trein (en bus) fors uit te breiden. De EU investeert in een betaalbaar en toegankelijk Europees treinnetwerk en dringt erop aan dat EU-landen de btw op internationale treintickets afschaffen."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "De trein is een milieuvriendelijk vervoermiddel. Bevordering van het internationaal spoorverkeer bij grensovergangen is zeer welkom."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "NL PLAN EU is voor een goedkoop, snel en betrouwbaar hogesnelheidslijnnetwerk om grote Europese steden te verbinden, en daarmee milieuvervuilend vliegverkeer en autogebruik te verminderen. De treinreisprijs moet ook concurrerend zijn t.o.v. een vliegticket. Waardevolle natuur wordt beschermd."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Om te zorgen dat de trein hét alternatief wordt voor het vliegtuig voor reizen tot 1000 kilometer binnen Europa willen we investeren in een Europees railnetwerk waarbij de nationale netwerken beter op elkaar aansluiten."
+            },
+            {
+                "party": "SGP",
+                "statement": "De SGP wil een snel internationaal treinnetwerk met goede bereikbaarheid van grote delen van Europa, zodat treinreizen een serieus alternatief wordt voor vliegen. Daarom wil de SGP dat zowel de EU als de lidstaten fors investeren in grensoverschrijdende treinverbindingen."
+            },
+            {
+                "party": "BBB",
+                "statement": "Treinen kunnen een goed alternatief bieden voor korteafstandsvluchten en zijn belangrijk voor grensregio’s. Als tickets betaalbaar worden en er genoeg bestemmingen zijn dan kan dit flinke klimaatwinst opleveren."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "De onafhankelijke kandidaten van MDD vinden het belangrijk dat burgers nu en in de toekomst zich betaalbaar kunnen verplaatsen. Wat heb je aan een recht van vrij bewegen als het onbetaalbaar en dus onuitvoerbaar is. Reizen met de trein is duurzaam, veilig, betrouwbaar, toegankelijk voor iedereen."
+            },
+            {
+                "party": "SP",
+                "statement": "Samen met de spoorwegbedrijven uit andere landen breiden we het aantal treinverbindingen in Europa uit. We bouwen aan een Europees breed netwerk van hogesnelheidstreinen zoals deze al bestaan binnen landen."
+            },
+            {
+                "party": "Volt",
+                "statement": "De trein moet een écht alternatief worden voor vliegen. Volt wil dat reizen met de trein makkelijker en goedkoper wordt in heel de EU. Meer bestemmingen, betere en snellere verbindingen en goedkopere treinkaartjes. Zo kun jij nog steeds makkelijk, betaalbaar én schoon op reis."
+            },
+            {
+                "party": "NSC",
+                "statement": "We zetten in op een betaalbaar en toegankelijk Europees hsl-treinnetwerk. De verbindingen tussen de grote steden in Europa worden verbeterd, zodat het aandeel korteafstandsvluchten kan worden beperkt."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor 'de vervuiler betaalt'. We willen internationale treinreizen goedkoper maken, zodat de duurzame optie niet langer de dure optie is. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD vindt dergelijke spoorverbindingen een positieve ontwikkeling, maar wij zijn van mening dat lidstaten dit prima onderling kunnen regelen. Het is niet nodig is om deel uit te maken van de Europese Unie om dit te faciliteren."
+            },
+            {
+                "party": "PVV",
+                "statement": "We krijgen het in Nederland niet eens voor elkaar om onze eigen treinen fatsoenlijk te laten rijden. Zuurverdiend Nederlands belastinggeld moeten we daarom niet uitgeven aan spoorprojecten in het buitenland, maar in Nederland!"
+            },
+            {
+                "party": "JA21",
+                "statement": "JA21 is groot voorstander van het uitbreiden en verbeteren van het netwerk van treinverbindingen in Europa. Het is echter niet aan de EU om hier geld in te steken. Dit is primair een opgave voor lidstaten onderling."
+            },
+            {
+                "party": "BVNL",
+                "statement": "De EU moet zich hier niet mee bemoeien. Dit kunnen soevereine landen prima zelf onderling regelen. Een goede infrastructuur is essentieel maar er is hier geen rol voor de EU."
+            }
+        ]
+    },
+    {
+        "theme": "Asiel aanvragen buiten EU",
+        "title": "Asielzoekers moeten hun asielaanvraag indienen in landen buiten de EU en daar afwachten of ze in de EU mogen komen wonen.",
+        "info": "Mensen die op de vlucht zijn voor oorlog of vervolging in hun eigen land kunnen in de EU asiel krijgen. Maar zij moeten wel eerst naar Europa komen om asiel aan te vragen. Het is nu niet mogelijk om buiten de EU asiel aan te vragen in een Europees land.",
+        "results": [
+            {
+                "party": "VVD",
+                "statement": "Registratie en identificatie van asielzoekers vinden buiten de EU plaats, gevolgd door een procedure om de asielaanvraag te controleren. Asielzoekers die weinig of geen kans maken op een vluchtelingenstatus worden snel teruggestuurd."
+            },
+            {
+                "party": "CDA",
+                "statement": "Wat het CDA betreft krijgen asielzoekers uit veilige landen een versnelde procedure aan de buitengrens en krijgen geen toegang tot het grondgebied van de EU. Afgewezen asielzoekers keren vanuit de grensprocedure terug naar het land van herkomst."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil stoppen met de massale en alsmaar voortgaande instroom van kansarme migranten uit Afrika en het Midden-Oosten. Faciliteer desnoods opvang in de regio, maar onder geen beding mag de Europese grensbewaking, Frontex, doorgaan met de huidige pendeldienst."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Geeft duidelijkheid en controle op wie binnenkomt. Hierdoor wordt voorkomen dat er gevaarlijke overtochten zijn en de asielzoekers maandenlang door Europa zwerven."
+            },
+            {
+                "party": "PVV",
+                "statement": "Het maakt weinig uit waar asielzoekers hun asielaanvraag indienen. Zolang de optie bestaat dat Nederland toch het eindstation wordt zal de toestroom en instroom niet significant dalen. Vluchtelingen moeten in hun eigen regio worden opgevangen en voor gelukzoekers hebben we hier gewoon geen ruimte meer."
+            },
+            {
+                "party": "JA21",
+                "statement": "JA21 wil geen asielopvang in Nederland. Asielzoekers dienen opgevangen te worden in de eigen regio of in partnerlanden. De uitkomst van zo'n procedure kan wat ons betreft dus geen opvang in de EU zijn. De komst van kansloze asielzoekers voorkomen is echter een eerste stap in de goede richting."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Idealiter zou er zo een betere verdeling van asielzoekers over Europa kunnen plaatsvinden. Met ondersteuning van het EU-agentschap voor asielzaken (EASO) kan het beheer van migratie in de EU effectiever en duurzamer worden."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "In principe wel. Echter, niet in alle landen buiten de EU kunnen veilige aanmeldcentra komen. Daarom moeten er ook aan de buitengrenzen van Europa veilige aanmeldmogelijkheden zijn. Hierbij gelden dezelfde voorwaarden als bij aanmeldcentra buiten de EU."
+            },
+            {
+                "party": "BBB",
+                "statement": "Dit noemen we het externaliseren van asielprocedures. Het garandeert dat Europa niet overspoeld wordt met vluchtelingen. BBB wil asielprocedures én -opvang buiten de EU vormgeven."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "De aanvraag moet zo dicht mogelijk bij land van herkomst plaatsvinden. MDD pleit dat na vaststelling een uitnodiging en ticket van een EU-lidstaat volgen voor veilige overkomst naar Europa. Dit voorkomt overbelasting van asielcentra, dodelijke smokkelroutes en geldstromen naar dictators."
+            },
+            {
+                "party": "SP",
+                "statement": "SP is niet principieel tegen migratieafspraken, op voorwaarde dat de opvang op een menswaardige manier  plaatsvindt. Met een goede overeenkomst zouden opvangcentra buiten de EU mogelijk moeten zijn. Alle eventuele afspraken met derde landen zullen in overeenstemming zijn met internationaal recht."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Prima 1e stap, verder wil BVNL per direct een asielstop invoeren en wil het strenge grensbewaking aan de buitengrenzen van de EU. BVNL is voor opvang in de regio."
+            },
+            {
+                "party": "NSC",
+                "statement": "NSC staat voor een krachtige reductie van het migratiesaldo. Onderdeel hiervan is het weren van kansarme asielzoekers aan de buitengrenzen en hen laten huisvesten in gesloten opvang om teruggestuurd te worden naar het land van herkomst."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Mensen die naar Europa zijn gevlucht vanwege oorlog of geweld, die zullen we nooit wegsturen. Om grip op migratie te krijgen, zorgen wij voor betere reguliere routes en een eerlijke verdeling van de opvang. Ook zorgen we dat mensen die geen asiel krijgen, echt terugkeren."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil het verdienmodel van mensensmokkelaars doorbreken met veilige en legale vluchtroutes. Daarom moet het mogelijk zijn om buiten de EU een aanvraag te doen. Het recht op een asielaanvraag op Europese grond zal wat D66 betreft wel blijven bestaan voor mensen op de vlucht."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Iedereen die in de Europese Unie asiel aanvraagt, heeft recht op een zorgvuldige asielprocedure. De EU ziet erop toe dat de lidstaten zorgen voor een eerlijke en snelle asielprocedure en voor een humane opvang."
+            },
+            {
+                "party": "SGP",
+                "statement": "Het is goed om te voorkomen dat migranten de gevaarlijke oversteek over de Middellandse Zee wagen. We moeten de drempel om asiel aan te vragen echter niet te zeer verlagen. De SGP bepleit dat lidstaten zelf vrij zijn om humanitaire visa af te geven aan personen buiten de EU."
+            },
+            {
+                "party": "Volt",
+                "statement": "We willen dat vluchtelingen hun asielprocedure kunnen aangaan in het land waar ze uiteindelijk terechtkomen. Het moet daar dan ook mogelijk zijn om tegelijkertijd te integreren."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor internationale mensenrechten. Wanneer mensen vluchten bestaat vaak niet de mogelijkheid om in het land van herkomst een asielaanvraag in te dienen, dus dit kun je niet eisen. Informeer jezelf: https://ppdg.eu"
+            }
+        ]
+    },
+    {
+        "theme": "Stagevergoeding",
+        "title": "Het moet in de hele EU verplicht worden om stagiairs een vergoeding te betalen.",
+        "info": "Stagiairs lopen in het kader van hun opleiding een tijdje mee bij een bedrijf, overheidsinstelling of andere werkplek. Ze worden opgeleid en nemen meestal ook werkzaamheden op zich. Sinds dit jaar is het in Nederland verplicht om stagiairs een vergoeding te betalen. Dat is niet in alle EU-landen het geval.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Een stage is heel leerzaam, en nuttig voor zowel de stagiair als het stagebedrijf, maar het is wel zo eerlijk dat je als stagiair een vergoeding krijgt voor je stagewerk. Of je een vergoeding krijgt moet niet afhangen van het EU-land waar je stage loopt."
+            },
+            {
+                "party": "CDA",
+                "statement": "Wat het CDA betreft is het niet meer dan normaal stagiairs een vergoeding te geven voor geleverde diensten, korte meeloopstages zijn hiervan uitgesloten."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 vindt dat stagiairs een eerlijke vergoeding moeten krijgen voor hun werk. Daarom willen we dat regelen voor bedrijven in Nederland, maar ook voor alle Europese bedrijven. Anders krijgen Nederlandse bedrijven oneerlijke concurrentie uit andere landen waar ze deze vergoeding niet hoeven te geven."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Werkgevers worden verplicht een fatsoenlijke stagevergoeding te betalen aan hun stagiairs."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Ieder land moet de hoogte van de vergoeding zelf bepalen."
+            },
+            {
+                "party": "PVV",
+                "statement": "Het zou wel zo netjes zijn als stagiairs een stagevergoeding krijgen voor het werk dat ze verrichten. De PVV is hier dus voorstander van."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "De stagiair moet beschermd worden tegen uitbuiting. Een vergoeding van de werkelijke kosten voor levensonderhoud is reëel."
+            },
+            {
+                "party": "SP",
+                "statement": "Stagiairs krijgen een eerlijke vergoeding en worden niet misbruikt als goedkope arbeidskrachten. Maar regels rond de hoogte van de stagevergoeding worden nationaal bepaald."
+            },
+            {
+                "party": "Volt",
+                "statement": "Als je werkt, heb je recht op eerlijke vergoeding. Stagiairs dus ook. Iedereen die stage loopt moet daarvoor een vergoeding krijgen. Bij een fulltime stage moet dat wat Volt betreft in Nederland minimaal 550 euro per maand zijn. Dat is eerlijk en voorkomt dat studenten onnodig in de schulden raken."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor internationale mensenrechten. We staan voor stevige rechten voor arbeiders en zijn tegen tegen elke vorm van dwangarbeid. Voor stagiairs dient er altijd goede begeleiding en een eerlijke stagevergoeding te zijn. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "VVD",
+                "statement": "EU-landen moeten zelf blijven gaan over sociale zaken en werkgelegenheid."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD is voor het geven van vergoedingen aan stagiairs, maar is van mening dat lidstaten zelf hier over moeten beslissen en niet de Europese Unie"
+            },
+            {
+                "party": "JA21",
+                "statement": "Dit is aan lidstaten zelf. De Europese Unie moet zich niet bemoeien met onze arbeidsvoorwaarden."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Werknemers die in hetzelfde land werken moeten gelijk loon voor gelijk werk ontvangen ongeacht geslacht, nationaliteit of de vestiging van het hoofdkantoor. Tegelijkertijd is dit aan lidstaten om te bepalen, maar wat ons betreft zou het goed zijn als elk EU-land dit zou doen."
+            },
+            {
+                "party": "SGP",
+                "statement": "Het sociale beleid is aan lidstaten en dat moet zo blijven. In de landen van de EU zijn er immers veel verschillende tradities, culturen en welvaartsniveaus. Het is niet nodig om over te gaan tot een algehele harmonisatie van sociale zekerheidsstelsels in de EU."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB wil dat stagiairs een eerlijke stagevergoeding krijgen. Maar de hoogte daarvan is geen EU-bevoegdheid, en dus regelen we dat in Nederland"
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Stageplekken zijn ultra belangrijk. En wij zijn voor stagevergoedingen. Echter vinden wij niet dat dit door EU geregeld moet worden. Het risico loop je dat het aantal stageplekken naar beneden gaat omdat er organisaties zullen zijn die zich dit niet kunnen veroorloven. Ook is de EU hier niet toe bevoegd."
+            },
+            {
+                "party": "BVNL",
+                "statement": "De EU moet zich hier helemaal niet mee bemoeien. Soevereine lidstaten kunnen dit prima zelf bepalen."
+            },
+            {
+                "party": "NSC",
+                "statement": "Inkomensbeleid en sociale regelingen als minimumloon of stagevergoeding moeten nationaal worden geregeld."
+            }
+        ]
+    },
+    {
+        "theme": "Grenscontroles in EU",
+        "title": "Er moeten weer grenscontroles komen tussen de landen van de EU.",
+        "info": "De meeste landen van de EU behoren tot de Schengenzone. Reizigers tussen landen die allebei in de Schengenzone zitten, kunnen de grens oversteken zonder grenscontroles. Goederen kunnen binnen de hele EU grenzen over zonder grenscontroles omdat er vrij verkeer van goederen is. Als grenscontroles opnieuw worden ingevoerd, controleert de douane bij de grens identiteitsbewijzen en soms wat mensen meenemen.",
+        "results": [
+            {
+                "party": "FvD",
+                "statement": "FVD wil de controle terugpakken over onze grenzen, om de massale en alsmaar voortgaande instroom van kansarme migranten uit Afrika en het Midden-Oosten te stoppen. Naar voorbeeld van BREXIT streven wij naar volledige uittreding en het herpakken van onze complete soevereiniteit."
+            },
+            {
+                "party": "PVV",
+                "statement": "Zonder grenscontroles kunnen terroristen, zware criminelen en vooral veel mensensmokkelaars vrijelijk hun gang gaan. Om Nederland veiliger te maken en vooral ook om illegale migratie tegen te kunnen gaan moet Nederland de mogelijkheid krijgen om de eigen grenzen te bewaken."
+            },
+            {
+                "party": "JA21",
+                "statement": "De Europese buitengrenzen moeten hermetisch worden afgesloten voor illegale migratie, zodat reizigers aan de binnengrenzen zo min mogelijk hinder hoeven te ondervinden. Zolang de buitengrenzen echter nog zo lek zijn als een mandje, moet Nederland grensbewaking invoeren (art. 25 Schengengrenscode)."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB wil gerichte grenscontroles zoals Denemarken die uitvoert tegen migratie, criminaliteit en kidnapping. Om dit werkbaar te maken bieden nieuwe cameratechnieken en kunstmatige intelligentie uitkomst."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Per direct een asielstop invoeren, hierbij kunnen grenscontroles tussen EU-lidstaten (tijdelijk) helpen. Verder grensbewaking aan de buitengrenzen van de EU."
+            },
+            {
+                "party": "NSC",
+                "statement": "Nieuw Sociaal Contract is voor een krachtige reductie van het migratiesaldo. Als het richtgetal voor migratie overschreden dreigt te worden, worden aanvullende maatregelen getroffen. Dan maken wij met bepaalde EU-landen afspraken over aanvullende controles aan de gezamenlijke ‘binnengrenzen’."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Wat de ChristenUnie betreft is er op dit moment geen noodzaak om grenscontroles in te voeren. Tegelijkertijd zou dat in de (nabije) toekomst wel nodig kunnen zijn. Er rust geen taboe op het strenger controleren van grenzen."
+            },
+            {
+                "party": "SGP",
+                "statement": "Bij gevaarlijke situaties of een situatie waarbij grote groepen ongereguleerde asielzoekers een land binnenkomen, mag een lidstaat zelf beslissen om tijdelijk grenscontroles in te voeren. Uiteraard moet dit in overleg met de buurlanden en niet langer dan noodzakelijk."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "Vrij verkeer van personen en goederen zijn een belangrijk deel van de Europese Unie. Zo hebben we samen een interne markt. We zien de gevolgen van de Brexit: gigantische files aan de grens. Juist Nederland is gebaat bij open grenzen, voor onze economie en voor iedereen die vaak naar buurlanden reist."
+            },
+            {
+                "party": "VVD",
+                "statement": "Vrij reizen door de EU is een groot goed. Dit is belangrijk voor reizigers maar ook voor onze handel. Echter vindt de VVD dat er in geval van crisissituaties zoals een grote instroom van migranten wel tijdelijke grenscontroles ingevoerd mogen worden, zoals een mini-Schengenzone."
+            },
+            {
+                "party": "CDA",
+                "statement": "Wij geloven dat dit voor een open economie als Nederland schadelijk is. Wel wil het CDA dat lidstaten meer sturingsmogelijkheden krijgen op het gebied van arbeidsmigratie en willen daar in de EU het gesprek over aangaan."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 vindt dat we goede Europese afspraken moeten maken hoe we asielzoekers eerlijk verdelen over de lidstaten. Dat maakt grenscontroles overbodig. Grenscontroles leiden niet tot minder migratie en zijn slecht voor de economie omdat ze vrij handelen en reizen onmogelijk maken."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De Partij voor de Dieren is voorstander van vrij reizen binnen de Schengenzone van de Europese Unie."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Je moet geen middelen uitsluiten om de migratiecrisis op te lossen. Maar de EU is juist gebaseerd om vrij verkeer in Europa te creëren. Heilloze weg en dit is echt schadelijk voor de economie."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Het Schengenakkoord heeft juist als doel grenscontroles in de EU af te schaffen. Bij aanhoudende terreurdreiging en onvoorziene grote stromen vluchtelingen geldt een tijdelijke uitzondering."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Deze maatregel brengt kosten met zich mee, en er wordt niets opgelost. Het ondermijnt één van de essentiële Europese kernwaarden van vrij verkeer. Alleen in uitzonderlijke situaties zoals in geval van terrorisme kan een uitzondering worden gemaakt."
+            },
+            {
+                "party": "SP",
+                "statement": "We moeten werken aan een beter Europees migratiebeleid en we voeren een vergunningsplicht in voor arbeidsmigratie."
+            },
+            {
+                "party": "Volt",
+                "statement": "Dankzij de open grenzen is handelen en reizen in de EU goedkoper en makkelijker. Volt zet in op betere bescherming en controle van de buitengrenzen van de Europese Unie."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor een vrij Europa. Grenscontroles tussen EU-landen zijn een onnodige vrijheidsbeperking. Wij willen juist minder controle en surveillance en meer vrijheid. Informeer jezelf: https://ppdg.eu"
+            }
+        ]
+    },
+    {
+        "theme": "Recht op abortus",
+        "title": "De EU moet het recht op abortus erkennen als een grondrecht.",
+        "info": "Bij een abortus wordt een zwangerschap beëindigd door een dokter. EU-landen hebben eigen regels over abortus. Frankrijk is het enige land met abortus als grondrecht. In Nederland is abortus toegestaan tot 24 weken, maar dat ligt niet vast als grondrecht. Malta is het enige EU-land waar abortus onder alle omstandigheden verboden is.\n \nAls abortus wordt opgenomen in het Handvest van de Grondrechten van de Europese Unie, kunnen mensen bij een rechter afdwingen dat het mag. Landen kunnen het dan niet meer volledig verbieden.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Helaas zijn er nog steeds landen in Europa waarin 'baas in eigen buik' nog niet geldt en het zelfbeschikkingsrecht onder druk staat. Daarom is het belangrijk dat de Europese Unie zich hierover uitspreekt en het recht op abortus verankerd wordt in de Europese grondrechten."
+            },
+            {
+                "party": "VVD",
+                "statement": "Abortus is in Nederland al toegestaan. De VVD vindt dat alle vrouwen in de EU hier recht op hebben."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 wil het recht op abortus in Europese verdragen vastleggen. Hierdoor houden vrouwen in Europa toegang tot veilige en betaalbare abortuszorg."
+            },
+            {
+                "party": "PvdD",
+                "statement": "We zijn voorstander ervan om het recht op abortus op te nemen in het Handvest van de grondrechten. Eenieder heeft het recht op veilige en legale abortus."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Vrouwen moeten zelf over hun lichaam kunnen beslissen. Abortustoerisme is onwenselijk."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Wij staan volledig achter de erkenning van abortus als grondrecht. Erkenning betekent dat er een keuze is en dat het niet moet. Vrijheid van keuze is belangrijk."
+            },
+            {
+                "party": "Volt",
+                "statement": "Zelfbeschikking is belangrijk. Je moet zelf keuzes kunnen maken over je lichaam. Daarom moet abortus uit het wetboek van strafrecht en het recht op abortus vastgelegd worden als Europees grondrecht."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor internationale mensenrechten. Abortus is onderdeel van het zelfbeschikkingsrecht en van het recht op medische zorg. Dat zou niet af moeten hangen van waar je woont. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "CDA",
+                "statement": "Dit is een nationale aangelegenheid en wat het CDA betreft blijft dit ook zo"
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD vindt abortus geen normale medische ingreep: het is niet gericht op het beschermen van leven, maar op het beëindigen ervan. Het moet dus ook niet als een grondrecht worden behandeld. Daarnaast is FVD van mening dat lidstaten zelf hier over moeten beslissen en niet de Europese Unie"
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Moet ieder land zelf bepalen. Niet alle volken hebben hier eenzelfde mening over en dit moet gekoesterd worden. Volksgezondheid valt momenteel niet onder de EU."
+            },
+            {
+                "party": "PVV",
+                "statement": "Ethische kwesties zoals abortus zijn een nationale aangelegenheid. De Europese Commissie moet zich daar verre van houden."
+            },
+            {
+                "party": "JA21",
+                "statement": "Dit onderwerp hoort thuis in lidstaten zelf, waar burgers zich er in democratische verkiezingen over kunnen uitspreken."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De ChristenUnie zal het belang van menselijke waardigheid en het recht op leven ook op de EU-agenda blijven uitdragen en staat afwijzend tegenover Europese voorstellen die ‘beschermwaardigheid van het leven’ inperken. Het past daarom niet om abortus als mensenrecht te kwalificeren."
+            },
+            {
+                "party": "SGP",
+                "statement": "Het kwetsbare (ongeboren) leven verdient bescherming. Abortus is geen mensenrecht en wordt op grond van de Bijbel afgewezen."
+            },
+            {
+                "party": "BBB",
+                "statement": "Regels over medisch-ethische vraagstukken zijn voor BBB een nationale aangelegenheid en een terrein waarop de EU zich niet dient te begeven."
+            },
+            {
+                "party": "SP",
+                "statement": "Europa gaat niet over ons zorgstelsel. De SP vindt het recht op abortus erg belangrijk en steunt de strijd voor veilige en legale abortussen wereldwijd. Hoe een lidstaat zijn abortusbeleid invult is vervolgens wel een nationale aangelegenheid waar de EU zich niet mee moet bemoeien."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Abortus is een individuele kwestie en vrouwen moeten dit helemaal zelf kunnen beslissen. Nederland heeft een goede abortuswet en dat willen we zo houden. De EU mag niet voor afzonderlijke lidstaten bepalen wat de grondrechten zijn."
+            },
+            {
+                "party": "NSC",
+                "statement": "De waarden en normen van gemeenschappen worden door NSC gerespecteerd en niet opgelegd door de EU. Dit blijft een nationale competentie."
+            }
+        ]
+    },
+    {
+        "theme": "Gekozen voorzitter EC",
+        "title": "De voorzitter van de Europese Commissie moet rechtstreeks door de inwoners van de EU worden gekozen.",
+        "info": "De Europese Commissie (EC) is een soort regering van de EU. Er zit voor elk land één commissaris in de EC.\n\nHet Europees Parlement wordt gekozen door de inwoners van de EU en controleert de Europese Commissie. De regeringen van de EU-landen moeten akkoord gaan met de benoeming van alle commissarissen en van de voorzitter van de Europese Commissie. Ook het Parlement moet akkoord gaan met de benoemingen.",
+        "results": [
+            {
+                "party": "D66",
+                "statement": "D66 wil een democratisch Europa. D66 wil dat de voorzitter van de Europese Commissie een rechtstreeks mandaat van kiezers krijgt. Dat draagt bij aan een democratischer Europa en betere verantwoording aan kiezers."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Een groot deel van de Brusselse macht ligt bij de Europese Commissie, een ondemocratisch bestuursorgaan waar burgers en volksvertegenwoordigers nauwelijks vat op hebben. Het rechtstreeks kiezen van de voorzitter van de Europese Commissie draagt bij aan het democratiseren van de EU."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Dit zou de interesse en het draagvlak voor Europa goed doen, vooral omdat de burger iets meer invloed krijgt."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "NL PLAN EU is voor directe democratie. Een selectie van geschikte kandidaten kan voor de verkiezing worden aangewezen."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Wij zijn voor een beter democratisch en integer openbaar bestuur. Wij zijn in principe voor, maar er moet wel goed nagedacht worden over een methode waardoor het mogelijk blijft voor kandidaten van kleine landen om verkozen te worden."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Democratie terug naar de mensen. Geen schimmige benoemingen maar directe democratie. BVNL is daarom ook voor een bindend referendum."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor een democratisch Europa. Wij willen de EU democratischer maken door de Europese Commissie rechtstreeks te verkiezen, en het Europees Parlement de macht te geven leden van de Europese Commissie te ontslaan. Informeer jezelf: https://ppdg.eu/"
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV is geen voorstander van de ongekozen Europese Commissie. Het direct kunnen kiezen van de voorzitter van de Europese Commissie door de inwoners van de EU zou een kleine stap in de goede richting zijn om enige democratische controle op dit bureaucratisch moloch uit te oefenen."
+            },
+            {
+                "party": "GL-PvdA",
+                "statement": "De voorzitter van de Europese Commissie moet worden gekozen op basis van de verkiezingsuitslag. Dat is democratischer dan het achterkamertjesproces zoals dat nu vaak plaatsvindt. Directe verkiezingen zijn hiervoor niet het juiste instrument."
+            },
+            {
+                "party": "VVD",
+                "statement": "Momenteel dragen de EU-lidstaten samen de voorzitter van de Europese Commissie voor. De voorzitter van de Europese Commissie wordt verkozen in het Europees Parlement, door de gekozen volksvertegenwoordigers. Deze procedure biedt volgens de VVD reeds voldoende draagvlak en democratische legitimiteit."
+            },
+            {
+                "party": "CDA",
+                "statement": "Het CDA ziet nu geen reden om deze rol rechtstreeks verkozen te maken"
+            },
+            {
+                "party": "FvD",
+                "statement": "Een gekozen voorzitter van de Europese Commissie zou een verlies van de democratische legitimiteit en de soevereiniteit van onze eigen nationale overheid betekenen. FVD wil de soevereiniteit van Nederland volledig terugpakken en zeker niet verder overhandigen aan de EU."
+            },
+            {
+                "party": "JA21",
+                "statement": "Het kiezen van de voorzitter van de Europese Commissie klinkt misschien leuk, maar betekent in de praktijk dat de EC ten onrechte de schijn van democratische legitimiteit krijgt. De EC is een compleet uit de kluiten gewassen secretariaat dat fors moet worden gesaneerd."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "Om de democratische legitimiteit van besluitvorming te vergroten, moeten de Europese Raad en het Europees Parlement voorafgaand aan de verkiezingen een benoemingsprocedure vaststellen voor de voorzitter van de Europese Commissie."
+            },
+            {
+                "party": "SGP",
+                "statement": "De SGP is tegen het werken met ‘Spitzenkandidaten’, waarbij leiders van de politieke fracties strijden om het voorzitterschap van de Europese Commissie. De Commissie moet meer gaan functioneren als een politiek-neutrale ambtelijke organisatie."
+            },
+            {
+                "party": "BBB",
+                "statement": "Dit zou de Europese Commissie nog meer macht geven, dat wil BBB voorkomen."
+            },
+            {
+                "party": "SP",
+                "statement": "Lidstaten moeten weer gaan bepalen waar Europa zich mee bezig houdt. We hebben dus geen Europese regering nodig die het beleid bepaalt, en daarom al helemaal geen gekozen voorzitter van de Commissie."
+            },
+            {
+                "party": "Volt",
+                "statement": "De EU moet democratischer. Daarom wil Volt een Europese regering die de huidige Europese Commissie vervangt. Met daarin een minister-president die door de leden van het Europees Parlement gekozen wordt. Tot die tijd zou het Europees Parlement de voorzitter van de Europese Commissie moeten kiezen."
+            },
+            {
+                "party": "NSC",
+                "statement": "De Europese Unie was, is en wordt geen supranationale staat met een staatshoofd (wel of niet gekozen)."
+            }
+        ]
+    },
+    {
+        "theme": "Verbod glyfosaat",
+        "title": "De EU moet het gebruik van landbouwgif met glyfosaat volledig verbieden.",
+        "info": "Boeren gebruiken gif om ervoor te zorgen dat de eetbare planten niet in de weg gezeten worden door onkruid of beestjes. Met het landbouwgif glyfosaat kan je onkruid voor meerdere jaren bestrijden. Landbouwgif komt bij gebruik ook in de lucht, de bodem en het water terecht. Daardoor kunnen mensen kleine hoeveelheden glyfosaat binnenkrijgen.\n\nBoeren en telers in de EU mogen de komende 10 jaar landbouwgif met glyfosaat gebruiken. In Nederland mogen mensen glyfosaat alleen in hun (landbouw)bedrijf en niet in hun tuin gebruiken.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Chemische bestrijdingsmiddelen zoals glyfosaat zijn ontzettend slecht voor de natuur, en bovendien schadelijk voor de gezondheid van boeren en anderen die ermee in aanraking komen. Daarom vindt GroenLinks-PvdA dat glyfosaat in de Europese Unie verboden zou moeten worden."
+            },
+            {
+                "party": "D66",
+                "statement": "D66 is hiervoor omdat er aanwijzingen zijn dat het gebruik ziektes als Parkinson kan veroorzaken. Ook kan glyfosaat onze natuur en ons drinkwater beschadigen. Er zijn veiligere manieren om gewassen te beschermen tegen insecten en ziekten. Daar zet D66 op in."
+            },
+            {
+                "party": "PvdD",
+                "statement": "Glyfosaat, waarvan al lang is aangetoond dat het zeer schadelijk is voor mens, dier en natuur, wordt per direct in heel Europa verboden."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Een van kerntaken van de EU is bescherming van de volksgezondheid en bescherming van de natuur."
+            },
+            {
+                "party": "PVV",
+                "statement": "Glysofaat is schadelijk voor de bijen, de belangrijkste bestuivers van de bomen en planten waar wij van eten. Het tekort aan bijen brengt de bestuiving van productiegewassen in gevaar."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "De EU mag de goedkeuring voor 10 jaar van dit bestrijdingsmiddel, dat als antibiotica werkt, niet doorvoeren. Negatieve effecten op bodem-diversiteit, in het water levende organismen en mens (41 procent meer kans op non-Hodgkin-lymfoon en Parkinson) moeten worden voorkomen."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De ChristenUnie is fel tegen tegenstander van het langer gebruiken van glyfosaat. Hoe eerder we van dit middel af zijn, hoe beter het is."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "Er is discussie over de veiligheid van het gebruik. Wij willen dat voor gebruik of voor verkoop van chemische landbouwmiddelen aangetoond wordt dat er geen ernstige schade, zoals bijvoorbeeld kanker en Parkinson, aan de gezondheid wordt aangericht."
+            },
+            {
+                "party": "SP",
+                "statement": "Wij zijn tegen het gebruik van glyfosaat; het is een schande dat de EU heeft besloten dit nog 10 jaar toe te staan. Er moet alsnog zo snel mogelijk een verbod op komen."
+            },
+            {
+                "party": "Volt",
+                "statement": "Landbouwgif met glysofaat is schadelijk voor mens, dier en natuur. Wij willen dat iedereen gezond is én blijft. Daarom moeten alle chemische stoffen die onze gezondheid en onze natuur schaden verboden worden."
+            },
+            {
+                "party": "NSC",
+                "statement": "NSC maakt zich zorgen over de alarmerende onderzoeksresultaten met betrekking tot glyfosaat. Miljoenen mensen lopen hiermee mogelijk een verhoogd risico op de ziekte van Parkinson. Glyfosaat zou zo snel als mogelijk verboden moeten worden en tegelijkertijd moet de EU werken aan alternatieven."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor bescherming van mens, dier en natuur. Glyfosaat veroorzaakt ziekte en sterfte onder omwonenden en het ecosysteem. Dit bedreigt de voedselzekerheid en de volksgezondheid. Er bestaan bovendien prima alternatieven. Informeer jezelf: https://ppdg.eu"
+            },
+            {
+                "party": "VVD",
+                "statement": "De VVD vindt dat de toelating van gewasbeschermingsmiddelen zoals glyfosaat gebaseerd moet zijn op de wetenschap. Aangezien de wetenschappers van de Europese Autoriteit voor Voedselveiligheid glyfosaat als veilig middel hebben beoordeeld, hoeft deze dus niet verboden te worden."
+            },
+            {
+                "party": "CDA",
+                "statement": "Gewasbeschermingsmiddelen moeten we pas verbieden als er een goed (milieuvriendelijker) alternatief is. Wat het CDA betreft zetten we stevig in op innovatie op dit gebied"
+            },
+            {
+                "party": "FvD",
+                "statement": "Meerdere Europese instanties bestempelen deze stof momenteel als 'veilig'. Daarnaast zijn er op dit moment onvoldoende alternatieve stoffen om aan de vraag van de landbouwsector te voldoen. Daarom wil FVD deze stof nu niet verbieden."
+            },
+            {
+                "party": "JA21",
+                "statement": "Strenge Brusselse natuur- en milieuwetgeving waarvan het effect op datzelfde milieu dubieus is, brengt boeren en vissers aan de bedelstaf. Er moet een pas op de plaats worden gemaakt in plaats van de agrarische sector te confronteren met nog meer regels en beperkingen."
+            },
+            {
+                "party": "SGP",
+                "statement": "Boeren en tuinders moeten voldoende middelen hebben om plantgezondheid te waarborgen. Een goed gevulde medicijnkast is onmisbaar voor effectieve inzet van middelen op het moment dat het nodig is. Regelgeving moet vooral gericht zijn op het verminderen van de aantasting van het milieu."
+            },
+            {
+                "party": "BBB",
+                "statement": "Het is belangrijk dat we genoeg voedsel hebben om iedereen te voeden. Veilige gewasbeschermingsmiddelen kunnen daarin een belangrijke bijdrage leveren. BBB aanvaardt de wetenschappelijke bevindingen van de onafhankelijke toelatingsautoriteit EFSA over de veiligheid van werkzame stoffen."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Daar gaan de lidstaten zelf over. Boeren en vissers moeten worden gekoesterd, in plaats van verjaagd. EU-regelgeving op het gebied van landbouw en natuur wordt drastisch teruggeschroefd en gebaseerd op wetenschappelijk aantoonbare feiten en effectiviteit."
+            }
+        ]
+    },
+    {
+        "theme": "Wapens voor Oekraïne",
+        "title": "De EU moet meer wapens voor Oekraïne betalen.",
+        "info": "In 2022 is Rusland een oorlog begonnen tegen Oekraïne. De Europese Unie heeft sancties ingesteld tegen Rusland. Rusland kan daardoor geen zaken meer doen in de EU. Ook draagt de EU bij aan de verdediging van Oekraïne door wapens voor het land te betalen. Sommige lidstaten dragen ook in hun eentje bij.",
+        "results": [
+            {
+                "party": "GL-PvdA",
+                "statement": "Rusland kan en mag deze oorlog niet winnen, want daarmee staan de vrede en veiligheid in heel Europa op het spel. Daarom blijft Nederland wat GroenLinks-PvdA betreft een leidende rol spelen in het bijstaan van Oekraïne. Ook scherpen we de sancties tegen Rusland verder aan."
+            },
+            {
+                "party": "VVD",
+                "statement": "Oekraïne is illegaal binnengevallen door Rusland en heeft het recht op zelfverdediging. Rusland is de grootste veiligheidsdreiging voor het Europese continent. De EU heeft de verantwoordelijkheid en het belang om meer wapens aan Oekraïne te leveren."
+            },
+            {
+                "party": "CDA",
+                "statement": "Wat het CDA betreft moeten we tot het uiterste gaan om deze oorlog op ons continent winnend af te kunnen sluiten"
+            },
+            {
+                "party": "D66",
+                "statement": "Poetin mag de oorlog niet winnen. Dat maakt Europa en Nederland ook onveilig. Daarom moet de steun aan Oekraïne doorgaan. Er zijn al initiatieven van EU-landen om wapens en financiering aan Oekraïne te leveren. Dit moet wat D66 betreft worden voortgezet zolang het nodig is."
+            },
+            {
+                "party": "PvdD",
+                "statement": "De Partij voor de Dieren veroordeelt de ongekende Russische agressie tegen Oekraïne. In het licht van oorlog aan de directe grenzen van de Europese Unie is het belangrijk om samen te werken en onderlinge solidariteit te tonen."
+            },
+            {
+                "party": "50PLUS",
+                "statement": "Uiteindelijk is de NAVO ons defensiebondsgenootschap. De financiering van wapens kan wat ons betreft via de EU lopen."
+            },
+            {
+                "party": "ChristenUnie",
+                "statement": "De EU blijft onverminderde steun geven aan Oekraïne om zich te verdedigen tegen de Russische agressie."
+            },
+            {
+                "party": "SGP",
+                "statement": "De SGP is voor ruimhartige politieke, militaire en humanitaire steun aan Oekraïne – zónder de oorlog tot de onze te maken en mét de bereidheid tot het sluiten van vrede."
+            },
+            {
+                "party": "Volt",
+                "statement": "Deze oorlog laat zien dat onze veiligheid niet vanzelfsprekend is. Door Oekraine te blijven steunen, beschermen we ook onze eigen waarden en democratie tegen Poetin. De EU moet Oekraïne daarom ondersteunen met wapens en andere middelen, zo lang als dat nodig is."
+            },
+            {
+                "party": "NSC",
+                "statement": "NSC steunt de gezamenlijke koop van wapens door de EU namens alle lidstaten, bestemd voor Oekraïne. Dit kan in de toekomst verhoogd worden."
+            },
+            {
+                "party": "PVV",
+                "statement": "De PVV is bereid om te spreken over steun voor Oekraïne in haar strijd tegen de Russische agressor. Dit betekent niet per se dat we de EU het mandaat willen geven om zich (nog verder) in deze oorlog te mengen. Dit is een debat dat primair in Nederland gevoerd dient te worden."
+            },
+            {
+                "party": "JA21",
+                "statement": "JA21 steunt Oekraïne in de strijd tegen de Russische agressie. Steun aan Oekraïne is echter aan lidstaten zelf, en niet aan de EU. Het staat lidstaten vrij dit via de Raad van de Europese Unie te doen."
+            },
+            {
+                "party": "BBB",
+                "statement": "BBB steunt de huidige militaire steun aan de verdediging van Oekraïne. Dit doen wij samen met bondgenoten, waarvan we verwachten dat zij elk hun bijdrage leveren. Defensie is geen EU-bevoegdheid. BBB is tegen Europese defensieschulden (defense bonds)."
+            },
+            {
+                "party": "Meer Directe Democratie",
+                "statement": "We moeten investeren in vrede. Met alleen geld voor wapens wordt volgens de onafhankelijke kandidaten van MDD het probleem niet opgelost."
+            },
+            {
+                "party": "FvD",
+                "statement": "FVD wil inzetten op een snelle beëindiging van het conflict in Oekraïne. Onze huidige financiële steun prolongeert de oorlog alleen maar. Wij willen hiermee stoppen en inzetten op vrede."
+            },
+            {
+                "party": "NL PLAN EU",
+                "statement": "Het begunstigen van het militair-industrieel complex verlaagt de kans op vrede. Met de destabilisatie van de Europese veiligheidsorde is een gemeenschappelijk veiligheids- en defensiebeleid cruciaal om burgers van de EU te beschermen en internationale vrede en veiligheid te versterken."
+            },
+            {
+                "party": "SP",
+                "statement": "De SP heeft veel wapenleveranties kunnen steunen, maar heeft bij elke levering van wapens opnieuw de afweging gemaakt of het vrede dichterbij brengt en of het de verdediging van Oekraïne helpt. Maar we moeten waken voor een wapenwedloop."
+            },
+            {
+                "party": "BVNL",
+                "statement": "Meer wapens leidt niet tot vrede. Diplomatieke initiatieven zijn prima, maar geen geld, wapens of soldaten naar Oekraïne."
+            },
+            {
+                "party": "Piratenpartij - De Groenen",
+                "statement": "Piratenpartij - De Groenen staan voor vrede en veiligheid. Zolang Rusland niet instemt met een staakt-het-vuren en terugtrekking uit de bezette gebieden in Oekraïne, blijven wij Oekraïne steunen met wapens. We stemmen er niet mee in om onvoorwaardelijk meer wapens te sturen dan we al doen. PPDG.EU"
+            }
+        ]
+    }
+]
+
+    
+]
+
+const data2023 = [
     {
         "theme": "Vee",
         "title": "De regering moet ervoor zorgen dat de hoeveelheid vee minstens de helft kleiner wordt.",
