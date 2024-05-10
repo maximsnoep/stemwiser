@@ -1,37 +1,20 @@
 const seats = {
-    "VVD": 34,
-    "D66": 24,
-    "PVV": 17,
-    "CDA": 15,
-    "SP": 9,
-    "GL-PvdA": 17,
-    "FVD": 8,
-    "PvdD": 6,
-    "ChristenUnie": 5,
+    "VVD": 28,
+    "D66": 10,
+    "PVV": 27,
+    "CDA": 4,
+    "SP": 5,
+    "GL-PvdA": 25,
+    "FVD": 4,
+    "PvdD": 5,
+    "ChristenUnie": 4,
     "Volt": 3,
-    "JA21": 3,
+    "JA21": 1,
     "SGP": 3,
-    "DENK": 3,
-    "50PLUS": 1,
-    "BBB": 1,
-    "BIJ1": 1
+    "DENK": 4,
+    "BBB": 6,
+    "NSC": 21
 }
-
-const currentParties = [
-    "D66", "GL-PvdA", "PvdD", "Volt", "VVD", "PVV", "CDA", "SP", "FVD", "ChristenUnie", "JA21", "BBB", "BIJ1", "DENK", "50PLUS", "SGP", "ChristenUnie"
-];
-
-const leftParties = [
-    "GL-PvdA", "SP", "PvdD", "Denk", "BIJ1", "Piratenpartij - De Groenen", "Splinter"
-];
-
-const centreParties = [
-    "VVD", "D66", "GL-PvdA", "CDA", "ChristenUnie", "Volt", "Denk", "50PLUS", "NSC", "Piratenpartij - De Groenen", "Splinter"
-];
-
-const rightParties = [
-    "VVD", "CDA", "PVV", "BBB", "FVD", "SGP", "JA21", "BVNL", "Libertaire Partij"
-];
 
 const data = [
     {
