@@ -34,7 +34,6 @@ const rightParties = [
 ];
 
 const data = [
-    [
     {
         "theme": "Evenredige verdeling asielzoekers",
         "title": "Alle EU-landen moeten een evenredig aandeel asielzoekers opnemen.",
@@ -2525,10 +2524,7 @@ const data = [
             }
         ]
     }
-]
-
-    
-]
+];
 
 const data2023 = [
     {
