@@ -9,11 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const showPartyNames = document.getElementById("show-parties");
 
     const selectAllParties = document.getElementById("select-all-parties"); 
-
-    const selectTKParties = document.getElementById("select-tk-parties"); 
-    const selectLeftParties = document.getElementById("select-left-parties"); 
-    const selectCentreParties = document.getElementById("select-centre-parties"); 
-    const selectRightParties = document.getElementById("select-right-parties"); 
     const selectAllThemes = document.getElementById("select-all-themes"); 
 
     // Extract unique parties and themes
@@ -235,58 +230,6 @@ document.addEventListener("DOMContentLoaded", () => {
         let val = parties.filter((party) => !selectedParties.get(party)).length != 0;
 
         parties.forEach((party) => {
-            selectedParties.set(party, val);
-            document.getElementById(party).checked = val;
-        });
-        
-        localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
-        reloadStatementForm();
-        reloadResults();
-    });
-
-    selectTKParties.addEventListener("click", () => {
-
-        parties.forEach((party) => {
-            let val = currentParties.includes(party);
-            selectedParties.set(party, val);
-            document.getElementById(party).checked = val;
-        });
-        
-        localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
-        reloadStatementForm();
-        reloadResults();
-    });
-
-    selectLeftParties.addEventListener("click", () => {
-
-        parties.forEach((party) => {
-            let val = leftParties.includes(party);
-            selectedParties.set(party, val);
-            document.getElementById(party).checked = val;
-        });
-        
-        localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
-        reloadStatementForm();
-        reloadResults();
-    });
-
-    selectCentreParties.addEventListener("click", () => {
-
-        parties.forEach((party) => {
-            let val = centreParties.includes(party);
-            selectedParties.set(party, val);
-            document.getElementById(party).checked = val;
-        });
-        
-        localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
-        reloadStatementForm();
-        reloadResults();
-    });
-
-    selectRightParties.addEventListener("click", () => {
-
-        parties.forEach((party) => {
-            let val = rightParties.includes(party);
             selectedParties.set(party, val);
             document.getElementById(party).checked = val;
         });
