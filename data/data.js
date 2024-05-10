@@ -479,7 +479,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "De onafhankelijke kandidaten van MDD vinden dat afspraken die tussen de EU en de betreffende landen worden gemaakt ook nagekomen moeten worden."
+                "statement": "De onafhankelijke kandidaten van Meer Directe Democratie vinden dat afspraken die tussen de EU en de betreffende landen worden gemaakt ook nagekomen moeten worden."
             },
             {
                 "party": "BVNL",
@@ -748,7 +748,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "De Partij voor de Dieren is tegen kernenergie. Kerncentrales brengen grote onnodige risico’s met zich mee. En zorgen voor afval dat honderdduizenden jaren gevaarlijk blijft. We passen EU-regels aan zodat kernenergie niet langer wordt gezien als 'duurzame' investering."
+                "statement": "De PvdD is tegen kernenergie. Kerncentrales brengen grote onnodige risico’s met zich mee. En zorgen voor afval dat honderdduizenden jaren gevaarlijk blijft. We passen EU-regels aan zodat kernenergie niet langer wordt gezien als 'duurzame' investering."
             },
             {
                 "party": "50PLUS",
@@ -886,7 +886,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "De kandidaten van MDD vinden de soevereiniteit van de verschillende lidstaten belangrijk. De EU dient alleen die onderwerpen te regelen die ten aanzien van vrij verkeer zijn overeengekomen en die door democratische besluitvorming worden gedragen."
+                "statement": "De kandidaten van Meer Directe Democratie vinden de soevereiniteit van de verschillende lidstaten belangrijk. De EU dient alleen die onderwerpen te regelen die ten aanzien van vrij verkeer zijn overeengekomen en die door democratische besluitvorming worden gedragen."
             },
             {
                 "party": "SP",
@@ -977,11 +977,11 @@ const data = [
             },
             {
                 "party": "GL-PvdA",
-                "statement": "GroenLinks-PvdA houdt juist vast aan strenge Europese regels op het gebied van genetisch gemodificeerde gewassen. Genetisch gemodificeerde zaden worden alleen toegestaan als zij voldoen aan maatschappelijke waardes en echt bijdragen aan een duurzame, klimaatadaptieve voedselvoorziening."
+                "statement": "GL-PvdA houdt juist vast aan strenge Europese regels op het gebied van genetisch gemodificeerde gewassen. Genetisch gemodificeerde zaden worden alleen toegestaan als zij voldoen aan maatschappelijke waardes en echt bijdragen aan een duurzame, klimaatadaptieve voedselvoorziening."
             },
             {
                 "party": "PvdD",
-                "statement": "Genetische manipulatie, hoe gericht ook, kan leiden tot onbedoelde veranderingen die risico’s met zich kunnen meebrengen voor mens, dier en milieu. De Partij voor de Dieren blijft zich daarom sterk maken voor een gentechvrij Europa."
+                "statement": "Genetische manipulatie, hoe gericht ook, kan leiden tot onbedoelde veranderingen die risico’s met zich kunnen meebrengen voor mens, dier en milieu. De PvdD blijft zich daarom sterk maken voor een gentechvrij Europa."
             },
             {
                 "party": "NL PLAN EU",
@@ -997,7 +997,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "Bijna niemand weet wat de gevolgen zijn. Wij van MDD willen dat er veel meer onderzoek naar wordt gedaan. Er moet duidelijkheid komen over de gevolgen voor de biodiversiteit en de impact op de ecosystemen."
+                "statement": "Bijna niemand weet wat de gevolgen zijn. Wij van Meer Directe Democratie willen dat er veel meer onderzoek naar wordt gedaan. Er moet duidelijkheid komen over de gevolgen voor de biodiversiteit en de impact op de ecosystemen."
             },
             {
                 "party": "SP",
@@ -1084,7 +1084,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "De onafhankelijke kandidaten van MDD vinden dat belastingen een nationale aangelegenheid zijn."
+                "statement": "De onafhankelijke kandidaten van Meer Directe Democratie vinden dat belastingen een nationale aangelegenheid zijn."
             },
             {
                 "party": "SP",
@@ -1159,7 +1159,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "MDD denkt dat dit tot problemen leidt in de praktijk en met de uitvoering. Daarnaast vraagt MDD zich af welk probleem hiermee wordt opgelost."
+                "statement": "Meer Directe Democratie denkt dat dit tot problemen leidt in de praktijk en met de uitvoering. Daarnaast vraagt Meer Directe Democratie zich af welk probleem hiermee wordt opgelost."
             },
             {
                 "party": "SP",
@@ -1250,7 +1250,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "Wij vinden dat dit de vrede niet bevordert. Als MDD vinden wij het belangrijk dat de dialoog moet worden gevoerd. Oorlog is voor alle burgers vreselijk."
+                "statement": "Wij vinden dat dit de vrede niet bevordert. Als Meer Directe Democratie vinden wij het belangrijk dat de dialoog moet worden gevoerd. Oorlog is voor alle burgers vreselijk."
             },
             {
                 "party": "BVNL",
@@ -1356,7 +1356,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "De Partij voor de Dieren onderschrijft de steun aan buurlanden van de EU. Uitbreiding van de EU is echter niet de oplossing zolang de EU gericht blijft op onbeperkte vrijhandel en zelf niet hervormt en democratischer wordt."
+                "statement": "De PvdD onderschrijft de steun aan buurlanden van de EU. Uitbreiding van de EU is echter niet de oplossing zolang de EU gericht blijft op onbeperkte vrijhandel en zelf niet hervormt en democratischer wordt."
             },
             {
                 "party": "50PLUS",
@@ -1420,7 +1420,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "MDD is voor toetreding van de west-Balkanlanden, als aan alle voorwaarden wordt voldaan. We zijn gereserveerd tegenover uitbreiding met alle landen. Dit moet van geval tot geval worden bekeken. Is er oorlog, corruptie of zijn er mensrechtenschendingen dan vinden we toetreding onverstandig."
+                "statement": "Meer Directe Democratie is voor toetreding van de west-Balkanlanden, als aan alle voorwaarden wordt voldaan. We zijn gereserveerd tegenover uitbreiding met alle landen. Dit moet van geval tot geval worden bekeken. Is er oorlog, corruptie of zijn er mensrechtenschendingen dan vinden we toetreding onverstandig."
             },
             {
                 "party": "Volt",
@@ -1601,7 +1601,7 @@ const data = [
         "results": [
             {
                 "party": "GL-PvdA",
-                "statement": "Wij beschermen de democratie. GroenLinks-PvdA loopt voorop met het nemen van maatregelen, zoals een boete, tegen landen die de rechtsstaat op het spel zetten. We sluiten geen instrument uit als de situatie dusdanig uit de hand loopt en een lidstaat een gevaar vormt voor andere landen in de Unie."
+                "statement": "Wij beschermen de democratie. GL-PvdA loopt voorop met het nemen van maatregelen, zoals een boete, tegen landen die de rechtsstaat op het spel zetten. We sluiten geen instrument uit als de situatie dusdanig uit de hand loopt en een lidstaat een gevaar vormt voor andere landen in de Unie."
             },
             {
                 "party": "VVD",
@@ -1712,7 +1712,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "MDD is tegen intensieve veeteelt, omdat het dieronvriendelijk is. Subsidiëring door EU dient volgens de kandidaten MDD tot een minimum beperkt (of zelfs uitgebannen) te worden."
+                "statement": "Meer Directe Democratie is tegen intensieve veeteelt, omdat het dieronvriendelijk is. Subsidiëring door EU dient volgens de kandidaten Meer Directe Democratie tot een minimum beperkt (of zelfs uitgebannen) te worden."
             },
             {
                 "party": "SP",
@@ -1775,7 +1775,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "De Partij voor de Dieren wil de positie van arbeidsmigranten verbeteren en Nederland minder afhankelijk maken van buitenlandse werknemers. Er moet een onderzoek komen tot herinvoering van tewerkstellingsvergunningen voor werknemers van binnen de Europese Economische Ruimte (EER)."
+                "statement": "De PvdD wil de positie van arbeidsmigranten verbeteren en Nederland minder afhankelijk maken van buitenlandse werknemers. Er moet een onderzoek komen tot herinvoering van tewerkstellingsvergunningen voor werknemers van binnen de Europese Economische Ruimte (EER)."
             },
             {
                 "party": "PVV",
@@ -1827,7 +1827,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "Vrij verkeer van personen en de mogelijkheid om in een andere lidstaat te werken is van de belangrijke pijlers van de Europese unie. MDD steunt de waarden en principes van de Europese Unie."
+                "statement": "Vrij verkeer van personen en de mogelijkheid om in een andere lidstaat te werken is van de belangrijke pijlers van de Europese unie. Meer Directe Democratie steunt de waarden en principes van de Europese Unie."
             },
             {
                 "party": "Volt",
@@ -1890,7 +1890,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "De onafhankelijke kandidaten van MDD vinden het belangrijk dat burgers nu en in de toekomst zich betaalbaar kunnen verplaatsen. Wat heb je aan een recht van vrij bewegen als het onbetaalbaar en dus onuitvoerbaar is. Reizen met de trein is duurzaam, veilig, betrouwbaar, toegankelijk voor iedereen."
+                "statement": "De onafhankelijke kandidaten van Meer Directe Democratie vinden het belangrijk dat burgers nu en in de toekomst zich betaalbaar kunnen verplaatsen. Wat heb je aan een recht van vrij bewegen als het onbetaalbaar en dus onuitvoerbaar is. Reizen met de trein is duurzaam, veilig, betrouwbaar, toegankelijk voor iedereen."
             },
             {
                 "party": "SP",
@@ -1969,7 +1969,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "De aanvraag moet zo dicht mogelijk bij land van herkomst plaatsvinden. MDD pleit dat na vaststelling een uitnodiging en ticket van een EU-lidstaat volgen voor veilige overkomst naar Europa. Dit voorkomt overbelasting van asielcentra, dodelijke smokkelroutes en geldstromen naar dictators."
+                "statement": "De aanvraag moet zo dicht mogelijk bij land van herkomst plaatsvinden. Meer Directe Democratie pleit dat na vaststelling een uitnodiging en ticket van een EU-lidstaat volgen voor veilige overkomst naar Europa. Dit voorkomt overbelasting van asielcentra, dodelijke smokkelroutes en geldstromen naar dictators."
             },
             {
                 "party": "SP",
@@ -2147,7 +2147,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "De Partij voor de Dieren is voorstander van vrij reizen binnen de Schengenzone van de Europese Unie."
+                "statement": "De PvdD is voorstander van vrij reizen binnen de Schengenzone van de Europese Unie."
             },
             {
                 "party": "50PLUS",
@@ -2348,7 +2348,7 @@ const data = [
         "results": [
             {
                 "party": "GL-PvdA",
-                "statement": "Chemische bestrijdingsmiddelen zoals glyfosaat zijn ontzettend slecht voor de natuur, en bovendien schadelijk voor de gezondheid van boeren en anderen die ermee in aanraking komen. Daarom vindt GroenLinks-PvdA dat glyfosaat in de Europese Unie verboden zou moeten worden."
+                "statement": "Chemische bestrijdingsmiddelen zoals glyfosaat zijn ontzettend slecht voor de natuur, en bovendien schadelijk voor de gezondheid van boeren en anderen die ermee in aanraking komen. Daarom vindt GL-PvdA dat glyfosaat in de Europese Unie verboden zou moeten worden."
             },
             {
                 "party": "D66",
@@ -2431,7 +2431,7 @@ const data = [
         "results": [
             {
                 "party": "GL-PvdA",
-                "statement": "Rusland kan en mag deze oorlog niet winnen, want daarmee staan de vrede en veiligheid in heel Europa op het spel. Daarom blijft Nederland wat GroenLinks-PvdA betreft een leidende rol spelen in het bijstaan van Oekraïne. Ook scherpen we de sancties tegen Rusland verder aan."
+                "statement": "Rusland kan en mag deze oorlog niet winnen, want daarmee staan de vrede en veiligheid in heel Europa op het spel. Daarom blijft Nederland wat GL-PvdA betreft een leidende rol spelen in het bijstaan van Oekraïne. Ook scherpen we de sancties tegen Rusland verder aan."
             },
             {
                 "party": "VVD",
@@ -2447,7 +2447,7 @@ const data = [
             },
             {
                 "party": "PvdD",
-                "statement": "De Partij voor de Dieren veroordeelt de ongekende Russische agressie tegen Oekraïne. In het licht van oorlog aan de directe grenzen van de Europese Unie is het belangrijk om samen te werken en onderlinge solidariteit te tonen."
+                "statement": "De PvdD veroordeelt de ongekende Russische agressie tegen Oekraïne. In het licht van oorlog aan de directe grenzen van de Europese Unie is het belangrijk om samen te werken en onderlinge solidariteit te tonen."
             },
             {
                 "party": "50PLUS",
@@ -2483,7 +2483,7 @@ const data = [
             },
             {
                 "party": "Meer Directe Democratie",
-                "statement": "We moeten investeren in vrede. Met alleen geld voor wapens wordt volgens de onafhankelijke kandidaten van MDD het probleem niet opgelost."
+                "statement": "We moeten investeren in vrede. Met alleen geld voor wapens wordt volgens de onafhankelijke kandidaten van Meer Directe Democratie het probleem niet opgelost."
             },
             {
                 "party": "FvD",
