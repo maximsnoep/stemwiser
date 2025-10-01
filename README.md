@@ -4,13 +4,6 @@
 
 Data gathered from [ProDemos StemWijzer](https://tweedekamer2025.stemwijzer.nl/). 
 
-## Features
-
-- Select from a list of political parties and themes.
-- Assess your political preferences based on a set of statements.
-- See how your views align with various political parties.
-- Easy-to-use web interface.
-
 ## Contribution
 
 If you have any suggestions or improvements that you would like to contribute to this repository, feel free to create a pull request.
