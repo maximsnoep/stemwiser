@@ -1,19 +1,19 @@
 const seats = {
-    "VVD": 28,
-    "D66": 10,
-    "PVV": 27,
-    "CDA": 4,
+    "VVD": 24,
+    "BBB": 8,
+    "PVV": 37,
+    "GroenLinks-PvdA": 25,
+    "NSC": 19,
+    "D66": 9,
+    "CDA": 5,
     "SP": 5,
-    "GL-PvdA": 25,
-    "FVD": 4,
-    "PvdD": 5,
-    "ChristenUnie": 4,
-    "Volt": 3,
-    "JA21": 1,
+    "DENK": 3,
+    "Partij voor de Dieren": 3,
+    "FvD": 3,
     "SGP": 3,
-    "DENK": 4,
-    "BBB": 6,
-    "NSC": 21
+    "ChristenUnie": 3,
+    "Volt": 2,
+    "JA21": 1
 }
 
 const data = [
@@ -104,7 +104,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP pleit voor algehele belastingverlaging, niet alleen voor mensen met hypotheek. HRA is een maatregel van bankenlobby voor meer leningen/hogere rentes, verstoort de markt en zorgt voor hogere huizenprijzen. De LP is wel tegen afschaffen HRA zolang belastingen niet verlaagd worden voor iedereen."
+                "statement": "De Libertaire Partij pleit voor algehele belastingverlaging, niet alleen voor mensen met hypotheek. HRA is een maatregel van bankenlobby voor meer leningen/hogere rentes, verstoort de markt en zorgt voor hogere huizenprijzen. De Libertaire Partij is wel tegen afschaffen HRA zolang belastingen niet verlaagd worden voor iedereen."
             },
             {
                 "party": "50PLUS",
@@ -207,7 +207,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP ziet privacy van inwoners als een van de belangrijkste grondrechten. Massasurveillance is het grootschalig monitoren van menselijk gedrag en inlichtingendiensten beschikken over infrastructuur die niet zou misstaan in Orwells 1984."
+                "statement": "De Libertaire Partij ziet privacy van inwoners als een van de belangrijkste grondrechten. Massasurveillance is het grootschalig monitoren van menselijk gedrag en inlichtingendiensten beschikken over infrastructuur die niet zou misstaan in Orwells 1984."
             },
             {
                 "party": "Piratenpartij",
@@ -314,7 +314,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP is voor het afschaffen van minimumloon. De overheid moet niet tussen overeenkomsten van werkgevers en werknemers gaan zitten. Als arbeidsovereenkomsten vrijwillig tot stand komen hebben werkgevers en werknemers de vrijheid om zelf afspraken te maken over, onder andere, het salaris."
+                "statement": "De Libertaire Partij is voor het afschaffen van minimumloon. De overheid moet niet tussen overeenkomsten van werkgevers en werknemers gaan zitten. Als arbeidsovereenkomsten vrijwillig tot stand komen hebben werkgevers en werknemers de vrijheid om zelf afspraken te maken over, onder andere, het salaris."
             },
             {
                 "party": "Vrij Verbond",
@@ -357,7 +357,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP vindt dat publieke investeringen in elk geval moeten renderen en dat moeten faciliteren waarvoor ze gebouwd zijn. Verder ziet de LP het liefst dat het beheren van luchthavens geen taak van de overheid is."
+                "statement": "De Libertaire Partij vindt dat publieke investeringen in elk geval moeten renderen en dat moeten faciliteren waarvoor ze gebouwd zijn. Verder ziet de Libertaire Partij het liefst dat het beheren van luchthavens geen taak van de overheid is."
             },
             {
                 "party": "Vrij Verbond",
@@ -468,7 +468,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP wil macht decentraliseren naar gemeenten. Wij zijn voor afschaffing speciale status asielzoekers/statushouders en recht op voorkeursbehandeling. Niemand heeft recht op asiel op kosten van de belastingbetaler. Inburgering/hulp aan migranten wordt aan vrijwillige burgerinitiatieven overgelaten."
+                "statement": "De Libertaire Partij wil macht decentraliseren naar gemeenten. Wij zijn voor afschaffing speciale status asielzoekers/statushouders en recht op voorkeursbehandeling. Niemand heeft recht op asiel op kosten van de belastingbetaler. Inburgering/huLibertaire Partij aan migranten wordt aan vrijwillige burgerinitiatieven overgelaten."
             },
             {
                 "party": "FNP",
@@ -619,7 +619,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De overheid moet niet bepalen wie gebruik mag maken van social media. Dit is hooguit aan de ouders van minderjarigen. Invoering betekent digitale controle voor iedereen. LP kan hier nooit mee instemmen. Het grootste gevaar voor privacy is de overheid met haar macht om jouw vrijheid in te perken."
+                "statement": "De overheid moet niet bepalen wie gebruik mag maken van social media. Dit is hooguit aan de ouders van minderjarigen. Invoering betekent digitale controle voor iedereen. Libertaire Partij kan hier nooit mee instemmen. Het grootste gevaar voor privacy is de overheid met haar macht om jouw vrijheid in te perken."
             },
             {
                 "party": "Piratenpartij",
@@ -638,7 +638,7 @@ const data = [
     {
         "theme": "Meer geld voor ontwikkelingshulp",
         "title": "Nederland moet meer geld uitgeven aan ontwikkelingshulpIcon.",
-        "info": "Ontwikkelingshulp is hulp van rijke landen aan arme landen om armoede te verminderen en ervoor te zorgen dat mensen in die landen een beter leven kunnen opbouwen. Er is een internationale afspraak om 0,7 procent van het bruto nationaal inkomen uit te geven aan ontwikkelingshulp. Het bruto nationaal inkomen is al het geld dat alle mensen in Nederland in een jaar verdienen. Sinds 2013 haalt Nederland die 0,7 procent niet meer door bezuinigingen.",
+        "info": "OntwikkelingshuLibertaire Partij is huLibertaire Partij van rijke landen aan arme landen om armoede te verminderen en ervoor te zorgen dat mensen in die landen een beter leven kunnen opbouwen. Er is een internationale afspraak om 0,7 procent van het bruto nationaal inkomen uit te geven aan ontwikkelingshulp. Het bruto nationaal inkomen is al het geld dat alle mensen in Nederland in een jaar verdienen. Sinds 2013 haalt Nederland die 0,7 procent niet meer door bezuinigingen.",
         "results": [
             {
                 "party": "GroenLinks-PvdA",
@@ -646,7 +646,7 @@ const data = [
             },
             {
                 "party": "NSC",
-                "statement": "NSC wil ontwikkelingshulp doelgericht inzetten, gekoppeld aan duidelijke voorwaarden en afspraken waar ook Nederland iets aan heeft, bijvoorbeeld over migratiesamenwerking en terugkeer. Zo komt hulp niet zomaar bovenop het bestaande budget, maar draagt het bij aan een eerlijk en uitvoerbare migratie"
+                "statement": "NSC wil ontwikkelingshuLibertaire Partij doelgericht inzetten, gekoppeld aan duidelijke voorwaarden en afspraken waar ook Nederland iets aan heeft, bijvoorbeeld over migratiesamenwerking en terugkeer. Zo komt huLibertaire Partij niet zomaar bovenop het bestaande budget, maar draagt het bij aan een eerlijk en uitvoerbare migratie"
             },
             {
                 "party": "D66",
@@ -666,7 +666,7 @@ const data = [
             },
             {
                 "party": "Partij voor de Dieren",
-                "statement": "Wij zetten in op meer geld voor ontwikkelingssamenwerking: minimaal 1% van ons bruto nationaal inkomen. We investeren in herstel, perspectief en gelijkwaardigheid, zodat hulp eerlijk, duurzaam is en uiteindelijk overbodig wordt."
+                "statement": "Wij zetten in op meer geld voor ontwikkelingssamenwerking: minimaal 1% van ons bruto nationaal inkomen. We investeren in herstel, perspectief en gelijkwaardigheid, zodat huLibertaire Partij eerlijk, duurzaam is en uiteindelijk overbodig wordt."
             },
             {
                 "party": "SGP",
@@ -678,7 +678,7 @@ const data = [
             },
             {
                 "party": "Volt",
-                "statement": "Volt vervangt traditionele ontwikkelingshulp door samenwerking op basis van gelijkwaardigheid. Er gaat meer geld naar landen die zich inzetten voor democratie en mensenrechten. We geven lokale organisaties een belangrijke rol en de financiering van projecten gebeurt in de lokale valuta."
+                "statement": "Volt vervangt traditionele ontwikkelingshuLibertaire Partij door samenwerking op basis van gelijkwaardigheid. Er gaat meer geld naar landen die zich inzetten voor democratie en mensenrechten. We geven lokale organisaties een belangrijke rol en de financiering van projecten gebeurt in de lokale valuta."
             },
             {
                 "party": "Vrede voor Dieren",
@@ -690,11 +690,11 @@ const data = [
             },
             {
                 "party": "FNP",
-                "statement": "Na de korting van het vorige kabinet moet budget voor ontwikkelingshulp worden hersteld. Het geld moet effectief worden ingezet, met duidelijke, onderbouwde en controleerbare doelstellingen, zodat hulp daadwerkelijk bijdraagt aan bijvoorbeeld betere gezondheid en duurzame ontwikkeling wereldwijd."
+                "statement": "Na de korting van het vorige kabinet moet budget voor ontwikkelingshuLibertaire Partij worden hersteld. Het geld moet effectief worden ingezet, met duidelijke, onderbouwde en controleerbare doelstellingen, zodat huLibertaire Partij daadwerkelijk bijdraagt aan bijvoorbeeld betere gezondheid en duurzame ontwikkeling wereldwijd."
             },
             {
                 "party": "PVV",
-                "statement": "De PVV wil de ontwikkelingshulp volledig afschaffen en het geld in Nederland besteden."
+                "statement": "De PVV wil de ontwikkelingshuLibertaire Partij volledig afschaffen en het geld in Nederland besteden."
             },
             {
                 "party": "VVD",
@@ -702,15 +702,15 @@ const data = [
             },
             {
                 "party": "BBB",
-                "statement": "BBB wil de uitgaven aan ontwikkelingshulp meer dan halveren en belastinggeld voor binnenlandse zaken besteden. We zijn voor een gerichte, tijdelijke en toetsbare hulp die bijdraagt aan stabiliteit en het tegengaan van migratiestromen."
+                "statement": "BBB wil de uitgaven aan ontwikkelingshuLibertaire Partij meer dan halveren en belastinggeld voor binnenlandse zaken besteden. We zijn voor een gerichte, tijdelijke en toetsbare huLibertaire Partij die bijdraagt aan stabiliteit en het tegengaan van migratiestromen."
             },
             {
                 "party": "FvD",
-                "statement": "Geld en aandacht moeten naar eigen land. Ontwikkelingshulp is vaak ineffectief en dient zelden het Nederlandse belang."
+                "statement": "Geld en aandacht moeten naar eigen land. OntwikkelingshuLibertaire Partij is vaak ineffectief en dient zelden het Nederlandse belang."
             },
             {
                 "party": "JA21",
-                "statement": "JA21 wil ontwikkelingshulp beperken tot noodhulp en ondersteuning bij opvang in de regio."
+                "statement": "JA21 wil ontwikkelingshuLibertaire Partij beperken tot noodhuLibertaire Partij en ondersteuning bij opvang in de regio."
             },
             {
                 "party": "BVNL",
@@ -718,7 +718,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP wil alle buitenlandse steun/geldstromen stoppen die vanuit belastinggeld komen. Inwoners mogen zelf vrijwillig initiatieven steunen maar worden niet verplicht via belastingen. Wij geloven in de initiatieven die op eigen kracht in de samenleving ontstaan, juist zonder oplegging van bovenaf."
+                "statement": "De Libertaire Partij wil alle buitenlandse steun/geldstromen stoppen die vanuit belastinggeld komen. Inwoners mogen zelf vrijwillig initiatieven steunen maar worden niet verplicht via belastingen. Wij geloven in de initiatieven die op eigen kracht in de samenleving ontstaan, juist zonder oplegging van bovenaf."
             },
             {
                 "party": "50PLUS",
@@ -730,11 +730,11 @@ const data = [
             },
             {
                 "party": "Vrij Verbond",
-                "statement": "Sterke zorg voor eigen inwoners hoort voorop te staan. Vrijwillige solidariteit werkt beter dan verplichte afdrachten. Het geld dat nu naar ontwikkelingshulp gaat, besteden we effectiever in Nederland."
+                "statement": "Sterke zorg voor eigen inwoners hoort voorop te staan. Vrijwillige solidariteit werkt beter dan verplichte afdrachten. Het geld dat nu naar ontwikkelingshuLibertaire Partij gaat, besteden we effectiever in Nederland."
             },
             {
                 "party": "De Linie",
-                "statement": "Het geld voor ontwikkelingshulp kan beter besteed worden aan verbetering van het Nederlands onderwijs."
+                "statement": "Het geld voor ontwikkelingshuLibertaire Partij kan beter besteed worden aan verbetering van het Nederlands onderwijs."
             }
         ]
     },
@@ -821,7 +821,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP verdedigt vrijheid van geloof en vrijheid van meningsuiting. Het is niet de taak van de overheid om preventief te controleren wat religieuze instellingen overbrengen als er geen duidelijke aanleiding is van een (mogelijk) misdrijf."
+                "statement": "De Libertaire Partij verdedigt vrijheid van geloof en vrijheid van meningsuiting. Het is niet de taak van de overheid om preventief te controleren wat religieuze instellingen overbrengen als er geen duidelijke aanleiding is van een (mogelijk) misdrijf."
             },
             {
                 "party": "Piratenpartij",
@@ -928,7 +928,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP is tegen progressieve toeslagen en belastingen en ziet dit als een ordinaire poging tot gedwongen herverdeling van privébezit. Wij willen alle vormen van toeslagen uitfaseren tegelijk met het uitfaseren van alle vormen van belasting."
+                "statement": "De Libertaire Partij is tegen progressieve toeslagen en belastingen en ziet dit als een ordinaire poging tot gedwongen herverdeling van privébezit. Wij willen alle vormen van toeslagen uitfaseren tegelijk met het uitfaseren van alle vormen van belasting."
             },
             {
                 "party": "50PLUS",
@@ -979,7 +979,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Media faciliteren is geen taak voor de overheid. De LP wil publieke omroepen schrappen of privatiseren. De LP is voorvechter van een kleine, dienstbare overheid die zich beperkt tot rechtsstaatbescherming. Alle andere taken doen af aan de individuele vrijheid/verantwoordelijkheid van burgers."
+                "statement": "Media faciliteren is geen taak voor de overheid. De Libertaire Partij wil publieke omroepen schrappen of privatiseren. De Libertaire Partij is voorvechter van een kleine, dienstbare overheid die zich beperkt tot rechtsstaatbescherming. Alle andere taken doen af aan de individuele vrijheid/verantwoordelijkheid van burgers."
             },
             {
                 "party": "Vrij Verbond",
@@ -1130,7 +1130,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP is tegen elke vorm van buitenlandbeleid. Wel erkennen wij de mensenrechten van alle Palestijnen. We kijken met afschuw naar de onderdrukkende regimes van Netanyahu en Hamas maar zijn tegen internationale samenwerkingen die ons bij conflicten betrekken die Nederland niets aangaan."
+                "statement": "De Libertaire Partij is tegen elke vorm van buitenlandbeleid. Wel erkennen wij de mensenrechten van alle Palestijnen. We kijken met afschuw naar de onderdrukkende regimes van Netanyahu en Hamas maar zijn tegen internationale samenwerkingen die ons bij conflicten betrekken die Nederland niets aangaan."
             },
             {
                 "party": "50PLUS",
@@ -1348,7 +1348,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Bevriezen van prijzen door de overheid is economisch wanbeleid, vaak gezien in communistische planeconomieën. Het lost problemen niet op en creëert schaarste. Prijsstijgingen zorgen voor meer bouwen, prijsplafonds zorgen dat investeerders wegblijven. De LP is voor het afschaffen van prijsplafonds."
+                "statement": "Bevriezen van prijzen door de overheid is economisch wanbeleid, vaak gezien in communistische planeconomieën. Het lost problemen niet op en creëert schaarste. Prijsstijgingen zorgen voor meer bouwen, prijsplafonds zorgen dat investeerders wegblijven. De Libertaire Partij is voor het afschaffen van prijsplafonds."
             },
             {
                 "party": "Vrij Verbond",
@@ -1510,7 +1510,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP wil de macht zoveel mogelijk decentraliseren naar gemeenten/gemeenschappen. Qua natuurbeheer kunnen de gebruikers afspreken hoeveel een natuurlijke hulpbron gebruikt kan worden zonder deze te beschadigen. Gemeenschappen hebben het recht zichzelf/eigendom te verdedigen tegen schade uit fauna."
+                "statement": "De Libertaire Partij wil de macht zoveel mogelijk decentraliseren naar gemeenten/gemeenschappen. Qua natuurbeheer kunnen de gebruikers afspreken hoeveel een natuurlijke hulpbron gebruikt kan worden zonder deze te beschadigen. Gemeenschappen hebben het recht zichzelf/eigendom te verdedigen tegen schade uit fauna."
             },
             {
                 "party": "50PLUS",
@@ -1546,7 +1546,7 @@ const data = [
             },
             {
                 "party": "Volt",
-                "statement": "Volt wil goed samenleven met wilde dieren. Boeren krijgen hulp bij bescherming van vee. Wolven worden gevolgd om hun gedrag beter te begrijpen en we geven ze genoeg ruimte. Alleen als het echt niet anders kan, grijpen we in."
+                "statement": "Volt wil goed samenleven met wilde dieren. Boeren krijgen huLibertaire Partij bij bescherming van vee. Wolven worden gevolgd om hun gedrag beter te begrijpen en we geven ze genoeg ruimte. Alleen als het echt niet anders kan, grijpen we in."
             },
             {
                 "party": "Vrede voor Dieren",
@@ -1613,7 +1613,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Zolang de rechter de richtlijnen van de wet aanhoudt, ziet LP dit als mogelijkheid. Een belangrijk aspect van lokale veiligheidsplannen is maatwerk; voorkomen is beter dan repressie. Door samen te werken met de gemeente kan beter vorm gegeven worden aan individuele oplossingen voor veelplegers."
+                "statement": "Zolang de rechter de richtlijnen van de wet aanhoudt, ziet Libertaire Partij dit als mogelijkheid. Een belangrijk aspect van lokale veiligheidsplannen is maatwerk; voorkomen is beter dan repressie. Door samen te werken met de gemeente kan beter vorm gegeven worden aan individuele oplossingen voor veelplegers."
             },
             {
                 "party": "50PLUS",
@@ -1692,7 +1692,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP wil af van opgedrongen solidariteit. We willen het vangnet hervormen tot een écht vangnet en zelfredzaamheid stimuleren. Gedwongen solidariteit creëert een wereld waarin bureaucratie boven menselijkheid gaat. Door ruimte te geven om het zelf te organiseren ontstaat oprechte sociale cohesie."
+                "statement": "De Libertaire Partij wil af van opgedrongen solidariteit. We willen het vangnet hervormen tot een écht vangnet en zelfredzaamheid stimuleren. Gedwongen solidariteit creëert een wereld waarin bureaucratie boven menselijkheid gaat. Door ruimte te geven om het zelf te organiseren ontstaat oprechte sociale cohesie."
             },
             {
                 "party": "Vrij Verbond",
@@ -1851,7 +1851,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld. Bij de energievoorziening draait het primair weer om betrouwbaar en betaalbaar."
+                "statement": "De Libertaire Partij pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld. Bij de energievoorziening draait het primair weer om betrouwbaar en betaalbaar."
             },
             {
                 "party": "50PLUS",
@@ -1910,7 +1910,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Bepalen over abortus is geen taak voor de overheid. De LP staat voor vrijheid om je eigen leven te leiden zolang dit de vrijheid van een ander niet inperkt. Abortus betreft de tegenstelling tussen lichamelijke autonomie en recht van het ongeboren kind; wij laten dit aan lokale gemeenschappen."
+                "statement": "Bepalen over abortus is geen taak voor de overheid. De Libertaire Partij staat voor vrijheid om je eigen leven te leiden zolang dit de vrijheid van een ander niet inperkt. Abortus betreft de tegenstelling tussen lichamelijke autonomie en recht van het ongeboren kind; wij laten dit aan lokale gemeenschappen."
             },
             {
                 "party": "50PLUS",
@@ -2001,7 +2001,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP is tegen het verhogen van minimumloon en tegen het verhogen van uitkeringen. Dit leidt namelijk alleen maar tot een loon-prijsspiraal die vooral basis levensbehoeftes treft. Minimumlonen en uitkeringen door opgedrongen ‘solidariteit’ horen niet bij ons beeld van overheidstaken."
+                "statement": "De Libertaire Partij is tegen het verhogen van minimumloon en tegen het verhogen van uitkeringen. Dit leidt namelijk alleen maar tot een loon-prijsspiraal die vooral basis levensbehoeftes treft. Minimumlonen en uitkeringen door opgedrongen ‘solidariteit’ horen niet bij ons beeld van overheidstaken."
             },
             {
                 "party": "Vrij Verbond",
@@ -2160,7 +2160,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Het is op geen enkele manier een taak voor de overheid om de veestapel te reguleren. Stop alle vormen van regulering van stikstof-/methaanuitstoot. Laat boeren vrij om te ondernemen. De LP pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld."
+                "statement": "Het is op geen enkele manier een taak voor de overheid om de veestapel te reguleren. Stop alle vormen van regulering van stikstof-/methaanuitstoot. Laat boeren vrij om te ondernemen. De Libertaire Partij pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld."
             },
             {
                 "party": "50PLUS",
@@ -2199,7 +2199,7 @@ const data = [
             },
             {
                 "party": "BBB",
-                "statement": "Onrechtmatig verblijf in Nederland moet strafbaar worden. Dit geldt ook voor het doelbewust mogelijk maken van illegaal verblijf, zoals het bewust onderverhuren van een kamer. Dit geldt niet voor het bieden van (nood)hulp aan iemand die hier illegaal verblijft."
+                "statement": "Onrechtmatig verblijf in Nederland moet strafbaar worden. Dit geldt ook voor het doelbewust mogelijk maken van illegaal verblijf, zoals het bewust onderverhuren van een kamer. Dit geldt niet voor het bieden van (nood)huLibertaire Partij aan iemand die hier illegaal verblijft."
             },
             {
                 "party": "CDA",
@@ -2227,7 +2227,7 @@ const data = [
             },
             {
                 "party": "50PLUS",
-                "statement": "Vervolg- en beroepsprocedures worden wettelijk beperkt. Maar humanitaire hulp aan illegalen is niet strafbaar tenzij het uitzettingsbeleid wordt ondermijnd."
+                "statement": "Vervolg- en beroepsprocedures worden wettelijk beperkt. Maar humanitaire huLibertaire Partij aan illegalen is niet strafbaar tenzij het uitzettingsbeleid wordt ondermijnd."
             },
             {
                 "party": "De Linie",
@@ -2255,7 +2255,7 @@ const data = [
             },
             {
                 "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil meer grip op migratie en investeren in de asielketen om aanvragen snel te beoordelen. Strafbaarstelling drukt kwetsbare mensen de illegaliteit in, dat belemmert het meewerken aan vertrek en toekomstperspectief. Hulp aan ongedocumenteerden wordt nooit strafbaar."
+                "statement": "De ChristenUnie wil meer grip op migratie en investeren in de asielketen om aanvragen snel te beoordelen. Strafbaarstelling drukt kwetsbare mensen de illegaliteit in, dat belemmert het meewerken aan vertrek en toekomstperspectief. HuLibertaire Partij aan ongedocumenteerden wordt nooit strafbaar."
             },
             {
                 "party": "Volt",
@@ -2314,7 +2314,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP staat achter het concept van “de gebruiker betaalt”. Echter willen wij op den duur ook deze belastingen uitfaseren, aangezien wij infrastructuur niet als een overheidstaak zien."
+                "statement": "De Libertaire Partij staat achter het concept van “de gebruiker betaalt”. Echter willen wij op den duur ook deze belastingen uitfaseren, aangezien wij infrastructuur niet als een overheidstaak zien."
             },
             {
                 "party": "PVV",
@@ -2473,7 +2473,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP is tegen door de overheid afgedwongen prijsafspraken. Prijs en eigen risico kunnen verzekeraar en klant zelf overeenkomen. Het verplichte eigen risico is een door de overheid gecreëerd probleem. De LP wil klanten dit zelf laten afspreken en de verplichte basisverzekering vrijwillig maken."
+                "statement": "De Libertaire Partij is tegen door de overheid afgedwongen prijsafspraken. Prijs en eigen risico kunnen verzekeraar en klant zelf overeenkomen. Het verplichte eigen risico is een door de overheid gecreëerd probleem. De Libertaire Partij wil klanten dit zelf laten afspreken en de verplichte basisverzekering vrijwillig maken."
             },
             {
                 "party": "50PLUS",
@@ -2492,7 +2492,7 @@ const data = [
     {
         "theme": "Euthanasie",
         "title": "Psychisch lijden mag geen reden zijn voor euthanasieIcon.",
-        "info": "Artsen kunnen in bijzondere gevallen iemand helpen met sterven door middel van euthanasie of hulp bij zelfdoding.  Dat mogen zij alleen doen bij mensen die ondraaglijk en uitzichtloos lijden. Het lijden kan lichamelijk of psychisch zijn, maar moet een medische oorzaak hebben. Bijvoorbeeld door een psychiatrische aandoening.",
+        "info": "Artsen kunnen in bijzondere gevallen iemand helpen met sterven door middel van euthanasie of huLibertaire Partij bij zelfdoding.  Dat mogen zij alleen doen bij mensen die ondraaglijk en uitzichtloos lijden. Het lijden kan lichamelijk of psychisch zijn, maar moet een medische oorzaak hebben. Bijvoorbeeld door een psychiatrische aandoening.",
         "results": [
             {
                 "party": "NSC",
@@ -2512,7 +2512,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "Het aantal euthanasiegevallen bij psychisch lijden stijgt, vooral onder jongeren (2012-2021: verviervoudigd). De PVV wil onderzoek, zeker omdat veel jongeren hun aanvraag intrekken. KNMG: “Meer hulp bij leven nodig dan bij sterven.” Stichting 113: “Honderden suïcides zijn te voorkómen met preventie“. De PVV is daarom voor een moratorium op euthanasie vanwege psychisch lijden. Binnen de fractie is dit een vrije kwestie."
+                "statement": "Het aantal euthanasiegevallen bij psychisch lijden stijgt, vooral onder jongeren (2012-2021: verviervoudigd). De PVV wil onderzoek, zeker omdat veel jongeren hun aanvraag intrekken. KNMG: “Meer huLibertaire Partij bij leven nodig dan bij sterven.” Stichting 113: “Honderden suïcides zijn te voorkómen met preventie“. De PVV is daarom voor een moratorium op euthanasie vanwege psychisch lijden. Binnen de fractie is dit een vrije kwestie."
             },
             {
                 "party": "JA21",
@@ -2576,7 +2576,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Mensen die vinden dat ze klaar zijn met hun leven, moeten recht krijgen op euthanasie. Het alternatief is namelijk zelfmoord. Wel moet er voldoende psychische hulp aanwezig zijn. Daarvoor willen we investeren in de capaciteit en kwaliteit van de GGZ"
+                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Mensen die vinden dat ze klaar zijn met hun leven, moeten recht krijgen op euthanasie. Het alternatief is namelijk zelfmoord. Wel moet er voldoende psychische huLibertaire Partij aanwezig zijn. Daarvoor willen we investeren in de capaciteit en kwaliteit van de GGZ"
             },
             {
                 "party": "FNP",
@@ -2651,7 +2651,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP vindt dat het aan de eigenaar van de grond is hoe deze gebruikt wordt, zolang er geen schade wordt toegebracht aan anderen. De overheid legt teveel restricties op bouwen en verbouwen. Woningaanbod wordt zo kunstmatig laag gehouden. Grondeigenaren en woningzoekenden moeten zelf kunnen bepalen."
+                "statement": "De Libertaire Partij vindt dat het aan de eigenaar van de grond is hoe deze gebruikt wordt, zolang er geen schade wordt toegebracht aan anderen. De overheid legt teveel restricties op bouwen en verbouwen. Woningaanbod wordt zo kunstmatig laag gehouden. Grondeigenaren en woningzoekenden moeten zelf kunnen bepalen."
             },
             {
                 "party": "50PLUS",
@@ -2742,7 +2742,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De LP is tegen ongerichte preventieve actie en profilering, want dit schendt het recht op privacy. Wij willen een kleine overheid die extreem voorzichtig is met gegevensverzameling. Biometrische gegevens moeten worden vernietigd. Bescherming tegen discriminatie door de overheid moet in de Grondwet."
+                "statement": "De Libertaire Partij is tegen ongerichte preventieve actie en profilering, want dit schendt het recht op privacy. Wij willen een kleine overheid die extreem voorzichtig is met gegevensverzameling. Biometrische gegevens moeten worden vernietigd. Bescherming tegen discriminatie door de overheid moet in de Grondwet."
             },
             {
                 "party": "Piratenpartij",
@@ -2889,7 +2889,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Als je volwassen bent, mag niemand je in die keuze beperken zolang je niemand anders schade berokkent. Wat betreft de LP is het tijd om te stoppen met het bestraffen van mensen voor ‘misdaden’ zonder slachtoffers."
+                "statement": "Als je volwassen bent, mag niemand je in die keuze beperken zolang je niemand anders schade berokkent. Wat betreft de Libertaire Partij is het tijd om te stoppen met het bestraffen van mensen voor ‘misdaden’ zonder slachtoffers."
             },
             {
                 "party": "Piratenpartij",
@@ -2984,7 +2984,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Het verdedigen van landsgrenzen is één van de weinig verdedigbare overheidstaken, maar het budget moet gebaseerd zijn op werkelijke benodigdheden. Koste wat kost geld uitgeven is ondoordacht en komt voort uit de wapenlobby. De LP wil gemeenschapsgeld alleen uitgeven wanneer het écht nodig is."
+                "statement": "Het verdedigen van landsgrenzen is één van de weinig verdedigbare overheidstaken, maar het budget moet gebaseerd zijn op werkelijke benodigdheden. Koste wat kost geld uitgeven is ondoordacht en komt voort uit de wapenlobby. De Libertaire Partij wil gemeenschapsgeld alleen uitgeven wanneer het écht nodig is."
             },
             {
                 "party": "50PLUS",
@@ -3059,7 +3059,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "Welke energiebronnen worden aangeboord is aan mensen/bedrijven zelf. De LP ziet echter een enorme vraag naar stabiele energieopwekking en de overheid/politiek beperken de ontwikkeling van kernenergie. Kernenergie verdient eerlijke kans maar wordt gehinderd door overregulering/politieke onzekerheid."
+                "statement": "Welke energiebronnen worden aangeboord is aan mensen/bedrijven zelf. De Libertaire Partij ziet echter een enorme vraag naar stabiele energieopwekking en de overheid/politiek beperken de ontwikkeling van kernenergie. Kernenergie verdient eerlijke kans maar wordt gehinderd door overregulering/politieke onzekerheid."
             },
             {
                 "party": "50PLUS",
