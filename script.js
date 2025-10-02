@@ -1,55 +1,73 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const partyCheckboxes = document.getElementById("party-checkboxes");
-    const themeCheckboxes = document.getElementById("theme-checkboxes");
+
+    // encode any JS value
+    function packForUrl(value) {
+        const json = JSON.stringify(value);
+        return LZString.compressToEncodedURIComponent(json);
+    }
+
+    // decode back to the original value
+    function unpackFromUrl(s) {
+        const json = LZString.decompressFromEncodedURIComponent(s);
+        return JSON.parse(json);
+    }
 
     const statements = document.getElementById("statements");
 
-    const showPartyNames = document.getElementById("show-parties");
-
-    const selectAllParties = document.getElementById("select-all-parties"); 
-    const selectAllThemes = document.getElementById("select-all-themes"); 
-
     // Extract unique parties and themes
     const parties = [...new Set(data.map(item => item.results.map(result => result.party)).flat())];
-
     parties.sort((a, b) => {
         let val_a = seats[a] ? seats[a] : 0;
         let val_b = seats[b] ? seats[b] : 0;
         return val_b-val_a
     });
-
     const themes = [...new Set(data.map(item => item.theme))];
 
-    // Selected items
-    let selectedParties
-    try {
-        selectedParties = new Map(JSON.parse(localStorage.getItem("selectedParties")))
-        let invariant = true
-        parties.forEach((party) => invariant = invariant && !selectedParties.get(party))
-        if (invariant) for (let party of currentParties) selectedParties.set(party, true)
-    } catch (error) {
-        selectedParties = new Map();
+    let selectedParties = [];
+    let selectedThemes = [];
+    let selectedStatements = new Map();
+
+    // Extract from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const url_data = urlParams.get('d');
+    if (url_data) {
+        try {
+            const unpackedData = unpackFromUrl(url_data);
+            selectedParties = unpackedData.selectedParties || [];
+            selectedThemes = unpackedData.selectedThemes || [];
+            selectedStatements = new Map(unpackedData.selectedStatements || []);
+        } catch (error) {}
+    } else {
+        // Get stored data from local storage
+        try {
+            selectedParties = JSON.parse(localStorage.getItem("selectedParties")) || [];
+            for (let party of selectedParties) {
+                if (!parties.includes(party)) {
+                    selectedParties.splice(selectedParties.indexOf(party), 1);
+                }
+            }
+        } catch (error) {}
+        try {
+            selectedThemes = JSON.parse(localStorage.getItem("selectedThemes")) || [];
+            for (let theme of selectedThemes) {
+                if (!themes.includes(theme)) {
+                    selectedThemes.splice(selectedThemes.indexOf(theme), 1);
+                }
+            }
+        } catch (error) {}
+        let selectedStatements
+        try {
+            selectedStatements = new Map(JSON.parse(localStorage.getItem("selectedStatements")))
+        } catch (error) {}
     }
 
-    let selectedThemes
-    try {
-        selectedThemes = new Map(JSON.parse(localStorage.getItem("selectedThemes")))
-    } catch (error) {
-        selectedThemes = new Map();
-    }
-
-    let selectedStatements
-    try {
-        selectedStatements = new Map(JSON.parse(localStorage.getItem("selectedStatements")))
-    } catch (error) {
-        selectedStatements = new Map();
-    }
+    
 
     // Populate the party checkboxes
     parties.forEach((party) => {
-        partyCheckboxes.innerHTML += `
+        document.getElementById("party-checkboxes").innerHTML += `
             <div class="d-flex align-items-baseline">
-                <input ${selectedParties.get(party) ? 'checked' : ''} type="checkbox" class="party d-none" id="${party}">
+                <input ${selectedParties.includes(party) ? 'checked' : ''} type="checkbox" class="party d-none" id="${party}">
                 <label for="${party}" class="ms-2 my-1 toggle-text btn btn-outline-dark">${party}</label>
             </div>
         `;
@@ -57,9 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Populate the theme checkboxes
     themes.forEach(theme => {
-        themeCheckboxes.innerHTML += `
+        document.getElementById("theme-checkboxes").innerHTML += `
             <div class="d-flex align-items-baseline">
-                <input ${selectedThemes.get(theme) ? 'checked' : ''} type="checkbox" class="theme d-none" id="${theme}">
+                <input ${selectedThemes.includes(theme) ? 'checked' : ''} type="checkbox" class="theme d-none" id="${theme}">
                 <label for="${theme}" class="ms-2 my-1 toggle-text btn btn-outline-dark">${theme}</label>
             </div>
         `;
@@ -68,9 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Load the form
     let loadStatementForm = () => {
         statements.innerHTML = "";
-        
-
-        statements.innerHTML += "<div id='no-parties-or-themes' style='display: none;'><p>Please select at least one party and one theme.</p></div>";
+        statements.innerHTML += "<div id='no-parties-or-themes' style='display: none;' class='small'><p><i>Please select at least one party and one theme.</i></p></div>";
 
         data.forEach(themeData => {
             let statementItems = ''
@@ -96,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             statements.innerHTML += `
-                <div class="m-2 p-2 d-flex flex-column justify-content-start align-items-center" id="item-${themeData.theme}" style="max-width: 500px; display: none">
+                <div class="m-2 p-2 flex-column justify-content-start align-items-center" id="item-${themeData.theme}" style="max-width: 500px; display: none;">
                     <div class="card-header">
                         <h4 class="d-flex justify-content-center"> ${themeData.theme} </h4>
                     </div>
@@ -111,113 +127,80 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         for (let elem of document.getElementsByClassName('show-party-names')) {
-            elem.style.display = showPartyNames.checked ? "inline" : "none";
+            elem.style.display = document.getElementById("show-parties").checked ? "inline" : "none";
         }
-
         for (let elem of document.getElementsByClassName('hide-party-names')) {
-            elem.style.display = showPartyNames.checked ? "none" : "inline";
+            elem.style.display = document.getElementById("show-parties").checked ? "none" : "inline";
         }
-        
-
     }
 
     // Load the form
     let reloadStatementForm = () => {
-
-        let party_count = 0;
-        let statement_count = 0;
-
-        data.forEach(themeData => {
-
-            themeData.results.forEach(result => {
-                const this_party_block = document.getElementById(`item-${result.party}-${themeData.theme}`);
-                if (selectedParties.get(result.party)) {
-                    party_count += 1; 
-                } else {  
-                }
-
-            });
-
-            const this_statement_block = document.getElementById(`item-${themeData.theme}`);
-
-            if (selectedThemes.get(themeData.theme)) {
-                statement_count += 1;
-            } else {
-            }
-      
-        });
-
-        if (party_count === 0 || statement_count === 0) {
-            let no_party_or_theme_message = document.getElementById("no-parties-or-themes");
-            no_party_or_theme_message.style.display = "block";
-
+        if (selectedParties.length === 0 || selectedThemes.length === 0) {
+            document.getElementById("no-parties-or-themes").style.display = "inline";  
             data.forEach(themeData => {
-
                 themeData.results.forEach(result => {
-                    const this_party_block = document.getElementById(`item-${result.party}-${themeData.theme}`);
-                    this_party_block.style.display = "none";    
-
+                    document.getElementById(`item-${result.party}-${themeData.theme}`).style.display = "none";    
                 });
-
-                const this_statement_block = document.getElementById(`item-${themeData.theme}`);
-                this_statement_block.style.display = "none";
-
+                document.getElementById(`item-${themeData.theme}`).style.display = "none";  
             });
-
         } else {
-            let no_party_or_theme_message = document.getElementById("no-parties-or-themes");
-            no_party_or_theme_message.style.display = "none";
-
+            document.getElementById("no-parties-or-themes").style.display = "none";  
             data.forEach(themeData => {
-
                 themeData.results.forEach(result => {
-                    const this_party_block = document.getElementById(`item-${result.party}-${themeData.theme}`);
-                    if (selectedParties.get(result.party)) {
-                        this_party_block.style.display = "block";
+                    if (selectedParties.includes(result.party)) {
+                        document.getElementById(`item-${result.party}-${themeData.theme}`).style.display = "block";  
                     } else {
-                        this_party_block.style.display = "none";   
+                        document.getElementById(`item-${result.party}-${themeData.theme}`).style.display = "none";   
                     }
-
                 });
-
-                const this_statement_block = document.getElementById(`item-${themeData.theme}`);
-
-                if (selectedThemes.get(themeData.theme)) {
-                    this_statement_block.style.display = "block";
+                if (selectedThemes.includes(themeData.theme)) {
+                    document.getElementById(`item-${themeData.theme}`).style.display = "flex";  
                 } else {
-                    this_statement_block.style.display = "none";   
+                    document.getElementById(`item-${themeData.theme}`).style.display = "none";  
                 }
-        
             });
-
         }
     }
 
     let reloadResults = () => {
+        if (selectedParties.length === 0 && selectedThemes.length === 0) {
+            // If no parties or themes are selected, hide all results
+            document.getElementById("party-results").innerHTML = '';
+            // Store the URL data in url
+            history.replaceState(null, '', '?');
+            return;
+        }
+
+        // turn it into a string
+        let url_data = packForUrl({
+            selectedParties,
+            selectedThemes,
+            selectedStatements: Array.from(selectedStatements.entries())
+        });
+
+        // Store the URL data in url
+        history.replaceState(null, '', `?d=${url_data}`);
+
         const partyAgreeCounts = {};
         const partyDisagreeCounts = {};
 
-        for (let [party, selected] of selectedParties) {
-            if (selected) {
-                partyAgreeCounts[party] = 0;
-                partyDisagreeCounts[party] = 0;
-            }
+        for (let party of selectedParties) {
+            partyAgreeCounts[party] = 0;
+            partyDisagreeCounts[party] = 0;
         }
 
-        for (let [party, selected] of selectedParties) {
-            if (selected) {
-                for (let statement of document.getElementsByClassName(`${party}-agree`)) {
-                    if(statement.checked) {
-                        partyAgreeCounts[party] += 1
-                    }
+        for (let party of selectedParties) {
+            for (let statement of document.getElementsByClassName(`${party}-agree`)) {
+                if(statement.checked) {
+                    partyAgreeCounts[party] += 1
                 }
-                for (let statement of document.getElementsByClassName(`${party}-disagree`)) {
+            }
+            for (let statement of document.getElementsByClassName(`${party}-disagree`)) {
                 if(statement.checked) {
                     partyDisagreeCounts[party] += 1
                 }
-            }
-            }
-            
+            }            
         }
 
         let finalPartyResults = [];
@@ -227,9 +210,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const disagrees = partyDisagreeCounts[party] || 0;
         const total = agrees + disagrees;
 
-        const ao = agrees - disagrees;                 // primary score
-        const raw = total === 0 ? 0 : agrees / total;                    // tie-breaker (0..1)
-        const rawPercent = Math.round(raw * 100);      // for display
+        const ao = agrees - disagrees;
+        const raw = total === 0 ? 0 : agrees / total;
+        const rawPercent = Math.round(raw * 100);
 
         finalPartyResults.push({
             party,
@@ -237,17 +220,17 @@ document.addEventListener("DOMContentLoaded", () => {
             disagrees,
             total,
             ao,
-            raw,             // keep as number for sorting
-            rawPercent,      // for display
+            raw,
+            rawPercent,
         });
         }
 
         finalPartyResults.sort((a, b) =>
-        (b.ao - a.ao) ||
-        (b.raw - a.raw) ||
-        (b.total - a.total) ||
-        (b.agrees - a.agrees) ||
-        a.party.localeCompare(b.party)
+            (b.ao - a.ao) ||
+            (b.raw - a.raw) ||
+            (b.total - a.total) ||
+            (b.agrees - a.agrees) ||
+            a.party.localeCompare(b.party)
         );
 
         const partyResults = document.getElementById("party-results");
@@ -264,14 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
             `;
         });
 
-        let count_themes = 0;
-        for (let [theme, selected] of selectedThemes) {
-            if (selected) {
-                count_themes++;
-            }
-        }
-
-        if (results === '' || count_themes === 0) {
+        if (results === '' || selectedThemes.length === 0 || selectedParties.length === 0) {
             partyResults.innerHTML = ''
         } else {
             partyResults.innerHTML = `
@@ -294,85 +270,79 @@ document.addEventListener("DOMContentLoaded", () => {
                         </div>
                     </div>
                 </div>  
-            `
+            `;
 
             const resetButton = document.getElementById("reset-button");
             resetButton.addEventListener("click", () => {
                 localStorage.setItem("selectedThemes", [].toString());
                 localStorage.setItem("selectedParties", [].toString());
                 localStorage.setItem("selectedStatements", [].toString());
+                history.replaceState(null, '', '?');
                 location.reload();
             });
-        }
-
-           
+        }           
     }
 
     loadStatementForm();
     reloadStatementForm();
     reloadResults();
 
-    showPartyNames.addEventListener("change", () => {
-        for (let elem of document.getElementsByClassName('show-party-names')) {
-            elem.style.display = showPartyNames.checked ? "inline" : "none";
-        }
+    ///// Event Listeners :
 
+    // Show/hide party names
+    document.getElementById("show-parties").addEventListener("change", () => {
+        for (let elem of document.getElementsByClassName('show-party-names')) {
+            elem.style.display = document.getElementById("show-parties").checked ? "inline" : "none";
+        }
         for (let elem of document.getElementsByClassName('hide-party-names')) {
-            elem.style.display = showPartyNames.checked ? "none" : "inline";
+            elem.style.display = document.getElementById("show-parties").checked ? "none" : "inline";
         }
     })
 
-    selectAllParties.addEventListener("click", () => {
-
-        let val = parties.filter((party) => !selectedParties.get(party)).length != 0;
-
+    // Select all parties
+    document.getElementById("select-all-parties").addEventListener("click", () => {
+        let nothing_selected = selectedParties.length === 0;
         parties.forEach((party) => {
-            selectedParties.set(party, val);
-            document.getElementById(party).checked = val;
+            selectedParties.set(party, nothing_selected);
+            document.getElementById(party).checked = nothing_selected;
         });
-        
-        localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
+        localStorage.setItem("selectedParties", JSON.stringify(selectedParties))
         reloadStatementForm();
         reloadResults();
     });
 
-    selectAllThemes.addEventListener("click", () => {
-
-        let val = themes.filter((theme) => !selectedThemes.get(theme)).length != 0;
-
+    // Select all themes
+    document.getElementById("select-all-themes").addEventListener("click", () => {
+        let nothing_selected = selectedThemes.length === 0;
         themes.forEach((theme) => {
-            selectedThemes.set(theme, val);
-            document.getElementById(theme).checked = val;
+            selectedThemes.set(theme, nothing_selected);
+            document.getElementById(theme).checked = nothing_selected;
         });
-        
-        localStorage.setItem("selectedThemes", JSON.stringify(Array.from(selectedThemes.entries())))
+        localStorage.setItem("selectedThemes", JSON.stringify(selectedThemes))
         reloadStatementForm();
         reloadResults();
     });
-
 
     // Handle checkboxes of parties
-    partyCheckboxes.addEventListener("change", (event) => {
+    document.getElementById("party-checkboxes").addEventListener("change", (event) => {
         if (event.target.checked) {
-            selectedParties.set(event.target.id, true)
+            selectedParties.push(event.target.id)
         } else {
-            selectedParties.set(event.target.id, false)
+            selectedParties.splice(selectedParties.indexOf(event.target.id), 1)
         }
-
-        localStorage.setItem("selectedParties", JSON.stringify(Array.from(selectedParties.entries())))
+        localStorage.setItem("selectedParties", JSON.stringify(selectedParties))
         reloadStatementForm();
         reloadResults();
     });
 
     // Handle checkboxes of themes
-    themeCheckboxes.addEventListener("change", (event) => {
+    document.getElementById("theme-checkboxes").addEventListener("change", (event) => {
         if (event.target.checked) {
-            selectedThemes.set(event.target.id, true)
+            selectedThemes.push(event.target.id)
         } else {
-            selectedThemes.set(event.target.id, false)
+            selectedThemes.splice(selectedThemes.indexOf(event.target.id), 1)
         }
-
-        localStorage.setItem("selectedThemes", JSON.stringify(Array.from(selectedThemes.entries())))
+        localStorage.setItem("selectedThemes", JSON.stringify(selectedThemes))
         reloadStatementForm();
         reloadResults();
     });
@@ -384,9 +354,7 @@ document.addEventListener("DOMContentLoaded", () => {
         selectedStatements.delete(partyTheme + "-agree")
         selectedStatements.delete(partyTheme + "-disagree")
         selectedStatements.set(event.target.id, true)
-
         localStorage.setItem("selectedStatements", JSON.stringify(Array.from(selectedStatements.entries())))
-
         reloadResults();
     });
 });
