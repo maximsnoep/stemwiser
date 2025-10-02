@@ -83,20 +83,20 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p>"${result.statement.replaceAll(result.party, `<span class="show-party-names" style="display:none">${result.party}</span><span class="hide-party-names" style="font-style: italic; display:none">PARTY</span>`)}" <span class="show-party-names" style="display:none"><br/> - ${result.party}</span></p>
                         <div class="d-flex justify-content-center btn-group mx-5" role="group" aria-label="Basic radio toggle button group">
                             <input ${disagree ? "checked" : ""} type="radio" class="btn-check ${result.party}-disagree" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-disagree" autocomplete="off">
-                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-disagree"><span class="bi bi-hand-thumbs-down-fill"></span> <span>disagree</span></label>
+                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center" for="${result.party}-${themeData.theme}-disagree"><span class="bi bi-hand-thumbs-down-fill px-1"></span> <span>disagree</span></label>
 
                             <input ${none ? "checked" : ""} type="radio" class="btn-check ${result.party}-none" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-none" autocomplete="off">
-                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-none"><span>undecided</span></label>
+                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center" for="${result.party}-${themeData.theme}-none"><span>undecided</span></label>
 
                             <input ${agree ? "checked" : ""} type="radio" class="btn-check ${result.party}-agree" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-agree" autocomplete="off">
-                            <label class="btn btn-outline-dark" for="${result.party}-${themeData.theme}-agree"><span class="bi bi-hand-thumbs-up-fill"></span> <span>agree</span></label>
+                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center" for="${result.party}-${themeData.theme}-agree"><span class="bi bi-hand-thumbs-up-fill px-1"></span> <span>agree</span></label>
                         </div>
                     </li>
                 `;
             });
 
             statements.innerHTML += `
-                <div class="mx-2 mb-2" id="item-${themeData.theme}" style="max-width: 500px; display: none">
+                <div class="mx-2 mb-2 p-2" id="item-${themeData.theme}" style="max-width: 500px; display: none">
                     <div class="card-header">
                         <h4 class="d-flex justify-content-center"> ${themeData.theme} </h4>
                     </div>
