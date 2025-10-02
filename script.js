@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             statements.innerHTML += `
-                <div class="m-5 p-5" id="item-${themeData.theme}" style="max-width: 500px; display: none">
+                <div class="mx-2 mb-2" id="item-${themeData.theme}" style="max-width: 500px; display: none">
                     <div class="card-header">
                         <h4 class="d-flex justify-content-center"> ${themeData.theme} </h4>
                     </div>
