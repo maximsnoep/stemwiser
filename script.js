@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 let disagree = selectedStatements.get(result.party + "-" + themeData.theme + "-disagree");
                 let none = !agree && !disagree;
                 statementItems += `
-                    <li class="list-group-item bg-transparent my-4 border-0" id="item-${result.party}-${themeData.theme}" style="display: none;">
+                    <li class="list-group-item my-4 p-4 small" id="item-${result.party}-${themeData.theme}" style="border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; background: none; display: none;">
                         <p>"${result.statement.replaceAll(result.party, `<span class="show-party-names" style="display:none">${result.party}</span><span class="hide-party-names" style="font-style: italic; display:none">PARTY</span>`)}" <span class="show-party-names" style="display:none"><br/> - ${result.party}</span></p>
                         <div class="d-flex justify-content-center btn-group mx-5" role="group" aria-label="Basic radio toggle button group">
                             <input ${disagree ? "checked" : ""} type="radio" class="btn-check ${result.party}-disagree" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-disagree" autocomplete="off">
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             statements.innerHTML += `
-                <div class="mx-2 mb-2" id="item-${themeData.theme}" style="max-width: 500px; display: none">
+                <div class="mx-2 mb-2 d-flex flex-column justify-content-start align-items-center" id="item-${themeData.theme}" style="max-width: 500px; display: none">
                     <div class="card-header">
                         <h4 class="d-flex justify-content-center"> ${themeData.theme} </h4>
                     </div>
