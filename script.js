@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }
         } catch (error) {}
-        let selectedStatements
         try {
             selectedStatements = new Map(JSON.parse(localStorage.getItem("selectedStatements")))
         } catch (error) {}
@@ -136,6 +135,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Load the form
     let reloadStatementForm = () => {
+            // Populate the party checkboxes
+            parties.forEach((party) => {
+                document.getElementById(party).checked = selectedParties.includes(party);
+            });
+
+            // Populate the theme checkboxes
+            themes.forEach(theme => {
+                document.getElementById(theme).checked = selectedThemes.includes(theme);
+            });
+
         if (selectedParties.length === 0 || selectedThemes.length === 0) {
             document.getElementById("no-parties-or-themes").style.display = "inline";  
             data.forEach(themeData => {
@@ -144,26 +153,36 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
                 document.getElementById(`item-${themeData.theme}`).style.display = "none";  
             });
+            document.getElementById("statement-count-message").style.display = "none";
         } else {
             document.getElementById("no-parties-or-themes").style.display = "none";  
+            let total_statement_count = 0;
             data.forEach(themeData => {
+                let this_theme_count = 0;
                 themeData.results.forEach(result => {
                     if (selectedParties.includes(result.party)) {
                         document.getElementById(`item-${result.party}-${themeData.theme}`).style.display = "block";  
+                        this_theme_count++;
                     } else {
                         document.getElementById(`item-${result.party}-${themeData.theme}`).style.display = "none";   
                     }
                 });
                 if (selectedThemes.includes(themeData.theme)) {
                     document.getElementById(`item-${themeData.theme}`).style.display = "flex";  
+                    total_statement_count += this_theme_count;
                 } else {
                     document.getElementById(`item-${themeData.theme}`).style.display = "none";  
                 }
             });
+            document.getElementById("statement-count-message").style.display = "block";
+            document.getElementById("current-statements").innerText = selectedStatements.size;
+            document.getElementById("total-statements").innerText = total_statement_count;
         }
     }
 
     let reloadResults = () => {
+        document.getElementById("current-statements").innerText = selectedStatements.size;
+
         if (selectedParties.length === 0 && selectedThemes.length === 0) {
             // If no parties or themes are selected, hide all results
             document.getElementById("party-results").innerHTML = '';
@@ -301,11 +320,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Select all parties
     document.getElementById("select-all-parties").addEventListener("click", () => {
-        let nothing_selected = selectedParties.length === 0;
-        parties.forEach((party) => {
-            selectedParties.set(party, nothing_selected);
-            document.getElementById(party).checked = nothing_selected;
-        });
+        if (selectedParties.length === parties.length) {
+            selectedParties = [];
+        } else {
+            selectedParties = [...parties];
+        }
         localStorage.setItem("selectedParties", JSON.stringify(selectedParties))
         reloadStatementForm();
         reloadResults();
@@ -313,11 +332,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Select all themes
     document.getElementById("select-all-themes").addEventListener("click", () => {
-        let nothing_selected = selectedThemes.length === 0;
-        themes.forEach((theme) => {
-            selectedThemes.set(theme, nothing_selected);
-            document.getElementById(theme).checked = nothing_selected;
-        });
+        if (selectedThemes.length === themes.length) {
+            selectedThemes = [];
+        } else {
+            selectedThemes = [...themes];
+        }
         localStorage.setItem("selectedThemes", JSON.stringify(selectedThemes))
         reloadStatementForm();
         reloadResults();
