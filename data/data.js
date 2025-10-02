@@ -2,13 +2,13 @@ const seats = {
     "VVD": 24,
     "BBB": 8,
     "PVV": 37,
-    "GroenLinks-PvdA": 25,
+    "GL-PvdA": 25,
     "NSC": 19,
     "D66": 9,
     "CDA": 5,
     "SP": 5,
     "DENK": 3,
-    "Partij voor de Dieren": 3,
+    "PvdD": 3,
     "FvD": 3,
     "SGP": 3,
     "CU": 3,
@@ -23,7 +23,7 @@ const data = [
         "info": "Als je een huis koopt met een hypotheek, dan moet je rente betalen aan de bank. In Nederland mag je deze rente aftrekken van je inkomen bij de belastingaangifte. Daardoor betaal je minder belasting. Dat heet hypotheekrenteaftrek. De hypotheekrenteaftrek is hoger als je een hogere hypotheek hebt of een hoger inkomen en lager als je een lagere hypotheek hebt of een lager inkomen.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Huizen zijn veel te duur geworden en starters komen er bijna niet meer tussen. De hypotheekrenteaftrek drijft prijzen op en helpt vooral mensen met dure huizen. Door deze stap voor stap af te bouwen en de opbrengst te steken in lastenverlichting en woningbouw, maken we huizen betaalbaarder."
             },
             {
@@ -39,7 +39,7 @@ const data = [
                 "statement": "De hypotheekrenteaftrek drijft de prijzen omhoog. Op de lange termijn moet deze daarom verdwijnen. Op korte termijn willen we deze afschaffen voor huizen boven de 600 duizend euro. Zo komt er jaarlijks tot 6 miljard euro vrij voor betaalbare huurwoningen en woningen voor starters."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Het geleidelijk afschaffen van de hypotheekrenteaftrek voor bedragen boven 450.000 euro maakt ruimte voor betaalbare en groene huizen, die toegankelijk zijn voor iedereen. Hypotheekrenteaftrek verhoogt huizenprijzen en zorgt voor ongelijkheid. Het systeem stimuleert nu bezit boven recht op wonen."
             },
             {
@@ -103,8 +103,8 @@ const data = [
                 "statement": "De overheid heeft de woningmarkt mede door de massa-immigratie volledig gesloopt. Daar helpt het verhogen van de lasten voor woningeigenaren niets aan. Starters en middeninkomens zijn dan juist de sigaar."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij pleit voor algehele belastingverlaging, niet alleen voor mensen met hypotheek. HRA is een maatregel van bankenlobby voor meer leningen/hogere rentes, verstoort de markt en zorgt voor hogere huizenprijzen. De Libertaire Partij is wel tegen afschaffen HRA zolang belastingen niet verlaagd worden voor iedereen."
+                "party": "LP",
+                "statement": "LP pleit voor algehele belastingverlaging, niet alleen voor mensen met hypotheek. HRA is een maatregel van bankenlobby voor meer leningen/hogere rentes, verstoort de markt en zorgt voor hogere huizenprijzen. LP is wel tegen afschaffen HRA zolang belastingen niet verlaagd worden voor iedereen."
             },
             {
                 "party": "50PLUS",
@@ -158,7 +158,7 @@ const data = [
                 "statement": "Een verbod is een verbod. Daartegen ingaan is dus een overtreding."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Demonstreren is een grondrecht. Bijhouden wie aanwezig is, tast vrijheid en privacy aan en kan mensen afschrikken om hun stem te laten horen. Handhaven bij verboden protesten kan, maar registreren van burgers hoort niet in een democratie."
             },
             {
@@ -182,7 +182,7 @@ const data = [
                 "statement": "Burgers moeten kunnen demonstreren zonder in de gaten te worden gehouden door de politie, ongeacht of het een verboden demonstratie betreft of niet. DENK vindt het een te grote aantasting van het demonstratierecht om demonstranten te controleren."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Demonstraties zijn geen verstoring van de orde, maar een krachtig democratisch middel en een teken van hoop. Bijhouden wie er bij een verboden demonstratie aanwezig was vormt een belemmering voor vrije demonstraties. Wij staan pal voor het demonstratierecht."
             },
             {
@@ -206,8 +206,8 @@ const data = [
                 "statement": "Iedereen moet veilig kunnen demonstreren. Het registreren van aanwezigen bij demonstraties schendt privacy en ondermijnt fundamentele democratische rechten."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij ziet privacy van inwoners als een van de belangrijkste grondrechten. Massasurveillance is het grootschalig monitoren van menselijk gedrag en inlichtingendiensten beschikken over infrastructuur die niet zou misstaan in Orwells 1984."
+                "party": "LP",
+                "statement": "LP ziet privacy van inwoners als een van de belangrijkste grondrechten. Massasurveillance is het grootschalig monitoren van menselijk gedrag en inlichtingendiensten beschikken over infrastructuur die niet zou misstaan in Orwells 1984."
             },
             {
                 "party": "Piratenpartij",
@@ -233,7 +233,7 @@ const data = [
                 "statement": "Met 18 jaar ben je volwassen. Je mag dan stemmen, alcohol drinken en je rijbewijs halen. Er is dus geen enkele reden om iemand van 18 jaar minder te betalen. Hetzelfde werk, hetzelfde betaald."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Jongeren werken vaak net zo hard als hun oudere collega's, maar krijgen minder loon. Dat is oneerlijk en schaadt onze samenleving. Het minimumloon vanaf 18 helpt jongeren zelfstandig leven, verkleint armoede en geeft hen een sterke start op de arbeidsmarkt."
             },
             {
@@ -257,7 +257,7 @@ const data = [
                 "statement": "DENK staat voor een eerlijk loon voor iedereen."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Volwassenen horen een volwassen loon te krijgen. Het rechttrekken van het minimumloon voor volwassenen vanaf 18 jaar zorgt ervoor dat jongvolwassenen eerlijker worden betaald, beschermt hen tegen uitbuiting en maakt het eenvoudiger om volwaardig deel te nemen aan de samenleving."
             },
             {
@@ -313,8 +313,8 @@ const data = [
                 "statement": "Het op jongere leeftijd laten ingaan van het minimumloon voor volwassenen maakt het voor werkgevers onaantrekkelijker om starters op de arbeidsmarkt in dienst te nemen. Daarnaast kan het ertoe leiden dat jongeren hun opleiding afbreken om te gaan werken, wat hun latere loopbaan kan belemmeren."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij is voor het afschaffen van minimumloon. De overheid moet niet tussen overeenkomsten van werkgevers en werknemers gaan zitten. Als arbeidsovereenkomsten vrijwillig tot stand komen hebben werkgevers en werknemers de vrijheid om zelf afspraken te maken over, onder andere, het salaris."
+                "party": "LP",
+                "statement": "LP is voor het afschaffen van minimumloon. De overheid moet niet tussen overeenkomsten van werkgevers en werknemers gaan zitten. Als arbeidsovereenkomsten vrijwillig tot stand komen hebben werkgevers en werknemers de vrijheid om zelf afspraken te maken over, onder andere, het salaris."
             },
             {
                 "party": "Vrij Verbond",
@@ -356,8 +356,8 @@ const data = [
                 "statement": "Het vliegveld is klaar voor de burgerluchtvaart. Vliegroutes dienen maximaal rekening te houden met omwonenden."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij vindt dat publieke investeringen in elk geval moeten renderen en dat moeten faciliteren waarvoor ze gebouwd zijn. Verder ziet de Libertaire Partij het liefst dat het beheren van luchthavens geen taak van de overheid is."
+                "party": "LP",
+                "statement": "LP vindt dat publieke investeringen in elk geval moeten renderen en dat moeten faciliteren waarvoor ze gebouwd zijn. Verder ziet LP het liefst dat het beheren van luchthavens geen taak van de overheid is."
             },
             {
                 "party": "Vrij Verbond",
@@ -372,7 +372,7 @@ const data = [
                 "statement": "De SGP heeft nog geen knoop doorgehakt over definitieve openstelling van Lelystad Airport voor de burgerluchtvaart. We vinden onder meer dat eventuele openstelling gepaard moet gaan met afspraken over minder vluchten van en naar Schiphol waar nu veel geluidsoverlast is. Dat is nog onduidelijk."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Lelystad Airport openen betekent meer vluchten, meer CO₂ en meer lawaai. Dat schaadt natuur en gezondheid, terwijl er al genoeg vliegcapaciteit is. Wij kiezen voor klimaat en leefomgeving en investeren in duurzame alternatieven zoals goed treinverkeer."
             },
             {
@@ -396,7 +396,7 @@ const data = [
                 "statement": "Er zijn grote en terechte zorgen van de bewoners over de uitbreiding van luchthaven Lelystad. De groei van het vliegveld gaat voor meer overlast en vervuiling zorgen. Lelystad Airport gaat niet open en er komen geen nieuwe aanvliegroutes voor Schiphol."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Lelystad Airport openen voor vakantievluchten is onwenselijk vanwege schade aan het klimaat, de volksgezondheid en de schaarse stikstofruimte. De Tweede Kamer heeft in 2024 een voorstel van ons aangenomen om Lelystad Airport definitief niet te openen voor vakantievluchten."
             },
             {
@@ -435,7 +435,7 @@ const data = [
         "info": "Statushouders zijn mensen die in Nederland asiel hebben aangevraagd en een verblijfsvergunning hebben gekregen. Gemeentes zijn verplicht om deze mensen een passende woning aan te bieden en kunnen statushouders daarom voorrang geven op een sociale huurwoning. Zo komt er ruimte in asielzoekerscentra. Er zijn vaak lange wachttijden voor sociale huurwoningen. Er is een wetsvoorstel gedaan om de voorrangsregelingen van gemeenten voor statushouders af te schaffen.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Het tekort aan betaalbare woningen wordt gebruikt om groepen tegen elkaar op te zetten. Meer betaalbare huizen zijn de oplossing, niet de uitsluiting van kwetsbare groepen. Daarom draaien we het verbod op voorrang voor statushouders terug. Gemeenten bepalen zelf wie voorrang moet krijgen."
             },
             {
@@ -467,8 +467,8 @@ const data = [
                 "statement": "Gemeenten hebben autonomie in barmhartigheid."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij wil macht decentraliseren naar gemeenten. Wij zijn voor afschaffing speciale status asielzoekers/statushouders en recht op voorkeursbehandeling. Niemand heeft recht op asiel op kosten van de belastingbetaler. Inburgering/hulp aan migranten wordt aan vrijwillige burgerinitiatieven overgelaten."
+                "party": "LP",
+                "statement": "LP wil macht decentraliseren naar gemeenten. Wij zijn voor afschaffing speciale status asielzoekers/statushouders en recht op voorkeursbehandeling. Niemand heeft recht op asiel op kosten van de belastingbetaler. Inburgering/hulp aan migranten wordt aan vrijwillige burgerinitiatieven overgelaten."
             },
             {
                 "party": "FNP",
@@ -495,7 +495,7 @@ const data = [
                 "statement": "DENK wil dat de huisvesting van statushouders rechtvaardig over gemeenten wordt verdeeld. Daarnaast is snelle huisvesting essentieel om direct mee te doen in de samenleving. Landelijke regie en woningurgentie blijven daarom noodzakelijk."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Gemeentes mogen verplicht worden statushouders voorrang te geven op een sociale huurwoning. De asielketen loopt vast waardoor het noodzakelijk is dat statushouders doorstromen. Slecht woonbeleid heeft geleid tot tekorten van woningen, niet asielzoekers. Er moet meer sociale huur gebouwd worden."
             },
             {
@@ -538,7 +538,7 @@ const data = [
         "info": "Voor het gebruik van de meeste sociale media zoals TikTok, Snapchat en Instagram is de minimumleeftijd nu 13 jaar. Maar veel gebruikers zijn jonger, want kinderen kunnen liegen over hun leeftijd. De Europese Unie heeft in 2024 een wet aangenomen die strenge eisen stelt aan leeftijdscontrole en bescherming van minderjarigen door sociale mediaplatforms. De EU stelt geen minimumleeftijd voor, maar landen kunnen zelf ook regels opstellen, zolang die passen binnen de Europese regels. Op dit moment adviseert de Nederlandse overheid ouders al om kinderen pas vanaf 15 jaar op sociale media te laten.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Iedereen moet online veilig zijn. Daarvoor is meer nodig dan een leeftijdsgrens. We pakken in Europa het verdienmodel van Big Tech aan, zodat zij geen geld verdienen aan telefoonverslaving en ophef. Nationaal komt er meer les over mediawijsheid en voeren we een Digitale Kijkwijzer in voor apps."
             },
             {
@@ -570,7 +570,7 @@ const data = [
                 "statement": "Een grens van 15 jaar helpt kinderen te beschermen. Jongeren mogen sociale media gebruiken, maar moeten worden afgeschermd van iedereen met kwade bedoelingen richting kinderen."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "De minimumleeftijd voor het gebruik van sociale media wordt 16 jaar. Socialmediabedrijven worden verantwoordelijk voor de handhaving hiervan en krijgen een boete als een kind toch een account aanmaakt. Het is belangrijk om rekening te houden met privacy en de toegang van Big Tech tot deze data."
             },
             {
@@ -618,8 +618,8 @@ const data = [
                 "statement": "Deze maatregel beperkt de autonomie van jongeren. We sturen aan op meer controle op 'big-tech' om jongeren beter te beschermen."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De overheid moet niet bepalen wie gebruik mag maken van social media. Dit is hooguit aan de ouders van minderjarigen. Invoering betekent digitale controle voor iedereen. Libertaire Partij kan hier nooit mee instemmen. Het grootste gevaar voor privacy is de overheid met haar macht om jouw vrijheid in te perken."
+                "party": "LP",
+                "statement": "De overheid moet niet bepalen wie gebruik mag maken van social media. Dit is hooguit aan de ouders van minderjarigen. Invoering betekent digitale controle voor iedereen. LP kan hier nooit mee instemmen. Het grootste gevaar voor privacy is de overheid met haar macht om jouw vrijheid in te perken."
             },
             {
                 "party": "Piratenpartij",
@@ -641,7 +641,7 @@ const data = [
         "info": "Ontwikkelingshulp is hulp van rijke landen aan arme landen om armoede te verminderen en ervoor te zorgen dat mensen in die landen een beter leven kunnen opbouwen. Er is een internationale afspraak om 0,7 procent van het bruto nationaal inkomen uit te geven aan ontwikkelingshulp. Het bruto nationaal inkomen is al het geld dat alle mensen in Nederland in een jaar verdienen. Sinds 2013 haalt Nederland die 0,7 procent niet meer door bezuinigingen.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Armoede, oorlog en klimaatproblemen elders hebben ook gevolgen voor Nederland. Door meer te investeren helpen we mensen vooruit, verkleinen we ongelijkheid en voorkomen we migratie, conflicten en instabiliteit. Dat is rechtvaardig én in ons belang."
             },
             {
@@ -665,7 +665,7 @@ const data = [
                 "statement": "Nederland heeft een verantwoordelijkheid om haar steentje bij te dragen aan een rechtvaardigere wereld, zeker gezien de toenemende honger en geweld in de wereld. DENK is daarom vóór méér budget voor ontwikkelings- én noodhulp."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wij zetten in op meer geld voor ontwikkelingssamenwerking: minimaal 1% van ons bruto nationaal inkomen. We investeren in herstel, perspectief en gelijkwaardigheid, zodat hulp eerlijk, duurzaam is en uiteindelijk overbodig wordt."
             },
             {
@@ -717,8 +717,8 @@ const data = [
                 "statement": "Wij willen stoppen met ontwikkelingshulp."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij wil alle buitenlandse steun/geldstromen stoppen die vanuit belastinggeld komen. Inwoners mogen zelf vrijwillig initiatieven steunen maar worden niet verplicht via belastingen. Wij geloven in de initiatieven die op eigen kracht in de samenleving ontstaan, juist zonder oplegging van bovenaf."
+                "party": "LP",
+                "statement": "LP wil alle buitenlandse steun/geldstromen stoppen die vanuit belastinggeld komen. Inwoners mogen zelf vrijwillig initiatieven steunen maar worden niet verplicht via belastingen. Wij geloven in de initiatieven die op eigen kracht in de samenleving ontstaan, juist zonder oplegging van bovenaf."
             },
             {
                 "party": "50PLUS",
@@ -748,7 +748,7 @@ const data = [
                 "statement": "De overheid moet streng controleren wat jongeren in moskeeën, koranscholen en islamitische organisaties leren, vanwege antiwesterse en antisemitische indoctrinatie. De sharia verwerpt onze democratie en bedreigt onze vrijheid. Kerken en Nederlandse organisaties zijn wel te vertrouwen."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Lessen die kerken, moskeeën of andere organisaties geven, kunnen waardevol zijn voor de ontwikkeling van een kind. Helaas gaan deze lessen soms ook in tegen de Nederlandse waarden en normen, zoals over de positie van de vrouw of lhbtiq+-personen. Als dit zo is, moet de overheid kunnen ingrijpen."
             },
             {
@@ -772,7 +772,7 @@ const data = [
                 "statement": "Iedereen mag geloven wat hij wil, maar onderwijs mag geen middel zijn voor haat of uitsluiting. Om kinderen en samenleving te beschermen moet er toezicht zijn op religieuze scholen en lessen."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Onderwijsvrijheid is waardevol, maar mag nooit leiden tot discriminatie. Jongeren moeten in een veilige omgeving kunnen opgroeien, waarin ze zichzelf kunnen leren kennen en in vrijheid kunnen ontwikkelen. Onderwijssegregatie wordt actief bestreden zodat alle leerlingen gelijk worden behandeld."
             },
             {
@@ -820,8 +820,8 @@ const data = [
                 "statement": "De surveillance van religieuze groepen belemmert godsdienstvrijheid. We pleiten voor meer investering in maatschappelijke initiatieven die direct het contact opzoeken met jongeren."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij verdedigt vrijheid van geloof en vrijheid van meningsuiting. Het is niet de taak van de overheid om preventief te controleren wat religieuze instellingen overbrengen als er geen duidelijke aanleiding is van een (mogelijk) misdrijf."
+                "party": "LP",
+                "statement": "LP verdedigt vrijheid van geloof en vrijheid van meningsuiting. Het is niet de taak van de overheid om preventief te controleren wat religieuze instellingen overbrengen als er geen duidelijke aanleiding is van een (mogelijk) misdrijf."
             },
             {
                 "party": "Piratenpartij",
@@ -851,7 +851,7 @@ const data = [
                 "statement": "Miljonairs en echt hoge inkomens hebben geen kinderbijslag nodig."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "We zijn voorstander van een brede herziening van het belasting- en toeslagenstelsel, waarbij mensen met een laag of middeninkomen erop vooruitgaan en mensen met een hoog inkomen meer gaan bijdragen. Zo zorgen we dat de sterkste schouders de zwaarste lasten dragen en solidariteit voorop staat."
             },
             {
@@ -863,7 +863,7 @@ const data = [
                 "statement": "D66 vindt het belangrijk dat de verschillen tussen rijk en arm niet te groot zijn. Daarom geven we liever wat meer kinderbijslag aan mensen die het echt nodig hebben, in plaats van aan rijke mensen die het niet nodig hebben."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Publieke middelen moeten eerlijk worden ingezet. Zolang er nog toeslagen zijn maken we daarom de kinderbijslag inkomensafhankelijk. Steun voor sociale of duurzame maatregelen moet terecht komen bij mensen en op de plekken waar dit het hardst nodig is."
             },
             {
@@ -927,8 +927,8 @@ const data = [
                 "statement": "Kinderbijslag is een basisrecht en moet voor iedereen gelden, ongeacht inkomen. Eenvoudige en universele regelingen zorgen voor zekerheid, minder bureaucratie en lagere uitvoeringskosten."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij is tegen progressieve toeslagen en belastingen en ziet dit als een ordinaire poging tot gedwongen herverdeling van privébezit. Wij willen alle vormen van toeslagen uitfaseren tegelijk met het uitfaseren van alle vormen van belasting."
+                "party": "LP",
+                "statement": "LP is tegen progressieve toeslagen en belastingen en ziet dit als een ordinaire poging tot gedwongen herverdeling van privébezit. Wij willen alle vormen van toeslagen uitfaseren tegelijk met het uitfaseren van alle vormen van belasting."
             },
             {
                 "party": "50PLUS",
@@ -978,8 +978,8 @@ const data = [
                 "statement": "BVNL wil af van de publieke omroep die zich sinds jaar en dag niet houdt aan de mediawet."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Media faciliteren is geen taak voor de overheid. De Libertaire Partij wil publieke omroepen schrappen of privatiseren. De Libertaire Partij is voorvechter van een kleine, dienstbare overheid die zich beperkt tot rechtsstaatbescherming. Alle andere taken doen af aan de individuele vrijheid/verantwoordelijkheid van burgers."
+                "party": "LP",
+                "statement": "Media faciliteren is geen taak voor de overheid. LP wil publieke omroepen schrappen of privatiseren. LP is voorvechter van een kleine, dienstbare overheid die zich beperkt tot rechtsstaatbescherming. Alle andere taken doen af aan de individuele vrijheid/verantwoordelijkheid van burgers."
             },
             {
                 "party": "Vrij Verbond",
@@ -990,7 +990,7 @@ const data = [
                 "statement": "Het geld voor de publieke omroep mag minder worden en kan beter besteed worden aan beter onderwijs."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Vrije en diverse media zijn onmisbaar voor onze democratie. Ons doel is een reclamevrije publieke omroep met focus op cultuur, educatie, nieuws en betrouwbare informatie. Nederland geeft in vergelijking met andere landen overigens relatief weinig geld uit aan de publieke omroep."
             },
             {
@@ -1014,7 +1014,7 @@ const data = [
                 "statement": "DENK vindt dat de publieke omroep een belangrijke rol vervult in onze democratie en gewaarborgd moet worden. Minder geld mag niet ten koste gaan van de kwaliteit, maar tegelijkertijd kan er efficiënter gewerkt worden, door bijvoorbeeld kritisch te kijken naar topsalarissen en interne structuren."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "De Nederlandse Publieke Omroep (NPO) is opgericht om een breed en divers publiek te voorzien van informatie, cultuur en educatie. Het is belangrijk dat de NPO deze rol kan blijven vervullen. Daarom willen wij dat de bezuiniging op de NPO worden teruggedraaid."
             },
             {
@@ -1053,7 +1053,7 @@ const data = [
         "info": "In de jaren negentig van de vorige eeuw zijn er internationale afspraken gemaakt over een aparte Palestijnse en Israëlische staat. De Palestijnen hebben nu eigen besturen in Gaza en de Westelijke Jordaanoever, maar nog geen volledig zelfbestuur. De Palestijnse staat zou dat wel hebben.De Nederlandse regering is al langer voorstander van een tweestatenoplossing waarbij Israël en de Palestijnse staat naast elkaar bestaan. Tot nu toe wacht Nederland met het erkennen van de Palestijnse staat. Landen als Frankrijk, België, Canada en het Verenigd Koninkrijk hebben recent besloten om de Palestijnse staat te erkennen.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Palestijnen hebben net als Israëliërs recht op een eigen staat en een veilige toekomst. De bezetting van de Westoever en het genocidale geweld in Gaza maken dat onmogelijk. Voor een eerlijke tweestatenoplossing moet Nederland Palestina snel erkennen."
             },
             {
@@ -1069,7 +1069,7 @@ const data = [
                 "statement": "DENK staat voor één staat tussen de rivier en zee, met gelijke rechten voor iedereen, en die staat heet Palestina. Het erkennen van de Palestijnse staat is de erkenning van de realiteit dat de Palestijnen recht hebben op zelfbeschikking. Dat moet vandaag nog gebeuren."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wij willen dat Nederland Palestina zo snel mogelijk erkent. Alleen door erkenning en gelijke rechten voor Palestijnen kan er sprake zijn van een rechtvaardige en duurzame vrede. Nederland moet hierin het voortouw nemen."
             },
             {
@@ -1129,8 +1129,8 @@ const data = [
                 "statement": "Er is geen Palestijnse staat, noch een bestuur, noch een homogene gemeenschap om te erkennen. Terreur moet niet worden beloond."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij is tegen elke vorm van buitenlandbeleid. Wel erkennen wij de mensenrechten van alle Palestijnen. We kijken met afschuw naar de onderdrukkende regimes van Netanyahu en Hamas maar zijn tegen internationale samenwerkingen die ons bij conflicten betrekken die Nederland niets aangaan."
+                "party": "LP",
+                "statement": "LP is tegen elke vorm van buitenlandbeleid. Wel erkennen wij de mensenrechten van alle Palestijnen. We kijken met afschuw naar de onderdrukkende regimes van Netanyahu en Hamas maar zijn tegen internationale samenwerkingen die ons bij conflicten betrekken die Nederland niets aangaan."
             },
             {
                 "party": "50PLUS",
@@ -1212,7 +1212,7 @@ const data = [
                 "statement": "De lasten van klimaatbeleid worden niet langer gedragen door gewone burgers maar door grote vervuilers. Klimaatbeleid gaat niet langer ten koste van bestaanszekerheid."
             },
             {
-                "party": "Libertaire Partij",
+                "party": "LP",
                 "statement": "De heffing op eenmalig plastic is een opgedrongen maatregel waardoor ondernemers extra kosten moeten doorberekenen. Het maakt voedingsmiddelen onnodig duurder en schendt de vrijheid van onschuldige ondernemers en consumenten. Wij zien liever dat vervuilers worden aangepakt bij schade aan de natuur."
             },
             {
@@ -1236,11 +1236,11 @@ const data = [
                 "statement": "De heffing op allerlei verpakkingen, waaronder plastic verpakkingen, heeft weinig nut. Beter is het om alle plastic verpakkingen, bekers en eetbakjes te vervangen door afbreekbare alternatieven."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Deze heffing helpt afval voorkomen, omdat meer mensen kiezen voor herbruikbare bekers en bakjes. Dat betekent schonere natuur, gezondere dieren en minder microplastics in ons eten. De opbrengst moet niet naar bedrijven gaan, maar naar het Rijk. Dat kan daarmee investeren in een circulaire economie."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Plastic voedt de klimaatcrisis en vervuilt water en natuur. Er komt een verbod op wegwerpplastic. Waar nog plastic wordt gebruikt, moet dat gerecycled zijn. We dringen het gebruik van plastic verpakkingen terug door te kiezen voor herbruikbare verpakkingen en bijvulmogelijkheden in de supermarkt."
             },
             {
@@ -1263,7 +1263,7 @@ const data = [
                 "statement": "Sterker nog: wij willen dat de sociale huren met 10% worden verlaagd in 2026."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Steeds meer mensen komen in de knel door hoge inflatie en huren. Huizen zijn om in te wonen, niet voor de winst. Toch verdienen veel verhuurders grof geld over de rug van huurders. Dat moet stoppen, door huurbeperking en invoering van een puntensysteem voor alle huurhuizen."
             },
             {
@@ -1287,7 +1287,7 @@ const data = [
                 "statement": "De huren zijn de afgelopen jaren enorm gestegen. Veel huurders kunnen hierdoor niet meer rondkomen. Het is de hoogste tijd om een grens te trekken. DENK wil daarom dat de huur van sociale huurwoningen niet meer harder mag stijgen dan de inflatie."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wonen is een recht, geen verdienmodel. De huren bevriezen we voor vijf jaar. Zo beschermen we huurders tegen hoge woonlasten. Woningcorporaties krijgen compensaties om te kunnen blijven bouwen."
             },
             {
@@ -1347,8 +1347,8 @@ const data = [
                 "statement": "Dit zou de mogelijkheid tot inkomensafhankelijke huurverhogingen voor scheefwoners onmogelijk maken en wij zijn juist voor meer contractvrijheid. De overheid moet zich zoveel mogelijk terugtrekken uit de woningmarkt."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Bevriezen van prijzen door de overheid is economisch wanbeleid, vaak gezien in communistische planeconomieën. Het lost problemen niet op en creëert schaarste. Prijsstijgingen zorgen voor meer bouwen, prijsplafonds zorgen dat investeerders wegblijven. De Libertaire Partij is voor het afschaffen van prijsplafonds."
+                "party": "LP",
+                "statement": "Bevriezen van prijzen door de overheid is economisch wanbeleid, vaak gezien in communistische planeconomieën. Het lost problemen niet op en creëert schaarste. Prijsstijgingen zorgen voor meer bouwen, prijsplafonds zorgen dat investeerders wegblijven. LP is voor het afschaffen van prijsplafonds."
             },
             {
                 "party": "Vrij Verbond",
@@ -1362,7 +1362,7 @@ const data = [
         "info": "Op dit moment is de overheid van plan om minder geld te steken in wetenschappelijk onderzoek en innovatie. Het bedrag daalt van 9,7 miljard euro in 2024 naar 8,4 miljard euro in 2029. Dat geld gaat vooral naar universiteiten, hogescholen en kennisinstellingen.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Wetenschap helpt ons vooruit. Van medische zorg tot klimaat en van landbouwinnovaties tot economie. Het zorgt ook voor nieuwe banen en een sterke economie. Met publieke steun blijft kennis toegankelijk voor iedereen en bouwen we aan een eerlijke, duurzame toekomst."
             },
             {
@@ -1390,7 +1390,7 @@ const data = [
                 "statement": "DENK staat voor méér investeringen in onze kenniseconomie."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Er moet extra overheidsgeld naar onderzoek dat bijdraagt aan een groene, gezonde, en rechtvaardige maatschappij. Dit komt ook de onafhankelijkheid en kwaliteit van de wetenschap ten goede. Subsidies voor dierproeven moeten zo snel mogelijk worden afgebouwd en ingezet worden voor alternatieven."
             },
             {
@@ -1446,7 +1446,7 @@ const data = [
                 "statement": "Er is geen reden om te vermoeden dat er nu te weinig geld naartoe gaat. Een herschikking van middelen van niet-relevante beleidsvelden naar relevante ligt wel voor de hand."
             },
             {
-                "party": "Libertaire Partij",
+                "party": "LP",
                 "statement": "Wetenschappelijk onderzoek moet aan de markt overgelaten worden. Private partijen gebruiken immers de resultaten om winst te maken. Staatssteun voor onderzoek ondermijnt de vrije markt en beloont bedrijven die het goed zijn in het overtuigen van ambtenaren, vaak niet de meest innovatieve bedrijven."
             },
             {
@@ -1509,8 +1509,8 @@ const data = [
                 "statement": "De overlast en het gevaar is onacceptabel. Wij kiezen voor de boeren, voor het vee en voor onze veiligheid."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij wil de macht zoveel mogelijk decentraliseren naar gemeenten/gemeenschappen. Qua natuurbeheer kunnen de gebruikers afspreken hoeveel een natuurlijke hulpbron gebruikt kan worden zonder deze te beschadigen. Gemeenschappen hebben het recht zichzelf/eigendom te verdedigen tegen schade uit fauna."
+                "party": "LP",
+                "statement": "LP wil de macht zoveel mogelijk decentraliseren naar gemeenten/gemeenschappen. Qua natuurbeheer kunnen de gebruikers afspreken hoeveel een natuurlijke hulpbron gebruikt kan worden zonder deze te beschadigen. Gemeenschappen hebben het recht zichzelf/eigendom te verdedigen tegen schade uit fauna."
             },
             {
                 "party": "50PLUS",
@@ -1529,7 +1529,7 @@ const data = [
                 "statement": "Per gemeente mag de noodzaak bepaald worden of zij vergunningen afgeeft voor het afschieten van wolven."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "De wolf hoort bij onze natuur. Afschieten is alleen een optie bij hoge nood, als er gevaar voor mensen is. We willen boeren helpen met preventie, zoals hekken en herdershonden. Zo beschermen we dieren én natuur zonder een beschermde soort te doden."
             },
             {
@@ -1541,7 +1541,7 @@ const data = [
                 "statement": "DENK is géén voorstander van het makkelijker maken om dieren af te schieten. Dierlijk leven moet beschermd worden. Uitzonderingen hierop mogen alleen wanneer er acuut gevaar dreigt voor de veiligheid of de volksgezondheid, en lichtere maatregelen ontoereikend blijken."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wij vinden dat wolven strikt beschermd moeten blijven. Ze verrijken de natuur en vergroten biodiversiteit. Knelpunten worden aangepakt met preventie, voorlichting en subsidies voor beschermende maatregelen, niet met afschot. Bescherming en handhaving staan voorop."
             },
             {
@@ -1568,7 +1568,7 @@ const data = [
         "info": "Nederlandse rechters kunnen bij het uitspreken van een straf kiezen tussen een korte of lange gevangenisstraf, een taakstraf of een boete. Een nieuw wetsvoorstel geeft rechters straks ook de mogelijkheid om te kiezen voor elektronische detentie. Dan krijg je een enkelband om en kan de politie zien waar je bent. De veroordeelde kan zijn of haar straf dan thuis uitzitten en dit kan elektronisch worden gecontoleerd. Het is de bedoeling om daarmee het aantal korte gevangenisstraffen te verminderen.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Bij kleine overtredingen is een enkelband of taakstraf soms beter dan een celstraf. Mensen kunnen werken, leren en bij hun gezin blijven en komen niet tussen de zwaardere criminelen in een gevangenis. Het is menselijker, goedkoper en de kans is kleiner dat ze opnieuw de fout ingaan."
             },
             {
@@ -1592,7 +1592,7 @@ const data = [
                 "statement": "DENK laat het aan de rechter over om te bepalen welke straf het meest passend is. Als het dragen van een enkelband de meest effectieve vorm van straf is, dan volgen wij het oordeel van de rechter."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Het strafrecht wordt hervormd met focus op herstel en preventie. Korte gevangenisstraffen worden ontmoedigd, omdat ze leiden tot meer terugval. Het opleggen van zo’n straf moet expliciet gemotiveerd worden. Taakstraffen en elektronische detentie worden beter benut en de reclassering versterkt."
             },
             {
@@ -1612,8 +1612,8 @@ const data = [
                 "statement": "Straffen moeten in de eerste plaats de samenleving beschermen. Als dat kan met een enkelband in plaats van een celstraf dan is dat een betere keuze, want het is minder kostbaar en minder repressief."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Zolang de rechter de richtlijnen van de wet aanhoudt, ziet Libertaire Partij dit als mogelijkheid. Een belangrijk aspect van lokale veiligheidsplannen is maatwerk; voorkomen is beter dan repressie. Door samen te werken met de gemeente kan beter vorm gegeven worden aan individuele oplossingen voor veelplegers."
+                "party": "LP",
+                "statement": "Zolang de rechter de richtlijnen van de wet aanhoudt, ziet LP dit als mogelijkheid. Een belangrijk aspect van lokale veiligheidsplannen is maatwerk; voorkomen is beter dan repressie. Door samen te werken met de gemeente kan beter vorm gegeven worden aan individuele oplossingen voor veelplegers."
             },
             {
                 "party": "50PLUS",
@@ -1691,8 +1691,8 @@ const data = [
                 "statement": "De WW-uitkering kan inderdaad worden beperkt met uitzondering van zware beroepen vanaf 55 jaar. Mensen moeten gestimuleerd worden om zo snel mogelijk een nieuwe baan te vinden."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij wil af van opgedrongen solidariteit. We willen het vangnet hervormen tot een écht vangnet en zelfredzaamheid stimuleren. Gedwongen solidariteit creëert een wereld waarin bureaucratie boven menselijkheid gaat. Door ruimte te geven om het zelf te organiseren ontstaat oprechte sociale cohesie."
+                "party": "LP",
+                "statement": "LP wil af van opgedrongen solidariteit. We willen het vangnet hervormen tot een écht vangnet en zelfredzaamheid stimuleren. Gedwongen solidariteit creëert een wereld waarin bureaucratie boven menselijkheid gaat. Door ruimte te geven om het zelf te organiseren ontstaat oprechte sociale cohesie."
             },
             {
                 "party": "Vrij Verbond",
@@ -1703,7 +1703,7 @@ const data = [
                 "statement": "De PVV is tegen een verkorting van de WW."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Het halveren van de WW-uitkering tast bestaanszekerheid aan. Het vinden van werk duurt soms langer dan 12 maanden, zeker voor ouderen. Mensen hebben jarenlang premie betaald en verdienen bescherming. Wij kiezen voor steun én goede begeleiding naar nieuw werk."
             },
             {
@@ -1731,7 +1731,7 @@ const data = [
                 "statement": "DENK vindt dat de werknemersrechten beschermd dienen te worden."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wij laten mensen niet vallen na 12 maanden. De WW inkorten levert extra druk op aan werkloze mensen zonder de echte problemen op te lossen, waaronder flexcontracten, uitbuiting en gebrek aan begeleiding en omscholing. Vertrouwen in plaats van wantrouwen moet uitgangspunt zijn van sociaal beleid."
             },
             {
@@ -1774,7 +1774,7 @@ const data = [
         "info": "Om de Europese natuurdoelen te halen heeft Nederland besloten om de uitstoot van stikstof flink omlaag te brengen. Door stikstof gaat namelijk een deel van de planten, bomen en dieren dood. Op dit moment heeft de regering nog als doel dat de uitstoot van stikstof in 2035 de helft minder moet zijn dan in 2019, niet in 2030. Grote bedrijven, de bouw, het verkeer en vee zorgen voor de meeste stikstof in de lucht.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Iedereen zou recht moeten hebben op schone lucht, water en grond. Maar de hoge stikstoofuitstoot schaadt de natuur, de kwaliteit van ons water en de bodem. Wij kiezen voor schone industrie, minder luchtvaart en een kleinere veestapel. Zo maken we ruimte voor woningen en natuurherstel."
             },
             {
@@ -1790,7 +1790,7 @@ const data = [
                 "statement": "Nederland moet van het slot af om de woningbouw, het verkeer en economische activiteit weer mogelijk te maken. DENK vindt daarom dat de uitstoot van stikstof drastisch verlaagd moet worden."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Het halveren van stikstof in 2030 is niet genoeg: wij willen snellere en verdere vermindering. Uiterlijk in 2030 moet 75% van de stikstofgevoelige natuur onder de veilige stikstofgrens liggen. Alleen met stevige reductie beschermen we biodiversiteit, gezondheid en toekomstbestendige landbouw."
             },
             {
@@ -1850,8 +1850,8 @@ const data = [
                 "statement": "Sinds de jaren '90 is de emissie reeds met tweederde afgenomen. We moeten af van onhaalbare en onbetaalbare doelstellingen voor marginale problemen."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld. Bij de energievoorziening draait het primair weer om betrouwbaar en betaalbaar."
+                "party": "LP",
+                "statement": "LP pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld. Bij de energievoorziening draait het primair weer om betrouwbaar en betaalbaar."
             },
             {
                 "party": "50PLUS",
@@ -1877,7 +1877,7 @@ const data = [
         "info": "Abortus is het afbreken van een zwangerschap door een pil of een medische ingreep. In Nederland staat abortus in het Wetboek van Strafrecht en dat betekent dat het in principe strafbaar is om een zwangerschap af te breken. Toch kan een abortus legaal worden uitgevoerd, als wordt voldaan aan een aantal wettelijke voorwaarden. Als abortus uit het Wetboek van Strafrecht wordt gehaald, kan er niet meer sprake zijn van een  strafbaar feit.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Abortus is zorg en hoort niet thuis in het Wetboek van Strafrecht. Dat het er nog wel in staat, houdt het stigma op abortus in stand. Dit staat veilige en toegankelijke zorgverlening in de weg, terwijl dat juist zo belangrijk is voor mensen die abortus nodig hebben."
             },
             {
@@ -1893,7 +1893,7 @@ const data = [
                 "statement": "Abortuszorg is zorg en hoort daarom niet thuis in het strafrecht. Eventuele overtredingen van de abortuswet kunnen dan nog steeds worden bestraft via het tuchtrecht."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Abortus hoort bij zorg, niet bij straf. Als het onderdeel van het strafrecht blijft, kan een anti-abortusregering het recht snel en makkelijk beperken. Wij willen abortus uit het Wetboek van Strafrecht halen om abortus veilig, vrij en toegankelijk te houden."
             },
             {
@@ -1909,8 +1909,8 @@ const data = [
                 "statement": "Abortus is een mensenrecht en hoort bij basisgezondheidszorg. Dat het nog steeds in het Wetboek van Strafrecht staat, is onacceptabel."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Bepalen over abortus is geen taak voor de overheid. De Libertaire Partij staat voor vrijheid om je eigen leven te leiden zolang dit de vrijheid van een ander niet inperkt. Abortus betreft de tegenstelling tussen lichamelijke autonomie en recht van het ongeboren kind; wij laten dit aan lokale gemeenschappen."
+                "party": "LP",
+                "statement": "Bepalen over abortus is geen taak voor de overheid. LP staat voor vrijheid om je eigen leven te leiden zolang dit de vrijheid van een ander niet inperkt. Abortus betreft de tegenstelling tussen lichamelijke autonomie en recht van het ongeboren kind; wij laten dit aan lokale gemeenschappen."
             },
             {
                 "party": "50PLUS",
@@ -2000,8 +2000,8 @@ const data = [
                 "statement": "Werken moet lonen. Het verschil tussen werken en niet werken moet worden vergroot. Meer werken leidt nu zelfs geregeld tot een lager netto inkomen. Dat is onbestaanbaar."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij is tegen het verhogen van minimumloon en tegen het verhogen van uitkeringen. Dit leidt namelijk alleen maar tot een loon-prijsspiraal die vooral basis levensbehoeftes treft. Minimumlonen en uitkeringen door opgedrongen ‘solidariteit’ horen niet bij ons beeld van overheidstaken."
+                "party": "LP",
+                "statement": "LP is tegen het verhogen van minimumloon en tegen het verhogen van uitkeringen. Dit leidt namelijk alleen maar tot een loon-prijsspiraal die vooral basis levensbehoeftes treft. Minimumlonen en uitkeringen door opgedrongen ‘solidariteit’ horen niet bij ons beeld van overheidstaken."
             },
             {
                 "party": "Vrij Verbond",
@@ -2012,7 +2012,7 @@ const data = [
                 "statement": "De PVV koestert de koppeling van het minimumloon aan de uitkeringen en de AOW"
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Als het minimumloon stijgt, moet de bijstand meegroeien. Zonder koppeling vallen mensen in de bijstand verder terug en wordt armoede groter. Bijstand moet zekerheid geven én ruimte om vooruit te kijken. Dat is sociaal, en zo zorgen we dat mensen kunnen blijven meedoen."
             },
             {
@@ -2040,7 +2040,7 @@ const data = [
                 "statement": "De gestegen kosten voor boodschappen en levensonderhoud benadelen ook uitkeringsgerechtigden. DENK vindt daarom dat de koppeling van de hoogte van de bijstandsuitkering met het minimumloon behouden moet blijven, zodat ook uitkeringsgerechtigden rond kunnen komen."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wij willen bestaanszekerheid voor iedereen. De boodschappen, de huur en andere vaste lasten worden steeds duurder. Als het minimumloon stijgt moet de bijstand daarom ook omhoog. Zo houden mensen zonder werk genoeg geld over om van te leven en voorkomen we meer armoede en ongelijkheid."
             },
             {
@@ -2083,11 +2083,11 @@ const data = [
         "info": "In Nederland houden boeren veel dieren, zoals koeien, kippen, varkens en schapen, voor hun vlees of andere producten zoals melk, eieren en wol. Een deel van die producten verkopen ze in Nederland en een deel in het buitenland. De dieren zorgen voor vervuiling met stoffen als methaan, een gas dat bijdraagt aan klimaatverandering, en stikstof, dat slecht is voor kwetsbare natuurgebieden.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Nederland heeft te veel vee. Dat veroorzaakt vervuiling, natuur- en gezondheidsproblemen, dierenleed én stikstof, waardoor we nu minder huizen kunnen bouwen. Het meeste vlees gaat naar de export. Nederland hoeft niet de grootste exporteur van Europa te zijn. Minder dieren betekent duurzame landbouw."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "In Nederland worden meer dan 500 miljoen dieren per jaar gedood. Dit zorgt voor veel dierenleed en heeft grote impact op leefomgeving en klimaat. Het aantal dieren in de vee-industrie moet binnen twee jaar minimaal 75% krimpen om dierenleed te voorkomen en de natuur- en klimaatcrisis aan te pakken."
             },
             {
@@ -2159,8 +2159,8 @@ const data = [
                 "statement": "Nederland is een agrarisch land met de beste agrariërs ter wereld. Die gaan we steunen, niet wegtreiteren."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Het is op geen enkele manier een taak voor de overheid om de veestapel te reguleren. Stop alle vormen van regulering van stikstof-/methaanuitstoot. Laat boeren vrij om te ondernemen. De Libertaire Partij pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld."
+                "party": "LP",
+                "statement": "Het is op geen enkele manier een taak voor de overheid om de veestapel te reguleren. Stop alle vormen van regulering van stikstof-/methaanuitstoot. Laat boeren vrij om te ondernemen. LP pleit voor onmiddellijke afschaffing van de klimaatdoelen. Energiebeleid en klimaatbeleid worden ontkoppeld."
             },
             {
                 "party": "50PLUS",
@@ -2222,7 +2222,7 @@ const data = [
                 "statement": "En illegalen zetten we uit. Daarvoor zetten we alle beschikbare diplomatieke en economische maatregelen in jegens het land van herkomst van de illegaal."
             },
             {
-                "party": "Libertaire Partij",
+                "party": "LP",
                 "statement": "Iedereen is welkom die kan voorzien in zijn/haar eigen levensbehoeftes - dus genoeg inkomen/vermogen/een sponsor heeft. Bezoekers mogen maximaal 90 dagen blijven. Langer blijven zonder zelfvoorziening is strafbaar. Straffen proportioneel: geldboete of uitzetting op eigen kosten."
             },
             {
@@ -2234,7 +2234,7 @@ const data = [
                 "statement": "Illegaal in Nederland langdurig verblijven is strafbaar."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Illegaal verblijf strafbaar maken criminaliseert kwetsbare mensen en lost niets op. Het maakt terugkeer niet sneller en vergroot onveiligheid, omdat mensen zorg of politie mijden. Iedereen heeft basisrechten, ongeacht verblijfsstatus. Wij kiezen voor menselijkheid."
             },
             {
@@ -2250,7 +2250,7 @@ const data = [
                 "statement": "De strafbaarstelling van illegaal verblijf zal leiden tot onmenselijke situaties. Mensen verdwijnen erdoor uit zicht, waardoor ze niet meer geholpen kunnen worden. Dit is in het belang van niemand."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Mensen zonder papieren moeten niet gecriminaliseerd worden. Hetzelfde geldt voor het helpen van mensen zonder documenten. Migratiebeleid dient menselijk te zijn en richt zich op het wegnemen van de oorzaken waardoor mensen hun land moeten ontvluchten."
             },
             {
@@ -2289,7 +2289,7 @@ const data = [
         "info": "In Nederland betaal je belasting voor het bezit van een motorvoertuig, zoals auto, motorfiets of vrachtwagen. Ook als je maar weinig rijdt, betaal je die belasting. Bij rekeningrijden betaal je geen vast bedrag meer, maar betaal je meer als je meer kilometers rijdt. De overheid kan daarbij ook variëren in prijs. Zo kan ze het duurder maken om in de spits te rijden.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Betalen per kilometer is eerlijker: wie weinig rijdt, betaalt minder, en wie veel vervuilt betaalt meer. Zo stimuleren we fietsen en verminderen we files en uitstoot. In regio’s waar mensen afhankelijk zijn van de auto vanwege beperkt openbaar vervoer geldt een lager tarief."
             },
             {
@@ -2297,7 +2297,7 @@ const data = [
                 "statement": "D66 wil een eerlijke kilometerheffing die rekening houdt met plaats, tijd, brandstofsoort en gewicht. Wie het meest gebruik maakt van het wegennet, betaalt het meest. Op die manier verminderen we ook de files in Nederland."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "We voeren een intelligente kilometerheffing in op alle wegen en voor alle voertuigen, naar type voertuig en brandstofgebruik. Mensen die veel rijden gaan daarmee een eerlijk deel bijdragen, met uitzondering van mensen met een beperking en mensen die afgelegen wonen. Strikte privacywaarborgen gelden."
             },
             {
@@ -2313,8 +2313,8 @@ const data = [
                 "statement": "De gebruiker betaalt."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij staat achter het concept van “de gebruiker betaalt”. Echter willen wij op den duur ook deze belastingen uitfaseren, aangezien wij infrastructuur niet als een overheidstaak zien."
+                "party": "LP",
+                "statement": "LP staat achter het concept van “de gebruiker betaalt”. Echter willen wij op den duur ook deze belastingen uitfaseren, aangezien wij infrastructuur niet als een overheidstaak zien."
             },
             {
                 "party": "PVV",
@@ -2440,7 +2440,7 @@ const data = [
                 "statement": "De PVV wil het eigen risico helemaal afschaffen."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Iedereen kan ziek worden, daarop hoort geen boete te staan. Door het eigen risico stapsgewijs af te schaffen en zorgpremie inkomensafhankelijk te maken, word je niet langer gestraft voor een slechte gezondheid. Omdat zorgtoeslag niet langer nodig is kunnen we ook het toeslagenstelsel versimpelen."
             },
             {
@@ -2456,7 +2456,7 @@ const data = [
                 "statement": "DENK is voor het afschaffen van het eigen risico. Zorg moet immers toegankelijk blijven voor iedereen."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wij willen het eigen risico helemaal afschaffen. Ook eigen bijdragen, zoals in de WMO, verdwijnen. De premie moet omlaag, de inkomensafhankelijke bijdrage omhoog. Zo voorkomen we zorgmijding en is zorg toegankelijk. Grote bedrijven, miljonairs en vervuilers betalen eerlijk mee."
             },
             {
@@ -2472,8 +2472,8 @@ const data = [
                 "statement": "We zetten een Nationaal Zorgfonds op dat de private zorgverzekeraars gaat vervangen. Alle directe maandelijkse premies en eigen bijdragen worden afgeschaft en vervangen door een inkomensafhankelijke, progressieve zorgpremie die volledige dekking biedt voor alle zorg."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij is tegen door de overheid afgedwongen prijsafspraken. Prijs en eigen risico kunnen verzekeraar en klant zelf overeenkomen. Het verplichte eigen risico is een door de overheid gecreëerd probleem. De Libertaire Partij wil klanten dit zelf laten afspreken en de verplichte basisverzekering vrijwillig maken."
+                "party": "LP",
+                "statement": "LP is tegen door de overheid afgedwongen prijsafspraken. Prijs en eigen risico kunnen verzekeraar en klant zelf overeenkomen. Het verplichte eigen risico is een door de overheid gecreëerd probleem. LP wil klanten dit zelf laten afspreken en de verplichte basisverzekering vrijwillig maken."
             },
             {
                 "party": "50PLUS",
@@ -2519,7 +2519,7 @@ const data = [
                 "statement": "Dit is een lastige en gevoelige afweging tussen zelfbeschikking en zorgen over een recente aanzienlijke stijging van euthanasiegevallen op psychische gronden onder jonge mensen, wat om terughoudendheid en onderzoek vraagt. Binnen de fractie is dit een vrije kwestie."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Bij psychisch lijden verdien je de beste hulp. Daarom zetten we ons al jaren in voor betere GGZ en het aanpakken van wachtlijsten. Maar zelfs als dat op orde is, kan het lijden zo zwaar zijn dat het ondraaglijk is. In dat geval moet er een zorgvuldig traject zijn waarin de patiënt centraal staat."
             },
             {
@@ -2547,7 +2547,7 @@ const data = [
                 "statement": "Het menselijk leven is dierbaar en moet beschermd worden. DENK wil dat er meer geïnvesteerd wordt in psychische zorg om mensen te helpen en zodoende euthanasie te voorkomen. Tegelijkertijd moeten mensen die ondraaglijk en uitzichtloos psychisch lijden ook zeggenschap hebben over hun eigen leven."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Euthanasie moet mogelijk zijn bij uitzichtloos en ondraaglijk lijden, ook bij psychisch lijden. Wij staan voor keuzevrijheid en het recht op een waardig levenseinde. Met strikte zorgvuldigheidseisen en toetsing beschermen we de menselijke waardigheid."
             },
             {
@@ -2567,7 +2567,7 @@ const data = [
                 "statement": "Zelfbeschikking betekent ook het recht op een waardig levenseinde. Bij ondraaglijk psychisch lijden moet euthanasie mogelijk zijn, zodat mensen niet gedwongen worden door te leven in uitzichtloos lijden."
             },
             {
-                "party": "Libertaire Partij",
+                "party": "LP",
                 "statement": "Hoewel het beëindigen van je eigen leven een verschrikkelijke gedachte is, vinden wij het niet aan de overheid om te bepalen wat een ander met zijn leven doet. Ons hart gaat uit naar alle lijdende mensen, maar we trekken de streep bij het verbieden van mensen om over hun eigen leven te beslissen."
             },
             {
@@ -2598,7 +2598,7 @@ const data = [
         "info": "Gemeentes die woningen willen laten bouwen, moeten eerst kijken of er ruimte is in bebouwd gebied. Pas onder strenge voorwaarden mag het op landelijk gebied. Dan gaat het vooral om verandering van plannen over de inrichting van Nederland en om milieuregels. Als het bouwen van woningen op landbouwgrond gemakkelijker wordt, kunnen er sneller nieuwe woningen worden gebouwd.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Als we 100.000 nieuwe woningen willen bouwen, is er ruimte nodig. Het liefst in bebouwd gebied, waar al voorzieningen zijn, zoals bedrijventerreinen, in leegstaande panden in binnensteden en op ongebruikte grond van ontwikkelaars. Ook kijken we naar landbouwgrond voor nieuwe woningbouw."
             },
             {
@@ -2626,7 +2626,7 @@ const data = [
                 "statement": "Het oplossen van de woningcrisis is voor DENK een absolute topprioriteit. Daarom is het noodzakelijk om versneld veel meer woningen te bouwen."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Maar ongeveer 7% van het oppervlak van Nederland wordt gebruikt voor huizen. Bijna de helft is voor de bio-industrie. Als we boeren helpen overstappen naar biologische akkerbouw, ontstaat er meer plek voor natuur en woningen. Zo maken we Nederland groener en lossen we het woningtekort op."
             },
             {
@@ -2650,8 +2650,8 @@ const data = [
                 "statement": "Met name de (melk)veehouderij neemt ontzettend veel ruimte in. Wanneer boeren stoppen, kan met name de grond rond steden beter gebruikt worden voor betaalbare woningen en natuur. Zo bestrijden we de wooncrisis en maken we onze leefomgeving groener."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij vindt dat het aan de eigenaar van de grond is hoe deze gebruikt wordt, zolang er geen schade wordt toegebracht aan anderen. De overheid legt teveel restricties op bouwen en verbouwen. Woningaanbod wordt zo kunstmatig laag gehouden. Grondeigenaren en woningzoekenden moeten zelf kunnen bepalen."
+                "party": "LP",
+                "statement": "LP vindt dat het aan de eigenaar van de grond is hoe deze gebruikt wordt, zolang er geen schade wordt toegebracht aan anderen. De overheid legt teveel restricties op bouwen en verbouwen. Woningaanbod wordt zo kunstmatig laag gehouden. Grondeigenaren en woningzoekenden moeten zelf kunnen bepalen."
             },
             {
                 "party": "50PLUS",
@@ -2701,8 +2701,8 @@ const data = [
         "info": "De overheid gebruikt steeds vaker gegevens van burgers, bijvoorbeeld om fraude met uitkeringen op te sporen. Of om criminaliteit tegen te gaan. Die gegevens gaan over de wijk waarin ze wonen, maar bevatten ook persoonlijke informatie van burgers, zoals leeftijd of afkomst. Op basis van een reeks instructies (algoritme) doen computersystemen daarmee voorspellingen voor groepen mensen. Het gebruik van afkomst of nationaliteit in een algoritme zorgt ervoor dat daarop ook wordt beoordeeld. De overheid heeft zich voorgenomen om afkomst en nationaliteit niet meer in algoritmes te gebruiken. Door dat in een wet vast te leggen moet de overheid zich daar ook aan houden.",
         "results": [
             {
-                "party": "GroenLinks-PvdA",
-                "statement": "Het toeslagenschandaal liet zien wat er gebeurt als je mensen discrimineert op afkomst. Het leven van duizenden onschuldige Nederlanders is erdoor verwoest. GroenLinks-PvdA staat voor een betrouwbare overheid die zich houdt aan de Grondwet. Daar kan discriminatie nooit een plaats hebben."
+                "party": "GL-PvdA",
+                "statement": "Het toeslagenschandaal liet zien wat er gebeurt als je mensen discrimineert op afkomst. Het leven van duizenden onschuldige Nederlanders is erdoor verwoest. GL-PvdA staat voor een betrouwbare overheid die zich houdt aan de Grondwet. Daar kan discriminatie nooit een plaats hebben."
             },
             {
                 "party": "NSC",
@@ -2721,7 +2721,7 @@ const data = [
                 "statement": "Je afkomst of je nationaliteit bepaalt niet of je meer geneigd bent tot criminaliteit. Dit is etnisch profileren en DENK vindt dat onacceptabel. Wij strijden tegen racisme en discriminatie in alle vormen."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Etnisch profileren leidt tot stigmatisering van hele bevolkingsgroepen. Er komt een verbod op het gebruik van etniciteit en nationaliteit als indicator in risicoprofielen voor het opsporen van potentiële wet- en regelovertreders. Preventief fouilleren staan we niet langer toe."
             },
             {
@@ -2741,8 +2741,8 @@ const data = [
                 "statement": "Het inschatten van criminaliteitsrisico’s op basis van afkomst of nationaliteit werkt niet en is discriminatie. Het leidt alleen tot stigmatisering en ongelijkheid, zonder dat het de veiligheid daadwerkelijk verbetert."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij is tegen ongerichte preventieve actie en profilering, want dit schendt het recht op privacy. Wij willen een kleine overheid die extreem voorzichtig is met gegevensverzameling. Biometrische gegevens moeten worden vernietigd. Bescherming tegen discriminatie door de overheid moet in de Grondwet."
+                "party": "LP",
+                "statement": "LP is tegen ongerichte preventieve actie en profilering, want dit schendt het recht op privacy. Wij willen een kleine overheid die extreem voorzichtig is met gegevensverzameling. Biometrische gegevens moeten worden vernietigd. Bescherming tegen discriminatie door de overheid moet in de Grondwet."
             },
             {
                 "party": "Piratenpartij",
@@ -2808,7 +2808,7 @@ const data = [
                 "statement": "Loverboys richten zich vaak op jonge meisjes van 18. De PVV wil voorkomen dat zij op die leeftijd de prostitutie in worden gezogen. Door de minimumleeftijd naar 21 te verhogen, krijgen zij de kans eerst sterker en zelfstandiger te worden voordat ze de prostitutie in stappen en spijt krijgen."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Jongeren van 18 zijn vaak nog kwetsbaar en lopen risico op druk en uitbuiting. Door de minimumleeftijd voor sekswerk te verhogen naar 21 jaar worden ze beter beschermd tegen loverboys en mensenhandel. Zo zorgen we voor meer veiligheid."
             },
             {
@@ -2876,7 +2876,7 @@ const data = [
                 "statement": "Sekswerkers moeten dezelfde rechten hebben als andere beroepsgroepen. Zij verdienen wel extra bescherming omdat er bovengemiddeld veel misstanden plaatsvinden bij deze beroepsgroep maar daar is een minimumleeftijd geen oplossing voor."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Sekswerk wordt erkend als volwaardig werk. Het verbieden van sekswerk voor mensen tussen 18 en 21 leidt tot illegale praktijken onder slechtere omstandigheden. Sekswerkers krijgen gelijke rechten en bescherming tegen discriminatie."
             },
             {
@@ -2888,8 +2888,8 @@ const data = [
                 "statement": "De leeftijdsgrens voor sekswerk blijft op 18 jaar en gaat niet naar 21 jaar."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Als je volwassen bent, mag niemand je in die keuze beperken zolang je niemand anders schade berokkent. Wat betreft de Libertaire Partij is het tijd om te stoppen met het bestraffen van mensen voor ‘misdaden’ zonder slachtoffers."
+                "party": "LP",
+                "statement": "Als je volwassen bent, mag niemand je in die keuze beperken zolang je niemand anders schade berokkent. Wat betreft LP is het tijd om te stoppen met het bestraffen van mensen voor ‘misdaden’ zonder slachtoffers."
             },
             {
                 "party": "Piratenpartij",
@@ -2911,7 +2911,7 @@ const data = [
                 "statement": "Het Nederlandse leger moet worden versterkt. De PVV wil investeren in een sterk Nederlands leger."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Door de oorlog in Oekraïne, de instabiliteit in de wereld, en de noodzaak om onafhankelijk te worden van de Verenigde Staten, is daadkrachtig leiderschap dat Nederland beschermt nodig. Daarbij hoort dat we moeten investeren in onze defensie en voldoen aan de NAVO-norm."
             },
             {
@@ -2951,7 +2951,7 @@ const data = [
                 "statement": "DENK is tegen het wettelijk vastleggen van de defensie-uitgaven. Wij willen een wapenwedloop voorkomen en zetten bij voorkeur in op diplomatie en het voorkomen van oorlog. Daarnaast hebben wij als land vele andere uitdagingen waar uitgaven voor nodig zijn."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Wij kiezen voor rechtvaardigheid en vrede. We investeren waar nodig in Europese defensie om onafhankelijk te worden van de VS en Oekraïne te steunen, maar zeggen ‘nee’ tegen een blanco cheque voor defensie. Uitgaven worden goed onderbouwd en mogen klimaat, natuur, zorg en onderwijs niet schaden."
             },
             {
@@ -2983,8 +2983,8 @@ const data = [
                 "statement": "Geen cent naar de onnodige militarisering en de levensgevaarlijke wapenwedloop. Nederland moet juist investeren in vrede, diplomatie en mensenrechten. De vele extra defensiemiljarden betekenen grootschalige sociale afbraak en lastenverzwaring voor werkenden. Dat moet koste wat kost gestopt worden."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Het verdedigen van landsgrenzen is één van de weinig verdedigbare overheidstaken, maar het budget moet gebaseerd zijn op werkelijke benodigdheden. Koste wat kost geld uitgeven is ondoordacht en komt voort uit de wapenlobby. De Libertaire Partij wil gemeenschapsgeld alleen uitgeven wanneer het écht nodig is."
+                "party": "LP",
+                "statement": "Het verdedigen van landsgrenzen is één van de weinig verdedigbare overheidstaken, maar het budget moet gebaseerd zijn op werkelijke benodigdheden. Koste wat kost geld uitgeven is ondoordacht en komt voort uit de wapenlobby. LP wil gemeenschapsgeld alleen uitgeven wanneer het écht nodig is."
             },
             {
                 "party": "50PLUS",
@@ -3058,8 +3058,8 @@ const data = [
                 "statement": "Nederland dient zo snel mogelijk energie-onafhankelijk te worden."
             },
             {
-                "party": "Libertaire Partij",
-                "statement": "Welke energiebronnen worden aangeboord is aan mensen/bedrijven zelf. De Libertaire Partij ziet echter een enorme vraag naar stabiele energieopwekking en de overheid/politiek beperken de ontwikkeling van kernenergie. Kernenergie verdient eerlijke kans maar wordt gehinderd door overregulering/politieke onzekerheid."
+                "party": "LP",
+                "statement": "Welke energiebronnen worden aangeboord is aan mensen/bedrijven zelf. LP ziet echter een enorme vraag naar stabiele energieopwekking en de overheid/politiek beperken de ontwikkeling van kernenergie. Kernenergie verdient eerlijke kans maar wordt gehinderd door overregulering/politieke onzekerheid."
             },
             {
                 "party": "50PLUS",
@@ -3078,7 +3078,7 @@ const data = [
                 "statement": "DENK sluit kernenergie niet uit indien het aantoonbaar bijdraagt aan het behalen van onze klimaatdoelstellingen en op een veilige manier gerealiseerd wordt. Het realiseren van meer kerncentrales is voor ons echter geen doel op zich."
             },
             {
-                "party": "GroenLinks-PvdA",
+                "party": "GL-PvdA",
                 "statement": "Kernenergie is traag, duur en niet duurzaam. Het bouwen van een centrale duurt jaren, kost miljarden en het afval blijft nog lang gevaarlijk. Ook maakt het ons kwetsbaar bij een aanval. Wat we wél nodig hebben zijn investeringen in echt duurzame energieopwekking: zon en wind."
             },
             {
@@ -3086,7 +3086,7 @@ const data = [
                 "statement": "Nieuwe kerncentrales zijn extreem duur, bouwtijden lopen altijd uit en leveren pas over tientallen jaren stroom. Bovendien blijven we met kernafval zitten en blijven we afhankelijk van landen voor de benodigde grondstoffen. Wij kiezen voor betaalbare energie die wel werkt: zon en wind op zee."
             },
             {
-                "party": "Partij voor de Dieren",
+                "party": "PvdD",
                 "statement": "Nederland bouwt geen nieuwe kerncentrales en bestaande centrales worden zo snel mogelijk gesloten. Kerncentrales komen te laat, terwijl de klimaatcrisis nu actie vergt. Het kost miljarden aan belastinggeld dat we ook kunnen gebruiken om uitstoot sneller terug te dringen."
             },
             {
