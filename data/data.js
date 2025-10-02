@@ -11,7 +11,7 @@ const seats = {
     "Partij voor de Dieren": 3,
     "FvD": 3,
     "SGP": 3,
-    "ChristenUnie": 3,
+    "CU": 3,
     "Volt": 2,
     "JA21": 1
 }
@@ -19,7 +19,7 @@ const seats = {
 const data = [
     {
         "theme": "Hypotheekrenteaftrek",
-        "title": "De hypotheekrenteaftrekIcon moet worden afgeschaft.",
+        "title": "De hypotheekrenteaftrek moet worden afgeschaft.",
         "info": "Als je een huis koopt met een hypotheek, dan moet je rente betalen aan de bank. In Nederland mag je deze rente aftrekken van je inkomen bij de belastingaangifte. Daardoor betaal je minder belasting. Dat heet hypotheekrenteaftrek. De hypotheekrenteaftrek is hoger als je een hogere hypotheek hebt of een hoger inkomen en lager als je een lagere hypotheek hebt of een lager inkomen.",
         "results": [
             {
@@ -43,8 +43,8 @@ const data = [
                 "statement": "Het geleidelijk afschaffen van de hypotheekrenteaftrek voor bedragen boven 450.000 euro maakt ruimte voor betaalbare en groene huizen, die toegankelijk zijn voor iedereen. Hypotheekrenteaftrek verhoogt huizenprijzen en zorgt voor ongelijkheid. Het systeem stimuleert nu bezit boven recht op wonen."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie is voor de gelijke behandeling van woningeigenaren en huurders, en wil lagere woningprijzen. Om die reden faseren we de hypotheekrenteaftrek langzaam uit. Tegelijk schaffen we de belastingen op het bezitten van een woonhuis (eigenwoningforfait) of voor huizen onder de miljoen euro."
+                "party": "CU",
+                "statement": "CU is voor de gelijke behandeling van woningeigenaren en huurders, en wil lagere woningprijzen. Om die reden faseren we de hypotheekrenteaftrek langzaam uit. Tegelijk schaffen we de belastingen op het bezitten van een woonhuis (eigenwoningforfait) of voor huizen onder de miljoen euro."
             },
             {
                 "party": "Volt",
@@ -142,7 +142,7 @@ const data = [
                 "statement": "Niet alleen bijhouden, maar ook aanhouden. Verboden demonstraties zijn illegaal en deelnemers derhalve strafbaar."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "Het lokale gezag verbiedt niet zomaar een demonstratie. De vrijheid van vereniging en het demonstratierecht wegen namelijk zwaar. Als een demonstratie tóch wordt verboden, kan het voor de politie, om goed te kunnen optreden, nodig te zijn te weten wie deelneemt aan een verboden demonstratie."
             },
             {
@@ -211,7 +211,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor het recht om te demonstreren, het recht op privacy en de democratische rechtsstaat. Het demonstratierecht staat nu al onder druk. Wij willen juist het recht om vrij en onbespied te demonstreren verstevigen! Informeer jezelf: https://programma.piratenpartij.nl/"
+                "statement": "De Piratenpartij staat voor het recht om te demonstreren, het recht op privacy en de democratische rechtsstaat. Het demonstratierecht staat nu al onder druk. Wij willen juist het recht om vrij en onbespied te demonstreren verstevigen!"
             },
             {
                 "party": "Vrij Verbond",
@@ -225,7 +225,7 @@ const data = [
     },
     {
         "theme": "Leeftijd minimumloon omlaag",
-        "title": "Het minimumloonIcon voor volwassenen moet gelden vanaf 18 jaar. Dat is nu nog 21 jaar.",
+        "title": "Het minimumloon voor volwassenen moet gelden vanaf 18 jaar. Dat is nu nog 21 jaar.",
         "info": "Op dit moment hebben alle werknemers van 21 jaar en ouder recht op het minimumloon. Dat is het bedrag dat je minimaal moet ontvangen als je werkt. De regering stelt het minimumloon vast. Jongeren van 15 tot en met 20 jaar krijgen nu een percentage van het minimumloon. Daardoor zijn ze voor werkgevers goedkoper om in dienst te nemen.",
         "results": [
             {
@@ -261,8 +261,8 @@ const data = [
                 "statement": "Volwassenen horen een volwassen loon te krijgen. Het rechttrekken van het minimumloon voor volwassenen vanaf 18 jaar zorgt ervoor dat jongvolwassenen eerlijker worden betaald, beschermt hen tegen uitbuiting en maakt het eenvoudiger om volwaardig deel te nemen aan de samenleving."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie is voorstander van het stapsgewijs verhogen van het huidige jeugdminimumloon voor 18-jarigen en ouder tot het niveau van het minimumloon voor werknemers van 21 jaar en ouder."
+                "party": "CU",
+                "statement": "CU is voorstander van het stapsgewijs verhogen van het huidige jeugdminimumloon voor 18-jarigen en ouder tot het niveau van het minimumloon voor werknemers van 21 jaar en ouder."
             },
             {
                 "party": "Volt",
@@ -286,7 +286,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor eerlijke arbeidsvoorwaarden. Volwassen werk verdient een volwassen loon. De Piratenpartij wil een minimumloon van tenminste 18 euro per uur voor iedereen vanaf 18 jaar. Informeer jezelf: programma.piratenpartij.nl"
+                "statement": "De Piratenpartij staat voor eerlijke arbeidsvoorwaarden. Volwassen werk verdient een volwassen loon. De Piratenpartij wil een minimumloon van tenminste 18 euro per uur voor iedereen vanaf 18 jaar."
             },
             {
                 "party": "FNP",
@@ -328,7 +328,7 @@ const data = [
     },
     {
         "theme": "Lelystad Airport",
-        "title": "Lelystad Airport moet open voor commerciële luchtvaartIcon.",
+        "title": "Lelystad Airport moet open voor commerciële luchtvaart.",
         "info": "Lelystad Airport, een vliegveld bij Lelystad, zou vakantievluchten gaan overnemen van Schiphol. In 2022 kreeg het vliegveld geen natuurvergunning, waardoor het niet open kon. Een natuurvergunning is toestemming van de overheid voor activiteiten die slecht zijn voor de natuur, zoals stikstofuitstoot of lawaai. Het vliegveld heeft deze vergunning nog steeds niet gekregen. Daarom kunnen er geen commerciële passagiersvluchten komen op Lelystad Airport. Eerder dit jaar is Lelystad Airport wel aangewezen als trainingsplek voor vliegtuigen van het leger.",
         "results": [
             {
@@ -400,8 +400,8 @@ const data = [
                 "statement": "Lelystad Airport openen voor vakantievluchten is onwenselijk vanwege schade aan het klimaat, de volksgezondheid en de schaarse stikstofruimte. De Tweede Kamer heeft in 2024 een voorstel van ons aangenomen om Lelystad Airport definitief niet te openen voor vakantievluchten."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie is tegen het openen van Lelystad Airport voor burgerluchtvaart. Het doel als overloopluchthaven van Schiphol kan niet gehaald worden en er zullen laagvliegroutes nodig zijn. De gedane publieke en private investeringen worden ruimhartig gecompenseerd."
+                "party": "CU",
+                "statement": "CU is tegen het openen van Lelystad Airport voor burgerluchtvaart. Het doel als overloopluchthaven van Schiphol kan niet gehaald worden en er zullen laagvliegroutes nodig zijn. De gedane publieke en private investeringen worden ruimhartig gecompenseerd."
             },
             {
                 "party": "Volt",
@@ -421,7 +421,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "Piratenpartij staat voor duurzaam vervoer en een gezonde leefomgeving. Lelystad Airport kan niet uitbreiden, omdat dit ten koste gaat van de gezondheid van omwonenden en de omliggende natuur. Boerderijen opkopen voor meer vluchten is onwenselijk. Informeer jezelf: https://programma.piratenpartij.nl/"
+                "statement": "Piratenpartij staat voor duurzaam vervoer en een gezonde leefomgeving. Lelystad Airport kan niet uitbreiden, omdat dit ten koste gaat van de gezondheid van omwonenden en de omliggende natuur. Boerderijen opkopen voor meer vluchten is onwenselijk."
             },
             {
                 "party": "FNP",
@@ -431,7 +431,7 @@ const data = [
     },
     {
         "theme": "Voorrang statushouders",
-        "title": "Gemeenten moeten zelf kunnen bepalen of ze statushoudersIcon voorrang geven op een sociale huurwoning.",
+        "title": "Gemeenten moeten zelf kunnen bepalen of ze statushouders voorrang geven op een sociale huurwoning.",
         "info": "Statushouders zijn mensen die in Nederland asiel hebben aangevraagd en een verblijfsvergunning hebben gekregen. Gemeentes zijn verplicht om deze mensen een passende woning aan te bieden en kunnen statushouders daarom voorrang geven op een sociale huurwoning. Zo komt er ruimte in asielzoekerscentra. Er zijn vaak lange wachttijden voor sociale huurwoningen. Er is een wetsvoorstel gedaan om de voorrangsregelingen van gemeenten voor statushouders af te schaffen.",
         "results": [
             {
@@ -455,7 +455,7 @@ const data = [
                 "statement": "Dit past volgens ons in de beleidsvrijheid van gemeenten. Gemeenten mogen niet verplicht worden de urgentie voor statushouders in te voeren, maar mogen dit zelf bepalen. Als ze, zolang de taakstelling er is, de taakstelling ook op een andere manier in kunnen vullen is dat aan gemeenten zelf."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "Alle gemeenten blijven de ruimte houden om statushouders te huisvesten. Voorrang van huisvesting van statushouders kan alleen vervallen als een realistisch alternatief wordt geboden, waardoor de asielketen niet vastloopt."
             },
             {
@@ -468,7 +468,7 @@ const data = [
             },
             {
                 "party": "Libertaire Partij",
-                "statement": "De Libertaire Partij wil macht decentraliseren naar gemeenten. Wij zijn voor afschaffing speciale status asielzoekers/statushouders en recht op voorkeursbehandeling. Niemand heeft recht op asiel op kosten van de belastingbetaler. Inburgering/huLibertaire Partij aan migranten wordt aan vrijwillige burgerinitiatieven overgelaten."
+                "statement": "De Libertaire Partij wil macht decentraliseren naar gemeenten. Wij zijn voor afschaffing speciale status asielzoekers/statushouders en recht op voorkeursbehandeling. Niemand heeft recht op asiel op kosten van de belastingbetaler. Inburgering/hulp aan migranten wordt aan vrijwillige burgerinitiatieven overgelaten."
             },
             {
                 "party": "FNP",
@@ -520,7 +520,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij is een internationale mensenrechtenbeweging. Als alle gemeenten bijdragen aan het huisvesten van statushouders, voorkomen we dat dat de asielketen verstopt raakt, wat uitmondt in peperdure noodopvang. Daarom handhaven wij ook de Spreidingswet. Meer info: programma.piratenpartij.nl"
+                "statement": "De Piratenpartij is een internationale mensenrechtenbeweging. Als alle gemeenten bijdragen aan het huisvesten van statushouders, voorkomen we dat dat de asielketen verstopt raakt, wat uitmondt in peperdure noodopvang. Daarom handhaven wij ook de Spreidingswet."
             },
             {
                 "party": "Vrij Verbond",
@@ -534,7 +534,7 @@ const data = [
     },
     {
         "theme": "Leeftijdsgrens sociale media",
-        "title": "De regering moet een leeftijdsgrens van 15 jaar instellen voor sociale mediaIcon.",
+        "title": "De regering moet een leeftijdsgrens van 15 jaar instellen voor sociale media.",
         "info": "Voor het gebruik van de meeste sociale media zoals TikTok, Snapchat en Instagram is de minimumleeftijd nu 13 jaar. Maar veel gebruikers zijn jonger, want kinderen kunnen liegen over hun leeftijd. De Europese Unie heeft in 2024 een wet aangenomen die strenge eisen stelt aan leeftijdscontrole en bescherming van minderjarigen door sociale mediaplatforms. De EU stelt geen minimumleeftijd voor, maar landen kunnen zelf ook regels opstellen, zolang die passen binnen de Europese regels. Op dit moment adviseert de Nederlandse overheid ouders al om kinderen pas vanaf 15 jaar op sociale media te laten.",
         "results": [
             {
@@ -578,7 +578,7 @@ const data = [
                 "statement": "De SGP wil een verbod op sociale media voor kinderen jonger dan 15 jaar vanwege verslavingsgevoeligheid en schadelijke content waar zij aan blootgesteld kunnen worden."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "Kinderen hebben het recht veilig op te groeien, ook online. Hierbij ligt de zorg in eerste instantie bij ouders. Het is de taak van de overheid om grenzen te stellen aan de grote techbedrijven. Hierbij hoort een leeftijdsgrens voor sociale media."
             },
             {
@@ -637,8 +637,8 @@ const data = [
     },
     {
         "theme": "Meer geld voor ontwikkelingshulp",
-        "title": "Nederland moet meer geld uitgeven aan ontwikkelingshulpIcon.",
-        "info": "OntwikkelingshuLibertaire Partij is huLibertaire Partij van rijke landen aan arme landen om armoede te verminderen en ervoor te zorgen dat mensen in die landen een beter leven kunnen opbouwen. Er is een internationale afspraak om 0,7 procent van het bruto nationaal inkomen uit te geven aan ontwikkelingshulp. Het bruto nationaal inkomen is al het geld dat alle mensen in Nederland in een jaar verdienen. Sinds 2013 haalt Nederland die 0,7 procent niet meer door bezuinigingen.",
+        "title": "Nederland moet meer geld uitgeven aan ontwikkelingshulp.",
+        "info": "Ontwikkelingshulp is hulp van rijke landen aan arme landen om armoede te verminderen en ervoor te zorgen dat mensen in die landen een beter leven kunnen opbouwen. Er is een internationale afspraak om 0,7 procent van het bruto nationaal inkomen uit te geven aan ontwikkelingshulp. Het bruto nationaal inkomen is al het geld dat alle mensen in Nederland in een jaar verdienen. Sinds 2013 haalt Nederland die 0,7 procent niet meer door bezuinigingen.",
         "results": [
             {
                 "party": "GroenLinks-PvdA",
@@ -646,7 +646,7 @@ const data = [
             },
             {
                 "party": "NSC",
-                "statement": "NSC wil ontwikkelingshuLibertaire Partij doelgericht inzetten, gekoppeld aan duidelijke voorwaarden en afspraken waar ook Nederland iets aan heeft, bijvoorbeeld over migratiesamenwerking en terugkeer. Zo komt huLibertaire Partij niet zomaar bovenop het bestaande budget, maar draagt het bij aan een eerlijk en uitvoerbare migratie"
+                "statement": "NSC wil ontwikkelingshulp doelgericht inzetten, gekoppeld aan duidelijke voorwaarden en afspraken waar ook Nederland iets aan heeft, bijvoorbeeld over migratiesamenwerking en terugkeer. Zo komt hulp niet zomaar bovenop het bestaande budget, maar draagt het bij aan een eerlijk en uitvoerbare migratie"
             },
             {
                 "party": "D66",
@@ -666,19 +666,19 @@ const data = [
             },
             {
                 "party": "Partij voor de Dieren",
-                "statement": "Wij zetten in op meer geld voor ontwikkelingssamenwerking: minimaal 1% van ons bruto nationaal inkomen. We investeren in herstel, perspectief en gelijkwaardigheid, zodat huLibertaire Partij eerlijk, duurzaam is en uiteindelijk overbodig wordt."
+                "statement": "Wij zetten in op meer geld voor ontwikkelingssamenwerking: minimaal 1% van ons bruto nationaal inkomen. We investeren in herstel, perspectief en gelijkwaardigheid, zodat hulp eerlijk, duurzaam is en uiteindelijk overbodig wordt."
             },
             {
                 "party": "SGP",
                 "statement": "Vanuit onze welvaart en naar onze welvaart delen met de verre naaste in nood. Terug richting 0,7 procent BNI. Kaalslag in onze bijdrage en andere landen die bijdragen tegen hongersnood, droogte etc, daarnaast ook eigenbelang zoals stabiliteit."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil dat Nederland weer toegroeit naar de internationale norm om 0,7% van ons bni uit te geven aan ontwikkelingssamenwerking. Hiermee doen we recht aan de allerarmsten wereldwijd. Ook vanuit geopolitiek oogpunt is investeren in ontwikkelingssamenwerking verstandig."
+                "party": "CU",
+                "statement": "CU wil dat Nederland weer toegroeit naar de internationale norm om 0,7% van ons bni uit te geven aan ontwikkelingssamenwerking. Hiermee doen we recht aan de allerarmsten wereldwijd. Ook vanuit geopolitiek oogpunt is investeren in ontwikkelingssamenwerking verstandig."
             },
             {
                 "party": "Volt",
-                "statement": "Volt vervangt traditionele ontwikkelingshuLibertaire Partij door samenwerking op basis van gelijkwaardigheid. Er gaat meer geld naar landen die zich inzetten voor democratie en mensenrechten. We geven lokale organisaties een belangrijke rol en de financiering van projecten gebeurt in de lokale valuta."
+                "statement": "Volt vervangt traditionele ontwikkelingshulp door samenwerking op basis van gelijkwaardigheid. Er gaat meer geld naar landen die zich inzetten voor democratie en mensenrechten. We geven lokale organisaties een belangrijke rol en de financiering van projecten gebeurt in de lokale valuta."
             },
             {
                 "party": "Vrede voor Dieren",
@@ -690,11 +690,11 @@ const data = [
             },
             {
                 "party": "FNP",
-                "statement": "Na de korting van het vorige kabinet moet budget voor ontwikkelingshuLibertaire Partij worden hersteld. Het geld moet effectief worden ingezet, met duidelijke, onderbouwde en controleerbare doelstellingen, zodat huLibertaire Partij daadwerkelijk bijdraagt aan bijvoorbeeld betere gezondheid en duurzame ontwikkeling wereldwijd."
+                "statement": "Na de korting van het vorige kabinet moet budget voor ontwikkelingshulp worden hersteld. Het geld moet effectief worden ingezet, met duidelijke, onderbouwde en controleerbare doelstellingen, zodat hulp daadwerkelijk bijdraagt aan bijvoorbeeld betere gezondheid en duurzame ontwikkeling wereldwijd."
             },
             {
                 "party": "PVV",
-                "statement": "De PVV wil de ontwikkelingshuLibertaire Partij volledig afschaffen en het geld in Nederland besteden."
+                "statement": "De PVV wil de ontwikkelingshulp volledig afschaffen en het geld in Nederland besteden."
             },
             {
                 "party": "VVD",
@@ -702,15 +702,15 @@ const data = [
             },
             {
                 "party": "BBB",
-                "statement": "BBB wil de uitgaven aan ontwikkelingshuLibertaire Partij meer dan halveren en belastinggeld voor binnenlandse zaken besteden. We zijn voor een gerichte, tijdelijke en toetsbare huLibertaire Partij die bijdraagt aan stabiliteit en het tegengaan van migratiestromen."
+                "statement": "BBB wil de uitgaven aan ontwikkelingshulp meer dan halveren en belastinggeld voor binnenlandse zaken besteden. We zijn voor een gerichte, tijdelijke en toetsbare hulp die bijdraagt aan stabiliteit en het tegengaan van migratiestromen."
             },
             {
                 "party": "FvD",
-                "statement": "Geld en aandacht moeten naar eigen land. OntwikkelingshuLibertaire Partij is vaak ineffectief en dient zelden het Nederlandse belang."
+                "statement": "Geld en aandacht moeten naar eigen land. Ontwikkelingshulp is vaak ineffectief en dient zelden het Nederlandse belang."
             },
             {
                 "party": "JA21",
-                "statement": "JA21 wil ontwikkelingshuLibertaire Partij beperken tot noodhuLibertaire Partij en ondersteuning bij opvang in de regio."
+                "statement": "JA21 wil ontwikkelingshulp beperken tot noodhulp en ondersteuning bij opvang in de regio."
             },
             {
                 "party": "BVNL",
@@ -726,15 +726,15 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "Geld geven, buiten noodhulp, houdt een afhankelijkheidsrelatie in stand. Mensen in armere landen hebben meer aan het wegnemen van belemmeringen op het gebied van handel, intellectueel eigendom en vrije toegang tot informatie. Lees meer: https://programma.piratenpartij.nl/#ontwikkelingssamenwerking"
+                "statement": "Geld geven, buiten noodhulp, houdt een afhankelijkheidsrelatie in stand. Mensen in armere landen hebben meer aan het wegnemen van belemmeringen op het gebied van handel, intellectueel eigendom en vrije toegang tot informatie."
             },
             {
                 "party": "Vrij Verbond",
-                "statement": "Sterke zorg voor eigen inwoners hoort voorop te staan. Vrijwillige solidariteit werkt beter dan verplichte afdrachten. Het geld dat nu naar ontwikkelingshuLibertaire Partij gaat, besteden we effectiever in Nederland."
+                "statement": "Sterke zorg voor eigen inwoners hoort voorop te staan. Vrijwillige solidariteit werkt beter dan verplichte afdrachten. Het geld dat nu naar ontwikkelingshulp gaat, besteden we effectiever in Nederland."
             },
             {
                 "party": "De Linie",
-                "statement": "Het geld voor ontwikkelingshuLibertaire Partij kan beter besteed worden aan verbetering van het Nederlands onderwijs."
+                "statement": "Het geld voor ontwikkelingshulp kan beter besteed worden aan verbetering van het Nederlands onderwijs."
             }
         ]
     },
@@ -804,7 +804,7 @@ const data = [
                 "statement": "De overheid heeft zich terecht altijd afzijdig gehouden van toezicht op informele levenssfeer van burgers in kerken en maatsch.organisaties, omdat het een inbreuk maakt op klassieke vrijheden.Specifieke problemen zoals het ondermijnen van de rechtsstaat moeten op een gerichte manier beschermd worden"
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "Nederland kent gelukkig vrijheid van godsdienst, vrijheid van meningsuiting en vrijheid van vereniging. Dat betekent dat de overheid niks te zoeken heeft in de kerk bij de catechisatie of bij de zondagsschool."
             },
             {
@@ -825,7 +825,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij is tegen zulke overheidssurveillance. Hoe de NCTV met ‘mystery moslims’ infiltreerde, ging veel te ver! Enkel bij een concrete verdenking past het om een specifieke levensbeschouwelijke groep in de gaten te houden. Informeer jezelf: https://programma.piratenpartij.nl/#burgerrechten"
+                "statement": "De Piratenpartij is tegen zulke overheidssurveillance. Hoe de NCTV met ‘mystery moslims’ infiltreerde, ging veel te ver! Enkel bij een concrete verdenking past het om een specifieke levensbeschouwelijke groep in de gaten te houden."
             },
             {
                 "party": "FNP",
@@ -907,8 +907,8 @@ const data = [
                 "statement": "De SGP wil de kinderbijslag, het kindgebonden budget en de kinderopvangtoeslag samenvoegen in één kinderbijdrage. We zijn geen voorstander van het verlagen van de kinderbijslag, maar willen juist meer geld naar gezinnen met kinderen."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "Het belastingstelsel is de afgelopen decennia veel te complex geworden door talloze van inkomensafhankelijke regelingen. Het is daarom geen goed idee om de kinderbijslag ook inkomensafhankelijk te maken. Wat de ChristenUnie betreft verhogen we de kinderbijslag juist fors voor alle kinderen."
+                "party": "CU",
+                "statement": "Het belastingstelsel is de afgelopen decennia veel te complex geworden door talloze van inkomensafhankelijke regelingen. Het is daarom geen goed idee om de kinderbijslag ook inkomensafhankelijk te maken. Wat CU betreft verhogen we de kinderbijslag juist fors voor alle kinderen."
             },
             {
                 "party": "Volt",
@@ -946,7 +946,7 @@ const data = [
     },
     {
         "theme": "Geld naar publieke omroep",
-        "title": "Er moet minder geld naar de publieke omroepIcon.",
+        "title": "Er moet minder geld naar de publieke omroep.",
         "info": "De publieke omroep in Nederland bestaat uit drie televisiezenders (NPO 1, 2 en 3) en zes radiozenders. Doel is om niet alleen programma’s te maken voor een breed publiek, maar ook voor kleinere groepen mensen. De publieke omroep krijgt daarvoor geld van de overheid. Commerciële zenders als RTL en SBS6 krijgen geen geld van de overheid.",
         "results": [
             {
@@ -1018,7 +1018,7 @@ const data = [
                 "statement": "De Nederlandse Publieke Omroep (NPO) is opgericht om een breed en divers publiek te voorzien van informatie, cultuur en educatie. Het is belangrijk dat de NPO deze rol kan blijven vervullen. Daarom willen wij dat de bezuiniging op de NPO worden teruggedraaid."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "De publieke omroep is heel waardevol als plek van onafhankelijk en pluriform media-aanbod. We willen meer ruimte voor regionale omroepen en betere onderzoeksjournalistiek."
             },
             {
@@ -1117,8 +1117,8 @@ const data = [
                 "statement": "De SGP is tegen eenzijdige erkenning van een Palestijnse staat. Zeker na 7 oktober 2023 zijn er weinig lichtpuntjes waaruit valt af te leiden dat een Palestijnse staat niet een herhaling wordt van Gaza of leidt tot een soort mini-Iran of een mini-Afghanistan. Daarom moet ook worden nagedacht over alternatieven voor de tweestaten oplossing."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil vooral dat er weer gesproken gaat worden Israël en de Palestijnen over vrede. Erkenning van een Palestijnse staat zou pas kunnen als onderdeel van onderhandelingen, mede omdat nu in de Palestijnse gebieden nog sprake is van verdeeld, ondemocratisch leiderschap en corruptie."
+                "party": "CU",
+                "statement": "CU wil vooral dat er weer gesproken gaat worden Israël en de Palestijnen over vrede. Erkenning van een Palestijnse staat zou pas kunnen als onderdeel van onderhandelingen, mede omdat nu in de Palestijnse gebieden nog sprake is van verdeeld, ondemocratisch leiderschap en corruptie."
             },
             {
                 "party": "JA21",
@@ -1244,8 +1244,8 @@ const data = [
                 "statement": "Plastic voedt de klimaatcrisis en vervuilt water en natuur. Er komt een verbod op wegwerpplastic. Waar nog plastic wordt gebruikt, moet dat gerecycled zijn. We dringen het gebruik van plastic verpakkingen terug door te kiezen voor herbruikbare verpakkingen en bijvulmogelijkheden in de supermarkt."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil het gebruik van plastic in de economie terugdringen. Dat is beter voor mens en milieu. De meerprijs voor eenmalig plasticgebruik blijft bestaan, zolang er een herbruikbaar alternatief voor consumenten mogelijk is. Hierbij is ook oog voor administratieve lasten van ondernemers."
+                "party": "CU",
+                "statement": "CU wil het gebruik van plastic in de economie terugdringen. Dat is beter voor mens en milieu. De meerprijs voor eenmalig plasticgebruik blijft bestaan, zolang er een herbruikbaar alternatief voor consumenten mogelijk is. Hierbij is ook oog voor administratieve lasten van ondernemers."
             },
             {
                 "party": "Volt",
@@ -1255,7 +1255,7 @@ const data = [
     },
     {
         "theme": "Huurstijging sociale huurwoning",
-        "title": "De huurprijs van een sociale huurwoningIcon mag de komende drie jaar niet harder stijgen dan de inflatieIcon.",
+        "title": "De huurprijs van een sociale huurwoning mag de komende drie jaar niet harder stijgen dan de inflatie.",
         "info": "Sociale huurwoningen zijn bedoeld om betaalbare woonruimte te bieden aan mensen met een lager of middeninkomen. De maximumprijs bedraagt 900,07 euro per maand (2025). De overheid bepaalt elk jaar hoeveel die huur mag stijgen. Dat hangt af van de inflatie en van allerlei kosten van verhuurders. Inflatie is de gemiddelde prijsstijging van de goederen en diensten die consumenten kopen.",
         "results": [
             {
@@ -1291,8 +1291,8 @@ const data = [
                 "statement": "Wonen is een recht, geen verdienmodel. De huren bevriezen we voor vijf jaar. Zo beschermen we huurders tegen hoge woonlasten. Woningcorporaties krijgen compensaties om te kunnen blijven bouwen."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De afgelopen jaren zijn de huren hard gestegen. De ChristenUnie wil de huurstijging koppelen aan de gemiddelde prijsontwikkeling over meerdere jaren. Daardoor stijgen deze minder hard en houden huurders meer geld over."
+                "party": "CU",
+                "statement": "De afgelopen jaren zijn de huren hard gestegen. CU wil de huurstijging koppelen aan de gemiddelde prijsontwikkeling over meerdere jaren. Daardoor stijgen deze minder hard en houden huurders meer geld over."
             },
             {
                 "party": "Volt",
@@ -1312,7 +1312,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij ziet betaalbare woonruimte als basisrecht. Doordat huren harder zijn gestegen dan inflatie, is wonen steeds duurder geworden. Huurprijzen zouden juist moeten bevriezen. Huurverhoging leidt nu in de praktijk ook niet tot beter onderhoud. Informeer jezelf: programma.piratenpartij.nl"
+                "statement": "De Piratenpartij ziet betaalbare woonruimte als basisrecht. Doordat huren harder zijn gestegen dan inflatie, is wonen steeds duurder geworden. Huurprijzen zouden juist moeten bevriezen. Huurverhoging leidt nu in de praktijk ook niet tot beter onderhoud."
             },
             {
                 "party": "FNP",
@@ -1398,8 +1398,8 @@ const data = [
                 "statement": "De SGP vindt wel dat dit extra geld vooral structureel en stabiel moet zijn, zonder bureaucratische verantwoording."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "Voor een competitieve en duurzame economie in de toekomst moeten we nu investeren in wetenschap en onderzoek. De ChristenUnie wil dat de publieke en private uitgaven aan innovatie en onderzoek op termijn toegroeien naar 3% van het nationaal inkomen."
+                "party": "CU",
+                "statement": "Voor een competitieve en duurzame economie in de toekomst moeten we nu investeren in wetenschap en onderzoek. CU wil dat de publieke en private uitgaven aan innovatie en onderzoek op termijn toegroeien naar 3% van het nationaal inkomen."
             },
             {
                 "party": "Volt",
@@ -1497,8 +1497,8 @@ const data = [
                 "statement": "De wolf is een intelligent dier, woont in de natuur, maar zo’n roofdier in een dichtbevolkt land vraagt om actief beheer. Cruciaal is dat de wolf uit de buurt van mensen en hun dieren blijft, dus angst voor mensen houdt en er niet aan went. Er is ruimte nodig voor het actief verjagen en bejagen."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil de populatie wolven actief beheren, met een zorgvuldig vastgesteld quotum en, als het niet anders kan, gecontroleerd afschot. Wolven die mensen aanvallen worden afgeschoten."
+                "party": "CU",
+                "statement": "CU wil de populatie wolven actief beheren, met een zorgvuldig vastgesteld quotum en, als het niet anders kan, gecontroleerd afschot. Wolven die mensen aanvallen worden afgeschoten."
             },
             {
                 "party": "JA21",
@@ -1546,7 +1546,7 @@ const data = [
             },
             {
                 "party": "Volt",
-                "statement": "Volt wil goed samenleven met wilde dieren. Boeren krijgen huLibertaire Partij bij bescherming van vee. Wolven worden gevolgd om hun gedrag beter te begrijpen en we geven ze genoeg ruimte. Alleen als het echt niet anders kan, grijpen we in."
+                "statement": "Volt wil goed samenleven met wilde dieren. Boeren krijgen hulp bij bescherming van vee. Wolven worden gevolgd om hun gedrag beter te begrijpen en we geven ze genoeg ruimte. Alleen als het echt niet anders kan, grijpen we in."
             },
             {
                 "party": "Vrede voor Dieren",
@@ -1596,8 +1596,8 @@ const data = [
                 "statement": "Het strafrecht wordt hervormd met focus op herstel en preventie. Korte gevangenisstraffen worden ontmoedigd, omdat ze leiden tot meer terugval. Het opleggen van zo’n straf moet expliciet gemotiveerd worden. Taakstraffen en elektronische detentie worden beter benut en de reclassering versterkt."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "In sommige gevallen is een enkelband met reclasseringstoezicht een passendere straf dan een kort verblijf in de gevangenis. De ChristenUnie heeft er vertrouwen in dat rechters in het juiste geval de juiste straf opleggen."
+                "party": "CU",
+                "statement": "In sommige gevallen is een enkelband met reclasseringstoezicht een passendere straf dan een kort verblijf in de gevangenis. CU heeft er vertrouwen in dat rechters in het juiste geval de juiste straf opleggen."
             },
             {
                 "party": "Volt",
@@ -1621,7 +1621,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor de democratische rechtsstaat en effectieve straffen. Wanneer rechters voor een enkelband kunnen kiezen, kunnen zij beter maatwerk bieden. Bovendien is een enkelband goedkoper en efficiënter, en voorkomt het dat criminelen in de gevangenis gaan netwerken. Piratenpartij.nl"
+                "statement": "De Piratenpartij staat voor de democratische rechtsstaat en effectieve straffen. Wanneer rechters voor een enkelband kunnen kiezen, kunnen zij beter maatwerk bieden. Bovendien is een enkelband goedkoper en efficiënter, en voorkomt het dat criminelen in de gevangenis gaan netwerken."
             },
             {
                 "party": "FNP",
@@ -1667,7 +1667,7 @@ const data = [
     },
     {
         "theme": "Kortere WW",
-        "title": "Als je werkloos wordt, moet je maximaal 12 maanden WWIcon krijgen. Dat is nu nog 24 maanden.",
+        "title": "Als je werkloos wordt, moet je maximaal 12 maanden WW krijgen. Dat is nu nog 24 maanden.",
         "info": "De afkorting WW staat voor Werkloosheidswet. Deze wet regelt een tijdelijke uitkering voor mensen die geheel of gedeeltelijk werkloos zijn geworden. Werknemers betalen er via hun loon premie voor. Hoe langer je hebt gewerkt, hoe langer je recht hebt op een WW-uitkering. Nu krijg je maximaal twee jaar een WW-uitkering.",
         "results": [
             {
@@ -1735,8 +1735,8 @@ const data = [
                 "statement": "Wij laten mensen niet vallen na 12 maanden. De WW inkorten levert extra druk op aan werkloze mensen zonder de echte problemen op te lossen, waaronder flexcontracten, uitbuiting en gebrek aan begeleiding en omscholing. Vertrouwen in plaats van wantrouwen moet uitgangspunt zijn van sociaal beleid."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "Het huidige kabinet heeft aangekondigd de duur van de WW met 6 maanden te verlagen. Dit raakt met name werklozen die ook in de huidige arbeidsmarkt moeilijk een nieuwe baan kunnen vinden, zoals sommige ouderen of mensen met een beperking. De ChristenUnie handhaaft de duur van de WW op twee jaar"
+                "party": "CU",
+                "statement": "Het huidige kabinet heeft aangekondigd de duur van de WW met 6 maanden te verlagen. Dit raakt met name werklozen die ook in de huidige arbeidsmarkt moeilijk een nieuwe baan kunnen vinden, zoals sommige ouderen of mensen met een beperking. CU handhaaft de duur van de WW op twee jaar"
             },
             {
                 "party": "Volt",
@@ -1756,7 +1756,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor rechtvaardige en simpele sociale zekerheid. Werkenden sparen zelf voor hun WW. We willen mensen niet tegen hun wil hun zekerheid afpakken, waar ze zelf voor gespaard hebben. Na de WW geldt bij ons voor iedereen het regulier onvoorwaardelijk basisinkomen. Piratenpartij.nl"
+                "statement": "De Piratenpartij staat voor rechtvaardige en simpele sociale zekerheid. Werkenden sparen zelf voor hun WW. We willen mensen niet tegen hun wil hun zekerheid afpakken, waar ze zelf voor gespaard hebben. Na de WW geldt bij ons voor iedereen het regulier onvoorwaardelijk basisinkomen."
             },
             {
                 "party": "FNP",
@@ -1770,7 +1770,7 @@ const data = [
     },
     {
         "theme": "Minder stikstof",
-        "title": "De regering moet ervoor zorgen dat er in 2030 minstens de helft minder stikstofIcon in de lucht komt ten opzichte van 2019.",
+        "title": "De regering moet ervoor zorgen dat er in 2030 minstens de helft minder stikstof in de lucht komt ten opzichte van 2019.",
         "info": "Om de Europese natuurdoelen te halen heeft Nederland besloten om de uitstoot van stikstof flink omlaag te brengen. Door stikstof gaat namelijk een deel van de planten, bomen en dieren dood. Op dit moment heeft de regering nog als doel dat de uitstoot van stikstof in 2035 de helft minder moet zijn dan in 2019, niet in 2030. Grote bedrijven, de bouw, het verkeer en vee zorgen voor de meeste stikstof in de lucht.",
         "results": [
             {
@@ -1838,7 +1838,7 @@ const data = [
                 "statement": "Halvering van de stikstofuitstoot in 2030 is niet haalbaar. SGP wil verlaging van de stikstofuitstoot om uit het juridische moeras te komen, maar wel dat boeren mee kunnen schakelen. Grote stappen, snel thuis? Zo simpel is het niet. Boeren werken met natuur en hebben geen schoorsteen, waar een filter op kan."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "De stikstofcrisis verlamt ons land. Huizen en infrastructuur kunnen niet meer worden gebouwd. De uitstoot van stikstof door mobiliteit, industrie en landbouw wordt daarom de komende tien jaar gehalveerd ten opzichte van 2019. 2030 is niet realistisch. Alle sectoren dragen eerlijk bij."
             },
             {
@@ -1873,7 +1873,7 @@ const data = [
     },
     {
         "theme": "Abortus",
-        "title": "Abortus moet uit het Wetboek van StrafrechtIcon.",
+        "title": "Abortus moet uit het Wetboek van Strafrecht.",
         "info": "Abortus is het afbreken van een zwangerschap door een pil of een medische ingreep. In Nederland staat abortus in het Wetboek van Strafrecht en dat betekent dat het in principe strafbaar is om een zwangerschap af te breken. Toch kan een abortus legaal worden uitgevoerd, als wordt voldaan aan een aantal wettelijke voorwaarden. Als abortus uit het Wetboek van Strafrecht wordt gehaald, kan er niet meer sprake zijn van een  strafbaar feit.",
         "results": [
             {
@@ -1918,7 +1918,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Daarom willen we bovendien de verplichte bedenktijd afschaffen en de abortuspil beschikbaar stellen via de huisarts. Daarnaast willen we anticonceptie gratis in het basispakket. Informeer jezelf: https://programma.piratenpartij.nl/"
+                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Daarom willen we bovendien de verplichte bedenktijd afschaffen en de abortuspil beschikbaar stellen via de huisarts. Daarnaast willen we anticonceptie gratis in het basispakket."
             },
             {
                 "party": "FNP",
@@ -1961,7 +1961,7 @@ const data = [
                 "statement": "Abortus hoort in het Wetboek van Strafrecht thuis. Ieder mensenleven is waardevol en verdient (wettelijke) bescherming. Niet alleen tegen abortus met toestemming van de moeder, maar ook tegen abortus zonder toestemming van de moeder. Deze bescherming valt weg als abortus uit het Wetboek van Strafrecht gaat."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "De zwangerschapsafbreking wordt niet uit het Wetboek van Strafrecht gehaald. Dit is een bescherming van het ongeboren leven en het beschermt de vrouw tegen een gedwongen abortus. Abortus is geen mensenrecht. De Nederlandse abortuspraktijk wordt niet naar het buitenland geëxporteerd."
             },
             {
@@ -1976,7 +1976,7 @@ const data = [
     },
     {
         "theme": "Geen verhoging bijstand",
-        "title": "Verhoging van het minimumloonIcon moet niet langer automatisch leiden tot verhoging van de bijstandsuitkering.",
+        "title": "Verhoging van het minimumloon moet niet langer automatisch leiden tot verhoging van de bijstandsuitkering.",
         "info": "De hoogte van de bijstand hangt af van het wettelijk minimumloon. Dat betekent dat de bijstand hoger wordt als het wettelijk minimumloon omhoog gaat. Als de bijstand niet meestijgt met het minimumloon, wordt het verschil tussen mensen die werken en mensen met een bijstandsuitkering groter.",
         "results": [
             {
@@ -2048,7 +2048,7 @@ const data = [
                 "statement": "Voor mensen die echt niet meer kunnen rondkomen is er een vangnet, en dat steunt de SGP. Fatsoenlijk omgaan met minima betekent ook dat periodiek de bijstand wordt verhoogd, aan de hand van de kostenstijging van boodschappen en andere levensbehoeften."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "Als het minimumloon omhoog gaat, moet de bijstand meestijgen. De koppeling hiertussen houden we in stand."
             },
             {
@@ -2147,8 +2147,8 @@ const data = [
                 "statement": "Meer veehouderij in Nederland is duurzamer dan in veel andere landen. Boeren moeten voldoende dieren kunnen houden om eten te verdienen en investeringen in dierenwelzijn & milieu te kunnen betalen. Er zijn mogelijkheden voor minder schadelijke uitstoot en beter dierenwelzijn zonder verlaging van de veestapel."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie is tegen gedwongen uitkoop van bedrijven of dierrechten. Wij willen boeren benaderen vanuit vertrouwen in hun vakmanschap. Elk boerenbedrijf krijgt een specifiek doel om minder stikstof uit te stoten. Er komt daarmee minder nadruk op opkoop van vee of bedrijven. Dat is effectiever."
+                "party": "CU",
+                "statement": "CU is tegen gedwongen uitkoop van bedrijven of dierrechten. Wij willen boeren benaderen vanuit vertrouwen in hun vakmanschap. Elk boerenbedrijf krijgt een specifiek doel om minder stikstof uit te stoten. Er komt daarmee minder nadruk op opkoop van vee of bedrijven. Dat is effectiever."
             },
             {
                 "party": "JA21",
@@ -2199,7 +2199,7 @@ const data = [
             },
             {
                 "party": "BBB",
-                "statement": "Onrechtmatig verblijf in Nederland moet strafbaar worden. Dit geldt ook voor het doelbewust mogelijk maken van illegaal verblijf, zoals het bewust onderverhuren van een kamer. Dit geldt niet voor het bieden van (nood)huLibertaire Partij aan iemand die hier illegaal verblijft."
+                "statement": "Onrechtmatig verblijf in Nederland moet strafbaar worden. Dit geldt ook voor het doelbewust mogelijk maken van illegaal verblijf, zoals het bewust onderverhuren van een kamer. Dit geldt niet voor het bieden van (nood)hulp aan iemand die hier illegaal verblijft."
             },
             {
                 "party": "CDA",
@@ -2227,7 +2227,7 @@ const data = [
             },
             {
                 "party": "50PLUS",
-                "statement": "Vervolg- en beroepsprocedures worden wettelijk beperkt. Maar humanitaire huLibertaire Partij aan illegalen is niet strafbaar tenzij het uitzettingsbeleid wordt ondermijnd."
+                "statement": "Vervolg- en beroepsprocedures worden wettelijk beperkt. Maar humanitaire hulp aan illegalen is niet strafbaar tenzij het uitzettingsbeleid wordt ondermijnd."
             },
             {
                 "party": "De Linie",
@@ -2254,8 +2254,8 @@ const data = [
                 "statement": "Mensen zonder papieren moeten niet gecriminaliseerd worden. Hetzelfde geldt voor het helpen van mensen zonder documenten. Migratiebeleid dient menselijk te zijn en richt zich op het wegnemen van de oorzaken waardoor mensen hun land moeten ontvluchten."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil meer grip op migratie en investeren in de asielketen om aanvragen snel te beoordelen. Strafbaarstelling drukt kwetsbare mensen de illegaliteit in, dat belemmert het meewerken aan vertrek en toekomstperspectief. HuLibertaire Partij aan ongedocumenteerden wordt nooit strafbaar."
+                "party": "CU",
+                "statement": "CU wil meer grip op migratie en investeren in de asielketen om aanvragen snel te beoordelen. Strafbaarstelling drukt kwetsbare mensen de illegaliteit in, dat belemmert het meewerken aan vertrek en toekomstperspectief. Hulp aan ongedocumenteerden wordt nooit strafbaar."
             },
             {
                 "party": "Volt",
@@ -2301,8 +2301,8 @@ const data = [
                 "statement": "We voeren een intelligente kilometerheffing in op alle wegen en voor alle voertuigen, naar type voertuig en brandstofgebruik. Mensen die veel rijden gaan daarmee een eerlijk deel bijdragen, met uitzondering van mensen met een beperking en mensen die afgelegen wonen. Strikte privacywaarborgen gelden."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "Betalen per gereden kilometer is eerlijker en duurzamer. De ChristenUnie is voor een intelligente kilometerprijs: op het platteland laag, op drukke momenten in de brede Randstad hoger. Bij de invoering worden privacyoverwegingen, fraudegevoeligheid en uitvoerbaarheid meegewogen."
+                "party": "CU",
+                "statement": "Betalen per gereden kilometer is eerlijker en duurzamer. CU is voor een intelligente kilometerprijs: op het platteland laag, op drukke momenten in de brede Randstad hoger. Bij de invoering worden privacyoverwegingen, fraudegevoeligheid en uitvoerbaarheid meegewogen."
             },
             {
                 "party": "Volt",
@@ -2370,7 +2370,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor privacy. Kilometerheffing kan niet zonder privacyschendingen. Je betaalt al per kilometer door accijns op benzine. Auto's staan nu voor 95% van de tijd stil en nemen onnodig veel (parkeer)ruimte in beslag. Delen stimuleren is beter. Meer info: programma.piratenpartij.nl"
+                "statement": "De Piratenpartij staat voor privacy. Kilometerheffing kan niet zonder privacyschendingen. Je betaalt al per kilometer door accijns op benzine. Auto's staan nu voor 95% van de tijd stil en nemen onnodig veel (parkeer)ruimte in beslag. Delen stimuleren is beter."
             },
             {
                 "party": "FNP",
@@ -2388,7 +2388,7 @@ const data = [
     },
     {
         "theme": "Eigen risico zorgverzekering",
-        "title": "Het eigen risico bij zorgverzekeringenIcon wordt per 2027 gehalveerd. Dat moet worden teruggedraaid.",
+        "title": "Het eigen risico bij zorgverzekeringen wordt per 2027 gehalveerd. Dat moet worden teruggedraaid.",
         "info": "In Nederland ben je verplicht een zorgverzekering af te sluiten, waarvoor je premie moet betalen. De zorgverzekeraar vergoedt veel zorgkosten, zoals medicijnen of ziekenhuisbezoek. Maar iedereen heeft een eigen risico - dat is het bedrag dat je eerst zelf moet betalen voordat de zorgverzekering de rest betaalt. Per 1 januari 2027 wordt het eigen risico gehalveerd, van 385 euro naar 192,50 euro per jaar.",
         "results": [
             {
@@ -2408,7 +2408,7 @@ const data = [
                 "statement": "De SGP bevriest het eigen risico de komende kabinetsperiode op 385 euro."
             },
             {
-                "party": "ChristenUnie",
+                "party": "CU",
                 "statement": "Het eigen risico blijft € 385. We zorgen ervoor dat mensen die altijd hun eigen risico moeten opmaken, zoals chronisch zieken en gehandicapten, een tegemoetkoming krijgen."
             },
             {
@@ -2491,8 +2491,8 @@ const data = [
     },
     {
         "theme": "Euthanasie",
-        "title": "Psychisch lijden mag geen reden zijn voor euthanasieIcon.",
-        "info": "Artsen kunnen in bijzondere gevallen iemand helpen met sterven door middel van euthanasie of huLibertaire Partij bij zelfdoding.  Dat mogen zij alleen doen bij mensen die ondraaglijk en uitzichtloos lijden. Het lijden kan lichamelijk of psychisch zijn, maar moet een medische oorzaak hebben. Bijvoorbeeld door een psychiatrische aandoening.",
+        "title": "Psychisch lijden mag geen reden zijn voor euthanasie.",
+        "info": "Artsen kunnen in bijzondere gevallen iemand helpen met sterven door middel van euthanasie of hulp bij zelfdoding.  Dat mogen zij alleen doen bij mensen die ondraaglijk en uitzichtloos lijden. Het lijden kan lichamelijk of psychisch zijn, maar moet een medische oorzaak hebben. Bijvoorbeeld door een psychiatrische aandoening.",
         "results": [
             {
                 "party": "NSC",
@@ -2507,12 +2507,12 @@ const data = [
                 "statement": "De SGP wil dat euthanasie bij psychisch lijden niet langer mogelijk is. Zéker bij jonge mensen."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "Op het gebied van psychische ziektes is nog veel onbekend over effectieve behandelingen, verloop en toerekeningsvatbaarheid. Daarom wil de ChristenUnie dat er zeer terughoudend wordt omgegaan met euthanasievragen die voortkomen uit psychisch lijden en ingezet wordt op betere zorg."
+                "party": "CU",
+                "statement": "Op het gebied van psychische ziektes is nog veel onbekend over effectieve behandelingen, verloop en toerekeningsvatbaarheid. Daarom wil CU dat er zeer terughoudend wordt omgegaan met euthanasievragen die voortkomen uit psychisch lijden en ingezet wordt op betere zorg."
             },
             {
                 "party": "PVV",
-                "statement": "Het aantal euthanasiegevallen bij psychisch lijden stijgt, vooral onder jongeren (2012-2021: verviervoudigd). De PVV wil onderzoek, zeker omdat veel jongeren hun aanvraag intrekken. KNMG: “Meer huLibertaire Partij bij leven nodig dan bij sterven.” Stichting 113: “Honderden suïcides zijn te voorkómen met preventie“. De PVV is daarom voor een moratorium op euthanasie vanwege psychisch lijden. Binnen de fractie is dit een vrije kwestie."
+                "statement": "Het aantal euthanasiegevallen bij psychisch lijden stijgt, vooral onder jongeren (2012-2021: verviervoudigd). De PVV wil onderzoek, zeker omdat veel jongeren hun aanvraag intrekken. KNMG: “Meer hulp bij leven nodig dan bij sterven.” Stichting 113: “Honderden suïcides zijn te voorkómen met preventie“. De PVV is daarom voor een moratorium op euthanasie vanwege psychisch lijden. Binnen de fractie is dit een vrije kwestie."
             },
             {
                 "party": "JA21",
@@ -2576,7 +2576,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Mensen die vinden dat ze klaar zijn met hun leven, moeten recht krijgen op euthanasie. Het alternatief is namelijk zelfmoord. Wel moet er voldoende psychische huLibertaire Partij aanwezig zijn. Daarvoor willen we investeren in de capaciteit en kwaliteit van de GGZ"
+                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Mensen die vinden dat ze klaar zijn met hun leven, moeten recht krijgen op euthanasie. Het alternatief is namelijk zelfmoord. Wel moet er voldoende psychische hulp aanwezig zijn. Daarvoor willen we investeren in de capaciteit en kwaliteit van de GGZ"
             },
             {
                 "party": "FNP",
@@ -2630,8 +2630,8 @@ const data = [
                 "statement": "Maar ongeveer 7% van het oppervlak van Nederland wordt gebruikt voor huizen. Bijna de helft is voor de bio-industrie. Als we boeren helpen overstappen naar biologische akkerbouw, ontstaat er meer plek voor natuur en woningen. Zo maken we Nederland groener en lossen we het woningtekort op."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil eerst binnen dorpen en steden bouwen. In dorpen stimuleren we ‘een buurtje erbij’, zodat jongeren en starters in hun eigen dorp kunnen blijven wonen. Grote nieuwbouwlocaties buiten de dorpen en steden zijn nodig om de woningnood te bestrijden. Dat kan ook op landbouwgrond zijn."
+                "party": "CU",
+                "statement": "CU wil eerst binnen dorpen en steden bouwen. In dorpen stimuleren we ‘een buurtje erbij’, zodat jongeren en starters in hun eigen dorp kunnen blijven wonen. Grote nieuwbouwlocaties buiten de dorpen en steden zijn nodig om de woningnood te bestrijden. Dat kan ook op landbouwgrond zijn."
             },
             {
                 "party": "Volt",
@@ -2659,7 +2659,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij ziet betaalbare woonruimte als basisrecht. Hiervoor willen wij met name inzetten op bestaande kernen (verdichting). Daarnaast willen wij flexibeler omgaan met bestemmingsplannen om alternatieve woonvormen makkelijker mogelijk te maken. Informeer jezelf: programma.piratenpartij.nl"
+                "statement": "De Piratenpartij ziet betaalbare woonruimte als basisrecht. Hiervoor willen wij met name inzetten op bestaande kernen (verdichting). Daarnaast willen wij flexibeler omgaan met bestemmingsplannen om alternatieve woonvormen makkelijker mogelijk te maken."
             },
             {
                 "party": "Vrij Verbond",
@@ -2725,8 +2725,8 @@ const data = [
                 "statement": "Etnisch profileren leidt tot stigmatisering van hele bevolkingsgroepen. Er komt een verbod op het gebruik van etniciteit en nationaliteit als indicator in risicoprofielen voor het opsporen van potentiële wet- en regelovertreders. Preventief fouilleren staan we niet langer toe."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie is een tegenstander van etnisch profileren. Etnisch profileren is in Nederland al verboden door de rechter. Als blijkt dat het codificeren van dit verbod toegevoegde waarde heeft, beziet de ChristenUnie initiatieven die dit beogen welwillend."
+                "party": "CU",
+                "statement": "CU is een tegenstander van etnisch profileren. Etnisch profileren is in Nederland al verboden door de rechter. Als blijkt dat het codificeren van dit verbod toegevoegde waarde heeft, beziet CU initiatieven die dit beogen welwillend."
             },
             {
                 "party": "Volt",
@@ -2746,7 +2746,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor gelijke rechten en kansen voor iedereen. Etnische profilering maakt mensen vanwege hun afkomst bij voorbaat sneller verdacht. Dat is onaanvaardbaar. Informeer jezelf: https://programma.piratenpartij.nl/#algoritmes_en_profilering"
+                "statement": "De Piratenpartij staat voor gelijke rechten en kansen voor iedereen. Etnische profilering maakt mensen vanwege hun afkomst bij voorbaat sneller verdacht. Dat is onaanvaardbaar."
             },
             {
                 "party": "FNP",
@@ -2800,7 +2800,7 @@ const data = [
     },
     {
         "theme": "Sekswerk",
-        "title": "De minimumleeftijd voor sekswerkIcon moet omhoog van 18 naar 21 jaar.",
+        "title": "De minimumleeftijd voor sekswerk moet omhoog van 18 naar 21 jaar.",
         "info": "In Nederland is er een minimumleeftijd voor sekswerk. In dit geval gaat het om mensen die seksuele handelingen verrichten in de ruil voor geld. In de wet is seks met iemand onder de 18 die daarvoor wordt betaald altijd strafbaar. In sommige gemeenten krijg je al geen vergunning om sekswerk te doen als je jonger bent dan 21.",
         "results": [
             {
@@ -2840,8 +2840,8 @@ const data = [
                 "statement": "Hoewel de SGP voorstander is van een totaalverbod op betaalde seks is een verhoging van de minimumleeftijd van 18 naar 21 jaar een stap in de juiste richting."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "Een lichaam is geen koopwaar. Wat de ChristenUnie betreft komt er daarom een einde aan prostitutie in Nederland. Een eerste stap is het verhogen van de minimumleeftijd, bij voorkeur naar 24 jaar."
+                "party": "CU",
+                "statement": "Een lichaam is geen koopwaar. Wat CU betreft komt er daarom een einde aan prostitutie in Nederland. Een eerste stap is het verhogen van de minimumleeftijd, bij voorkeur naar 24 jaar."
             },
             {
                 "party": "JA21",
@@ -2893,7 +2893,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor zelfbeschikking. Sekswerk is werk. Wij pleiten voor het Nieuw-Zeelandse model, waarmee sekswerk gezien wordt als elke andere dienstverlenende sector. Ook willen wij niet praten OVER sekswerkers maar MET sekswerkers. Informeer jezelf: programma.piratenpartij.nl"
+                "statement": "De Piratenpartij staat voor zelfbeschikking. Sekswerk is werk. Wij pleiten voor het Nieuw-Zeelandse model, waarmee sekswerk gezien wordt als elke andere dienstverlenende sector. Ook willen wij niet praten OVER sekswerkers maar MET sekswerkers."
             },
             {
                 "party": "Vrij Verbond",
@@ -2903,7 +2903,7 @@ const data = [
     },
     {
         "theme": "Meer geld voor defensie",
-        "title": "Nederland moet in een wet vastleggen dat uiterlijk in 2035 ten minste 3,5 procent van het bruto binnenlands productIcon aan defensie wordt uitgegeven.",
+        "title": "Nederland moet in een wet vastleggen dat uiterlijk in 2035 ten minste 3,5 procent van het bruto binnenlands product aan defensie wordt uitgegeven.",
         "info": "Nederland is lid van de NAVO, een bondgenootschap van Europese en Noord-Amerikaanse landen. De landen hebben beloofd dat zij elkaar zullen helpen als een van hen wordt aangevallen. Ook hebben zij in 2025 afgesproken een bedrag dat gelijk is aan 3,5 procent van het bruto binnenlands product aan defensie te zullen uitgeven, bijvoorbeeld aan soldaten of wapens. Het bruto binnenlands product is de totale waarde van alle goederen en diensten die in een land worden geproduceerd in een jaar. Door het in de wet vast te leggen, moet de overheid zich er ook aan houden.",
         "results": [
             {
@@ -2931,8 +2931,8 @@ const data = [
                 "statement": "Het CDA was een van de initiatiefnemers om de oude norm van minimaal 2% in de wet op te nemen. Het CDA wil daarnaast dat Nederland zich committeert aan de afspraak om uiterlijk in 2035 3,5% van het bbp uit te geven aan defensie. Veiligheid is een kerntaak van de overheid, en die moet op orde zijn."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie wil dat Nederland aan zijn internationale afspraken voldoet. Dat betekent 3,5% van de begroting standaard aan defensie-uitgaven maar ook 0,7% van de begroting standaard aan ontwikkelingssamenwerking. Het één kan wat de ChristenUnie betreft niet zonder het ander."
+                "party": "CU",
+                "statement": "CU wil dat Nederland aan zijn internationale afspraken voldoet. Dat betekent 3,5% van de begroting standaard aan defensie-uitgaven maar ook 0,7% van de begroting standaard aan ontwikkelingssamenwerking. Het één kan wat CU betreft niet zonder het ander."
             },
             {
                 "party": "De Linie",
@@ -2992,7 +2992,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "Nederland hoeft dit niet in wetgeving vast te leggen. 3,5% BBP is bijna 10% van de overheidsbegroting. Dat is teveel. Wij willen dit bedrag verlagen, en Defensie uitgaven liever investeren in cybersecurity, dan in wapens, kanonnenvoer en aanvalsmissies. Informeer jezelf: programma.piratenpartij.nl"
+                "statement": "Nederland hoeft dit niet in wetgeving vast te leggen. 3,5% BBP is bijna 10% van de overheidsbegroting. Dat is teveel. Wij willen dit bedrag verlagen, en Defensie uitgaven liever investeren in cybersecurity, dan in wapens, kanonnenvoer en aanvalsmissies."
             },
             {
                 "party": "FNP",
@@ -3006,7 +3006,7 @@ const data = [
     },
     {
         "theme": "Kerncentrales",
-        "title": "Er moeten meer kerncentralesIcon komen in Nederland.",
+        "title": "Er moeten meer kerncentrales komen in Nederland.",
         "info": "In een kerncentrale wordt elektriciteit opgewekt. Hierbij komt geen CO2 vrij. CO2 is een broeikasgas. Hoe meer ervan in de lucht zit, hoe minder warmte van de zon de aarde kan verlaten. De aarde wordt dan steeds warmer. Een kerncentrale gebruikt radioactief materiaal, waarvan de straling nog duizenden jaren na gebruik gevaarlijk is. Het afval moet dus voor zeer lange tijd goed worden opgeslagen. Nederland telt nu één kerncentrale, namelijk in Borssele.",
         "results": [
             {
@@ -3042,8 +3042,8 @@ const data = [
                 "statement": "De SGP wil een duurzame en betrouwbare energievoorziening. Op bewolkte, koude en windstille dagen leveren windparken en zonnepanelen weinig stroom. Dan kunnen kerncentrales voor CO2-vrije elektriciteitsproductie zorgen. Nieuwe kerncentrales zijn veilig genoeg."
             },
             {
-                "party": "ChristenUnie",
-                "statement": "De ChristenUnie zet vooral in op duurzame energie zoals zon en wind. Gezien de urgentie van het uitfaseren van gas- en kolencentrales, zal kernenergie, inclusief 2 nieuwe toekomstige centrales, een integraal onderdeel van het Nederlandse energiesysteem dienen te zijn."
+                "party": "CU",
+                "statement": "CU zet vooral in op duurzame energie zoals zon en wind. Gezien de urgentie van het uitfaseren van gas- en kolencentrales, zal kernenergie, inclusief 2 nieuwe toekomstige centrales, een integraal onderdeel van het Nederlandse energiesysteem dienen te zijn."
             },
             {
                 "party": "Volt",
