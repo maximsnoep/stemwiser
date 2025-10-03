@@ -64,7 +64,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV wil dat er niet getornd wordt aan de hypotheekrenteaftrek, omdat veel huiseigenaren afhankelijk zijn van deze aftrek."
+                "statement": "PVV wil dat er niet getornd wordt aan de hypotheekrenteaftrek, omdat veel huiseigenaren afhankelijk zijn van deze aftrek."
             },
             {
                 "party": "VVD",
@@ -131,7 +131,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "De VVD wil dat de politie alle mogelijkheden krijgt om ervoor te zorgen dat relschoppers die het demonstratierecht misbruiken om strafbare feiten te plegen kunnen worden geïdentificeerd."
+                "statement": "VVD wil dat de politie alle mogelijkheden krijgt om ervoor te zorgen dat relschoppers die het demonstratierecht misbruiken om strafbare feiten te plegen kunnen worden geïdentificeerd."
             },
             {
                 "party": "CDA",
@@ -211,7 +211,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor het recht om te demonstreren, het recht op privacy en de democratische rechtsstaat. Het demonstratierecht staat nu al onder druk. Wij willen juist het recht om vrij en onbespied te demonstreren verstevigen!"
+                "statement": "Piratenpartij staat voor het recht om te demonstreren, het recht op privacy en de democratische rechtsstaat. Het demonstratierecht staat nu al onder druk. Wij willen juist het recht om vrij en onbespied te demonstreren verstevigen!"
             },
             {
                 "party": "Vrij Verbond",
@@ -286,7 +286,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor eerlijke arbeidsvoorwaarden. Volwassen werk verdient een volwassen loon. De Piratenpartij wil een minimumloon van tenminste 18 euro per uur voor iedereen vanaf 18 jaar."
+                "statement": "Piratenpartij staat voor eerlijke arbeidsvoorwaarden. Volwassen werk verdient een volwassen loon. Piratenpartij wil een minimumloon van tenminste 18 euro per uur voor iedereen vanaf 18 jaar."
             },
             {
                 "party": "FNP",
@@ -333,11 +333,11 @@ const data = [
         "results": [
             {
                 "party": "PVV",
-                "statement": "Het vliegveld ligt er volledig klaar. Dus wat de PVV betreft: zo snel mogelijk openen"
+                "statement": "Het vliegveld ligt er volledig klaar. Dus wat PVV betreft: zo snel mogelijk openen"
             },
             {
                 "party": "VVD",
-                "statement": "We moeten ophouden met vergaderen over een kant-en-klaar vliegveld. Wat de VVD betreft gaat Lelystad Airport open voor zowel defensie- als burgerluchtvaart. Dat is goed voor de economie en daarmee kunnen we Schiphol ontlasten."
+                "statement": "We moeten ophouden met vergaderen over een kant-en-klaar vliegveld. Wat VVD betreft gaat Lelystad Airport open voor zowel defensie- als burgerluchtvaart. Dat is goed voor de economie en daarmee kunnen we Schiphol ontlasten."
             },
             {
                 "party": "DENK",
@@ -389,7 +389,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Lelystad Airport wordt een belangrijke thuisbasis voor Defensie met de stationering van F-35’s. Commercieel gebruik van het vliegveld is voor het CDA geen doel op zich, maar kan alleen bij strikte voorwaarden: stiller en schoner vliegen en een oplossing voor laagvliegroutes."
+                "statement": "Lelystad Airport wordt een belangrijke thuisbasis voor Defensie met de stationering van F-35’s. Commercieel gebruik van het vliegveld is voor CDA geen doel op zich, maar kan alleen bij strikte voorwaarden: stiller en schoner vliegen en een oplossing voor laagvliegroutes."
             },
             {
                 "party": "SP",
@@ -444,7 +444,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA vindt dat gemeenten de vrijheid moeten houden om naar eigen inzicht voorrang te kunnen geven aan kwetsbare groepen. Met de spreidingswet vragen we gemeenten wel om hun verantwoordelijkheid te nemen door een bijdrage te leveren aan de opvang van asielzoekers in hun regio."
+                "statement": "CDA vindt dat gemeenten de vrijheid moeten houden om naar eigen inzicht voorrang te kunnen geven aan kwetsbare groepen. Met de spreidingswet vragen we gemeenten wel om hun verantwoordelijkheid te nemen door een bijdrage te leveren aan de opvang van asielzoekers in hun regio."
             },
             {
                 "party": "SP",
@@ -476,7 +476,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV is tegen de voorrang van statushouders op sociale huurwoningen. Wij zetten de Nederlanders weer op 1!"
+                "statement": "PVV is tegen de voorrang van statushouders op sociale huurwoningen. Wij zetten de Nederlanders weer op 1!"
             },
             {
                 "party": "VVD",
@@ -520,7 +520,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij is een internationale mensenrechtenbeweging. Als alle gemeenten bijdragen aan het huisvesten van statushouders, voorkomen we dat dat de asielketen verstopt raakt, wat uitmondt in peperdure noodopvang. Daarom handhaven wij ook de Spreidingswet."
+                "statement": "Piratenpartij is een internationale mensenrechtenbeweging. Als alle gemeenten bijdragen aan het huisvesten van statushouders, voorkomen we dat dat de asielketen verstopt raakt, wat uitmondt in peperdure noodopvang. Daarom handhaven wij ook de Spreidingswet."
             },
             {
                 "party": "Vrij Verbond",
@@ -654,7 +654,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Economisch perspectief helpt migratie tegengaan, is een steunpilaar tegen radicalisering en bevordert regionale ontwikkeling. Het CDA is voorstander van de norm van 0,7% bbp voor ontwikkelingssamenwerking, conform internationale afspraak, en zet stappen in fases naar het het behalen van deze norm."
+                "statement": "Economisch perspectief helpt migratie tegengaan, is een steunpilaar tegen radicalisering en bevordert regionale ontwikkeling. CDA is voorstander van de norm van 0,7% bbp voor ontwikkelingssamenwerking, conform internationale afspraak, en zet stappen in fases naar het het behalen van deze norm."
             },
             {
                 "party": "SP",
@@ -694,7 +694,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV wil de ontwikkelingshulp volledig afschaffen en het geld in Nederland besteden."
+                "statement": "PVV wil de ontwikkelingshulp volledig afschaffen en het geld in Nederland besteden."
             },
             {
                 "party": "VVD",
@@ -753,7 +753,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "Voor het aanleren van onvrije waarden is in geen enkele vorm van onderwijs ruimte. Als er signalen zijn dat dit wel gebeurt, moet er ingegrepen kunnen worden. De VVD vindt daarom dat de onderwijsinspectie toezicht moet houden bij signalen zoals haatzaaien of discriminatie."
+                "statement": "Voor het aanleren van onvrije waarden is in geen enkele vorm van onderwijs ruimte. Als er signalen zijn dat dit wel gebeurt, moet er ingegrepen kunnen worden. VVD vindt daarom dat de onderwijsinspectie toezicht moet houden bij signalen zoals haatzaaien of discriminatie."
             },
             {
                 "party": "NSC",
@@ -789,7 +789,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het staat ouders vrij om hun kinderen op te voeden volgens hun geloofsovertuiging. We staan pal voor de vrijheid van godsdienst en vrijheid van onderwijs. Dat betekent niet dat er aangezet mag worden tot haat en discriminatie. Daar wil het CDA streng tegen blijven optreden."
+                "statement": "Het staat ouders vrij om hun kinderen op te voeden volgens hun geloofsovertuiging. We staan pal voor de vrijheid van godsdienst en vrijheid van onderwijs. Dat betekent niet dat er aangezet mag worden tot haat en discriminatie. Daar wil CDA streng tegen blijven optreden."
             },
             {
                 "party": "DENK",
@@ -825,7 +825,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij is tegen zulke overheidssurveillance. Hoe de NCTV met ‘mystery moslims’ infiltreerde, ging veel te ver! Enkel bij een concrete verdenking past het om een specifieke levensbeschouwelijke groep in de gaten te houden."
+                "statement": "Piratenpartij is tegen zulke overheidssurveillance. Hoe de NCTV met ‘mystery moslims’ infiltreerde, ging veel te ver! Enkel bij een concrete verdenking past het om een specifieke levensbeschouwelijke groep in de gaten te houden."
             },
             {
                 "party": "FNP",
@@ -872,7 +872,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor simpele en rechtvaardige sociale zekerheid. Wij willen een basistoeslag voor kinderen, dat verweven is met een progressief belastingstelsel. Dit betekent in praktijk dat mensen minder ontvangen naarmate hun inkomen stijgt."
+                "statement": "Piratenpartij staat voor simpele en rechtvaardige sociale zekerheid. Wij willen een basistoeslag voor kinderen, dat verweven is met een progressief belastingstelsel. Dit betekent in praktijk dat mensen minder ontvangen naarmate hun inkomen stijgt."
             },
             {
                 "party": "Vrij Verbond",
@@ -951,11 +951,11 @@ const data = [
         "results": [
             {
                 "party": "PVV",
-                "statement": "Sterker nog: de PVV wil de publieke omroep afschaffen."
+                "statement": "Sterker nog: PVV wil de publieke omroep afschaffen."
             },
             {
                 "party": "VVD",
-                "statement": "De VVD wil een publieke omroep die zich richt op haar kerntaken. Dat kan met een slanker budget. De belastingbetaler hoeft niet op te draaien voor amusementsprogramma's of reality-tv op de publieke omroep."
+                "statement": "VVD wil een publieke omroep die zich richt op haar kerntaken. Dat kan met een slanker budget. De belastingbetaler hoeft niet op te draaien voor amusementsprogramma's of reality-tv op de publieke omroep."
             },
             {
                 "party": "BBB",
@@ -1003,7 +1003,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA vindt persvrijheid heel belangrijk. Goede en betrouwbare media zijn nodig in deze tijd van nepnieuws en propaganda. Wij willen een pluriform, publieksonafhankelijk omroepbestel met sterke representatie van de samenleving."
+                "statement": "CDA vindt persvrijheid heel belangrijk. Goede en betrouwbare media zijn nodig in deze tijd van nepnieuws en propaganda. Wij willen een pluriform, publieksonafhankelijk omroepbestel met sterke representatie van de samenleving."
             },
             {
                 "party": "SP",
@@ -1039,7 +1039,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor een vrije democratie. Goed gefinancierde publieke media en journalistiek zijn hierin essentieel, als waakhond. Journalistiek moet politieke en maatschappelijke ontwikkelingen goed kunnen controleren, met betere checks en balances om onafhankelijkheid te waarborgen."
+                "statement": "Piratenpartij staat voor een vrije democratie. Goed gefinancierde publieke media en journalistiek zijn hierin essentieel, als waakhond. Journalistiek moet politieke en maatschappelijke ontwikkelingen goed kunnen controleren, met betere checks en balances om onafhankelijkheid te waarborgen."
             },
             {
                 "party": "FNP",
@@ -1090,7 +1090,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor vrede, veiligheid en verzoening. De Israëlische oorlogsmisdaden zijn onacceptabel, met welke aanleiding ook. Daarom willen wij de wapenhandel stoppen, tenminste totdat de Palestijnen een eigen staat hebben, alle gijzelaars vrijkomen en alle partijen de wapens neerleggen."
+                "statement": "Piratenpartij staat voor vrede, veiligheid en verzoening. De Israëlische oorlogsmisdaden zijn onacceptabel, met welke aanleiding ook. Daarom willen wij de wapenhandel stoppen, tenminste totdat de Palestijnen een eigen staat hebben, alle gijzelaars vrijkomen en alle partijen de wapens neerleggen."
             },
             {
                 "party": "PVV",
@@ -1110,7 +1110,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA is voorstander van het onder voorwaarden erkennen van de Staat Palestina. Wel moet eerst aan die voorwaarden zijn voldaan, waaronder het houden van vrije verkiezingen, het uitsluiten van Hamas en andere terreurorganisaties en het ondubbelzinnig erkennen van het bestaansrecht van Israël."
+                "statement": "CDA is voorstander van het onder voorwaarden erkennen van de Staat Palestina. Wel moet eerst aan die voorwaarden zijn voldaan, waaronder het houden van vrije verkiezingen, het uitsluiten van Hamas en andere terreurorganisaties en het ondubbelzinnig erkennen van het bestaansrecht van Israël."
             },
             {
                 "party": "SGP",
@@ -1157,7 +1157,7 @@ const data = [
         "results": [
             {
                 "party": "PVV",
-                "statement": "De PVV wil geen onnodige lastenverzwaring, maar lastenverlichting."
+                "statement": "PVV wil geen onnodige lastenverzwaring, maar lastenverlichting."
             },
             {
                 "party": "VVD",
@@ -1177,7 +1177,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA wil het gebruik van eenmalig plastic zeker terugdringen, maar een heffing is niet het enige middel. Als een heffing niet effectief is, kiezen we liever voor andere oplossingen die beter werken en draagvlak hebben bij ondernemers en consumenten."
+                "statement": "CDA wil het gebruik van eenmalig plastic zeker terugdringen, maar een heffing is niet het enige middel. Als een heffing niet effectief is, kiezen we liever voor andere oplossingen die beter werken en draagvlak hebben bij ondernemers en consumenten."
             },
             {
                 "party": "SP",
@@ -1221,7 +1221,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "Piraten staan voor effectieve maatregelen om plastic vervuiling te stoppen. Piraten willen dat bedrijven ZELF belasting gaan betalen voor hun plasticgebruik, waarbij we meteen zorgen dat gerecycled plastic en alternatieven (bvb uit hennep) goedkoper worden dan vervuilende 'virgin plastics'"
+                "statement": "Piratenpartij staan voor effectieve maatregelen om plastic vervuiling te stoppen. Piratenpartij willen dat bedrijven ZELF belasting gaan betalen voor hun plasticgebruik, waarbij we meteen zorgen dat gerecycled plastic en alternatieven (bvb uit hennep) goedkoper worden dan vervuilende 'virgin plastics'"
             },
             {
                 "party": "FNP",
@@ -1276,7 +1276,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA wil dat sociale huren de komende jaren niet harder stijgen dan het driejarig gemiddelde van de inflatie. Zo houden we huren betaalbaar en voorspelbaar, krijgen huurders zekerheid en kunnen woningbouwcorporaties blijven investeren in nieuwbouw en verduurzaming."
+                "statement": "CDA wil dat sociale huren de komende jaren niet harder stijgen dan het driejarig gemiddelde van de inflatie. Zo houden we huren betaalbaar en voorspelbaar, krijgen huurders zekerheid en kunnen woningbouwcorporaties blijven investeren in nieuwbouw en verduurzaming."
             },
             {
                 "party": "SP",
@@ -1312,7 +1312,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij ziet betaalbare woonruimte als basisrecht. Doordat huren harder zijn gestegen dan inflatie, is wonen steeds duurder geworden. Huurprijzen zouden juist moeten bevriezen. Huurverhoging leidt nu in de praktijk ook niet tot beter onderhoud."
+                "statement": "Piratenpartij ziet betaalbare woonruimte als basisrecht. Doordat huren harder zijn gestegen dan inflatie, is wonen steeds duurder geworden. Huurprijzen zouden juist moeten bevriezen. Huurverhoging leidt nu in de praktijk ook niet tot beter onderhoud."
             },
             {
                 "party": "FNP",
@@ -1328,7 +1328,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "De VVD wil redelijke huurprijzen. De overheid heeft met verhuurders afspraken gemaakt over hoe hard de huren de komende jaren mogen stijgen. Daar houden we ons netjes aan. Je moet namelijk voor een normaal bedrag een goed huis kunnen huren. We willen wel dat verhuurders kunnen bouwen van nieuwe woningen om het woningtekort op te lossen."
+                "statement": "VVD wil redelijke huurprijzen. De overheid heeft met verhuurders afspraken gemaakt over hoe hard de huren de komende jaren mogen stijgen. Daar houden we ons netjes aan. Je moet namelijk voor een normaal bedrag een goed huis kunnen huren. We willen wel dat verhuurders kunnen bouwen van nieuwe woningen om het woningtekort op te lossen."
             },
             {
                 "party": "BBB",
@@ -1367,7 +1367,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "De VVD wil meer geld uitgeven aan wetenschappelijk onderzoek en innovatie met een Investeringsagenda voor nationale groei. Zo bouwen we aan de vaardigheden van toekomstige generaties en stimuleren we innovatie die cruciaal is voor economische groei en het oplossen van maatschappelijke uitdagingen."
+                "statement": "VVD wil meer geld uitgeven aan wetenschappelijk onderzoek en innovatie met een Investeringsagenda voor nationale groei. Zo bouwen we aan de vaardigheden van toekomstige generaties en stimuleren we innovatie die cruciaal is voor economische groei en het oplossen van maatschappelijke uitdagingen."
             },
             {
                 "party": "NSC",
@@ -1419,7 +1419,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "Piraten staan voor een stevige kenniseconomie. We willen een groter aandeel vaste financiering, voor meer professionele vrijheid in de wetenschap. Daarnaast maken we alle wetenschappelijke kennis openbaar toegankelijk en stimuleren we innovatie door auteursrecht en patenten te hervormen."
+                "statement": "Piratenpartij staan voor een stevige kenniseconomie. We willen een groter aandeel vaste financiering, voor meer professionele vrijheid in de wetenschap. Daarnaast maken we alle wetenschappelijke kennis openbaar toegankelijk en stimuleren we innovatie door auteursrecht en patenten te hervormen."
             },
             {
                 "party": "FNP",
@@ -1431,7 +1431,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "Er wordt reeds voldoende geïnvesteerd in wetenschappelijk onderzoek. Gezien de schaarse middelen heeft de PVV andere prioriteiten voor de besteding van overheidsgeld."
+                "statement": "Er wordt reeds voldoende geïnvesteerd in wetenschappelijk onderzoek. Gezien de schaarse middelen heeft PVV andere prioriteiten voor de besteding van overheidsgeld."
             },
             {
                 "party": "BBB",
@@ -1470,7 +1470,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "De terugkeer van de wolf leidt tot grote zorgen bij omwonenden en veehouders. De VVD wil voldoende beheersmaatregelen, zowel preventief als actief, in gebieden waar de wolf tot overlast leidt. In uiterste gevallen moet afschot mogelijk zijn om de veiligheid van dier en mens te waarborgen."
+                "statement": "De terugkeer van de wolf leidt tot grote zorgen bij omwonenden en veehouders. VVD wil voldoende beheersmaatregelen, zowel preventief als actief, in gebieden waar de wolf tot overlast leidt. In uiterste gevallen moet afschot mogelijk zijn om de veiligheid van dier en mens te waarborgen."
             },
             {
                 "party": "NSC",
@@ -1581,7 +1581,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA wil dat de rechter meer mogelijkheden krijgt om slimmer te straffen. We zien de enkelband als volwaardige straf en daarom introduceren we de mogelijkheid voor de rechter om dit als hoofdstraf op te leggen."
+                "statement": "CDA wil dat de rechter meer mogelijkheden krijgt om slimmer te straffen. We zien de enkelband als volwaardige straf en daarom introduceren we de mogelijkheid voor de rechter om dit als hoofdstraf op te leggen."
             },
             {
                 "party": "SP",
@@ -1621,7 +1621,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor de democratische rechtsstaat en effectieve straffen. Wanneer rechters voor een enkelband kunnen kiezen, kunnen zij beter maatwerk bieden. Bovendien is een enkelband goedkoper en efficiënter, en voorkomt het dat criminelen in de gevangenis gaan netwerken."
+                "statement": "Piratenpartij staat voor de democratische rechtsstaat en effectieve straffen. Wanneer rechters voor een enkelband kunnen kiezen, kunnen zij beter maatwerk bieden. Bovendien is een enkelband goedkoper en efficiënter, en voorkomt het dat criminelen in de gevangenis gaan netwerken."
             },
             {
                 "party": "FNP",
@@ -1637,11 +1637,11 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV wil dat er zwaarder wordt gestraft. Met een enkelband thuis op de bank gamen en bier drinken hoort daar niet bij."
+                "statement": "PVV wil dat er zwaarder wordt gestraft. Met een enkelband thuis op de bank gamen en bier drinken hoort daar niet bij."
             },
             {
                 "party": "VVD",
-                "statement": "Een enkelband is een lichtere straf dan een gevangenisstraf. Thuis met een biertje op de bank mogen zitten is niet vergelijkbaar met een gevangenisstraf. De VVD vindt wel dat enkelbanden vaker moeten worden ingezet om contact- en locatieverboden te handhaven."
+                "statement": "Een enkelband is een lichtere straf dan een gevangenisstraf. Thuis met een biertje op de bank mogen zitten is niet vergelijkbaar met een gevangenisstraf. VVD vindt wel dat enkelbanden vaker moeten worden ingezet om contact- en locatieverboden te handhaven."
             },
             {
                 "party": "BBB",
@@ -1672,7 +1672,7 @@ const data = [
         "results": [
             {
                 "party": "VVD",
-                "statement": "Een groeiende economie heeft een moderne arbeidsmarkt nodig. De VVD kiest daarom voor het moderniseren van de werkloosheidswet, waarbij we de duur verkorten, maar de hoogte aan het begin verhogen. Zo zorgen we dat mensen minder terugvallen in inkomen en houden we het systeem betaalbaar."
+                "statement": "Een groeiende economie heeft een moderne arbeidsmarkt nodig. VVD kiest daarom voor het moderniseren van de werkloosheidswet, waarbij we de duur verkorten, maar de hoogte aan het begin verhogen. Zo zorgen we dat mensen minder terugvallen in inkomen en houden we het systeem betaalbaar."
             },
             {
                 "party": "FvD",
@@ -1700,7 +1700,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV is tegen een verkorting van de WW."
+                "statement": "PVV is tegen een verkorting van de WW."
             },
             {
                 "party": "GL-PvdA",
@@ -1720,7 +1720,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA heeft geen plannen om de WW-uitkering verder te verkorten."
+                "statement": "CDA heeft geen plannen om de WW-uitkering verder te verkorten."
             },
             {
                 "party": "SP",
@@ -1756,7 +1756,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor rechtvaardige en simpele sociale zekerheid. Werkenden sparen zelf voor hun WW. We willen mensen niet tegen hun wil hun zekerheid afpakken, waar ze zelf voor gespaard hebben. Na de WW geldt bij ons voor iedereen het regulier onvoorwaardelijk basisinkomen."
+                "statement": "Piratenpartij staat voor rechtvaardige en simpele sociale zekerheid. Werkenden sparen zelf voor hun WW. We willen mensen niet tegen hun wil hun zekerheid afpakken, waar ze zelf voor gespaard hebben. Na de WW geldt bij ons voor iedereen het regulier onvoorwaardelijk basisinkomen."
             },
             {
                 "party": "FNP",
@@ -1827,7 +1827,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Nederland moet van het stikstofslot. Vergunningverlening voor woningbouw, infrastructuur en landbouw moet weer op gang komen. Het CDA wil sturen op stikstofreductie in 2035 via emissienormen per bedrijf en het stikstoffonds herstellen voor de transitie in landbouw en natuurbeheer."
+                "statement": "Nederland moet van het stikstofslot. Vergunningverlening voor woningbouw, infrastructuur en landbouw moet weer op gang komen. CDA wil sturen op stikstofreductie in 2035 via emissienormen per bedrijf en het stikstoffonds herstellen voor de transitie in landbouw en natuurbeheer."
             },
             {
                 "party": "FvD",
@@ -1918,7 +1918,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Daarom willen we bovendien de verplichte bedenktijd afschaffen en de abortuspil beschikbaar stellen via de huisarts. Daarnaast willen we anticonceptie gratis in het basispakket."
+                "statement": "Piratenpartij staat voor zelfbeschikkingsrecht. Daarom willen we bovendien de verplichte bedenktijd afschaffen en de abortuspil beschikbaar stellen via de huisarts. Daarnaast willen we anticonceptie gratis in het basispakket."
             },
             {
                 "party": "FNP",
@@ -1981,7 +1981,7 @@ const data = [
         "results": [
             {
                 "party": "VVD",
-                "statement": "De VVD vindt dat werkenden er altijd meer op vooruit moeten gaan dan mensen die niet werken. Dat vinden wij eerlijk. Als alternatief wil de VVD de bijstand voortaan koppelen aan de inflatie: als de boodschappen duurder worden stijgt de uitkering gewoon mee."
+                "statement": "VVD vindt dat werkenden er altijd meer op vooruit moeten gaan dan mensen die niet werken. Dat vinden wij eerlijk. Als alternatief wil VVD de bijstand voortaan koppelen aan de inflatie: als de boodschappen duurder worden stijgt de uitkering gewoon mee."
             },
             {
                 "party": "FvD",
@@ -2009,7 +2009,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV koestert de koppeling van het minimumloon aan de uitkeringen en de AOW"
+                "statement": "PVV koestert de koppeling van het minimumloon aan de uitkeringen en de AOW"
             },
             {
                 "party": "GL-PvdA",
@@ -2029,7 +2029,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA vindt dat de uitkeringen gekoppeld moeten blijven aan de loonstijging, zodat iedereen mee profiteert van stijging van de welvaart."
+                "statement": "CDA vindt dat de uitkeringen gekoppeld moeten blijven aan de loonstijging, zodat iedereen mee profiteert van stijging van de welvaart."
             },
             {
                 "party": "SP",
@@ -2065,7 +2065,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij wil een onvoorwaardelijk basisinkomen. Vervolgens mag dit mee blijven stijgen met het minimumloon. Omdat dit basisinkomen de 'vrije voet' vervangt, en je dus in een progressief belastingstelsel direct belasting betaalt over wat je ernaast verdient, verdwijnt hiermee de armoedeval"
+                "statement": "Piratenpartij wil een onvoorwaardelijk basisinkomen. Vervolgens mag dit mee blijven stijgen met het minimumloon. Omdat dit basisinkomen de 'vrije voet' vervangt, en je dus in een progressief belastingstelsel direct belasting betaalt over wat je ernaast verdient, verdwijnt hiermee de armoedeval"
             },
             {
                 "party": "FNP",
@@ -2104,11 +2104,11 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "Nederland hoeft niet langer vlees voor de hele wereld te produceren. De Piratenpartij wil minder vee en meer boeren. We pleiten voor efficiënter ruimtegebruik. De regionale milieu-impact en schade voor de volksgezondheid door bijvoorbeeld kanker en Q-koorts van de huidige bio-industrie is te hoog."
+                "statement": "Nederland hoeft niet langer vlees voor de hele wereld te produceren. Piratenpartij wil minder vee en meer boeren. We pleiten voor efficiënter ruimtegebruik. De regionale milieu-impact en schade voor de volksgezondheid door bijvoorbeeld kanker en Q-koorts van de huidige bio-industrie is te hoog."
             },
             {
                 "party": "PVV",
-                "statement": "De consequentie hiervan zal zijn dat boeren worden gedwongen om te stoppen. De PVV is tegen gedwongen onteigening van boeren."
+                "statement": "De consequentie hiervan zal zijn dat boeren worden gedwongen om te stoppen. PVV is tegen gedwongen onteigening van boeren."
             },
             {
                 "party": "VVD",
@@ -2128,7 +2128,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Krimp van de veestapel is voor het CDA nooit een doel op zich. We sturen op stikstofreductie in 2035 via emissienormen per bedrijf. Koplopers worden beloond, achterblijvers moeten meer doen. Het stikstoffonds wordt hersteld en we voeren regie op vrijwillige bedrijfsbeëindiging en herverdeling."
+                "statement": "Krimp van de veestapel is voor CDA nooit een doel op zich. We sturen op stikstofreductie in 2035 via emissienormen per bedrijf. Koplopers worden beloond, achterblijvers moeten meer doen. Het stikstoffonds wordt hersteld en we voeren regie op vrijwillige bedrijfsbeëindiging en herverdeling."
             },
             {
                 "party": "SP",
@@ -2203,7 +2203,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het is strafbaar voor uitgeprocedeerde asielzoekers om niet mee te werken aan terugkeer naar het land van herkomst. Het strafbaar stellen van mensen of organisaties die uitgeprocedeerde asielzoekers helpen, is voor het CDA onbespreekbaar. Medemenselijkheid is geen misdrijf."
+                "statement": "Het is strafbaar voor uitgeprocedeerde asielzoekers om niet mee te werken aan terugkeer naar het land van herkomst. Het strafbaar stellen van mensen of organisaties die uitgeprocedeerde asielzoekers helpen, is voor CDA onbespreekbaar. Medemenselijkheid is geen misdrijf."
             },
             {
                 "party": "FvD",
@@ -2271,7 +2271,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij stelt mensenrechten boven grenzen, surveillance en repressie. Migranten kunnen er vaak weinig aan doen als hun land van oorsprong ze niet terugneemt. Hulpverlening mag nooit strafbaar worden! Liever Piraten!"
+                "statement": "Piratenpartij stelt mensenrechten boven grenzen, surveillance en repressie. Migranten kunnen er vaak weinig aan doen als hun land van oorsprong ze niet terugneemt. Hulpverlening mag nooit strafbaar worden! Liever Piratenpartij!"
             },
             {
                 "party": "FNP",
@@ -2318,11 +2318,11 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV is tegen rekeningrijden, automobilisten zijn geen melkkoe."
+                "statement": "PVV is tegen rekeningrijden, automobilisten zijn geen melkkoe."
             },
             {
                 "party": "VVD",
-                "statement": "De VVD is geen voorstander van rekeningrijden. We willen dat werkende Nederlanders er niet op achteruit gaan."
+                "statement": "VVD is geen voorstander van rekeningrijden. We willen dat werkende Nederlanders er niet op achteruit gaan."
             },
             {
                 "party": "NSC",
@@ -2334,7 +2334,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA is tegen een algemene kilometerheffing, we willen juist doelgericht beleid. We willen de belasting baseren op voertuigoppervlak en een heffing in de spits op drukke wegen, waarvan de opbrengst wordt geïnvesteerd in de verbetering van onze wegen en onze bereikbaarheid."
+                "statement": "CDA is tegen een algemene kilometerheffing, we willen juist doelgericht beleid. We willen de belasting baseren op voertuigoppervlak en een heffing in de spits op drukke wegen, waarvan de opbrengst wordt geïnvesteerd in de verbetering van onze wegen en onze bereikbaarheid."
             },
             {
                 "party": "SP",
@@ -2370,7 +2370,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor privacy. Kilometerheffing kan niet zonder privacyschendingen. Je betaalt al per kilometer door accijns op benzine. Auto's staan nu voor 95% van de tijd stil en nemen onnodig veel (parkeer)ruimte in beslag. Delen stimuleren is beter."
+                "statement": "Piratenpartij staat voor privacy. Kilometerheffing kan niet zonder privacyschendingen. Je betaalt al per kilometer door accijns op benzine. Auto's staan nu voor 95% van de tijd stil en nemen onnodig veel (parkeer)ruimte in beslag. Delen stimuleren is beter."
             },
             {
                 "party": "FNP",
@@ -2437,7 +2437,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "De PVV wil het eigen risico helemaal afschaffen."
+                "statement": "PVV wil het eigen risico helemaal afschaffen."
             },
             {
                 "party": "GL-PvdA",
@@ -2481,7 +2481,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij vindt goede, betaalbare basisvoorzieningen een essentieel onderdeel van bestaansrecht. Het verplichte eigen risico is een straf op (chronisch) ziek zijn. Het leidt tot het uitstellen of vermijden van zorg. Dat is gevaarlijk en heeft uiteindelijk hogere kosten tot gevolg."
+                "statement": "Piratenpartij vindt goede, betaalbare basisvoorzieningen een essentieel onderdeel van bestaansrecht. Het verplichte eigen risico is een straf op (chronisch) ziek zijn. Het leidt tot het uitstellen of vermijden van zorg. Dat is gevaarlijk en heeft uiteindelijk hogere kosten tot gevolg."
             },
             {
                 "party": "De Linie",
@@ -2512,7 +2512,7 @@ const data = [
             },
             {
                 "party": "PVV",
-                "statement": "Het aantal euthanasiegevallen bij psychisch lijden stijgt, vooral onder jongeren (2012-2021: verviervoudigd). De PVV wil onderzoek, zeker omdat veel jongeren hun aanvraag intrekken. KNMG: “Meer hulp bij leven nodig dan bij sterven.” Stichting 113: “Honderden suïcides zijn te voorkómen met preventie“. De PVV is daarom voor een moratorium op euthanasie vanwege psychisch lijden. Binnen de fractie is dit een vrije kwestie."
+                "statement": "Het aantal euthanasiegevallen bij psychisch lijden stijgt, vooral onder jongeren (2012-2021: verviervoudigd). PVV wil onderzoek, zeker omdat veel jongeren hun aanvraag intrekken. KNMG: “Meer hulp bij leven nodig dan bij sterven.” Stichting 113: “Honderden suïcides zijn te voorkómen met preventie“. PVV is daarom voor een moratorium op euthanasie vanwege psychisch lijden. Binnen de fractie is dit een vrije kwestie."
             },
             {
                 "party": "JA21",
@@ -2524,7 +2524,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "De huidige euthanasiepraktijk en -wetgeving zijn zeer zorgvuldig tot stand gekomen. De VVD staat pal voor de menselijke autonomie, ook als het gaat over het eind van het leven."
+                "statement": "De huidige euthanasiepraktijk en -wetgeving zijn zeer zorgvuldig tot stand gekomen. VVD staat pal voor de menselijke autonomie, ook als het gaat over het eind van het leven."
             },
             {
                 "party": "D66",
@@ -2576,7 +2576,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor zelfbeschikkingsrecht. Mensen die vinden dat ze klaar zijn met hun leven, moeten recht krijgen op euthanasie. Het alternatief is namelijk zelfmoord. Wel moet er voldoende psychische hulp aanwezig zijn. Daarvoor willen we investeren in de capaciteit en kwaliteit van de GGZ"
+                "statement": "Piratenpartij staat voor zelfbeschikkingsrecht. Mensen die vinden dat ze klaar zijn met hun leven, moeten recht krijgen op euthanasie. Het alternatief is namelijk zelfmoord. Wel moet er voldoende psychische hulp aanwezig zijn. Daarvoor willen we investeren in de capaciteit en kwaliteit van de GGZ"
             },
             {
                 "party": "FNP",
@@ -2603,7 +2603,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "De VVD wil flink schrappen in het aantal bouwregels. Het duurt nu gemiddeld 10 jaar om een huis te bouwen. Dit willen we terugbrengen en daarom moeten we in regels schrappen. Dit geldt ook voor de bouw van huizen op landbouwgrond, voor zover een eigenaar dit wil."
+                "statement": "VVD wil flink schrappen in het aantal bouwregels. Het duurt nu gemiddeld 10 jaar om een huis te bouwen. Dit willen we terugbrengen en daarom moeten we in regels schrappen. Dit geldt ook voor de bouw van huizen op landbouwgrond, voor zover een eigenaar dit wil."
             },
             {
                 "party": "NSC",
@@ -2615,7 +2615,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA wil in elke dorp en elke stad een wijkje erbij. We bouwen eerst aan de rand van kernen en gebiedsgericht, met boerenperspectief: vrijwillige grondruil via regionale grondbanken en kleinschalig. Het beslag op landbouwgrond is zeer beperkt."
+                "statement": "CDA wil in elke dorp en elke stad een wijkje erbij. We bouwen eerst aan de rand van kernen en gebiedsgericht, met boerenperspectief: vrijwillige grondruil via regionale grondbanken en kleinschalig. Het beslag op landbouwgrond is zeer beperkt."
             },
             {
                 "party": "SP",
@@ -2659,7 +2659,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij ziet betaalbare woonruimte als basisrecht. Hiervoor willen wij met name inzetten op bestaande kernen (verdichting). Daarnaast willen wij flexibeler omgaan met bestemmingsplannen om alternatieve woonvormen makkelijker mogelijk te maken."
+                "statement": "Piratenpartij ziet betaalbare woonruimte als basisrecht. Hiervoor willen wij met name inzetten op bestaande kernen (verdichting). Daarnaast willen wij flexibeler omgaan met bestemmingsplannen om alternatieve woonvormen makkelijker mogelijk te maken."
             },
             {
                 "party": "Vrij Verbond",
@@ -2746,7 +2746,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor gelijke rechten en kansen voor iedereen. Etnische profilering maakt mensen vanwege hun afkomst bij voorbaat sneller verdacht. Dat is onaanvaardbaar."
+                "statement": "Piratenpartij staat voor gelijke rechten en kansen voor iedereen. Etnische profilering maakt mensen vanwege hun afkomst bij voorbaat sneller verdacht. Dat is onaanvaardbaar."
             },
             {
                 "party": "FNP",
@@ -2766,7 +2766,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "De VVD vindt dat etnisch profileren en andere vormen van onterechte profilering nooit mogen. Maar de overheid moet wel mogelijkheden hebben op een verantwoorde manier risico’s in te schatten, bijv. bij signalen van mensenhandel."
+                "statement": "VVD vindt dat etnisch profileren en andere vormen van onterechte profilering nooit mogen. Maar de overheid moet wel mogelijkheden hebben op een verantwoorde manier risico’s in te schatten, bijv. bij signalen van mensenhandel."
             },
             {
                 "party": "BBB",
@@ -2805,7 +2805,7 @@ const data = [
         "results": [
             {
                 "party": "PVV",
-                "statement": "Loverboys richten zich vaak op jonge meisjes van 18. De PVV wil voorkomen dat zij op die leeftijd de prostitutie in worden gezogen. Door de minimumleeftijd naar 21 te verhogen, krijgen zij de kans eerst sterker en zelfstandiger te worden voordat ze de prostitutie in stappen en spijt krijgen."
+                "statement": "Loverboys richten zich vaak op jonge meisjes van 18. PVV wil voorkomen dat zij op die leeftijd de prostitutie in worden gezogen. Door de minimumleeftijd naar 21 te verhogen, krijgen zij de kans eerst sterker en zelfstandiger te worden voordat ze de prostitutie in stappen en spijt krijgen."
             },
             {
                 "party": "GL-PvdA",
@@ -2869,7 +2869,7 @@ const data = [
             },
             {
                 "party": "VVD",
-                "statement": "Sekswerk is een legaal beroep in Nederland. Als je meerderjarig bent, mag je zelf keuzes maken met wie je wilt trouwen, op wie je wilt stemmen en wat je met je lichaam wilt doen. Voor het aanpakken van de misstanden in de seksbranche zet de VVD in op betere opsporing, registratie en handhaving."
+                "statement": "Sekswerk is een legaal beroep in Nederland. Als je meerderjarig bent, mag je zelf keuzes maken met wie je wilt trouwen, op wie je wilt stemmen en wat je met je lichaam wilt doen. Voor het aanpakken van de misstanden in de seksbranche zet VVD in op betere opsporing, registratie en handhaving."
             },
             {
                 "party": "SP",
@@ -2893,7 +2893,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij staat voor zelfbeschikking. Sekswerk is werk. Wij pleiten voor het Nieuw-Zeelandse model, waarmee sekswerk gezien wordt als elke andere dienstverlenende sector. Ook willen wij niet praten OVER sekswerkers maar MET sekswerkers."
+                "statement": "Piratenpartij staat voor zelfbeschikking. Sekswerk is werk. Wij pleiten voor het Nieuw-Zeelandse model, waarmee sekswerk gezien wordt als elke andere dienstverlenende sector. Ook willen wij niet praten OVER sekswerkers maar MET sekswerkers."
             },
             {
                 "party": "Vrij Verbond",
@@ -2908,7 +2908,7 @@ const data = [
         "results": [
             {
                 "party": "PVV",
-                "statement": "Het Nederlandse leger moet worden versterkt. De PVV wil investeren in een sterk Nederlands leger."
+                "statement": "Het Nederlandse leger moet worden versterkt. PVV wil investeren in een sterk Nederlands leger."
             },
             {
                 "party": "GL-PvdA",
@@ -2928,7 +2928,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA was een van de initiatiefnemers om de oude norm van minimaal 2% in de wet op te nemen. Het CDA wil daarnaast dat Nederland zich committeert aan de afspraak om uiterlijk in 2035 3,5% van het bbp uit te geven aan defensie. Veiligheid is een kerntaak van de overheid, en die moet op orde zijn."
+                "statement": "CDA was een van de initiatiefnemers om de oude norm van minimaal 2% in de wet op te nemen. CDA wil daarnaast dat Nederland zich committeert aan de afspraak om uiterlijk in 2035 3,5% van het bbp uit te geven aan defensie. Veiligheid is een kerntaak van de overheid, en die moet op orde zijn."
             },
             {
                 "party": "CU",
@@ -3011,7 +3011,7 @@ const data = [
         "results": [
             {
                 "party": "PVV",
-                "statement": "Kernenergie is een stabiele, betrouwbare vorm van energie – in tegenstelling tot weersafhankelijke wind- en zonne-energie. De PVV wil daarom dat er meer kerncentrales worden gebouwd – ook kleine modulaire reactoren (SMR’s), en inzet op thorium centrales."
+                "statement": "Kernenergie is een stabiele, betrouwbare vorm van energie – in tegenstelling tot weersafhankelijke wind- en zonne-energie. PVV wil daarom dat er meer kerncentrales worden gebouwd – ook kleine modulaire reactoren (SMR’s), en inzet op thorium centrales."
             },
             {
                 "party": "VVD",
@@ -3031,7 +3031,7 @@ const data = [
             },
             {
                 "party": "CDA",
-                "statement": "Het CDA wil doorgaan met de bouw van twee nieuwe kerncentrales, in goed overleg met de omgeving. Ook stimuleren we kleine, modulaire kernreactoren (SMR’s) en bundelen we in Europa de krachten om de kosten te beheersen en CO₂-vrij regelbaar vermogen voor de toekomst te garanderen."
+                "statement": "CDA wil doorgaan met de bouw van twee nieuwe kerncentrales, in goed overleg met de omgeving. Ook stimuleren we kleine, modulaire kernreactoren (SMR’s) en bundelen we in Europa de krachten om de kosten te beheersen en CO₂-vrij regelbaar vermogen voor de toekomst te garanderen."
             },
             {
                 "party": "FvD",
@@ -3099,7 +3099,7 @@ const data = [
             },
             {
                 "party": "Piratenpartij",
-                "statement": "De Piratenpartij is niet dogmatisch tegen alle vormen van kernenergie. We juichen meer onderzoek naar gesmolten-zout-reactoren en kernfusie toe. We zijn voor kernenergie wanneer het fossiele kan vervangen, zonder dat het ten koste gaat van investeringen in hernieuwbare energie. Nu is dat nog niet zo."
+                "statement": "Piratenpartij is niet dogmatisch tegen alle vormen van kernenergie. We juichen meer onderzoek naar gesmolten-zout-reactoren en kernfusie toe. We zijn voor kernenergie wanneer het fossiele kan vervangen, zonder dat het ten koste gaat van investeringen in hernieuwbare energie. Nu is dat nog niet zo."
             },
             {
                 "party": "FNP",
