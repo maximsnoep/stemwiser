@@ -88,11 +88,12 @@ document.addEventListener("DOMContentLoaded", () => {
         statements.innerHTML += "<div id='no-parties-or-themes' style='display: none;' class='small'><p><i>Please select at least one party and one theme.</i></p></div>";
 
         data.forEach(themeData => {
-            let statementItems = ''
+            let statementItems = '';
             themeData.results.forEach(result => {
                 let agree = selectedStatements.get(result.party + "-" + themeData.theme + "-agree");
                 let disagree = selectedStatements.get(result.party + "-" + themeData.theme + "-disagree");
-                let none = !agree && !disagree;
+                let none = selectedStatements.get(result.party + "-" + themeData.theme + "-none");
+                console.log(agree, disagree, none);
                 statementItems += `
                     <li class="list-group-item mx-4 my-4 p-4 small" id="item-${result.party}-${themeData.theme}" style="border-radius: 5px; border: 1px solid #e6e6e6ff; background: none; display: none;">
                         <p>"${result.statement.replaceAll(result.party, `<span class="show-party-names" style="display:none">${result.party}</span><span class="hide-party-names" style="font-style: italic; display:none">PARTY</span>`)}" <span class="show-party-names" style="display:none"><br/> - ${result.party}</span></p>
@@ -257,11 +258,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         finalPartyResults.forEach((res) => {
         results += `
-            <p class="p-hand"
-                data-bs-toggle="tooltip" 
-                data-bs-placement="top"
-                title="agreed for ${res.rawPercent}% with ${res.agrees} agrees and ${res.disagrees} disagrees (total of ${res.total})">
-                ${res.ao >= 0 ? '+' : ''}${res.ao} for <b>${res.party}</b>
+            <p>
+                ${res.ao >= 0 ? '+' : ''}${res.ao} for <b>${res.party}</b> <span class="mx-2 small" style="color: #888888">(${res.rawPercent}% agreed)</span>
             </p>
             `;
         });
