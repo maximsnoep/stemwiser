@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 statementItems += `
                     <li class="list-group-item mx-4 my-4 p-4 small" id="item-${result.party}-${themeData.theme}" style="border-radius: 5px; border: 1px solid #e6e6e6ff; background: none; display: none;">
                         <p>"${result.statement.replaceAll(result.party, `<span class="show-party-names" style="display:none">${result.party}</span><span class="hide-party-names" style="font-style: italic; display:none">PARTY</span>`)}" <span class="show-party-names" style="display:none"><br/> - ${result.party}</span></p>
-                        <div class="d-flex justify-content-center btn-group mx-5" role="group" aria-label="Basic radio toggle button group">
+                        <div class="d-flex flex-wrap justify-content-center btn-group mx-5" role="group" aria-label="Basic radio toggle button group">
                             <input ${disagree ? "checked" : ""} type="radio" class="btn-check ${result.party}-disagree" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-disagree" autocomplete="off">
                             <label class="btn btn-outline-dark btn-sm d-flex justify-content-center" for="${result.party}-${themeData.theme}-disagree"><span class="bi bi-hand-thumbs-down-fill px-1"></span> <span>disagree</span></label>
 
