@@ -286,8 +286,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             </div>
                         </div>
                     </div>
-                </div>  
-            `;
+                </div>`;
 
             const resetButton = document.getElementById("reset-button");
             resetButton.addEventListener("click", () => {
