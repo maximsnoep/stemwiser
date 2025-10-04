@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("party-checkboxes").innerHTML += `
             <div class="d-flex align-items-baseline">
                 <input ${selectedParties.includes(party) ? 'checked' : ''} type="checkbox" class="party d-none" id="${party}">
-                <label for="${party}" class="ms-2 my-1 toggle-text btn btn-outline-dark">${party}</label>
+                <label for="${party}" class="ms-2 my-1 toggle-text btn btn-outline-dark" style="border-radius: 0px;">${party}</label>
             </div>
         `;
     });
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("theme-checkboxes").innerHTML += `
             <div class="d-flex align-items-baseline">
                 <input ${selectedThemes.includes(theme) ? 'checked' : ''} type="checkbox" class="theme d-none" id="${theme}">
-                <label for="${theme}" class="ms-2 my-1 toggle-text btn btn-outline-dark">${theme}</label>
+                <label for="${theme}" class="ms-2 my-1 toggle-text btn btn-outline-dark" style="border-radius: 0px;">${theme}</label>
             </div>
         `;
     });
@@ -95,17 +95,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 let none = selectedStatements.get(result.party + "-" + themeData.theme + "-none");
                 console.log(agree, disagree, none);
                 statementItems += `
-                    <li class="list-group-item mx-4 my-4 p-4 small" id="item-${result.party}-${themeData.theme}" style="border-radius: 5px; border: 1px solid #e6e6e6ff; background: none; display: none;">
+                    <li class="list-group-item mx-4 my-4 p-4 small" id="item-${result.party}-${themeData.theme}" style="border-radius: 0px; border: 1px solid #e6e6e6ff; background: none; display: none;">
                         <p>"${result.statement.replaceAll(result.party, `<span class="show-party-names" style="display:none">${result.party}</span><span class="hide-party-names" style="font-style: italic; display:none">PARTY</span>`)}" <span class="show-party-names" style="display:none"><br/> - ${result.party}</span></p>
-                        <div class="d-flex flex-wrap justify-content-center btn-group mx-5" role="group" aria-label="Basic radio toggle button group">
+                        <div class="d-flex flex-wrap justify-content-center mx-5 btn-group">
                             <input ${disagree ? "checked" : ""} type="radio" class="btn-check ${result.party}-disagree" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-disagree" autocomplete="off">
-                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center" for="${result.party}-${themeData.theme}-disagree"><span class="bi bi-hand-thumbs-down-fill px-1"></span> <span>disagree</span></label>
+                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center mx-1 my-1" style="border-radius: 0px;" for="${result.party}-${themeData.theme}-disagree"><span class="bi bi-hand-thumbs-down-fill px-1"></span> <span>disagree</span></label>
 
-                            <input ${none ? "checked" : ""} type="radio" class="btn-check ${result.party}-none" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-none" autocomplete="off">
-                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center" for="${result.party}-${themeData.theme}-none"><span>undecided</span></label>
+                            <input ${none ? "checked" : ""} type="radio" class="mx-2 btn-check ${result.party}-none" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-none" autocomplete="off">
+                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center mx-1 my-1" style="border-radius: 0px;" for="${result.party}-${themeData.theme}-none"><span>undecided</span></label>
 
-                            <input ${agree ? "checked" : ""} type="radio" class="btn-check ${result.party}-agree" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-agree" autocomplete="off">
-                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center" for="${result.party}-${themeData.theme}-agree"><span class="bi bi-hand-thumbs-up-fill px-1"></span> <span>agree</span></label>
+                            <input ${agree ? "checked" : ""} type="radio" class="mx-2 btn-check ${result.party}-agree" name="${result.party}-${themeData.theme}" id="${result.party}-${themeData.theme}-agree" autocomplete="off">
+                            <label class="btn btn-outline-dark btn-sm d-flex justify-content-center mx-1 my-1" style="border-radius: 0px;" for="${result.party}-${themeData.theme}-agree"><span class="bi bi-hand-thumbs-up-fill px-1"></span> <span>agree</span></label>
                         </div>
                     </li>
                 `;
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 </div>
                             </div>
                             <div class="d-flex flex-wrap align-items-baseline">
-                                <button class="btn btn-sm m-1" type="button" id="reset-button">Reset</button>
+                                <button class="btn btn-sm m-1 border-0" type="button" id="reset-button">Reset</button>
                             </div>
                         </div>
                     </div>
