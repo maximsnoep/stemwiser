@@ -13,14 +13,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Election data
 	elections = [
-		{ id: "23", tag: "National elections 2023", data: data_2023_national },
-		{ id: "24", tag: "European elections 2024", data: data_2024_european },
-		{ id: "25", tag: "National elections 2025", data: data_2025_national },
-		{ id: "26arn", tag: "Arnhem elections 2026", data: data_2026_arnhem },
 		{
 			id: "26ein",
-			tag: "Eindhoven elections 2026",
+			tag: "Municipal elections 2026 (Eindhoven)",
 			data: data_2026_eindhoven,
+		},
+		{
+			id: "26arn",
+			tag: "Municipal elections 2026 (Arnhem)",
+			data: data_2026_arnhem,
+		},
+		{
+			id: "25",
+			tag: "Parliamentary elections 2025",
+			data: data_2025_national,
+		},
+		{
+			id: "24",
+			tag: "Provincial elections 2024",
+			data: data_2024_european,
+		},
+		{
+			id: "23",
+			tag: "Parliamentary elections 2023",
+			data: data_2023_national,
 		},
 	];
 
