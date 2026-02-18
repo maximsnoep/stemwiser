@@ -25,17 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		{
 			id: "25",
-			tag: "Parliamentary elections 2025",
+			tag: "General election 2025",
 			data: data_2025_national,
 		},
 		{
 			id: "24",
-			tag: "Provincial elections 2024",
+			tag: "European election 2024",
 			data: data_2024_european,
 		},
 		{
 			id: "23",
-			tag: "Parliamentary elections 2023",
+			tag: "General election 2023",
 			data: data_2023_national,
 		},
 	];
