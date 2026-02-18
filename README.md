@@ -1,4 +1,4 @@
-# StemWiser for Dutch elections
+# Stem wise(r) for Dutch elections
 
 [Stemwiser.nl](stemwiser.nl) is a web-based tool that helps users explore their political preferences ahead of the Dutch parliamentary elections and municipal elections.
 
